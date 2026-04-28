@@ -1,0 +1,23 @@
+{
+  "session": "20260428-105410",
+  "selected_step": "D",
+  "why_this_step": "methodology 库已覆盖（4 文件：_form、deep-tech-essay、reverse-anthropic、reverse-langchain）；facts 库已覆盖（2 文件：smolagents-001、langgraph-001）；上轮 review 明确建议进入 Step D。本轮产出最小可验证切片：article outline + image prompt pack",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/smolagents-vs-langgraph-outline.md", "type": "product"},
+    {"path": "image-prompts/smolagents-vs-langgraph.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-105410.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-105410.wiki_update.md", "type": "wiki"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/library/methodology/deep-tech-essay-agent-architecture-001.md", "claim": "深度长文双轨结构模板（Anthropic A 型 + LangChain B 型）"},
+    {"type": "raw", "ref": ".evolve/library/facts/smolagents-001.md", "claim": "smolagents 仓库状态、CodeAgent 架构、1,814 行实测、安全策略"},
+    {"type": "raw", "ref": ".evolve/library/facts/langgraph-001.md", "claim": "LangGraph Pregel 架构、状态持久化、518 MB 仓库体积、对比表"}
+  ],
+  "next_step": "建议下一轮跑 Step D 续篇：基于本 outline 逐节扩写正文（优先写§1开头钩子+§2定义与边界+§3项目拆解），同时补充第三个项目 facts（如 AutoGen 或 CrewAI）以丰富对比维度"
+}

@@ -1,1 +1,1 @@
-建议下一轮跑 Step D：基于已有的 methodology 库（Anthropic 5+1 模式、LangChain 光谱论、深度长文写作框架）和本轮两个 facts 条目，撰写 smolagents vs LangGraph 的深度对比长文 outline 和 image prompt pack。进入 Step D 前需修正 step.json 中 methodology_ready=true、facts_ready=true。
+建议下一轮跑 Step D 续篇：基于本 outline 逐节扩写正文（优先写§1开头钩子+§2定义与边界+§3项目拆解），同时补充第三个项目 facts（如 AutoGen 或 CrewAI）以丰富对比维度
