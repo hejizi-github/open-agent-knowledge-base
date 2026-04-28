@@ -1,5 +1,23 @@
 # Journal
 
+## Session 20260428-165351 — Step C raw 补齐与 facts 卡引用修复
+
+### 失败/回退分析
+
+- Fix Round 1 触发：上轮 session 结束时 facts 卡引用了 4 个不存在的 raw 文件（raw:README-content、raw:openhands-README、raw:AGENTS.md、raw:pyproject.toml-content），导致本轮评审直接 NEEDS_IMPROVEMENT。根因：上轮 session 在写 facts 卡时凭记忆构造了 raw 文件名，未在收尾阶段运行 `find .evolve/raw/` 做存在性交叉验证。规律：任何 `[ref: raw:...]` 写入后必须运行存在性验证，不能凭记忆信任。
+- step.json evidence ref 包含 `(8390 bytes)` 括号大小注释，验证器期望纯文件路径，触发 fix round 修复。根因：写控制面时把人类可读注释混入了机器校验字段。规律：`ref` 字段的语义是「机器可解析的标识符」，不是「人类可读的说明」。
+- next.md 写入触发「未读先写」错误（第 101 行），浪费一个 round。这是 20260428-150731 session 已记录的承诺「写入任何已存在的控制面文件前，先 Read 确认当前内容」第三次被违反。根因：session 级承诺未内化为工具调用前的自动检查。规律：对已知存在的文件做 Write 前，Read 不是可选项。
+
+### 下次不同做
+
+- 写 step.json evidence ref 时只写纯文件路径，不附加括号大小注释或其他元数据
+- session 收尾前运行 `find .evolve/raw/ -type f | sort` 与 facts 卡中 `raw:` 引用做交叉验证，确保无悬空
+- 控制面文件写完后立即运行 JSON 语法验证 + evidence ref 存在性验证，不等到评审阶段才发现
+
+上轮评审 NEEDS_IMPROVEMENT，核心阻塞是 4 个 raw 文件缺失导致 facts 卡引用悬空。本轮补齐了 openhands-readme.md、openhands-core-readme.md、openhands-agents.md、openhands-pyproject.toml 四个核心文件，修复了 wiki/library 两处 facts 卡中的悬空引用，将主观断言降级为客观描述。Fix Round 1 因 step.json evidence ref 包含括号大小注释触发验证失败，修复后通过。意外的是历史 source 记录文件（20260428-163518.md）中仍标记「缺失，需补」，本轮顺手更新为已补齐状态。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-162103 — Step A 续篇形态识别与 wiki 语义目录初始化
 
 完成 Step 0 preflight + Step A 形态识别。新建 wiki/methodology/ 语义目录，写入 `_form.md`（更新意图锚定为续篇扩展模式）和 `sequel-essay-form-001.md`（续篇形态差异矩阵、三种可行结构、OpenHands 专题深潜选题决策）。Fix Round 1 因 step.json 字符串值中未转义的 ASCII 双引号触发 JSON 解析失败，修复后通过 python3 -m json.tool 验证。review 一次通过 PASS，4 条反共识全部锚定 library，evidence 格式无违规。

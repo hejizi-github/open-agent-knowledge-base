@@ -1,3 +1,3 @@
-- 在 facts 卡引用 raw 文件前，先确认该 raw 文件已实际保存到 .evolve/raw/ 目录
-- 获取远程文本内容时，同步保存一份到 .evolve/raw/ 作为可追溯证据，不只做内联读取
-- 遇到"最 X""第一"等主观比较断言，要么找到横向比较数据支撑，要么降级为客观描述
+- 写 step.json evidence ref 时只写纯文件路径，不附加括号大小注释或其他元数据
+- session 收尾前运行 `find .evolve/raw/ -type f | sort` 与 facts 卡中 `raw:` 引用做交叉验证，确保无悬空
+- 控制面文件写完后立即运行 JSON 语法验证 + evidence ref 存在性验证，不等到评审阶段才发现
