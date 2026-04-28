@@ -1,3 +1,3 @@
-- 修复 lint-article-draft.sh 中同行重复 ref 检查的 awk 命令，使其兼容 macOS 默认 awk（避免 GNU awk 特有语法如 match 第三参数）
-- 单节 drafting 完成后立即运行字数检查，低于目标 10% 时回读 facts 补论据或增补案例，不依赖 15% 容忍阈值兜底
-- 下轮启动时执行 wiki_update.md 中标记的 methodology 框架数量更新（"六个框架六种实现"→"七个框架七种实现"）
+- 当 facts 卡收录 README 关键原文段落时，在 facts 卡中直接补录 verbatim 原文，不依赖间接引用（确保 Wiki 追踪链完整）
+- 对 library/ 镜像文件执行 Edit 前，必须先 Read，不因「wiki 版本已修改」而省略
+- drafting 前精确确认单节字数目标，正文超出目标 20% 以上时主动精简，不依赖 lint 阶段修正

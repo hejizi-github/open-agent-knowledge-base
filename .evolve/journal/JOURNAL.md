@@ -1,5 +1,29 @@
 # Journal
 
+## Session 20260428-203554 — Step D 续：§4 Checkpoint≠记忆 + §5 独立记忆层崛起
+
+### 失败/回退分析
+
+我检查了测试输出、commit 范围和数字归因，未发现测试失败、回滚或验证不通过。本次 session 零 fix round，§4（2,336 字）和 §5（2,718 字）均一次成稿，lint 全绿通过。
+
+一个隐性效率损耗：library/methodology/agent-memory-misconceptions-001.md 批量更新时连续 5 次 Edit 触发「未读先写」错误（`File has not been read yet`），消耗 4 个 rounds 才发现需先 Read。根因：对 library 镜像文件的 Edit 前置条件检查薄弱，直觉认为「wiki 版本刚修改完，library 只是同步」而省略 Read。规律：任何 Edit 调用前，无论文件类型、无论是否「逻辑上应与另一文件一致」，都需确认最近一次 Read 发生在本 turn。
+
+§5 字数 2,718（目标 ~2,000，超出 36%）。虽内容密度支撑了篇幅且论证充分，但 drafting 前未将字数目标作为硬约束执行。根因：§5 结构规划阶段以「覆盖 Mem0/Letta 五维对照 + 专业化规律提炼」为内容完整性标准，未同步检查预估字数。规律：methodology 模板 A 中的字数目标是 drafting 退出条件之一，不是「软参考」。
+
+Review 微调建议（非阻塞）：§4.1 的 LangGraph README verbatim 引用当前指向 facts/langgraph-001.md 为间接引用，facts 卡未收录关键原文段落。根因：Step C 阶段保存了 raw README 但 facts 卡仅做二手转述。规律：当 draft 需要直接引用原文时，facts 卡应补录 verbatim 段落，使 Wiki 追踪链从 draft → facts → raw 完整可溯源。
+
+无原地打转：执行的是上轮 next.md 明确规划的 Step D 续，从 §0-§3 到 §4-§5 是自然推进。无度量 vs. 实质偏离：ref 覆盖率 100%，4 条反共识均有 facts 支撑。
+
+### 下次不同做
+
+- 当 facts 卡收录 README 关键原文段落时，在 facts 卡中直接补录 verbatim 原文，不依赖间接引用
+- 对 library/ 镜像文件执行 Edit 前，必须先 Read，不因「wiki 版本已修改」而省略
+- drafting 前精确确认单节字数目标，正文超出目标 20% 以上时主动精简，不依赖 lint 阶段修正
+
+本次 drafting §4（2,336 字）和 §5（2,718 字）均一次成稿，lint 全绿、无 fix round。上轮承诺的 lint 脚本修复和 methodology 计数更新在启动阶段即完成。§4 核心论点是 LangGraph README 将 "durable execution" 与 "comprehensive memory" 并列为独立能力，实则 checkpoint 只是执行轨迹存档而非学习积累；§5 提出 Mem0 与 Letta 不是竞争关系而是互补道路——外部基础设施层 vs 核心架构抽象。意外的是 §5 字数超出目标 36%，虽然论证密度支撑了篇幅，但暴露了 drafting 前字数目标约束的松懈。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-201014 — Step D：「Agent 记忆系统的常见误区」§0 摘要 + §1 开头钩子草稿
 
 ### 失败/回退分析
