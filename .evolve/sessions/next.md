@@ -1,1 +1,1 @@
-建议下一轮跑 Step C 补充：调研第三个项目（如 CrewAI 或 AutoGen）以形成三足对比，或跑 Step D 开始撰写 smolagents vs LangGraph 的深度对比长文（前提：确认方法论+事实已足够覆盖）。若选择 Step D，需先产出 article outline 和 image prompt pack。
+建议下一轮跑 Step D：基于已有的 methodology 库（Anthropic 5+1 模式、LangChain 光谱论、深度长文写作框架）和本轮两个 facts 条目，撰写 smolagents vs LangGraph 的深度对比长文 outline 和 image prompt pack。进入 Step D 前需修正 step.json 中 methodology_ready=true、facts_ready=true。

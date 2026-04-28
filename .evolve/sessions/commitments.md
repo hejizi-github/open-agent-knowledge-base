@@ -1,3 +1,3 @@
-- 修改任何已存在文件前，必须先 Read 再 Write，避免 Write 因未读而失败浪费 round
-- 设置 step.json preconditions 时，逐项核对字段语义（methodology_ready 表示进入时是否已有方法论库，不是本轮是否能产出）
-- 中文市场观察类断言必须标注「假设需验证」或改用 local-command / WebSearch 获取证据后再写入 methodology
+- 在使用外部 CLI 工具（gh、aws、gcloud 等）前，先用 `--version` 或 `auth status` 检查工具是否已认证/可用，避免命令静默失败
+- step.json evidence refs 必须是已写入磁盘的文件路径，在写 ref 前先运行 `test -f` 确认文件存在
+- 修改已存在文件前必须先 Read，这是不可跳过的前置条件

@@ -1,5 +1,11 @@
 # Journal
 
+## Session 20260428-103651 — Step C 项目事实调研：smolagents vs LangGraph
+
+通过 curl 调用 GitHub REST API 获取了 huggingface/smolagents 和 langchain-ai/langgraph 的仓库元数据、release 历史和最近 commits。一个意外发现是 smolagents README 声称 agents.py "fits in ~1,000 lines"，但实测总行数为 1,814 行（非空非注释 1,481 行），属于 slogan drift。两个 facts 文件已写入 `.evolve/library/facts/`，包含仓库基础状态、核心架构、安全策略、维护活跃度和已知限制。控制面验证曾因 step.json evidence refs 指向命令字符串而非文件路径而失败，fix round 中通过保存 API 响应到磁盘并更新 refs 解决。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-101707 — Step B 方法论学习：逆向工程 Anthropic + LangChain
 
 ### 失败/回退分析
