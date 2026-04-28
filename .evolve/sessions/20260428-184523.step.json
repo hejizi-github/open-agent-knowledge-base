@@ -1,0 +1,29 @@
+{
+  "session": "20260428-184523",
+  "selected_step": "D",
+  "why_this_step": "framework-architecture-tension-001 方法论已覆盖架构张力分析体裁，crewai-001/smolagents-001/langgraph-001 三张 facts 卡覆盖核心断言，脑内基线已归档且反共识点已识别。Orchestrator Directive 要求连续 2 轮只更新控制面后必须进入 D/E 产出用户产物。本轮选择最小可验证切片：§0 摘要 + §1 开头钩子草稿。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/crewai-architecture-tension.md", "type": "product"},
+    {"path": "image-prompts/crewai-architecture-tension.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-184523.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-184523.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-184523.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/wiki/methodology/framework-architecture-tension-001.md", "claim": "架构张力分析体裁模板 A 定义了 §0-§6 结构和字数分配"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "CrewAI 519 文件、Process 11 行、Flow 3,572 行、独立宣言+LangGraph adapter 并存等核心断言"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "smolagents ~1,800 行作为极简对照组"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "LangGraph 原生状态机作为另一端对照组"},
+    {"type": "raw", "ref": ".evolve/wiki/brain_baseline/20260428-183407.md", "claim": "脑内基线已归档，反共识点已 diff 识别"},
+    {"type": "raw", "ref": "articles/published/openhands-architecture.md", "claim": "OpenHands 专题深潜作为结构实证和文风基准"},
+    {"type": "raw", "ref": ".evolve/wiki/methodology/sequel-essay-form-001.md", "claim": "续篇结构参考"}
+  ],
+  "next_step": "Step D 续：撰写 §2 角色编排侧（~2,000 字）+ §3 事件驱动侧（~2,000 字）草稿"
+}

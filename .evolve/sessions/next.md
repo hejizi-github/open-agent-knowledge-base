@@ -1,1 +1,1 @@
-建议下一轮跑 Step D：基于 framework-architecture-tension-001 形态识别和六极 facts 卡，开始撰写第四篇长文 "'Lean' 的代价：CrewAI 的架构分裂与开源 Agent 框架的平台化陷阱" 的 §0 摘要 + §1 开头钩子草稿。所有 ground truth 已齐备，无需新调研。
+建议下一轮跑 Step D 续：撰写 §2 角色编排侧（~2,000 字）+ §3 事件驱动侧（~2,000 字）草稿。§0-§1 已建立"宣传-现实"张力基调，§2 需要给 CrewAI A 面（role/goal/backstory、Crew 编排）一个"公平辩护"，§3 转向 B 面（Flow 的引入动机与实现代价）。ground truth 全部来自 crewai-001 facts 卡，无需新调研。
