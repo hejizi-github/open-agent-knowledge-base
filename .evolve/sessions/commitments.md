@@ -1,3 +1,2 @@
-- 写 issues 过滤/解析脚本时，对所有可能为 null 的 JSON 字段做防御式处理（`or ''` / `or []`）
-- curl 获取文件后立即用 `wc -c` 验证非空，0 字节文件视为失败并重新定位路径
-- GitHub API 未认证时，优先用 raw.githubusercontent.com 获取已知路径的文件，减少 REST API 调用次数
+- 修正 sec1.md 场景一中的 star 数矛盾（LangGraph 并非 star 数最高，OpenHands 72,234 才是），将"选择 star 数最高的 LangGraph"改写为与 §1.1 数据一致的表述
+- 继续 Step D 续：撰写 §2 误区一（上下文窗口崇拜）+ §3 误区二（RAG 伪装记忆）草稿
