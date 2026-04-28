@@ -1,0 +1,27 @@
+{
+  "session": "20260428-135725",
+  "selected_step": "D",
+  "why_this_step": "前置章节 §0/§1/§2 是全文结构完整性的关键缺口。方法论库和事实库已覆盖全部维度，§3-§6 已完成且通过评审，可直接基于已有事实和行文风格产出。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec0.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-135725.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-135725.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-135725.step.json", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/library/facts/autogen-001.md", "claim": "AutoGen 57,512 stars, 2026-04-06 官宣维护模式"},
+    {"type": "raw", "ref": ".evolve/library/facts/maf-001.md", "claim": "MAF 9,885 stars, 2025-04-28 创建, 发版频率每 2-3 天"},
+    {"type": "raw", "ref": ".evolve/library/facts/crewai-001.md", "claim": "CrewAI 50,114 stars, Process 抽象仅 11 行, 519 核心文件"},
+    {"type": "raw", "ref": ".evolve/library/facts/langgraph-001.md", "claim": "LangGraph 30,593 stars, 518 MB 仓库"},
+    {"type": "raw", "ref": ".evolve/library/facts/smolagents-001.md", "claim": "smolagents 26,939 stars, agents.py 实际 1,814 行"},
+    {"type": "raw", "ref": ".evolve/library/methodology/deep-tech-essay-agent-architecture-001.md", "claim": "深度技术长文结构模板：开头钩子→定义边界→光谱分析"},
+    {"type": "local-command", "ref": "python3 word_count_script (stdout in session)", "claim": "§0 等效字数≈1172, §1≈1465, §2≈1797, 总计≈4434，全部在目标±5%内"}
+  ],
+  "next_step": "建议下一轮跑 Step D：续写 §8 设计取舍与失败模式（~2,000字）或 §7 跨维度全景对比表（~1,500字），全文仅剩 §7/§8/§9/§10 四章待写"
+}
