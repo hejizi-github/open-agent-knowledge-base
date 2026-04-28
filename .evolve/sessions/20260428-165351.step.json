@@ -1,0 +1,32 @@
+{
+  "session": "20260428-165351",
+  "selected_step": "C",
+  "why_this_step": "上轮评审 NEEDS_IMPROVEMENT，核心阻塞是 4 个 raw 文件缺失导致 facts 卡引用悬空，以及主观断言无支撑。本轮必须先补齐 raw source 并修复引用链路，才能进入 Step D 撰写草稿。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": ".evolve/raw/openhands-readme.md", "type": "raw"},
+    {"path": ".evolve/raw/openhands-core-readme.md", "type": "raw"},
+    {"path": ".evolve/raw/openhands-agents.md", "type": "raw"},
+    {"path": ".evolve/raw/openhands-pyproject.toml", "type": "raw"},
+    {"path": ".evolve/wiki/facts/openhands-001.md", "type": "wiki"},
+    {"path": ".evolve/library/facts/openhands-001.md", "type": "legacy-library"},
+    {"path": ".evolve/sessions/20260428-165351.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-165351.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-165351.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "local-command", "ref": ".evolve/raw/openhands-readme.md (8390 bytes)", "claim": "OpenHands 根目录 README.md 已下载，验证 License MIT、五层产品矩阵描述"},
+    {"type": "local-command", "ref": ".evolve/raw/openhands-core-readme.md (2785 bytes)", "claim": "openhands 核心模块 README.md 已下载，验证 EventStream 架构定义和控制流伪代码"},
+    {"type": "local-command", "ref": ".evolve/raw/openhands-agents.md (24636 bytes)", "claim": "AGENTS.md 已下载，验证 RUNTIME=local、pre-commit/Mypy/Ruff 工具链、.pr/ 目录机制"},
+    {"type": "local-command", "ref": ".evolve/raw/openhands-pyproject.toml (7855 bytes)", "claim": "pyproject.toml 已下载，验证 Python >=3.12、LiteLLM >=1.74.3、自研组件版本 ==1.17"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/openhands-001.md", "claim": "所有 dangling refs 已修复为实际文件名；主观断言已降级为客观描述"},
+    {"type": "raw", "ref": ".evolve/library/facts/openhands-001.md", "claim": "library 镜像同步修复，与 wiki 版本一致"}
+  ],
+  "next_step": "建议下一轮跑 Step D：OpenHands 专题深潜续篇 outline + sec1-sec2 草稿撰写。facts/methodology/brain_baseline 均已 ready。"
+}

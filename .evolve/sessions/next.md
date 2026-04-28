@@ -1,1 +1,1 @@
-建议下一轮先补齐 4 个缺失的 raw 文件（README.md、openhands/README.md、AGENTS.md、pyproject.toml）到 .evolve/raw/，修复 facts 卡引用悬空；然后进入 Step D 续篇 §1-§2 草稿撰写。
+建议下一轮跑 Step D：OpenHands 专题深潜续篇 outline + sec1-sec2 草稿撰写。前置条件已全部满足（methodology_ready=true, facts_ready=true, brain_baseline_ready=true, source_inbox_ready=true）。
