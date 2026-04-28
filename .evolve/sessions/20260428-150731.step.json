@@ -1,0 +1,29 @@
+{
+  "session": "20260428-150731",
+  "selected_step": "D",
+  "why_this_step": "§1和§2已于先前session写入sec0.md，本轮将其提取为独立文件sec1.md/sec2.md，使全文草稿结构统一为sec0-sec10各一章，完成全部章节草稿",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec1.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec2.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec0.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-150731.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-150731.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-150731.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/library/facts/autogen-001.md", "claim": "AutoGen 57.5K star，2026-04-06 进入维护模式"},
+    {"type": "raw", "ref": ".evolve/library/facts/crewai-001.md", "claim": "CrewAI 50.1K star，2023-10 创建，角色驱动 API"},
+    {"type": "raw", "ref": ".evolve/library/facts/langgraph-001.md", "claim": "LangGraph 30.6K star，2023-08 创建，Pregel 状态图"},
+    {"type": "raw", "ref": ".evolve/library/facts/smolagents-001.md", "claim": "smolagents 26.9K star，~1000行口号与实际1814行差距"},
+    {"type": "raw", "ref": ".evolve/library/facts/maf-001.md", "claim": "MAF 9.9K star，2025-04 创建，每2-3天发版"},
+    {"type": "raw", "ref": ".evolve/library/methodology/reverse-anthropic-building-effective-agents.md", "claim": "简单优于复杂，框架非必需"}
+  ],
+  "next_step": "全文草稿sec0-sec10已齐备，总字数20,710中文字符。建议下一轮进入整稿lint阶段：统一ref格式、检查章节衔接、补充图片占位符与image-prompts包"
+}
