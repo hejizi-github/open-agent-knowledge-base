@@ -1,0 +1,28 @@
+{
+  "session": "20260428-145606",
+  "selected_step": "D",
+  "why_this_step": "facts 和 methodology 已在之前多轮 session 中完备覆盖，§1-§8 草稿已完成，本轮只需补全 §9 决策框架和 §10 总结即可完成全文 draft",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec9.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec10.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-145606.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-145606.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-145606.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/library/facts/crewai-001.md", "claim": "CrewAI 角色三元组、519 文件、CrewAI Cloud"},
+    {"type": "raw", "ref": ".evolve/library/facts/langgraph-001.md", "claim": "Pregel 状态机、LangSmith、checkpoint 独立版本"},
+    {"type": "raw", "ref": ".evolve/library/facts/smolagents-001.md", "claim": "CodeAgent、~1000行口号、HF 生态、Apache-2.0"},
+    {"type": "raw", "ref": ".evolve/library/facts/autogen-001.md", "claim": "维护模式、迁移至 MAF 推荐、CC-BY-4.0"},
+    {"type": "raw", "ref": ".evolve/library/facts/maf-001.md", "claim": "Tier 0/1/2、Azure 默认、pre-release 包、MIT"},
+    {"type": "raw", "ref": ".evolve/library/methodology/reverse-anthropic-building-effective-agents.md", "claim": "简单>复杂、框架非必需"}
+  ],
+  "next_step": "建议下一轮跑 Step D：补写 §1 开头钩子（~1,500字）和 §2 定义与边界（~1,800字），完成全文所有章节草稿"
+}
