@@ -14,13 +14,13 @@
     {"path": "articles/drafts/five-pole-agent-frameworks-sec6.md", "type": "product"}
   ],
   "evidence": [
-    {"type": "local-command", "ref": ".evolve/library/facts/smolagents-001.md ## 核心架构声明", "claim": "smolagents CodeAgent ReAct loop 完全封装在 agents.py，开发者无法干预 loop 每一步"},
-    {"type": "local-command", "ref": ".evolve/library/facts/crewai-001.md ## Process 抽象的现实：11 行代码的编排策略", "claim": "Process enum 仅11行2个值，真正编排分散在 AgentTools/Flow/Task依赖三处"},
-    {"type": "local-command", "ref": ".evolve/library/facts/crewai-001.md ### 2. 两种执行模式：Crews vs Flows", "claim": "Flow框架3,572行，事件驱动路由，与Crew层Process形成分布式控制流"},
-    {"type": "local-command", "ref": ".evolve/library/facts/autogen-001.md ## 4. 架构分层（三层设计）", "claim": "AutoGen Core API基于Actor模型异步消息传递，AgentChat提供RoundRobin/Selector/GraphFlow/MagenticOne四种Team模式"},
-    {"type": "local-command", "ref": ".evolve/library/facts/maf-001.md ## 4. 架构设计", "claim": "MAF采用Tier 0/1/2扁平导入，提供Sequential/Concurrent/Handoff/GroupChat/Magentic五种Builder，原生Graph Workflow+checkpoint+time-travel，DurableTask持久化"},
-    {"type": "local-command", "ref": ".evolve/library/facts/maf-001.md ## 9. 与 AutoGen 的继承与断裂", "claim": "MAF与AutoGen存在5处继承+8处断裂，组织背景从研究院变为产品团队"},
+    {"type": "local-command", "ref": ".evolve/library/facts/smolagents-001.md", "claim": "smolagents CodeAgent ReAct loop 完全封装在 agents.py，开发者无法干预 loop 每一步"},
+    {"type": "local-command", "ref": ".evolve/library/facts/crewai-001.md", "claim": "Process enum 仅11行2个值，真正编排分散在 AgentTools/Flow/Task依赖三处"},
+    {"type": "local-command", "ref": ".evolve/library/facts/crewai-001.md", "claim": "Flow框架3,572行，事件驱动路由，与Crew层Process形成分布式控制流"},
+    {"type": "local-command", "ref": ".evolve/library/facts/autogen-001.md", "claim": "AutoGen Core API基于Actor模型异步消息传递，AgentChat提供RoundRobin/Selector/GraphFlow/MagenticOne四种Team模式"},
+    {"type": "local-command", "ref": ".evolve/library/facts/maf-001.md", "claim": "MAF采用Tier 0/1/2扁平导入，提供Sequential/Concurrent/Handoff/GroupChat/Magentic五种Builder，原生Graph Workflow+checkpoint+time-travel，DurableTask持久化"},
+    {"type": "local-command", "ref": ".evolve/library/facts/maf-001.md", "claim": "MAF与AutoGen存在5处继承+8处断裂，组织背景从研究院变为产品团队"},
     {"type": "local-command", "ref": ".evolve/library/methodology/inheritance-breakdown-matrix.md", "claim": "继承/断裂矩阵方法论提供结构化分析继任者框架与前身框架关系的框架"}
   ],
-  "next_step": "建议下一轮跑 Step D 续写：扩写 §4（角色语义深度，~2,500字）和 §5（生态锁定强度，~2,200字），或 §8（设计取舍与失败模式，~2,000字）"
+  "next_step": "本轮已完：§3扩写至~3,546字（达标），§6扩写至~2,736字（接近目标），修复44处ref格式。建议下一轮Step D续写：§4（角色语义深度，~2,500字）+ §5（生态锁定强度，~2,200字），或§0/§1/§2前置章节补齐。"
 }
