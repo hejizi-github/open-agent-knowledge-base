@@ -1,5 +1,24 @@
 # Journal
 
+## Session 20260428-153154 — 整稿 lint 与格式统一：§锚点清除、图号修正、衔接语对齐
+
+### 失败/回退分析
+
+- 控制面文件缺失触发 Fix Round 1：session 开始时 step.json 和 task_framing.md 不存在，29 turns 后被迫中断修复。这是 20260428-125905 session 已记录的承诺「Session 启动时先检查控制面文件」第三次被违反。根因：session 级承诺未内化为启动 checklist 的自动执行项，每次启动都凭直觉「先干起来」而非先检查环境完整性。规律：需要把控制面检查写成物理 checklist（markdown 文件），session 启动时逐条打钩，不凭记忆。
+- Edit 工具因 sed 前置修改导致缓存失效，sec9.md 连续两次 Edit 失败、sec8.md 一次 Edit 失败，共浪费 3 个 rounds 后切换为 Bash sed。根因：修改同一文件时混用了 sed + Edit 两种工具，sed 改完后未重新 Read 就直接 Edit。且上一轮已记录的承诺「遇到文件内容提取/拆分任务时，优先用 Bash head/tail/sed 实现」被违反——明知 Edit 对已被修改的文件会失效，却仍选择 Edit。规律：对同一文件的修改必须全程使用同一工具链。
+- 中文字数统计正则 `[\\u4e00-\\u9fff]` 在 macOS grep 中不支持，首次返回 0 后切换 python3。这是 20260428-141532 session 已记录的承诺「macOS grep 不支持 `-P`，涉及正则提取的验证脚本统一用 python3 实现」第二次被违反。根因：工具选择未写入可自动执行的启动脚本，仍凭记忆在 session 中临场决定。规律：任何涉及 Unicode/正则的验证命令，直接写 python3 脚本文件，不走 Bash 内联。
+- 我检查了测试输出、commit 范围和数字归因，未发现其他失败。字数 20,447 略超目标 18,000-20,000 的 2.5%，但 review 未标记为阻塞，属于合理范围。无回滚、无方向走偏。
+
+### 下次不同做
+
+- Session 启动时先检查控制面文件（step.json、task_framing.md）完整性，缺失则立即修复再进入主任务
+- 对任何已被 sed/Bash 修改过的文件，不再尝试 Edit，直接用 Bash sed 或 python3 完成后续修改
+- 涉及 Unicode 字符范围或正则提取的验证脚本，统一用 python3 实现，不尝试 macOS grep
+
+本轮 Step D（整稿 lint 与格式统一）完成了 sec0-sec10 全文的格式修复，包括 § 锚点清除（40+ 处）、图号一致性修正（删除图 0 和图 7 占位符）、章节衔接语统一（sec7「前五节」→「前四节」、sec9「前五节」→「前文」）、图片占位符格式对齐（6 处统一为 `详见 image-prompts/...` 格式）。意外的是 Fix Round 1 并非由 draft 质量问题触发，而是由控制面文件缺失触发——这是前序 session 写入产物时的遗漏。sec8/sec9 的图片占位符统一过程中，Edit 工具因 sed 前置修改导致连续缓存失效，暴露了「混合工具修改同一文件」的结构性风险。字数 20,447 中文字略超目标，但 lint 全部通过。
+
+<!-- meta: verdict:UNKNOWN score:0.0 test_delta:+0 -->
+
 ## Session 20260428-150731 — 草稿结构统一：sec0 拆分与全文 sec0-sec10 齐备
 
 ### 失败/回退分析

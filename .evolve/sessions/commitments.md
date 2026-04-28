@@ -1,4 +1,3 @@
-- 调用 Edit 修改文件前，先用 Grep 确认目标字符串的准确内容，避免字符串不匹配浪费 round
-- 写入任何已存在的控制面文件前，先 Read 确认当前内容，避免「未读先写」报错
-- 遇到文件内容提取/拆分任务时，优先用 Bash head/tail/sed 实现，不依赖 Edit 工具的 old_string 匹配
-- 发现历史文件存在 ref 格式问题（如 § 锚点混入）时，立即修复，不只做标记记录
+- Session 启动时先检查控制面文件（step.json、task_framing.md）完整性，缺失则立即修复再进入主任务
+- 对任何已被 sed/Bash 修改过的文件，不再尝试 Edit，直接用 Bash sed 或 python3 完成后续修改
+- 涉及 Unicode 字符范围或正则提取的验证脚本，统一用 python3 实现，不尝试 macOS grep
