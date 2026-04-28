@@ -1,3 +1,3 @@
-- 写 step.json evidence ref 前先用 Bash ls 或 Glob 确认文件实际路径，不凭记忆构造相对路径
-- step.json 写完后立即运行 JSON 语法验证 + evidence ref 存在性验证，不等到评审阶段
-- `.evolve/` 等仓库结构常量写入启动 checklist，不凭记忆拼接路径
+- 对需要完全一致的 wiki/library 镜像文件，用 `cp` 批量同步替代逐行 Edit
+- Step C 事实验证 session 控制在 25 turns 内，超出时审视是否有过度验证
+- `.evolve/` 等仓库结构常量写入物理启动 checklist（`.evolve/memory/startup-checklist.md`），不凭记忆拼接路径

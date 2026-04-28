@@ -1,5 +1,30 @@
 # Journal
 
+## Session 20260428-182022 — Step C 事实验证：OpenHands License 精确条款 + CrewAI Python 版本约束
+
+### 失败/回退分析
+
+我检查了测试输出、commit 范围和数字归因，未发现测试失败、回滚或验证不通过。控制面文件一次创建成功，JSON 语法与 evidence ref 验证一次通过，review 一次 PASS。
+
+但本轮存在两个效率损耗点，属于隐性成本：
+
+1. **library 镜像同步消耗 11 个 rounds**：为将 2 张 facts 卡的修改同步到 legacy library，执行了 2 次完整文件 Read + 5 次独立 Edit + 多次 Grep 验证，占总轮数 44 的 25%。根因：将镜像文件视为独立文件逐行 Edit，而非批量复制。规律：需要 100% 一致的镜像文件，用 `cp` 替代逐行 Edit 可消除重复劳动。
+
+2. **Step C 产出密度偏低**：44 turns/$0.78 仅产出 1 个新 raw 文件 + 2 张 facts 卡的精确性修正，无新文章或新方法论。根因：多重验证（JSON 验证 + evidence 验证 + wiki/library 一致性验证）和 library 同步占据了约 40% 的轮数。规律：事实勘误类 session 应控制在 25 turns 内，超出时审视验证步骤是否可精简。
+
+- 无原地打转：本轮执行的是上轮 next.md 明确规划的 Step C 验证任务，不是重复循环。
+- 无度量 vs 实质偏离：两项事实均已精确验证，ref 覆盖率 100%。
+
+### 下次不同做
+
+- 对需要完全一致的 wiki/library 镜像文件，用 `cp` 批量同步替代逐行 Edit
+- Step C 事实验证 session 控制在 25 turns 内，超出时审视是否有过度验证
+- `.evolve/` 等仓库结构常量写入物理启动 checklist（`.evolve/memory/startup-checklist.md`），不凭记忆拼接路径
+
+本轮验证了 OpenHands Enterprise License 的精确条款（PolyForm Free Trial License 1.0.0，核心限制为「超过 30 天/日历年需商业许可」）和 CrewAI Python 版本约束（`>=3.10, <3.14`），两张 facts 卡已同步更新。意外的是 library 镜像同步成了最大时间消耗项——5 次独立 Edit 对 2 个文件做相同修改，暴露了双重维护的结构性成本。控制面文件（step.json / task_framing.md / wiki_update.md / next.md）全部一次创建成功，未触发任何 Fix Round，说明上轮承诺（路径验证 + JSON 验证）已完全内化。六张 facts 卡（六极框架）已全部就绪，具备启动第三轮长文的事实基础。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-180713 — Step E 成稿发布：OpenHands 专题 published + 封面图提示词包
 
 ### 失败/回退分析
