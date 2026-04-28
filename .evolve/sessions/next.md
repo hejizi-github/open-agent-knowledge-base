@@ -1,1 +1,1 @@
-建议下一轮跑 Step B：方法论学习。对 Anthropic "Building Effective Agents" 和 LangChain "What is an AI agent?" 进行逐份逆向工程，提取结构模板、论点流动模式、证据密度标准和反清单体技法；归档脑内基线并产出 diff → 反共识点；最终写入 `.evolve/library/methodology/<id>.md` 作为可复用写作方法论。
+建议下一轮跑 Step C：选取 1-2 个真实开源 Agent 项目（如 AutoGen、CrewAI、LangGraph 或 smolagents），调研当前仓库状态、star/fork、最近 release、核心架构，产出 `.evolve/library/facts/<id>.md` 项目事实条目，为后续 Step D 的文章写作积累 ground truth。

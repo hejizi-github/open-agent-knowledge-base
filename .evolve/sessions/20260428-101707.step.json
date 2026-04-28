@@ -1,0 +1,24 @@
+{
+  "session": "20260428-101707",
+  "selected_step": "B",
+  "why_this_step": "Step A 形态识别已完成，methodology 库为空，Source Inbox 有 2 份预置来源，满足 Step B 前置条件",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": false,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": ".evolve/library/methodology/deep-tech-essay-agent-architecture-001.md", "type": "library"},
+    {"path": ".evolve/library/methodology/reverse-anthropic-building-effective-agents.md", "type": "library"},
+    {"path": ".evolve/library/methodology/reverse-langchain-what-is-an-agent.md", "type": "library"},
+    {"path": ".evolve/library/brain_baseline/20260428-101707.md", "type": "library"},
+    {"path": ".evolve/sessions/20260428-101707.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-101707.wiki_update.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/raw/web/anthropic-building-effective-agents-20241219.md", "claim": "Anthropic Building Effective Agents 原文已抓取并保存"},
+    {"type": "raw", "ref": ".evolve/raw/web/langchain-what-is-an-agent-20240628.md", "claim": "LangChain What is an AI agent? 原文已抓取并保存"}
+  ],
+  "next_step": "Step C：选取 1-2 个真实开源 Agent 项目调研，产出 facts 条目"
+}
