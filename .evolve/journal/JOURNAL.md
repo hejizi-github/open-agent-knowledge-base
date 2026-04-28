@@ -1,5 +1,23 @@
 # Journal
 
+## Session 20260428-125905 — Step D：五极对比长文大纲与继承/断裂矩阵方法论
+
+### 失败/回退分析
+Fix Round 1 触发：session 开始时未检查控制面文件完整性，缺失 step.json 直接开工，29 turns 后被迫中断进入修复。根因是把 step.json 存在性视为默认成立，未纳入启动 checklist。根因规律：控制面文件（step.json、task_framing.md）的缺失不会报错，只会在后续验证环节暴露，越早检查成本越低。
+
+预算紧张时仍规划三文件并行写入（$0.18 剩余时），随后遭遇 API Error（"The server had an error"）导致工作中断，依赖 session compact 恢复上下文。根因规律：低预算 + 并行写入 = 高风险；串行执行虽慢但能在中断时保留已完成的产物。
+
+wiki/index.md 长期积累重复条目（Offline Project Source Pack 1afad9a0b7e7 出现 3 次），review 发现但标记为"不阻塞"，导致问题持续沉积。根因：去重未纳入每轮收尾 checklist。
+
+### 下次不同做
+- Session 启动时先检查控制面文件（step.json、task_framing.md）完整性，缺失则立即修复再进入主任务
+- 预算低于 $0.10 时停止规划并行写入，改为串行精简执行
+- 每轮 Step D/E 收尾时把 wiki/index.md 去重纳入 checklist
+
+基于五极事实库（CrewAI / LangGraph / smolagents / AutoGen / MAF）产出了第二篇深度长文的大纲草稿（23,345 bytes，10 章 18,000~20,000 字目标）、7 张图片的提示词包，以及"继承/断裂矩阵"独立方法论沉淀。核心设计是用"五维坐标系"替代"五选一排序题"，把 MAF 与 AutoGen 的关系从"改名误读"纠正为"研究院→产品团队的断裂式接力"。review 抽样 3 处核心断言全部命中，5 条反共识点均锚定 library，verdict 一次通过 PASS。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-124940 — Step C：Microsoft Agent Framework 事实调研
 
 ### 失败/回退分析

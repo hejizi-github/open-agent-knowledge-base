@@ -1,1 +1,1 @@
-建议下一轮跑 Step D：基于五极事实（CrewAI/LangGraph/smolagents/AutoGen/MAF）产出对比长文大纲。methodology 库还缺"继承/断裂矩阵"分析方法的沉淀，可在 Step D 中一并产出。
+建议下一轮跑 Step D 续写：基于 outline 逐节扩写正文，优先 §3（控制流光谱五极解剖，~3,500 字）和 §6（继承/断裂矩阵，~2,800 字）两个核心论证段。扩写时把 §0/§1 的汇总性数字补上行内 ref，并把 outline 中"承接第一篇"的句式替换为具体引用句段。wiki/index.md 有重复条目需去重。

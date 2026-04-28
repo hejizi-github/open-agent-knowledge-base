@@ -1,3 +1,3 @@
-- 引用本地库文件前先用 Bash ls 或 Glob 确认实际路径，不凭记忆硬编码目录层级
-- Step C 启动时先检查 gh auth status，未认证则直接走 curl fallback，不做二次尝试
-- facts 中的每一条 limitations 必须能追溯到具体 raw source 的某一行或某一段，避免评审抽检未命中
+- Session 启动时先检查控制面文件（step.json、task_framing.md）完整性，缺失则立即修复再进入主任务
+- 预算低于 $0.10 时停止规划并行写入，改为串行精简执行
+- 每轮 Step D/E 收尾时把 wiki/index.md 去重纳入 checklist
