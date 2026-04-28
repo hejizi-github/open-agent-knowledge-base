@@ -15,8 +15,10 @@
     {"path": ".evolve/sessions/20260428-103651.wiki_update.md", "type": "review-control"}
   ],
   "evidence": [
-    {"type": "local-command", "ref": "gh repo view huggingface/smolagents --json name,owner,stargazerCount,forkCount,createdAt,updatedAt,pushedAt,defaultBranch,primaryLanguage,latestRelease", "claim": "smolagents 仓库当前 star/fork/release 等状态"},
-    {"type": "local-command", "ref": "gh repo view langchain-ai/langgraph --json name,owner,stargazerCount,forkCount,createdAt,updatedAt,pushedAt,defaultBranch,primaryLanguage,latestRelease", "claim": "langgraph 仓库当前 star/fork/release 等状态"}
+    {"type": "local-command", "ref": ".evolve/raw/smolagents-repo-api.json", "claim": "smolagents 仓库当前 star/fork/release 等状态"},
+    {"type": "local-command", "ref": ".evolve/raw/smolagents-release-api.json", "claim": "smolagents 最新 release 信息"},
+    {"type": "local-command", "ref": ".evolve/raw/langgraph-repo-api.json", "claim": "langgraph 仓库当前 star/fork/release 等状态"},
+    {"type": "local-command", "ref": ".evolve/raw/langgraph-release-api.json", "claim": "langgraph 最新 release 信息"}
   ],
   "next_step": "Step C 或 D：若 facts 覆盖度足够，下一轮可进入 Step D 开始撰写项目对比长文；否则继续补充更多项目 facts"
 }
