@@ -1,1 +1,1 @@
-建议第一轮跑 Step A+B：验证 3-5 个开源 Agent 项目的官方仓库/文档，建立项目资料卡 schema 和第一批 source notes。
+建议下一轮跑 Step B：方法论学习。对 Anthropic "Building Effective Agents" 和 LangChain "What is an AI agent?" 进行逐份逆向工程，提取结构模板、论点流动模式、证据密度标准和反清单体技法；归档脑内基线并产出 diff → 反共识点；最终写入 `.evolve/library/methodology/<id>.md` 作为可复用写作方法论。

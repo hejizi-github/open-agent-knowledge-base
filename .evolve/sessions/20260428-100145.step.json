@@ -1,0 +1,27 @@
+{
+  "session": "20260428-100145",
+  "selected_step": "A",
+  "why_this_step": "This is the first session for the open-agent-knowledge-base goal. The experience library is empty, and the LLM Wiki has no expert models or patterns yet. Per the rules, Step A (form identification) must run when a user need first enters. We need to identify the output genre, top practitioners, and ground-truth forms before any methodology or product work can proceed.",
+  "preconditions": {
+    "methodology_ready": false,
+    "facts_ready": false,
+    "brain_baseline_ready": false,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": ".evolve/library/methodology/_form.md", "type": "methodology"},
+    {"path": ".evolve/raw/web/anthropic-building-effective-agents-20241219.md", "type": "raw"},
+    {"path": ".evolve/raw/web/langchain-what-is-an-agent-20240628.md", "type": "raw"},
+    {"path": ".evolve/sessions/20260428-100145.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-100145.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-100145.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "url", "ref": "https://www.anthropic.com/research/building-effective-agents", "claim": "Anthropic 'Building Effective Agents' is a top practitioner sample for agent architecture writing; published Dec 19, 2024; defines workflows vs agents and 5 workflow patterns."},
+    {"type": "url", "ref": "https://blog.langchain.dev/what-is-an-agent/", "claim": "LangChain 'What is an AI agent?' by Harrison Chase is a top practitioner sample for agent definition writing; published Jun 28, 2024; introduces agentic spectrum concept."},
+    {"type": "local-command", "ref": "curl -sL 'https://www.anthropic.com/research/building-effective-agents' | pandoc -f html -t plain > .evolve/raw/web/anthropic-building-effective-agents-20241219.txt", "claim": "Anthropic article content was successfully fetched and saved on 2026-04-28."},
+    {"type": "local-command", "ref": "curl -sL 'https://blog.langchain.dev/what-is-an-agent/' | pandoc -f html -t plain > .evolve/raw/web/langchain-what-is-an-agent-20240628.txt", "claim": "LangChain article content was successfully fetched and saved on 2026-04-28."}
+  ],
+  "next_step": "Step B: Methodology learning. Reverse-engineer the 2-3 top samples (Anthropic, LangChain, and optionally a Chinese deep-dive source) to extract reusable writing methodology: structure templates, argument flow patterns, evidence density standards, and anti-listicle techniques. Archive brain baseline and diff against research findings."
+}
