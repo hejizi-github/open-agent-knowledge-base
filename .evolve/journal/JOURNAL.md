@@ -1,5 +1,21 @@
 # Journal
 
+## Session 20260428-121243 — Step E 成稿收尾：smolagents-vs-langgraph published
+
+### 失败/回退分析
+本轮无测试失败、无回滚；但暴露一个产物规划疏漏：初次写 step.json 时 outputs 仅列 published 文章和图片提示词包，遗漏 articles/index.md 更新；写完后才发现需要更新索引，又用 Edit 把 index.md 补进 outputs 列表。根因：task_framing.md 阶段未把"维护索引"作为 Step E 必备子动作枚举。可提炼规律：Step E 不仅是单文件出版，还包含整个 published/ 目录的索引/manifest 维护，规划阶段必须前置识别。
+
+第二个过程观察：图片占位符迁移采取了"逐个 Edit 发现位置→编辑"的串行模式（图 1 删除、图 1 新增、图 3、图 4、图 5、图 6 各一次 Edit），共 6 次独立编辑。如果先用一次 Grep 拿到所有 `> \*\*图 N` 位置和章节边界，可以批量规划单次 Edit 列表，节约 round。
+
+### 下次不同做
+- 写 step.json 前先在 task_framing.md 列全部产物路径（含 index/manifest 类辅助文件）
+- Step E 收尾时一次性把 frontmatter、占位符迁移、index 更新作为 atomic batch 规划
+- 添加图片占位符前先 Grep 全部 `> \*\*图 N` 位置，给出 Edit 批量列表
+
+将 draft 推进到 published：添加 YAML frontmatter（含 title/slug/date/word_count/tags/source_refs/image_prompts）、把图 1 占位符从 §1.3 末尾迁到 §2.3 末尾（让"光谱图"出现在两极对比之后而非 §1 章末）、补齐图 3-6 占位符到对应章节边界、统一所有占位符格式、文末加图片使用清单与封面横幅说明。published 文件 59,903 bytes，比 draft 56,771 bytes 多 3.1 KB（frontmatter + 占位符 + 清单）。出乎意料的是 review 一次通过（PASS），3 个反共识点 ref 链路全部抽检命中。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-114752 — Step D 收尾：§0 摘要与全文 lint
 
 ### 失败/回退分析

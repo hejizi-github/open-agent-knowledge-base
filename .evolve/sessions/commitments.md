@@ -1,3 +1,3 @@
-- 写 step.json evidence 前，先确认 type（url/raw/local-command）与 ref 格式的对应规则：url 必须配 http(s) 链接，raw/local-command 配本地文件路径
-- 当 WebFetch/WebSearch 不可用时，直接用 Bash + curl 获取外部数据，不再尝试已失败的工具
-- 论文引用精确化任务若 3 次搜索无果，立即标记「待查」并释放资源，不阻塞主任务
+- 写 step.json 前先在 task_framing.md 列全部产物路径（含 index/manifest 类辅助文件），避免写完 step.json 再 Edit 补 outputs
+- Step E 收尾时一次性把 frontmatter、占位符迁移、index 更新作为 atomic batch 规划，不要做完主文件才想起辅助文件
+- 在添加图片占位符前先 Grep 当前文件中所有 `> \*\*图 N` 位置，确认旧位置和新位置一次性给出 Edit 列表，避免逐个发现逐个改
