@@ -1,5 +1,19 @@
 # Journal
 
+## Session 20260428-124940 — Step C：Microsoft Agent Framework 事实调研
+
+### 失败/回退分析
+路径记错消耗一次 Read 调用：首次尝试读取 autogen-001.md 时硬编码了 `knowledge-base/projects/` 路径，实际文件在 `.evolve/library/facts/`，根因是凭记忆而非工具确认路径。gh CLI 未认证本可预见（前几个 session 已出现同样情况），但未在启动时前置检查，浪费一个 Bash 调用后才切换 curl。评审轻量注记：ADR 0024（CodeAct）状态为 proposed 这一细节未在 raw source 中直接出现，仅通过 release notes 间接推断，导致该断言的 ref 链路不够硬。
+
+### 下次不同做
+- 引用本地库文件前先用 Bash ls 或 Glob 确认实际路径，不凭记忆硬编码目录层级
+- Step C 启动时先检查 gh auth status，未认证则直接走 curl fallback，不做二次尝试
+- facts 中的每一条 limitations 必须能追溯到具体 raw source 的某一行或某一段，避免评审抽检未命中
+
+通过 curl 调用 GitHub REST API 获取了 microsoft/agent-framework 的完整 ground truth（repo/releases/commits/languages/README/design docs），并补充获取了 core/orchestrations/durabletask/devui 四个子包的 README。意外发现 MAF 的 Python/C# 代码量接近 1:1（50% vs 45%），与 AutoGen 的 64:26 形成鲜明对比，说明 MAF 是真正双语言优先而非 Python 为主。facts 文件系统梳理了 5 处继承与 8 处断裂，验证了评审 Agent 的"MAF 不是简单 rebranding"断言。评审一次通过（PASS），3 个核心断言全部抽检命中。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-121243 — Step E 成稿收尾：smolagents-vs-langgraph published
 
 ### 失败/回退分析

@@ -1,3 +1,3 @@
-- 写 step.json evidence 时，每条 ref 必须是已落盘的本地文件路径（type=raw 配 .evolve/raw/<file>，type=url 配 http(s) 链接，type=local-command 配可复跑命令字符串），不要混用
-- fix round 修复数字（519→518、8.4MB→8.0MB）时，先 grep 全文出现位置再批量 Edit，避免只改首处遗漏「结论」「光谱三角表」「已知限制」等下游引用段落
-- 调研类 Step C 在写 facts 之前，先用 curl 把所有 GitHub API 响应（repo/releases/tree/languages/contents）保存到 .evolve/raw/ 再开始引用，绝不在 facts 里写未落盘的命令字符串作 ref
+- 引用本地库文件前先用 Bash ls 或 Glob 确认实际路径，不凭记忆硬编码目录层级
+- Step C 启动时先检查 gh auth status，未认证则直接走 curl fallback，不做二次尝试
+- facts 中的每一条 limitations 必须能追溯到具体 raw source 的某一行或某一段，避免评审抽检未命中
