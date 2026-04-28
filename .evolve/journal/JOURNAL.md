@@ -1,5 +1,29 @@
 # Journal
 
+## Session 20260428-195627 — Step C 事实补齐：Mem0/Letta 源码级 facts 卡与 MemGPT 论文摘要
+
+### 失败/回退分析
+
+Issues 过滤脚本首次失败：Mem0 issues 中 body 为 null 导致 Python TypeError（`'memory' in None`）。根因：JSON 解析脚本的防御式编程缺位，`i.get('body','')` 在字段值为 null 时返回 None 而非空字符串。这是跨 session 重复模式——20260428-194415 session 同样做过 issues 过滤，空值检查仍被遗漏，说明「写脚本前先列 null 字段清单」未内化为自动检查。
+
+GitHub API rate limit 阻塞 Letta package contents 获取：未认证请求调用 GitHub REST API 获取 Letta 子目录内容时触发 rate limit，被迫切换 raw GitHub fallback，深层模块遍历中断。根因：gh CLI 未认证在启动时已检测，但未将「未认证时限制 API 调用量」纳入执行策略。规律：发现 gh 未认证后，立即将 raw.githubusercontent.com 作为主要数据来源，REST API 仅用于不可替代的调用（如 issues 列表）。
+
+mem0-memory-init.py 0 字节：curl 获取 Mem0 memory 模块 `__init__.py` 后未验证文件大小，直到后续分析时才察觉。根因：curl 写入文件后缺少「存在性 + 非空性」双重验证。
+
+MemGPT 论文仅获取 arXiv 摘要页，缺少 PDF 全文中的实现细节和评估数据。这是本轮遗留缺口，未阻塞 facts 卡产出，但会削弱后续 Step D drafting 的论文引用深度。
+
+我检查了测试输出、commit 范围与数字归因，未发现测试失败、回滚或验证不通过。review 文件缺失，无法确认 verdict。
+
+### 下次不同做
+
+- 写 issues 过滤/解析脚本时，对所有可能为 null 的 JSON 字段做防御式处理（`or ''` / `or []`）
+- curl 获取文件后立即用 `wc -c` 验证非空，0 字节文件视为失败并重新定位路径
+- GitHub API 未认证时，优先用 raw.githubusercontent.com 获取已知路径的文件，减少 REST API 调用次数
+
+零 fix round 完成 Step C。产出 2 张源码级 facts 卡（mem0-001.md 覆盖 7 阶段 ADD-only pipeline 和多信号检索；letta-001.md 覆盖 Block 抽象与 OS 式记忆四级分层）和 13 份 raw source。Mem0 与 Letta 的架构对照表（in-context Block vs external vector layer）形成了本轮最核心的认知增量，这一维度在前序 session 的六极框架分析中完全缺失。意外的是 Letta 的 GitEnabledBlockManager issues 暴露了与 Mem0 同构的 ADD-only 清理难题——两个架构迥异的框架在「删除比添加难」这一点上殊途同归。
+
+<!-- meta: verdict:UNKNOWN score:0.0 test_delta:+0 -->
+
 ## Session 20260428-194415 — Step A 形态识别：第五研究方向「Agent 记忆系统的常见误区」选题锁定
 
 ### 失败/回退分析
