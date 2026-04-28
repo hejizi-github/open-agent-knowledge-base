@@ -45,5 +45,3 @@
 **生产就绪梯度**（从低到高）：smolagents（无持久化/可观测性，原型级）[ref: facts/smolagents-001.md] → AutoGen（Studio"非生产就绪"，无内置持久化）[ref: facts/autogen-001.md] → CrewAI（State/Checkpoint + Flow 持久化，企业级扩展中）[ref: facts/crewai-001.md] → LangGraph（原生 checkpointing + Platform 托管，平台级）[ref: facts/langgraph-001.md] → MAF（DurableTask + DevUI + Hyperlight + 多协议，企业级覆盖最广）[ref: facts/maf-001.md]。
 
 这些定位不是静态的评分，而是动态的能力边界。一个框架可以在某个维度上很强，在另一个维度上很弱——这正是"五选一"思维失效的原因。本文后续章节将逐维展开论证，并在 §7 中汇总为一张 16 维对比表，在 §9 中提炼为可直接使用的决策树。
-
-> **图 0 插入位置**：五维坐标系示意图，五个项目在五条平行轴上的定位。横轴为五个维度，纵轴为每个维度上的位置。详见 `image-prompts/five-pole-agent-frameworks.md` 图 0。

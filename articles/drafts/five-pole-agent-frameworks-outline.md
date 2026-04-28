@@ -341,4 +341,4 @@ license: CC BY-SA 4.0
 | 图 4 | §6.4 | 继承/断裂矩阵可视化 | image-prompts 图 4 |
 | 图 5 | §7.2 | 五维雷达图 | image-prompts 图 5 |
 | 图 6 | §8.2 | "极简框架"的设计张力循环 | image-prompts 图 6 |
-| 图 7 | 封面 | 五极争霸概念封面 | image-prompts 封面 |
+| 封面图 | 封面 | 五极争霸概念封面 | image-prompts 封面图 |

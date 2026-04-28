@@ -6,7 +6,7 @@
 
 **原则一：不要根据 star 数选框架**
 
-AutoGen 拥有 57,512 个 star，但已于 2026 年 4 月 6 日进入维护模式——不再接收新功能，仅由社区维护安全修复 [ref: facts/autogen-001.md §1]。MAF 仅 9,885 个 star，却是微软官方团队主推的活跃框架，双语言版本每 2 至 3 天更新一次 [ref: facts/maf-001.md §2]。smolagents 以 5 个月历史达到 26,939 star，但最新 release 距今已 3.5 个月，517 个 open issues 与 2 人核心维护团队构成长期可维护性风险 [ref: facts/smolagents-001.md §仓库基础状态]。
+AutoGen 拥有 57,512 个 star，但已于 2026 年 4 月 6 日进入维护模式——不再接收新功能，仅由社区维护安全修复 [ref: facts/autogen-001.md]。MAF 仅 9,885 个 star，却是微软官方团队主推的活跃框架，双语言版本每 2 至 3 天更新一次 [ref: facts/maf-001.md]。smolagents 以 5 个月历史达到 26,939 star，但最新 release 距今已 3.5 个月，517 个 open issues 与 2 人核心维护团队构成长期可维护性风险 [ref: facts/smolagents-001.md]。
 
 Star 数衡量的是传播度和概念共鸣，不是生产就绪度。对于技术选型，"最近一次 release 距今多少天""open issues 与维护者比例""核心功能是否达到稳定版"是比 star 数更可靠的信号。
 
@@ -23,7 +23,7 @@ Star 数衡量的是传播度和概念共鸣，不是生产就绪度。对于技
 
 **原则三：框架是加速器，不是必需品**
 
-五个项目都在某处声称"简单"，但代码量、子系统数和概念层级都在持续增长。CrewAI 的 519 个核心文件、LangGraph 的 518 MB 仓库、smolagents 从"~1,000 行"膨胀到 1,814 行的现实——这些不是设计失误，而是 Agent 框架边界模糊化的必然结果 [ref: facts/crewai-001.md §代码量声明 vs 实际] [ref: facts/langgraph-001.md §仓库基础状态] [ref: facts/smolagents-001.md §代码量声明 vs 实际]。
+五个项目都在某处声称"简单"，但代码量、子系统数和概念层级都在持续增长。CrewAI 的 519 个核心文件、LangGraph 的 518 MB 仓库、smolagents 从"~1,000 行"膨胀到 1,814 行的现实——这些不是设计失误，而是 Agent 框架边界模糊化的必然结果 [ref: facts/crewai-001.md] [ref: facts/langgraph-001.md] [ref: facts/smolagents-001.md]。
 
 Agent 框架正在向工作流引擎、可观测性平台和部署工具的领地扩张。这个扩张有商业逻辑的支撑，但它意味着"极简框架"在 2026 年已经是一个相对概念——没有框架能在功能压力下保持绝对极简。
 
