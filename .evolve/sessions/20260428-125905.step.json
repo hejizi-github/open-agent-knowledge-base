@@ -1,0 +1,29 @@
+{
+  "session": "20260428-125905",
+  "selected_step": "D",
+  "why_this_step": "Orchestrator Directive 触发：连续 3 轮控制面更新后必须把专家经验转化为用户产物切片。前置条件全部就绪（methodology 4 条、facts 5 条、已发表文章 1 篇），本轮产出五极对比长文的大纲草稿与图片提示词包",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": false
+  },
+  "outputs": [
+    {"path": ".evolve/sessions/20260428-125905.task_framing.md", "type": "review-control"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-outline.md", "type": "user-draft"},
+    {"path": "image-prompts/five-pole-agent-frameworks.md", "type": "user-draft"},
+    {"path": ".evolve/library/methodology/inheritance-breakdown-matrix.md", "type": "library"}
+  ],
+  "evidence": [
+    {"type": "local-command", "ref": ".evolve/library/facts/crewai-001.md", "claim": "CrewAI 事实卡就绪，含 Stars/Forks/核心概念/编排模式/限制"},
+    {"type": "local-command", "ref": ".evolve/library/facts/langgraph-001.md", "claim": "LangGraph 事实卡就绪，含状态图模型/循环/Pregel/检查点"},
+    {"type": "local-command", "ref": ".evolve/library/facts/smolagents-001.md", "claim": "smolagents 事实卡就绪，含 CodeAgent/ToolCallingAgent/Hub"},
+    {"type": "local-command", "ref": ".evolve/library/facts/autogen-001.md", "claim": "AutoGen 事实卡就绪，含 ConversableAgent/GroupChat/CodeExecutor"},
+    {"type": "local-command", "ref": ".evolve/library/facts/maf-001.md", "claim": "MAF 事实卡就绪，含 5 处继承与 8 处断裂、双语言 1:1"},
+    {"type": "local-command", "ref": ".evolve/library/methodology/deep-tech-essay-agent-architecture-001.md", "claim": "双轨制结构模板、反共识技法、中文适配警告"},
+    {"type": "local-command", "ref": ".evolve/library/methodology/reverse-anthropic-building-effective-agents.md", "claim": "简单>复杂、When NOT to use、自我限定可信度构建"},
+    {"type": "local-command", "ref": ".evolve/library/methodology/reverse-langchain-what-is-an-agent.md", "claim": "概念升级法、光谱定义法"},
+    {"type": "local-command", "ref": "articles/published/smolagents-vs-langgraph.md", "claim": "已发表第一篇作为系列基线和概念对接点"}
+  ],
+  "next_step": "Step D 续写：基于 outline 逐节扩写正文，目标 18,000~20,000 中文字"
+}
