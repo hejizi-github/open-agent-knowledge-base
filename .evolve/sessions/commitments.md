@@ -1,2 +1,3 @@
-- 修正 sec1.md 场景一中的 star 数矛盾（LangGraph 并非 star 数最高，OpenHands 72,234 才是），将"选择 star 数最高的 LangGraph"改写为与 §1.1 数据一致的表述
-- 继续 Step D 续：撰写 §2 误区一（上下文窗口崇拜）+ §3 误区二（RAG 伪装记忆）草稿
+- 修复 lint-article-draft.sh 中同行重复 ref 检查的 awk 命令，使其兼容 macOS 默认 awk（避免 GNU awk 特有语法如 match 第三参数）
+- 单节 drafting 完成后立即运行字数检查，低于目标 10% 时回读 facts 补论据或增补案例，不依赖 15% 容忍阈值兜底
+- 下轮启动时执行 wiki_update.md 中标记的 methodology 框架数量更新（"六个框架六种实现"→"七个框架七种实现"）
