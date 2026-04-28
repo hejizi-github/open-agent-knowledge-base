@@ -11,6 +11,7 @@
 | 文章 | slug | 字数 | 日期 | 核心项目 |
 |------|------|------|------|----------|
 | [从黑盒到白盒：smolagents 与 LangGraph 的设计哲学光谱](published/smolagents-vs-langgraph.md) | smolagents-vs-langgraph | ~14,560 | 2026-04-28 | smolagents, LangGraph |
+| [五极争霸：开源 Agent 框架的坐标系与抉择](published/five-pole-agent-frameworks.md) | five-pole-agent-frameworks | ~20,447 | 2026-04-28 | CrewAI, LangGraph, smolagents, AutoGen, MAF |
 
 ## Target Essay Series
 
