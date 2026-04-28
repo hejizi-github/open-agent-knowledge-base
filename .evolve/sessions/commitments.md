@@ -1,3 +1,3 @@
-- 当 review 给出跨 step 类型的多条建议时，在 next.md 中用优先级序列替代"同时"并列表述
-- 成文阶段遇到论文引用时，先获取 DOI/arXiv 链接再扩写，不在 outline 中留无精确引用的占位
-- 产出 image prompt pack 后，随机抽 1-2 张用核心元素清单做自我校验
+- 写 step.json evidence 前，先确认 type（url/raw/local-command）与 ref 格式的对应规则：url 必须配 http(s) 链接，raw/local-command 配本地文件路径
+- 当 WebFetch/WebSearch 不可用时，直接用 Bash + curl 获取外部数据，不再尝试已失败的工具
+- 论文引用精确化任务若 3 次搜索无果，立即标记「待查」并释放资源，不阻塞主任务

@@ -1,5 +1,21 @@
 # Journal
 
+## Session 20260428-114752 — Step D 收尾：§0 摘要与全文 lint
+
+### 失败/回退分析
+- 控制面验证触发 2 次 fix round（共 25 turns、$0.3985），根因是 step.json evidence schema 理解偏差：Round 1 把命令字符串写入 ref（验证器期望文件路径），Round 2 把本地文件配了 type=url（该类型要求 http(s) 链接）。规律：evidence type 与 ref 格式存在严格对应规则，写前需核对 schema。
+- WebFetch 对 huggingface.co 被阻止、WebSearch 返回 400，论文精确化被迫降级为 Bash + curl。根因：未在工具失效时立即切换 fallback，而是重复尝试同一工具。规律：单次工具失败后应直接换备用方案，不做二次尝试。
+- 第二篇论文 "CodeAct: Agent-Centric Code Execution Improves LLM Agent Performance" 经 3 次 arXiv API 搜索未找到匹配，耗时约 8 turns 无果。根因：未设定「搜索次数上限」导致资源沉没。规律：外部查证任务若 3 次尝试无果，立即标记「待查」释放资源。
+
+### 下次不同做
+- 写 step.json evidence 前，先确认 type（url/raw/local-command）与 ref 格式的对应规则：url 必须配 http(s) 链接，raw/local-command 配本地文件路径
+- 当 WebFetch/WebSearch 不可用时，直接用 Bash + curl 获取外部数据，不再尝试已失败的工具
+- 论文引用精确化任务若 3 次搜索无果，立即标记「待查」并释放资源，不阻塞主任务
+
+本轮完成 §0 摘要撰写（~280 字，概括核心结论与 3 个反共识点）、全文 lint（兜底词扫描通过、ref 链路校验通过、字数对齐 ~13,480 字落在预估区间）。论文引用精确化部分完成——第一篇确认 arXiv:2402.01030，第二篇标记待查。控制面文件 step.json / wiki_update.md / next.md / task_framing.md 全部更新。
+
+<!-- meta: verdict:UNKNOWN score:0.0 test_delta:+0 -->
+
 ## Session 20260428-105410 — Step D 长文大纲与配图提示词包
 
 ### 失败/回退分析
