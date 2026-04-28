@@ -1,0 +1,658 @@
+[
+  {
+    "name": ".agents",
+    "path": ".agents",
+    "sha": "f46c418f7c4bc3bfb6e59f0ca5e088f23c2db07f",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/.agents?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/.agents",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/f46c418f7c4bc3bfb6e59f0ca5e088f23c2db07f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/.agents?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/f46c418f7c4bc3bfb6e59f0ca5e088f23c2db07f",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/.agents"
+    }
+  },
+  {
+    "name": ".devcontainer",
+    "path": ".devcontainer",
+    "sha": "394dc7d00810ee0c303dccbe1e880d1d9c799069",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/.devcontainer?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/.devcontainer",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/394dc7d00810ee0c303dccbe1e880d1d9c799069",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/.devcontainer?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/394dc7d00810ee0c303dccbe1e880d1d9c799069",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/.devcontainer"
+    }
+  },
+  {
+    "name": ".dockerignore",
+    "path": ".dockerignore",
+    "sha": "4bd00d088e741806a31289d08246848e20bc9b7b",
+    "size": 293,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/.dockerignore?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/.dockerignore",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/4bd00d088e741806a31289d08246848e20bc9b7b",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/.dockerignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/.dockerignore?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/4bd00d088e741806a31289d08246848e20bc9b7b",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/.dockerignore"
+    }
+  },
+  {
+    "name": ".editorconfig",
+    "path": ".editorconfig",
+    "sha": "25de61b6a4777af01ddd3f6d8c87654a69d9efb1",
+    "size": 172,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/.editorconfig?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/.editorconfig",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/25de61b6a4777af01ddd3f6d8c87654a69d9efb1",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/.editorconfig",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/.editorconfig?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/25de61b6a4777af01ddd3f6d8c87654a69d9efb1",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/.editorconfig"
+    }
+  },
+  {
+    "name": ".gitattributes",
+    "path": ".gitattributes",
+    "sha": "ce9ef23652e1785e22dacf94592b943add79a671",
+    "size": 212,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/.gitattributes?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/.gitattributes",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/ce9ef23652e1785e22dacf94592b943add79a671",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/.gitattributes",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/.gitattributes?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/ce9ef23652e1785e22dacf94592b943add79a671",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/.gitattributes"
+    }
+  },
+  {
+    "name": ".github",
+    "path": ".github",
+    "sha": "ca9b8772ae80cd18cac530e7c2e528a8682ade87",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/.github?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/.github",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/ca9b8772ae80cd18cac530e7c2e528a8682ade87",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/.github?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/ca9b8772ae80cd18cac530e7c2e528a8682ade87",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/.github"
+    }
+  },
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "e852c54a974bce8d337012bae9c246553597fe40",
+    "size": 4569,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/.gitignore?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/.gitignore",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/e852c54a974bce8d337012bae9c246553597fe40",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/.gitignore?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/e852c54a974bce8d337012bae9c246553597fe40",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/.gitignore"
+    }
+  },
+  {
+    "name": ".nvmrc",
+    "path": ".nvmrc",
+    "sha": "2bd5a0a98a36cc08ada88b804d3be047e6aa5b8a",
+    "size": 3,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/.nvmrc?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/.nvmrc",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/2bd5a0a98a36cc08ada88b804d3be047e6aa5b8a",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/.nvmrc",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/.nvmrc?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/2bd5a0a98a36cc08ada88b804d3be047e6aa5b8a",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/.nvmrc"
+    }
+  },
+  {
+    "name": ".openhands",
+    "path": ".openhands",
+    "sha": "334a313aaadb5858af7986627d4726f7041e465e",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/.openhands?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/.openhands",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/334a313aaadb5858af7986627d4726f7041e465e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/.openhands?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/334a313aaadb5858af7986627d4726f7041e465e",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/.openhands"
+    }
+  },
+  {
+    "name": ".vscode",
+    "path": ".vscode",
+    "sha": "e189558a9cd33a501ca1379bd2b4cf7885ca985a",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/.vscode?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/.vscode",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/e189558a9cd33a501ca1379bd2b4cf7885ca985a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/.vscode?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/e189558a9cd33a501ca1379bd2b4cf7885ca985a",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/.vscode"
+    }
+  },
+  {
+    "name": "AGENTS.md",
+    "path": "AGENTS.md",
+    "sha": "1d2675dbb2e8b937b66984f8b41a8929b1f703f6",
+    "size": 24636,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/AGENTS.md?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/AGENTS.md",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/1d2675dbb2e8b937b66984f8b41a8929b1f703f6",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/AGENTS.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/AGENTS.md?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/1d2675dbb2e8b937b66984f8b41a8929b1f703f6",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/AGENTS.md"
+    }
+  },
+  {
+    "name": "CITATION.cff",
+    "path": "CITATION.cff",
+    "sha": "9c23e891c577d14ee5b2289b776645be72d2bbef",
+    "size": 1409,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/CITATION.cff?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/CITATION.cff",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/9c23e891c577d14ee5b2289b776645be72d2bbef",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/CITATION.cff",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/CITATION.cff?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/9c23e891c577d14ee5b2289b776645be72d2bbef",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/CITATION.cff"
+    }
+  },
+  {
+    "name": "CNAME",
+    "path": "CNAME",
+    "sha": "169c574c153755d30f9666fc79302244b6090a01",
+    "size": 19,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/CNAME?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/CNAME",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/169c574c153755d30f9666fc79302244b6090a01",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/CNAME",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/CNAME?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/169c574c153755d30f9666fc79302244b6090a01",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/CNAME"
+    }
+  },
+  {
+    "name": "CODE_OF_CONDUCT.md",
+    "path": "CODE_OF_CONDUCT.md",
+    "sha": "8275112ba02b73bd9eb9ee2df9d6f56ccc4e22c5",
+    "size": 7453,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/CODE_OF_CONDUCT.md?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/CODE_OF_CONDUCT.md",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/8275112ba02b73bd9eb9ee2df9d6f56ccc4e22c5",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/CODE_OF_CONDUCT.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/CODE_OF_CONDUCT.md?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/8275112ba02b73bd9eb9ee2df9d6f56ccc4e22c5",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/CODE_OF_CONDUCT.md"
+    }
+  },
+  {
+    "name": "COMMUNITY.md",
+    "path": "COMMUNITY.md",
+    "sha": "d577de9a588f83c4bde3edec5a926591084b02f2",
+    "size": 3040,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/COMMUNITY.md?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/COMMUNITY.md",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/d577de9a588f83c4bde3edec5a926591084b02f2",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/COMMUNITY.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/COMMUNITY.md?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/d577de9a588f83c4bde3edec5a926591084b02f2",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/COMMUNITY.md"
+    }
+  },
+  {
+    "name": "CONTRIBUTING.md",
+    "path": "CONTRIBUTING.md",
+    "sha": "02582c02a033395a4c1e913caa373d4efacf781e",
+    "size": 6338,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/CONTRIBUTING.md?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/CONTRIBUTING.md",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/02582c02a033395a4c1e913caa373d4efacf781e",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/CONTRIBUTING.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/CONTRIBUTING.md?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/02582c02a033395a4c1e913caa373d4efacf781e",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/CONTRIBUTING.md"
+    }
+  },
+  {
+    "name": "CREDITS.md",
+    "path": "CREDITS.md",
+    "sha": "a70fc07a3994293c44a4b82cca23325bee45f13f",
+    "size": 17264,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/CREDITS.md?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/CREDITS.md",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/a70fc07a3994293c44a4b82cca23325bee45f13f",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/CREDITS.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/CREDITS.md?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/a70fc07a3994293c44a4b82cca23325bee45f13f",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/CREDITS.md"
+    }
+  },
+  {
+    "name": "Development.md",
+    "path": "Development.md",
+    "sha": "9d8e18d72cd496c400c7dcdfaeae122c9c330d90",
+    "size": 10027,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/Development.md?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/Development.md",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/9d8e18d72cd496c400c7dcdfaeae122c9c330d90",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/Development.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/Development.md?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/9d8e18d72cd496c400c7dcdfaeae122c9c330d90",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/Development.md"
+    }
+  },
+  {
+    "name": "ISSUE_TRIAGE.md",
+    "path": "ISSUE_TRIAGE.md",
+    "sha": "dee67b10cd5525670ee5a6b9a0999238a4fb85d0",
+    "size": 1371,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/ISSUE_TRIAGE.md?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/ISSUE_TRIAGE.md",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/dee67b10cd5525670ee5a6b9a0999238a4fb85d0",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/ISSUE_TRIAGE.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/ISSUE_TRIAGE.md?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/dee67b10cd5525670ee5a6b9a0999238a4fb85d0",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/ISSUE_TRIAGE.md"
+    }
+  },
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "572bb259491e4e2adafee0c03db0d4ed419e6b9a",
+    "size": 1398,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/LICENSE?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/572bb259491e4e2adafee0c03db0d4ed419e6b9a",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/LICENSE?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/572bb259491e4e2adafee0c03db0d4ed419e6b9a",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE"
+    }
+  },
+  {
+    "name": "MANIFEST.in",
+    "path": "MANIFEST.in",
+    "sha": "8dd8203373b1dcd82347e7bf86ea735dee0a9b9b",
+    "size": 120,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/MANIFEST.in?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/MANIFEST.in",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/8dd8203373b1dcd82347e7bf86ea735dee0a9b9b",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/MANIFEST.in",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/MANIFEST.in?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/8dd8203373b1dcd82347e7bf86ea735dee0a9b9b",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/MANIFEST.in"
+    }
+  },
+  {
+    "name": "Makefile",
+    "path": "Makefile",
+    "sha": "464e5de55192775b7d7430efe315d427d2f787f7",
+    "size": 16217,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/Makefile?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/Makefile",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/464e5de55192775b7d7430efe315d427d2f787f7",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/Makefile",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/Makefile?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/464e5de55192775b7d7430efe315d427d2f787f7",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/Makefile"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "7e32cfd971890042c162d03f72906fe119123ea6",
+    "size": 8390,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/README.md?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/7e32cfd971890042c162d03f72906fe119123ea6",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/7e32cfd971890042c162d03f72906fe119123ea6",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/README.md"
+    }
+  },
+  {
+    "name": "build.sh",
+    "path": "build.sh",
+    "sha": "599c63161a213cf16e90bb13552843f45ec83c6d",
+    "size": 44,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/build.sh?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/build.sh",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/599c63161a213cf16e90bb13552843f45ec83c6d",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/build.sh",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/build.sh?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/599c63161a213cf16e90bb13552843f45ec83c6d",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/build.sh"
+    }
+  },
+  {
+    "name": "config.template.toml",
+    "path": "config.template.toml",
+    "sha": "9756ca44bf6b01a69c7d48d489394296c6178062",
+    "size": 17217,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/config.template.toml?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/config.template.toml",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/9756ca44bf6b01a69c7d48d489394296c6178062",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/config.template.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/config.template.toml?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/9756ca44bf6b01a69c7d48d489394296c6178062",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/config.template.toml"
+    }
+  },
+  {
+    "name": "containers",
+    "path": "containers",
+    "sha": "9dc495a38401a85bc1fcd10c380b2f5a944ac25c",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/containers?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/containers",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/9dc495a38401a85bc1fcd10c380b2f5a944ac25c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/containers?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/9dc495a38401a85bc1fcd10c380b2f5a944ac25c",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/containers"
+    }
+  },
+  {
+    "name": "dev_config",
+    "path": "dev_config",
+    "sha": "b3f85d2e686f4636dc20da6bbc07223587a4d7b3",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/dev_config?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/dev_config",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/b3f85d2e686f4636dc20da6bbc07223587a4d7b3",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/dev_config?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/b3f85d2e686f4636dc20da6bbc07223587a4d7b3",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/dev_config"
+    }
+  },
+  {
+    "name": "docker-compose.yml",
+    "path": "docker-compose.yml",
+    "sha": "23d353621a85344d66ee2474e68670b10809f0c6",
+    "size": 927,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/docker-compose.yml?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/docker-compose.yml",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/23d353621a85344d66ee2474e68670b10809f0c6",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/docker-compose.yml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/docker-compose.yml?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/23d353621a85344d66ee2474e68670b10809f0c6",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/docker-compose.yml"
+    }
+  },
+  {
+    "name": "enterprise",
+    "path": "enterprise",
+    "sha": "066e5f216e5c5dfb23324af5ffbadf2ae392944d",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/enterprise?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/enterprise",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/066e5f216e5c5dfb23324af5ffbadf2ae392944d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/enterprise?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/066e5f216e5c5dfb23324af5ffbadf2ae392944d",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/enterprise"
+    }
+  },
+  {
+    "name": "frontend",
+    "path": "frontend",
+    "sha": "09c8b4b6e922f1d1f94c77916e90a4d4bd2a4a13",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/frontend?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/frontend",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/09c8b4b6e922f1d1f94c77916e90a4d4bd2a4a13",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/frontend?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/09c8b4b6e922f1d1f94c77916e90a4d4bd2a4a13",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/frontend"
+    }
+  },
+  {
+    "name": "kind",
+    "path": "kind",
+    "sha": "9d687e8e77cbce1893d547eb39ecafbbb793d901",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/kind?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/kind",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/9d687e8e77cbce1893d547eb39ecafbbb793d901",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/kind?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/9d687e8e77cbce1893d547eb39ecafbbb793d901",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/kind"
+    }
+  },
+  {
+    "name": "openhands-ui",
+    "path": "openhands-ui",
+    "sha": "969e8295ca64bf7da53bcf366742f97dd9c22130",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands-ui?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/openhands-ui",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/969e8295ca64bf7da53bcf366742f97dd9c22130",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands-ui?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/969e8295ca64bf7da53bcf366742f97dd9c22130",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/openhands-ui"
+    }
+  },
+  {
+    "name": "openhands",
+    "path": "openhands",
+    "sha": "b06b345ce4966917a555235a588fd1c7c8fcea36",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/openhands",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/b06b345ce4966917a555235a588fd1c7c8fcea36",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/b06b345ce4966917a555235a588fd1c7c8fcea36",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/openhands"
+    }
+  },
+  {
+    "name": "poetry.lock",
+    "path": "poetry.lock",
+    "sha": "ee6798719a90f91b3a8d43bacc154bd463827464",
+    "size": 1153262,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/poetry.lock?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/poetry.lock",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/ee6798719a90f91b3a8d43bacc154bd463827464",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/poetry.lock",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/poetry.lock?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/ee6798719a90f91b3a8d43bacc154bd463827464",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/poetry.lock"
+    }
+  },
+  {
+    "name": "pydoc-markdown.yml",
+    "path": "pydoc-markdown.yml",
+    "sha": "74f4260345e09fa568854d8aa938cd73e2a5e0ca",
+    "size": 304,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/pydoc-markdown.yml?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/pydoc-markdown.yml",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/74f4260345e09fa568854d8aa938cd73e2a5e0ca",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/pydoc-markdown.yml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/pydoc-markdown.yml?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/74f4260345e09fa568854d8aa938cd73e2a5e0ca",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/pydoc-markdown.yml"
+    }
+  },
+  {
+    "name": "pyproject.toml",
+    "path": "pyproject.toml",
+    "sha": "3159b19dbeabd5a94d5aa13ffdd77bcea0874a7b",
+    "size": 7855,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/pyproject.toml?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/pyproject.toml",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/3159b19dbeabd5a94d5aa13ffdd77bcea0874a7b",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/pyproject.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/pyproject.toml?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/3159b19dbeabd5a94d5aa13ffdd77bcea0874a7b",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/pyproject.toml"
+    }
+  },
+  {
+    "name": "pytest.ini",
+    "path": "pytest.ini",
+    "sha": "c6be6e987a1bde612827879d5bc038e96791948e",
+    "size": 100,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/pytest.ini?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/pytest.ini",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/c6be6e987a1bde612827879d5bc038e96791948e",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/pytest.ini",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/pytest.ini?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/c6be6e987a1bde612827879d5bc038e96791948e",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/pytest.ini"
+    }
+  },
+  {
+    "name": "scripts",
+    "path": "scripts",
+    "sha": "0f274d3d88b94ef92ddccd2a0653e6b4890fefac",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/scripts?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/scripts",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/0f274d3d88b94ef92ddccd2a0653e6b4890fefac",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/scripts?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/0f274d3d88b94ef92ddccd2a0653e6b4890fefac",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/scripts"
+    }
+  },
+  {
+    "name": "skills",
+    "path": "skills",
+    "sha": "e4aecf08f6340070dd5464369321bdb0b7281cd5",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/skills?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/skills",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/e4aecf08f6340070dd5464369321bdb0b7281cd5",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/skills?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/e4aecf08f6340070dd5464369321bdb0b7281cd5",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/skills"
+    }
+  },
+  {
+    "name": "tests",
+    "path": "tests",
+    "sha": "e60d41d3832a4cc0f40b3e38ec2014190ad546bb",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/tests?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/tests",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/e60d41d3832a4cc0f40b3e38ec2014190ad546bb",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/tests?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/e60d41d3832a4cc0f40b3e38ec2014190ad546bb",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/tests"
+    }
+  },
+  {
+    "name": "uv.lock",
+    "path": "uv.lock",
+    "sha": "f875367faa6675709500316f58dca86d5659299f",
+    "size": 1003115,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/uv.lock?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/uv.lock",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/f875367faa6675709500316f58dca86d5659299f",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/uv.lock",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/uv.lock?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/f875367faa6675709500316f58dca86d5659299f",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/uv.lock"
+    }
+  }
+]

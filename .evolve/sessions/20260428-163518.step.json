@@ -1,0 +1,33 @@
+{
+  "session": "20260428-163518",
+  "selected_step": "C",
+  "why_this_step": "上轮 Step A 已完成续篇形态识别并选定 OpenHands 为专题深潜项目。当前 wiki 事实层缺少 OpenHands 项目资料卡，属于关键 ground truth 缺口。本轮执行 Step C 调研，收集 GitHub repo 元数据、releases、README、核心源码结构，补全 facts 卡，为后续 Step D 长文撰写提供证据支撑。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": false,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": false
+  },
+  "outputs": [
+    {"path": ".evolve/wiki/facts/openhands-001.md", "type": "wiki"},
+    {"path": ".evolve/library/facts/openhands-001.md", "type": "legacy-library"},
+    {"path": ".evolve/raw/openhands-repo-api.json", "type": "raw"},
+    {"path": ".evolve/raw/openhands-releases-api.json", "type": "raw"},
+    {"path": ".evolve/raw/openhands-contents-api.json", "type": "raw"},
+    {"path": ".evolve/raw/openhands-core-contents.json", "type": "raw"},
+    {"path": ".evolve/raw/openhands-languages.json", "type": "raw"},
+    {"path": ".evolve/sessions/20260428-163518.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-163518.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-163518.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/raw/openhands-repo-api.json", "claim": "OpenHands repo 72,234 stars, 9,122 forks, Python 主语言, MIT license, 创建于 2024-03-13"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-releases-api.json", "claim": "最新版本 1.6.0 (2026-03-30), 1.0.0 (2025-12-16) 引入 software-agent-sdk 重大重构"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-languages.json", "claim": "Python 6.08MB + TypeScript 3.54MB 为主语言分布"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-core-contents.json", "claim": "核心模块结构：app_server/, core/, integrations/, server/, storage/, utils/"},
+    {"type": "url", "ref": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/openhands/README.md", "claim": "核心架构定义：LLM/Agent/AgentController/State/EventStream/Runtime/Sandbox 类职责与控制流"},
+    {"type": "url", "ref": "https://github.com/OpenHands/software-agent-sdk", "claim": "software-agent-sdk 为独立仓库，678 stars，是 1.0 架构重构核心"}
+  ],
+  "next_step": "建议下一轮跑 Step C：继续调研 OpenHands 的 Runtime 架构细节（Docker sandbox vs local 模式）和 Agent 技能系统（skills/ 目录），或已有足够 facts 时进入 Step D 续篇 §1-§2 草稿撰写。"
+}

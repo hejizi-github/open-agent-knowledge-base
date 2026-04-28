@@ -1,1 +1,1 @@
-建议下一轮跑 Step C：调研 OpenHands（github.com/All-Hands-AI/OpenHands），收集 GitHub repo 元数据、releases、README、核心源码结构，补全 facts 卡。目标产出：wiki/facts/openhands-001.md（同步镜像到 library/facts/）。
+建议下一轮跑 Step C：继续调研 OpenHands Runtime 架构细节（Docker sandbox vs local 模式）和 Agent 技能系统（skills/ 目录），或进入 Step D 续篇 §1-§2 草稿撰写。

@@ -1,0 +1,162 @@
+[
+  {
+    "name": "README.md",
+    "path": "openhands/README.md",
+    "sha": "85eefc48c0ce2f54c90c3f331d1f79130b581786",
+    "size": 2785,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/README.md?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/openhands/README.md",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/85eefc48c0ce2f54c90c3f331d1f79130b581786",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/openhands/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/README.md?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/85eefc48c0ce2f54c90c3f331d1f79130b581786",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/openhands/README.md"
+    }
+  },
+  {
+    "name": "__init__.py",
+    "path": "openhands/__init__.py",
+    "sha": "5e86885fb0718f427f81c88729530a70ea2439d0",
+    "size": 453,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/__init__.py?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/openhands/__init__.py",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/5e86885fb0718f427f81c88729530a70ea2439d0",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/openhands/__init__.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/__init__.py?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/5e86885fb0718f427f81c88729530a70ea2439d0",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/openhands/__init__.py"
+    }
+  },
+  {
+    "name": "app_server",
+    "path": "openhands/app_server",
+    "sha": "b21cf8281538ad0a2e17af94b0389f9e7968f7dd",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/app_server?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/openhands/app_server",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/b21cf8281538ad0a2e17af94b0389f9e7968f7dd",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/app_server?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/b21cf8281538ad0a2e17af94b0389f9e7968f7dd",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/openhands/app_server"
+    }
+  },
+  {
+    "name": "core",
+    "path": "openhands/core",
+    "sha": "debc75b899c0aea9fdaeb63e477204ccfacdb0f8",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/core?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/openhands/core",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/debc75b899c0aea9fdaeb63e477204ccfacdb0f8",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/core?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/debc75b899c0aea9fdaeb63e477204ccfacdb0f8",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/openhands/core"
+    }
+  },
+  {
+    "name": "integrations",
+    "path": "openhands/integrations",
+    "sha": "726c7d973b45fc5b8ebcf51d13418d9ca3e15b9c",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/integrations?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/openhands/integrations",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/726c7d973b45fc5b8ebcf51d13418d9ca3e15b9c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/integrations?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/726c7d973b45fc5b8ebcf51d13418d9ca3e15b9c",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/openhands/integrations"
+    }
+  },
+  {
+    "name": "py.typed",
+    "path": "openhands/py.typed",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/py.typed?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/openhands/py.typed",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/openhands/py.typed",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/py.typed?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/openhands/py.typed"
+    }
+  },
+  {
+    "name": "server",
+    "path": "openhands/server",
+    "sha": "c4bbb4ec2999ef97712aedb94bf1457b3e6f142d",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/server?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/openhands/server",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/c4bbb4ec2999ef97712aedb94bf1457b3e6f142d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/server?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/c4bbb4ec2999ef97712aedb94bf1457b3e6f142d",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/openhands/server"
+    }
+  },
+  {
+    "name": "storage",
+    "path": "openhands/storage",
+    "sha": "2db88555c42dd29fcca30594242eacb4d99c24e3",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/storage?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/openhands/storage",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/2db88555c42dd29fcca30594242eacb4d99c24e3",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/storage?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/2db88555c42dd29fcca30594242eacb4d99c24e3",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/openhands/storage"
+    }
+  },
+  {
+    "name": "utils",
+    "path": "openhands/utils",
+    "sha": "4b5aa2aab2e5da384e6d2e3304bb8d3868cfd692",
+    "size": 0,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/utils?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/tree/main/openhands/utils",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/4b5aa2aab2e5da384e6d2e3304bb8d3868cfd692",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/utils?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/trees/4b5aa2aab2e5da384e6d2e3304bb8d3868cfd692",
+      "html": "https://github.com/OpenHands/OpenHands/tree/main/openhands/utils"
+    }
+  },
+  {
+    "name": "version.py",
+    "path": "openhands/version.py",
+    "sha": "6f88bb7e3c957a530e2b77736d5546b965fde5cf",
+    "size": 1239,
+    "url": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/version.py?ref=main",
+    "html_url": "https://github.com/OpenHands/OpenHands/blob/main/openhands/version.py",
+    "git_url": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/6f88bb7e3c957a530e2b77736d5546b965fde5cf",
+    "download_url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/openhands/version.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/OpenHands/OpenHands/contents/openhands/version.py?ref=main",
+      "git": "https://api.github.com/repos/OpenHands/OpenHands/git/blobs/6f88bb7e3c957a530e2b77736d5546b965fde5cf",
+      "html": "https://github.com/OpenHands/OpenHands/blob/main/openhands/version.py"
+    }
+  }
+]
