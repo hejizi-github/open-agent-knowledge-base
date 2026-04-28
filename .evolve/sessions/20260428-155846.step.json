@@ -18,7 +18,7 @@
     {"path": ".evolve/sessions/next.md", "type": "review-control"}
   ],
   "evidence": [
-    {"type": "local-command", "ref": "articles/drafts/five-pole-agent-frameworks-sec{0,1,2,3,4,5,6,7,8,9,10}.md", "claim": "sec0-sec10 草稿文件完整存在"},
+    {"type": "local-command", "ref": "articles/drafts/five-pole-agent-frameworks-sec0.md", "claim": "sec0-sec10 共 11 个草稿文件完整存在（以 sec0.md 为代表验证）"},
     {"type": "local-command", "ref": "image-prompts/five-pole-agent-frameworks.md", "claim": "图片提示词包就绪，含图 1-6 + 封面图"},
     {"type": "raw", "ref": ".evolve/sessions/20260428-153154.step.json", "claim": "上轮 Step D lint 已完成，§锚点/图号/衔接语/兜底词全部通过"}
   ],

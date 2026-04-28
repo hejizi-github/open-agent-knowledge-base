@@ -40,7 +40,7 @@ Microsoft Agent Framework 与 AutoGen 之间的关系，是中文技术社区中
 
 **断裂 1：包结构——从严格分层到扁平导入。** AutoGen v0.3+ 采用严格的三层架构：Core API（autogen-core）、AgentChat API（autogen-agentchat）、Extensions API（autogen-ext）。每一层有明确的依赖方向（上层依赖下层，下层不可依赖上层），第三方扩展必须放在 Ext 层 [ref: facts/autogen-001.md]。MAF 放弃了这种严格分层，改用扁平的 Tier 0/1/2 + namespace packages 设计：Tier 0 提供基础 Agent API（`from agent_framework import Agent`），Tier 1 提供高级组件（vector_data, observability），Tier 2 按厂商分组连接器（`from agent_framework.openai import ...`）[ref: facts/maf-001.md]。AutoGen 的分层是"架构师视角"的（按抽象层级划分），MAF 的 Tier 是"开发者视角"的（按使用频率和厂商归属划分）。MAF 的设计文档首句明确声明："Developer experience is key"[ref: facts/maf-001.md]。
 
-**断裂 2：工作流——从零到图。** AutoGen 没有原生图工作流能力。`GraphFlow` 虽支持有向图定义，但缺乏 checkpointing、time-travel 和分布式状态管理——这些都被文档标注为实验性或未实现 [ref: facts/autogen-001.md] [ref: facts/autogen-001.md]。MAF 的 Workflow API 直接引入了完整的 Graph-based 工作流，包含数据流连接、streaming、checkpointing、human-in-the-loop 和 time-travel，功能集合对标 LangGraph [ref: facts/maf-001.md]。这不是 AutoGen 的"升级"，而是从零开始构建 AutoGen 从未有过的能力。
+**断裂 2：工作流——从零到图。** AutoGen 没有原生图工作流能力。`GraphFlow` 虽支持有向图定义，但缺乏 checkpointing、time-travel 和分布式状态管理——这些都被文档标注为实验性或未实现 [ref: facts/autogen-001.md]。MAF 的 Workflow API 直接引入了完整的 Graph-based 工作流，包含数据流连接、streaming、checkpointing、human-in-the-loop 和 time-travel，功能集合对标 LangGraph [ref: facts/maf-001.md]。这不是 AutoGen 的"升级"，而是从零开始构建 AutoGen 从未有过的能力。
 
 **断裂 3：持久化——从无到 DurableTask。** AutoGen 不提供内置持久化机制，Agent 状态随进程结束而消失。MAF 通过 `agent-framework-durabletask` 集成了微软 Durable Task 框架，实现 Agent 状态的自动持久化、故障恢复和分布式执行 [ref: facts/maf-001.md]。这一能力使 MAF 从"原型框架"跃迁为"企业级平台"，而 AutoGen 始终停留在原型阶段——官方甚至明确声明 AutoGen Studio"非生产就绪"[ref: facts/autogen-001.md]。
 
@@ -62,7 +62,7 @@ Microsoft Agent Framework 与 AutoGen 之间的关系，是中文技术社区中
 
 AutoGen 的发起方是 **Microsoft Research**（微软研究院）。研究院的 KPI 是发表高质量论文、在学术社区建立影响力、探索前沿架构范式。Actor 模型、严格分层、跨语言运行时——这些设计选择体现了研究院对"架构优美性"和"学术创新性"的追求。CC-BY-4.0 License、实验性 Studio 工具、维护模式下的社区自治——这些决策符合研究院"发布即完成"的典型节奏。
 
-MAF 的发起方是 **Microsoft 官方产品团队**（非研究院独立项目）。产品团队的 KPI 是开发者采纳率、Azure 平台绑定度、企业客户满意度。扁平导入（"Developer experience is key"）、默认 Azure 集成、DurableTask 持久化、MIT License、DevUI 开发环境——这些设计选择全部服务于"让尽可能多的企业开发者在 Azure 上构建 Agent"这一商业目标 [ref: facts/maf-001.md] [ref: facts/maf-001.md]。
+MAF 的发起方是 **Microsoft 官方产品团队**（非研究院独立项目）。产品团队的 KPI 是开发者采纳率、Azure 平台绑定度、企业客户满意度。扁平导入（"Developer experience is key"）、默认 Azure 集成、DurableTask 持久化、MIT License、DevUI 开发环境——这些设计选择全部服务于"让尽可能多的企业开发者在 Azure 上构建 Agent"这一商业目标 [ref: facts/maf-001.md]。
 
 这个组织断裂解释了为什么 8 处技术断裂同时指向同一个方向：从"架构创新优先"转向"开发者体验优先"，从"知识共享"转向"商业交付"，从"原型探索"转向"企业平台"。MAF 继承了 AutoGen 的概念遗产（5 处继承），但用一套完全不同的工程哲学重新实现（8 处断裂）。它不是 AutoGen 的 v1.0 → v2.0 升级，而是一次"研究院原型 → 产品团队重构"的断裂式接力。
 
