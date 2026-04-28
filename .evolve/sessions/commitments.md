@@ -1,3 +1,3 @@
-- 字数统计用 `python3 -c` 写独立脚本，不用 shell eval，消除 "command not found: strategies" 解析 artifact
-- macOS grep 不支持 `-P`，涉及正则提取的验证脚本统一用 `python3` 实现，不依赖 grep -P
-- 单节初稿字数低于目标 15% 以上时，不逐段补丁式增补，退回重读 facts 补论据后整体重写
+- 写 step.json evidence 前，先用 python3 预检所有 ref 是纯文件路径（不含 §、## 锚点字符）
+- evidence 数组写完后，用 python3 -c 做一遍 json 格式 + ref 存在性验证，再标记 drafting 完成
+- 连续第 3 个 session 出现 evidence 格式问题，下次 session 启动时把 evidence schema 检查加入控制面启动 checklist
