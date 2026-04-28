@@ -1,0 +1,26 @@
+{
+  "session": "20260428-190904",
+  "selected_step": "D",
+  "why_this_step": "framework-architecture-tension-001 methodology 已就绪，crewai/smolagents/langgraph facts 卡完整，brain_baseline 已归档。§0-§3 草稿已完成，本轮继续撰写 §4+§5 完成全文核心部分。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/crewai-architecture-tension.md", "type": "product"},
+    {"path": "image-prompts/crewai-architecture-tension.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-190904.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-190904.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-190904.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/wiki/methodology/framework-architecture-tension-001.md", "claim": "体裁模板 A 结构定义（§4 张力解剖 ~2500 字 + §5 三角定位 ~1500 字）"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "Process 11 行、Flow 3572 行、两套控制流并存、LangGraph/OpenAI adapter"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "极简极端对照组：1814 行、CodeAgent、无多 Agent 编排层"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "状态机原生对照组：Pregel 执行引擎、显式 nodes/edges、原生 checkpointing"}
+  ],
+  "next_step": ""
+}

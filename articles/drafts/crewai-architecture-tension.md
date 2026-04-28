@@ -206,3 +206,103 @@ Flow 还有一个 Crew 层不具备的优势：单 LLM 调用精确编排。在 
 这意味着 CrewAI 既在重新发明 LangGraph 的控制流（Flow），又在通过 adapter 接入 LangGraph 的 Agent 运行时。这种"竞争 + 合作"的并存不是聪明的生态策略。当一个框架需要同时做"LangGraph 的替代品"和"LangGraph 的包装器"时，它传递的信息是混乱的：开发者该用 Flow 还是 LangGraph？CrewAI 的官方回答是"取决于你的场景"——但这个答案回避了更深层的问题：为什么一个框架内部需要同时存在两种对同一问题的解决方案？
 
 > **图 3 插入位置**：CrewAI Flow 的事件驱动网络可视化。画面中央是一个复杂的节点网络图，节点用几何形状表示（圆形 @start、方形 @listen、菱形 @router），边线用不同颜色标注条件类型（AND 用蓝色、OR 用绿色、标准用灰色）。网络图下方标注"3,572 行"。画面左侧是一个小型的 Crew 图标（角色面具），与网络图之间有一个双向箭头，箭头上写着"两套控制流"。详见 `image-prompts/crewai-architecture-tension.md` 图 3。
+
+## §4 张力解剖：为什么一个框架需要两套控制流？（~2,500 字）
+
+### §4.1 控制流分裂的代码级证据
+
+CrewAI 的两套控制流不是"文档层面的两种使用方式"，而是"代码层面的两个独立子系统"。
+
+第一套控制流是 Crew 层的执行模型。它的入口是 `Crew.kickoff()`，核心逻辑分布在 `crew.py` 的 2,298 行代码中 [ref: facts/crewai-001.md]。
+
+Crew 层按以下顺序执行：先根据 Process enum 决定 sequential 或 hierarchical 模式，然后按 Task 列表顺序或 manager agent 动态分配来驱动 Agent 执行。Agent 执行时调用 `CrewAgentExecutor`，这是一个基于 ReAct loop 的黑盒过程 [ref: facts/crewai-001.md]。
+
+编排发生在三个分散的位置：Task 的 context 依赖链声明数据流方向，Agent 的 delegation 工具实现动态任务分配，Process enum 决定宏观执行策略——但 Process 本身只有 11 行。
+
+第二套控制流是 Flow 层的执行模型。它的入口是 `Flow.kickoff()`，核心逻辑集中在 `flow/flow.py` 的 3,572 行代码中 [ref: facts/crewai-001.md]。
+
+Flow 层按以下顺序执行：先通过 `@start` 装饰器识别入口节点，然后通过事件总线监听 `@listen` 条件触发下游节点，通过 `@router` 实现条件分支。状态通过 `FlowPersistence` 接口持久化到 SQLite 或自定义后端 [ref: facts/crewai-001.md]。编排是显式的——开发者用装饰器声明节点之间的连接关系，框架不负责"理解"角色语义，只负责"执行"状态转换。
+
+两套控制流在代码层面完全独立。Crew 层的执行不调用 Flow 层的任何函数，Flow 层的执行也不依赖 Crew 层的编排逻辑。它们共享的唯一基础设施是 LLM 抽象（`llm.py`）和工具系统（`tools/`）——但即使在这两个共享层中，Crew 和 Flow 也有各自独立的调用路径。
+
+这种独立性带来了一个反直觉的事实：CrewAI 的包体积膨胀不是因为"一个子系统越来越复杂"，而是因为"两个功能域重叠的子系统被同时维护"。Flow 的 3,572 行代码中，条件路由（`@router`）、并行触发（`AND_CONDITION`/`OR_CONDITION`）、状态持久化（`FlowPersistence`）、可视化（`flow.visualize()`）——这些功能的每一项都已经在 LangGraph 中以更成熟的形态存在 [ref: facts/langgraph-001.md]。CrewAI 没有复用 LangGraph 的 Pregel 执行引擎，而是从零实现了一个功能域高度重叠但 API 风格不同的替代品 [ref: facts/crewai-001.md]。
+
+更具讽刺意味的是，CrewAI 内部恰恰包含一个 LangGraph adapter [ref: facts/crewai-001.md]。这个 adapter 可以把 LangGraph 的 ReAct agent 包装成 CrewAI 的 `BaseAgent`，让 LangGraph agent 参与 Crew 的角色编排。这意味着：当 LangGraph 的 Agent 要进入 CrewAI 生态时，它被当作一个"外来者"包装；当 CrewAI 需要状态机控制流时，它选择自己重新发明而不是复用 LangGraph。两套控制流的并存因此不仅是"内部冗余"问题，更是"生态策略混乱"的外显。
+
+### §4.2 开发者认知代价
+
+代码层面的分裂直接转化为开发者认知层面的负担。
+
+第一个负担是心智模型的切换成本。在 Crew 层，编排的核心隐喻是"团队协作"：你给 Agent 分配角色，定义 Task 的描述和验收标准，然后让 Process 决定执行顺序。你思考的问题是"这个任务应该由哪个角色来完成"和"任务之间的输出如何传递"。在 Flow 层，编排的核心隐喻是"流程引擎"：你定义节点函数，声明事件触发条件，管理状态对象的流转。你思考的问题是"这个节点的输出应该触发哪个下游节点"和"并行路径何时合并"。
+
+这两种隐喻不是同一抽象的不同表达，而是两个不兼容的概念框架。一个熟悉 Crew 层"角色驱动"思维的开发者，在切换到 Flow 层时需要完全抛弃"角色语义"的概念工具——Flow 的节点函数是纯 Python 函数，不接受 `role`/`goal`/`backstory`，也不产生 Task 式的结构化输出 [ref: facts/crewai-001.md]。
+
+反之，一个熟悉 Flow 层"事件驱动"思维的开发者，在切换到 Crew 层时需要接受"LLM 会即兴决定行为"的黑盒不确定性——Crew 层的 Agent 执行不是一个确定性的状态转换，而是一个可能调用多个工具、进行多轮推理的开放过程 [ref: facts/crewai-001.md]。
+
+第二个负担是错误处理模式的差异。在 Crew 层，错误主要发生在 Agent 执行阶段：LLM 生成无效的工具调用参数、Agent 陷入循环、delegation 工具引用不存在的 Agent 名称。这些错误的调试需要理解 ReAct loop 的内部状态——CrewAI 提供了 Telemetry 和事件总线来追踪执行过程 [ref: facts/crewai-001.md]，但调试信息分散在多个子系统中。在 Flow 层，错误主要发生在状态转换阶段：一个 listener 条件不满足导致流程卡住、一个 `@router` 返回了未定义的下一个节点、FlowPersistence 写入失败导致状态不一致。这些错误的调试需要理解事件总线的消息传递和状态机的执行顺序——与 Crew 层的调试方法完全不同。
+
+官方文档对"什么时候用 Crew，什么时候用 Flow"的回答是："Crew 处理需要角色协作的场景，Flow 处理需要精确控制流的场景" [ref: facts/crewai-001.md]。这个回答在概念上是正确的，但在实践中是模糊的。什么算"需要角色协作"？一个数据清洗流水线是否需要"数据分析师"角色？什么算"需要精确控制流"？一个客服对话系统是否需要条件分支和循环？当真实需求同时涉及两者——例如一个"研究团队"需要先并行收集数据（Flow 的并行能力），然后按角色分工分析（Crew 的角色编排）——开发者被鼓励在同一个项目中同时使用两套 API，但没有得到关于"如何安全地让两者交互"的明确指导。
+
+第三个负担是测试策略的分裂。Crew 层的测试本质上是 LLM 行为测试：你验证一个 Agent 在特定角色描述下是否生成预期的工具调用。这类测试具有不确定性——同一个输入在不同 temperature 或不同模型版本下可能产生不同输出。Flow 层的测试本质上是状态机测试：你验证一个节点在特定输入下是否触发正确的下游节点，一个 `@router` 在特定条件下是否返回预期的分支。这类测试可以是确定性的——节点函数是纯 Python 函数，不依赖 LLM 的"判断"。但当一个项目同时使用 Crew 和 Flow 时，测试策略被迫分裂：一部分测试接受不确定性，另一部分测试要求确定性，两者之间没有统一的验证框架。
+
+### §4.3 "平台化陷阱"的识别框架
+
+CrewAI 的两套控制流并存不是孤立的架构失误，而是一个可复用的"平台化陷阱"症状。当一个框架从"解决特定问题"滑向"覆盖所有场景"时，它的架构会呈现四个可识别的信号。
+
+**信号一：抽象层空心化。** 框架在纸面上拥有一层"策略抽象"，但该抽象的代码实现几乎为空，真正的复杂度被下放到相邻子系统。CrewAI 的 Process 层（11 行）是典型的空心化：它暗示"框架有完整的编排策略选择"，但 sequential/hierarchical 两种模式的实现复杂度分散在 Crew 执行逻辑和 Agent 工具层中。空心化的危害在于误导性——开发者看到四层抽象（Agent-Task-Crew-Process）会认为每一层都承担不可替代的职责，但实际上第四层是装饰性的。
+
+**信号二：补丁式子系统堆叠。** 当现有抽象无法覆盖新需求时，框架选择"新建一个子系统"而不是"增强现有抽象"。Flow 的引入不是对 Process 或 Crew 层的增强，而是一个平行架构的开启 [ref: facts/crewai-001.md]。
+
+补丁式堆叠的结果是：每个子系统都有自己的 API 风格、数据模型和错误处理模式，子系统之间通过 adapter 或共享基础设施弱耦合，而不是通过统一抽象强整合。CrewAI 的 LangGraph adapter 和 OpenAI Agents adapter [ref: facts/crewai-001.md] 也是补丁思维的延伸——与其在核心架构中内置互操作能力，不如为每个外部系统单独写一个包装器。
+
+**信号三：品牌叙事与代码现实的断裂。** 框架的宣传文案停留在早期版本的设计哲学上，而代码库已经历多次架构扩展。CrewAI 的 README 仍称 "lean, lightning-fast"，但代码量已从 2023 年的四个概念膨胀到 15+ 子系统和 519 个文件 [ref: facts/crewai-001.md]。这种断裂不是"营销部门的失误"，而是框架平台化过程中的结构性症状：早期设计哲学（精简、直觉性）建立了社区认知，后期功能扩展（A2A、MCP、Memory、RAG、Flows）需要维持这种认知以保留用户。宣传叙事因此成为框架演进的技术债务——它不能更新，因为更新意味着承认早期定位的失败。
+
+**信号四：功能域重叠与生态位混乱。** 框架内部存在多个对同一问题的解决方案，且这些解决方案不是层次关系而是竞争关系。CrewAI 既通过 Flow 提供状态机控制流，又通过 LangGraph adapter 接入 LangGraph 的状态机控制流 [ref: facts/crewai-001.md]。这不是"给用户更多选择"——真正的选择需要明确的决策边界。当框架无法说出"在什么条件下你应该用 A 而不是 B"时，重叠功能传递的信号是混乱的。
+
+这四个信号不只出现在 CrewAI 中。任何从"专用工具"向"通用平台"演进的开源框架都可能经历类似的张力。识别这些信号的目的不是给框架贴标签，而是在选型阶段做出更清醒的判断：当一个框架同时呈现以上两个或更多信号时，它的架构债务可能已经超出了"学习成本"的范畴，进入了"维护成本"的范畴。
+
+> **图 4 插入位置**：Process 11 行 vs Flow 3,572 行。上方是一个极小的代码窗口只显示 11 行 Process enum，下方是巨大的复杂流程图网络（@start/@listen/@router 节点，3,572 行）。两个区域之间有一个问号形状的空隙。详见 `image-prompts/crewai-architecture-tension.md` 图 4。
+
+## §5 三角定位：smolagents、CrewAI 与 LangGraph 的光谱（~1,500 字）
+
+### §5.1 三个极端
+
+将 CrewAI 放入行业光谱，需要两个对照极端：一个代表"极简"，一个代表"原生状态机"。smolagents 和 LangGraph 分别占据这两个位置。
+
+smolagents 是"极简"极端。它的核心代码集中在 `agents.py` 的 1,814 行中 [ref: facts/smolagents-001.md]。
+
+smolagents 没有多 Agent 编排层，没有内置持久化，没有人机交互机制。它的设计哲学是"一个 Agent 就是一个 ReAct loop"——你给它工具列表和模型接口，它返回执行结果。这种极简不是功能缺失，而是有意为之的边界划定：smolagents 不解决"多 Agent 协作"问题，它只解决"单个 Agent 如何高效调用工具"问题。CodeAgent 将 action 写成 Python 代码片段而非 JSON blob，这是它在工具调用效率上的独特创新 [ref: facts/smolagents-001.md]。
+
+LangGraph 是"原生状态机"极端。它的底层执行引擎 Pregel 直接引用 Google 的图计算框架 [ref: facts/langgraph-001.md]。
+
+LangGraph 要求开发者显式定义 nodes、edges 和 state channels。每一个状态转换都是可见的、可追踪的、可持久化的——LangGraph 的原生 checkpointing 机制可以在任意步骤后保存状态快照，失败时从快照恢复 [ref: facts/langgraph-001.md]。它的设计哲学是"图即控制流"：你不描述"角色"或"任务"，你描述"状态如何在节点之间流转"。
+
+CrewAI 位于这两个极端之间的"混合地带"。它试图同时提供 smolagents 的"直觉性"（role/goal/backstory 降低认知门槛）和 LangGraph 的"控制流能力"（Flow 的 @start/@listen/@router）。但这种"两者都要"的策略带来了一个结构性代价：CrewAI 没有明确的边界。
+
+以下对比表说明了三者在关键维度上的差异：
+
+| 维度 | smolagents | CrewAI | LangGraph |
+|------|-----------|--------|-----------|
+| Stars | 26,939 | 50,114 | 30,593 |
+| 核心代码量 | ~1,814 行 | 519 文件 / 8.4MB | Pregel + graph 多模块，数万行 [ref: facts/smolagents-001.md] [ref: facts/crewai-001.md] [ref: facts/langgraph-001.md] |
+| 设计哲学 | 极简、代码即 action | 角色语义驱动 + 事件驱动混合 | 显式状态机、图即控制流 |
+| Agent 定义 | 工具列表 + ReAct loop | role/goal/backstory 三元组 | 任意节点函数 |
+| 控制流抽象 | 无（黑盒 loop） | Process(enum) + Flow(装饰器) | 显式 nodes/edges 图 |
+| 持久化 | 无内置 | State/Checkpoint + Memory | 原生 checkpointing |
+| 商业闭环 | 无（HF 生态） | CrewAI Cloud / AMP Suite | LangSmith [ref: facts/crewai-001.md] [ref: facts/langgraph-001.md] |
+
+这个表格揭示了一个有趣的模式：CrewAI 的 star 数（50,114）超过 smolagents（26,939）和 LangGraph（30,593）的总和 [ref: facts/crewai-001.md] [ref: facts/smolagents-001.md] [ref: facts/langgraph-001.md]。但 star 数反映的是社区传播的广度，不是架构质量的深度。CrewAI 的 role/goal/backstory API 具有强大的传播力——它让非专业开发者也能在 20 行代码内搭建一个"多 Agent 团队"的 demo。smolagents 的 tool-list API 和 LangGraph 的 graph-definition API 都不具备这种叙事传播优势。
+
+### §5.2 中间位置的代价
+
+CrewAI 选择"中间道路"不是一个偶然的设计决策，而是对市场需求的产品回应。2023 到 2024 年，Agent 框架的用户群体可以粗分为两类：一类是被 LangChain 的复杂度劝退、寻求更直觉化 API 的开发者；另一类是被纯 ReAct loop 的不可控性困扰、需要显式编排能力的工程师。CrewAI 试图同时服务这两类用户——用 Crew 层吸引第一类用户，用 Flow 层挽留第二类用户。
+
+但这个策略的代价是边界模糊。一个使用 smolagents 的开发者清楚自己放弃了什么：没有多 Agent 编排，没有内置持久化，需要自行处理复杂控制流 [ref: facts/smolagents-001.md]。这种放弃是明确的、可预期的。一个使用 LangGraph 的开发者同样清楚自己获得了什么：完整的状态机控制、细粒度的执行追踪、原生的故障恢复 [ref: facts/langgraph-001.md]。这种获得也是明确的、可验证的。
+
+CrewAI 的用户面临的是第三种情境：框架提供了两种不完全兼容的解决方案，但没有给出清晰的决策边界。当一个问题既可以用 Crew 层解决也可以用 Flow 层解决时，开发者被迫自己做架构决策——而这个决策本应由框架的设计哲学来回答。smolagents 的回答是"我们不解决这个，你自己写代码"。LangGraph 的回答是"用图来解决一切"。CrewAI 的回答是"取决于你的场景"——这个回答把架构责任推回给了开发者。
+
+更深层的问题是：CrewAI 的中间位置是否可持续？当 smolagents 在未来版本引入多 Agent 能力，或当 LangGraph 推出更直觉化的角色抽象模板时，CrewAI 的差异化优势会被挤压。它的核心资产是社区规模（50K+ star）和品牌认知（"最 intuitive 的多 Agent 框架"），但社区规模可以被新进入者稀释，品牌认知可以被宣传叙事更新。CrewAI 需要回答一个根本问题：如果角色编排和状态机控制流必须拆开，那它们为什么要在同一个框架里？
+
+这个问题 CrewAI 自己可能也无法回答。因为一旦承认"角色编排和状态机控制流是两种不同的工具，应该由不同的框架提供"，就等于承认当前的双架构策略是过渡性的——而过渡性架构是最难维护的，因为它需要同时保持两套系统的向后兼容性。
+
+> **图 5 插入位置**：光谱三角定位图。等边三角形的三个顶点：左下角 smolagents（极简螺丝刀图标）、右上角 LangGraph（精确状态机图）、顶部中央 CrewAI（分裂的双面面具——左半脸戏剧面具，右半脸电路板流程图）。CrewAI 面具下方裂缝中露出 adapter 插头形状。详见 `image-prompts/crewai-architecture-tension.md` 图 5。
