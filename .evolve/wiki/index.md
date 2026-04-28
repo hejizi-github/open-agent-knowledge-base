@@ -114,3 +114,4 @@ most useful expert models, patterns, anti-patterns, rubrics, procedures, and sou
 - [Offline Project Source Pack 8b60e34df789](../raw/source-pack/project-context-8b60e34df789.md)
 - [Source: 20260428-195627](sources/20260428-195627.md)
 - [Promotion: 20260428-195627](promotions/20260428-195627.md)
+- [Offline Project Source Pack 8b60e34df789](../raw/source-pack/project-context-8b60e34df789.md)

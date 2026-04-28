@@ -1,0 +1,30 @@
+{
+  "session": "20260428-201014",
+  "selected_step": "D",
+  "why_this_step": "方法论层已覆盖横向概念深潜体裁（agent-memory-misconceptions-001.md），事实层已齐备 8 个框架 facts 卡（含 Mem0/Letta 源码级分析），脑内基线已归档（20260428-194415），4 个反共识点已识别。前置条件全部满足，可进入 Step D 撰写 §0-§1 草稿。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": ".evolve/sessions/20260428-201014.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-201014.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-201014.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"},
+    {"path": "articles/drafts/agent-memory-misconceptions-sec0.md", "type": "product"},
+    {"path": "articles/drafts/agent-memory-misconceptions-sec1.md", "type": "product"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/wiki/methodology/agent-memory-misconceptions-001.md", "claim": "横向概念深潜体裁方法论、结构模板、4 个反共识点已定义"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/mem0-001.md", "claim": "Mem0 源码级 facts：7 阶段 ADD-only pipeline、多信号检索、benchmark 数据（LoCoMo 91.6, LongMemEval 93.4）、21 个 memory 相关 issues"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/letta-001.md", "claim": "Letta 源码级 facts：Block 抽象（上下文窗口保留区）、OS 式记忆四级分层（Core/Recall/Archival/Summary）、Agent 显式工具编辑记忆"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "LangGraph checkpoint 设计目标是 durable execution（执行恢复），与 learnable memory 有语义鸿沟"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "CrewAI memory/knowledge/rag 三子系统底层均依赖向量存储和 embedding，API 边界模糊"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/autogen-001.md", "claim": "AutoGen 支持 ListMemory/RedisMemory/Mem0 多后端，但无统一记忆抽象"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/openhands-001.md", "claim": "OpenHands EventStream 存储事件历史，非结构化记忆"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "smolagents 无内置持久化记忆，依赖外部管理"}
+  ],
+  "next_step": "Step D 续：撰写 §2 误区一（上下文窗口崇拜）+ §3 误区二（RAG 伪装记忆）草稿"
+}
