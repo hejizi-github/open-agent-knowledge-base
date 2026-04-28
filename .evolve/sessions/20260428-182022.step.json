@@ -1,0 +1,25 @@
+{
+  "session": "20260428-182022",
+  "selected_step": "C",
+  "why_this_step": "上轮 Step E 评审标记两项未尽事实：(1) OpenHands Enterprise License 期限来源未在 facts 卡中直接验证；(2) CrewAI Python 版本约束缺失。本轮专门执行 Step C 补齐这两项 ground truth，更新对应 wiki facts 卡。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": false,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": ".evolve/raw/openhands-enterprise-license.raw", "type": "raw"},
+    {"path": ".evolve/wiki/facts/openhands-001.md", "type": "wiki"},
+    {"path": ".evolve/wiki/facts/crewai-001.md", "type": "wiki"},
+    {"path": ".evolve/sessions/20260428-182022.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-182022.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-182022.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/raw/openhands-enterprise-license.raw", "claim": "OpenHands enterprise/ 目录采用 PolyForm Free Trial License 1.0.0，核心条款为 Use of the software for more than 30 days per calendar year is not allowed without a commercial license"},
+    {"type": "raw", "ref": ".evolve/raw/crewai-pyproject-toml.raw", "claim": "CrewAI requires-python = \">=3.10, <3.14\", 来自 lib/crewai/pyproject.toml"}
+  ],
+  "next_step": "建议下一轮跑 Step A/C：启动第三轮长文选题调研，可选方向：(1) CrewAI 角色编排 vs Flow 事件驱动的架构张力；(2) 六极框架全景对比长文（smolagents / AutoGen / LangGraph / CrewAI / OpenHands / MAF）"
+}

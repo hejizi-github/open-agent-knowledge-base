@@ -19,7 +19,7 @@ independent_sources: 3
 | 现名 | OpenHands | GitHub org: OpenHands [ref: raw:openhands-repo-api.json] |
 | 定位 | AI-Driven Development / Automated AI Software Engineer | GitHub description [ref: raw:openhands-repo-api.json] |
 | 主语言 | Python（6.08 MB），TypeScript（3.54 MB） | GitHub languages API [ref: raw:openhands-languages.json] |
-| License | MIT（核心代码），enterprise/ 目录 source-available | README [ref: raw:openhands-readme.md] |
+| License | MIT（核心代码），enterprise/ 目录 PolyForm Free Trial License 1.0.0 | README + enterprise/LICENSE [ref: raw:openhands-readme.md] [ref: raw:openhands-enterprise-license.raw] |
 | Stars | 72,234 | GitHub repo API [ref: raw:openhands-repo-api.json] |
 | Forks | 9,122 | GitHub repo API [ref: raw:openhands-repo-api.json] |
 | Open Issues | 413 | GitHub repo API [ref: raw:openhands-repo-api.json] |
@@ -154,7 +154,7 @@ skills/                    # Agent 技能定义
 
 ## 7. 已知限制与风险
 
-- **License 混合**：核心 MIT，但 enterprise/ 目录 source-available，商业使用需注意边界
+- **License 混合**：核心 MIT，但 enterprise/ 目录采用 PolyForm Free Trial License 1.0.0，允许全年累计免费试用 30 天，超过 30 天/日历年需购买商业许可 [ref: raw:openhands-enterprise-license.raw]
 - **Python 版本要求较新**：>=3.12 限制了一些旧环境部署
 - **CLI 已拆分**：1.0.0 后 CLI 不在主仓库，需单独安装 OpenHands-CLI
 - **Issue 数量**：413 open issues，维护负担较大
@@ -171,4 +171,5 @@ skills/                    # Agent 技能定义
 - raw:.evolve/raw/openhands-readme.md — Project README (https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md)
 - raw:.evolve/raw/openhands-core-readme.md — Core module README (https://raw.githubusercontent.com/OpenHands/OpenHands/main/openhands/README.md)
 - raw:.evolve/raw/openhands-pyproject.toml — Dependency and build config (https://raw.githubusercontent.com/OpenHands/OpenHands/main/pyproject.toml)
+- raw:.evolve/raw/openhands-enterprise-license.raw — Enterprise 目录 License 全文 (https://raw.githubusercontent.com/OpenHands/OpenHands/main/enterprise/LICENSE)
 - url:https://github.com/OpenHands/software-agent-sdk — SDK 独立仓库

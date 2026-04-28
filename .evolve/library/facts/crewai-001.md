@@ -21,6 +21,7 @@ type: project
 | Open Issues | 415 | GitHub API |
 | 最新 Release | 1.14.3 (2026-04-24) | GitHub API |
 | 前序 Release | 1.14.2 (2026-04-17), 1.14.3a1-3 (2026-04-20-22) | GitHub API |
+| Python 版本 | >=3.10, <3.14 | pyproject.toml [ref: raw:crewai-pyproject-toml.raw] |
 
 **Evidence Sources**:
 - type=local-command, ref=`curl -sL https://api.github.com/repos/crewAIInc/crewAI`, claim=仓库基础元数据
@@ -189,6 +190,7 @@ CrewAI 的功能广度远超一个"role-based agent framework"：
 
 | 依赖 | 版本约束 | 用途 |
 |------|----------|------|
+| Python | >=3.10, <3.14 | 运行时版本要求 [ref: raw:crewai-pyproject-toml.raw] |
 | pydantic | >=2.11.9,<2.13 | 全框架数据模型 |
 | openai | >=2.30.0,<3 | OpenAI API 客户端 |
 | instructor | >=1.3.3 | 结构化输出（function calling） |
