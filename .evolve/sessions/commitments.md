@@ -1,3 +1,3 @@
-- 写 step.json evidence ref 时只写纯文件路径，不使用 `raw:` 前缀或其他格式修饰
-- 单节 drafting 完成后立即检查字数，超出目标 20% 以上时精简而非留到 lint 阶段
-- 遇到同一长段落需多次引用同一来源时，主动拆分为多个短段落，避免触发 duplicate ref lint 误报
+- 写 step.json evidence ref 前先用 Bash ls 或 Glob 确认文件实际路径，不凭记忆构造相对路径
+- step.json 写完后立即运行 JSON 语法验证 + evidence ref 存在性验证，不等到评审阶段
+- `.evolve/` 等仓库结构常量写入启动 checklist，不凭记忆拼接路径

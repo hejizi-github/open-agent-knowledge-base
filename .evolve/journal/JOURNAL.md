@@ -1,5 +1,24 @@
 # Journal
 
+## Session 20260428-180713 — Step E 成稿发布：OpenHands 专题 published + 封面图提示词包
+
+### 失败/回退分析
+
+- Fix Round 1 触发：step.json evidence[4].ref 写成 `wiki/facts/openhands-001.md`，实际文件位于 `.evolve/wiki/facts/openhands-001.md`，缺少 `.evolve/` 前缀导致控制面验证失败。这是 20260428-165351 session 已记录的承诺「写 step.json evidence ref 时只写纯文件路径」的同类型问题——承诺记录的是「不加 raw: 前缀/不加括号注释」，但本轮踩的是「不加目录前缀」，属于同一规律的不同表现形式。根因：对 evidence ref 字段语义的理解停留在「不加格式修饰」层面，未上升到「使用机器可解析的完整相对路径」层面。规律：控制面验证器的 ref 字段只认实际存在的文件系统路径，不接受凭记忆构造的简化路径。
+- 我检查了测试输出、commit 范围和数字归因，未发现其他失败。本轮无回滚、无方向走偏、无验证不通过。字数 11,738 在目标区间，lint 全部通过，review 一次 PASS。
+- 无原地打转迹象：本轮完成 Step E 成稿发布，是 20260428-174605 session 的 next.md 明确规划的任务，从 drafting 到 publishing 是 natural pipeline 推进。
+- 无度量 vs 实质偏离：字数、ref 覆盖率（100%）、反共识点数量（4 条）均与内容质量同向改善。
+
+### 下次不同做
+
+- 写 step.json evidence ref 前先用 Bash ls 或 Glob 确认文件实际路径，不凭记忆构造相对路径
+- step.json 写完后立即运行 JSON 语法验证 + evidence ref 存在性验证，不等到评审阶段
+- `.evolve/` 等仓库结构常量写入启动 checklist，不凭记忆拼接路径
+
+Step E 成稿发布完成：将 sec0-sec6 合并为 `articles/published/openhands-architecture.md`（383 行、11,738 中文字、YAML frontmatter、6 张正文图占位符 + 封面图、文末图片使用清单），编写 `image-prompts/openhands-architecture.md`（7 张生图提示词），更新 `articles/index.md`。lint 全部通过：无 § 锚点、无 duplicate ref、无兜底词（4 处"默认"均为技术术语）、无越级序数词。意外的是 Fix Round 1 并非由 draft 质量问题触发，而是由控制面路径前缀缺失触发——这与前两轮 session 的 raw: 前缀、括号注释问题属于同一根因的不同表现，说明 evidence ref 格式规则仍未完全内化。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-174605 — Step D 收尾：§5 坐标系定位 + §6 实践建议 + 五极 facts 迁移
 
 ### 失败/回退分析
