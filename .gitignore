@@ -1,0 +1,10 @@
+.evolve/sessions/*.log
+.evolve/sessions/*.raw.jsonl
+.evolve/sessions/*.state.json
+.evolve/sessions/.prompt_*.txt
+.evolve/sessions/.next_action
+.evolve/state/
+.evolve/memory/.test_count_cache_*
+.evolve/memory/session_metrics.jsonl
+.evolve/inbox/.collected
+.evolve/session.lock/

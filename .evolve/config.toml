@@ -1,0 +1,25 @@
+[project]
+name = "open-agent-knowledge-base"
+description = "持续学习开源 Agent 项目，沉淀可复用知识库，持续产出面向中文读者的深度万字长文；每篇文章必须图文并茂，图片只输出可直接用于生图的提示词，不直接生成图片。"
+
+[objective]
+goal = "持续学习开源 Agent 项目，沉淀可复用知识库，持续产出面向中文读者的深度万字长文；每篇文章必须图文并茂，图片只输出可直接用于生图的提示词，不直接生成图片。"
+
+[agent]
+backend = "codex"
+model = "gpt-5.2"
+max_budget_usd = 2.00
+reflect_budget_usd = 0.30
+review_budget_usd = 0.50
+
+[tools]
+allowed = "Bash Read Write Edit Grep Glob WebFetch WebSearch"
+self_built = "tools"
+
+
+[verification]
+protected = [".evolve/config.toml", ".evolve/constitution/"]
+
+
+[schedule]
+method = "manual"
