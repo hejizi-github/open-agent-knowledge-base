@@ -1,1 +1,1 @@
-建议下一轮跑 Step A：四篇系列文章全部 published，开启第五个研究方向。候选：1）Agent 记忆系统的常见误区（语义缓存 vs 可审计知识库）；2）企业 Agent 平台的工程化路线（Dify / Semantic Kernel / Haystack）；3）框架之外：LLM Agent 的评估标准与 benchmark 陷阱。优先检查 wiki 缺口再决定具体选题。
+建议下一轮跑 Step C：补齐 Mem0 和 Letta 的源码级 facts 卡（核心模块目录结构、代码量、API 设计细节），获取 MemGPT 论文核心章节（操作系统式记忆分层理论），搜索各框架记忆相关 GitHub issues 作为用户概念混淆的实证。前置条件：methodology_ready=true（本轮已产出形态识别方法论），facts_ready=false（Mem0/Letta 源码级 facts 缺失）。

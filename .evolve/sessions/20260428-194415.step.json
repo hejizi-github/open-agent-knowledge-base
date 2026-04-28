@@ -1,0 +1,36 @@
+{
+  "session": "20260428-194415",
+  "selected_step": "A",
+  "why_this_step": "四篇系列文章全部 published，需要开启第五研究方向。Agent 记忆系统是 Target Essay Series 明确规划的第四话题。当前已有 6 个框架 facts 卡含记忆相关信息，但缺少 Mem0/Letta 的源码级分析。Step A 先锁定方向和结构，下一轮 Step C 再补齐关键 facts。",
+  "preconditions": {
+    "methodology_ready": false,
+    "facts_ready": false,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": ".evolve/wiki/methodology/_form.md", "type": "wiki"},
+    {"path": ".evolve/wiki/brain_baseline/20260428-194415.md", "type": "wiki"},
+    {"path": ".evolve/wiki/methodology/agent-memory-misconceptions-001.md", "type": "wiki"},
+    {"path": ".evolve/raw/mem0-repo-api.json", "type": "raw"},
+    {"path": ".evolve/raw/mem0-readme.md", "type": "raw"},
+    {"path": ".evolve/raw/letta-repo-api.json", "type": "raw"},
+    {"path": ".evolve/raw/letta-readme.md", "type": "raw"},
+    {"path": ".evolve/sessions/20260428-194415.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-194415.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-194415.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "local-command", "ref": "curl -sL https://api.github.com/repos/mem0ai/mem0", "claim": "Mem0 54,291 stars, 2023-06-20 创建, Apache-2.0, 描述为 Universal memory layer for AI Agents"},
+    {"type": "local-command", "ref": "curl -sL https://api.github.com/repos/letta-ai/letta", "claim": "Letta 22,348 stars, 2023-10-11 创建, Apache-2.0, 描述为 platform for building stateful agents with advanced memory"},
+    {"type": "raw", "ref": ".evolve/raw/mem0-readme.md", "claim": "Mem0 采用 Multi-Level Memory（User/Session/Agent state），新算法为 single-pass ADD-only extraction，benchmark: LoCoMo 91.6, LongMemEval 93.4"},
+    {"type": "raw", "ref": ".evolve/raw/letta-readme.md", "claim": "Letta 核心抽象为 memory_blocks（labeled structured memory，如 human/persona），支持 skills 和 subagents"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "LangGraph 区分 checkpoint（执行恢复）、short-term memory（state channels）、long-term memory（langgraph-checkpoint 子包）"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "CrewAI 将 memory、knowledge、rag 分为三个独立子系统，底层均依赖向量存储，API 边界模糊"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/autogen-001.md", "claim": "AutoGen 支持 ListMemory、RedisMemory、Mem0、ChromaDB embeddings 多种后端"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "smolagents 无内置持久化，ReAct loop 中的 memory 仅为单轮上下文"},
+    {"type": "raw", "ref": ".evolve/raw/web/anthropic-building-effective-agents-20241219.md", "claim": "Anthropic 将 memory 列为 augmented LLM 的三大增强之一，但未深入类型学"}
+  ],
+  "next_step": "Step C：补齐 Mem0 和 Letta 的源码级 facts 卡（核心模块代码量、API 设计细节），获取 MemGPT 论文核心章节，搜索各框架记忆相关 GitHub issues 作为用户困惑的实证。"
+}
