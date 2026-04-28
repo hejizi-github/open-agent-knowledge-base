@@ -1,3 +1,3 @@
-- 写 step.json 前先在 task_framing.md 列全部产物路径（含 index/manifest 类辅助文件），避免写完 step.json 再 Edit 补 outputs
-- Step E 收尾时一次性把 frontmatter、占位符迁移、index 更新作为 atomic batch 规划，不要做完主文件才想起辅助文件
-- 在添加图片占位符前先 Grep 当前文件中所有 `> \*\*图 N` 位置，确认旧位置和新位置一次性给出 Edit 列表，避免逐个发现逐个改
+- 写 step.json evidence 时，每条 ref 必须是已落盘的本地文件路径（type=raw 配 .evolve/raw/<file>，type=url 配 http(s) 链接，type=local-command 配可复跑命令字符串），不要混用
+- fix round 修复数字（519→518、8.4MB→8.0MB）时，先 grep 全文出现位置再批量 Edit，避免只改首处遗漏「结论」「光谱三角表」「已知限制」等下游引用段落
+- 调研类 Step C 在写 facts 之前，先用 curl 把所有 GitHub API 响应（repo/releases/tree/languages/contents）保存到 .evolve/raw/ 再开始引用，绝不在 facts 里写未落盘的命令字符串作 ref
