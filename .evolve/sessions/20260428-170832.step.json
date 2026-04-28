@@ -1,0 +1,31 @@
+{
+  "session": "20260428-170832",
+  "selected_step": "D",
+  "why_this_step": "前置条件全部满足：methodology_ready=true（续篇形态方法论+意图锚定），facts_ready=true（openhands-001 事实卡+10+ raw 文件已补齐），brain_baseline_ready=true（sequel-essay-form-001 含脑内基线 vs 研究 diff），source_inbox_ready=true（raw/source-pack 含 17 个 source pack + 2 个 web raw）。Orchestrator Directive 明确要求本轮必须产出用户产物变化而非仅更新控制面/经验库。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/openhands-architecture-outline.md", "type": "product"},
+    {"path": "articles/drafts/openhands-architecture-sec0.md", "type": "product"},
+    {"path": "articles/drafts/openhands-architecture-sec1.md", "type": "product"},
+    {"path": "articles/drafts/openhands-architecture-sec2.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-170832.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-170832.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-170832.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/raw/openhands-repo-api.json", "claim": "OpenHands GitHub star 72234，fork 9122，创建于 2024-03-13"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-readme.md", "claim": "五层产品矩阵：SDK / CLI / GUI / Cloud / Enterprise"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-core-readme.md", "claim": "EventStream 作为系统通信 backbone，Agent-Controller-State-Runtime 控制流"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-releases-api.json", "claim": "1.0.0（2025-12-16）引入 software-agent-sdk 重大重构，1.5.0 引入 Planning Agent"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-agents.md", "claim": "pre-commit、pytest、vitest、Mypy、Ruff 完整工具链"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/openhands-001.md", "claim": "OpenHands 事实卡覆盖项目概览、版本、产品矩阵、核心架构、技术栈、差异化特征"},
+    {"type": "raw", "ref": ".evolve/wiki/methodology/sequel-essay-form-001.md", "claim": "续篇方法论确认采用结构 C 专题深潜，选题 OpenHands 软件工程 Agent 架构解剖"}
+  ],
+  "next_step": "建议下一轮跑 Step D 续：撰写 §3 EventStream 架构解剖 + §4 Runtime-Sandbox 草稿"
+}
