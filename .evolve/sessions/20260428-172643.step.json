@@ -1,0 +1,25 @@
+{
+  "session": "20260428-172643",
+  "selected_step": "D",
+  "why_this_step": "上轮已产出 outline + sec0-sec2，facts/methodology 齐备，评审建议本轮写 §3 EventStream + §4 Runtime-Sandbox。前置条件满足，无需再补 research。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/openhands-architecture-sec3.md", "type": "product"},
+    {"path": "articles/drafts/openhands-architecture-sec4.md", "type": "product"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/raw/openhands-core-readme.md", "claim": "EventStream 是 central hub for Events，所有组件通过 pub/sub 通信；控制流伪代码与实际消息传递实现的关系"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-readme.md", "claim": "五层产品矩阵描述、SWE-bench 77.6 分数、Runtime local 模式支持"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-agents.md", "claim": "本地运行配置 RUNTIME=local、sandbox 相关故障排除说明"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-releases-api.json", "claim": "1.3.0 引入 host networking mode、1.0.0 引入 software-agent-sdk"},
+    {"type": "url", "ref": "https://github.com/OpenHands/software-agent-sdk", "claim": "SDK 独立仓库 678 stars"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/openhands-001.md", "claim": "OpenHands 架构类职责、版本演进、技术栈选型、差异化特征"},
+    {"type": "raw", "ref": ".evolve/wiki/methodology/sequel-essay-form-001.md", "claim": "续篇结构 C 专题深潜方法论、新维度切入策略、对比表设计规范"}
+  ],
+  "next_step": "建议下一轮跑 Step D 续：撰写 §5 坐标系定位 + §6 实践建议，完成全文草稿"
+}

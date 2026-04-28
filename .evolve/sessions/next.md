@@ -1,1 +1,1 @@
-建议下一轮跑 Step D 续：撰写 §3 EventStream 架构解剖 + §4 Runtime-Sandbox 草稿。前置条件已满足（outline + sec0-sec2 已就绪，facts/methodology 齐备），可直接进入架构核心章节的深度撰写。若预算允许，可同步开始 image-prompts/openhands-architecture.md 的图 1-3 提示词编写。
+建议下一轮跑 Step D 续：撰写 §5 坐标系定位（OpenHands 在五维+代码执行深度坐标系中的位置）+ §6 实践建议（决策树 + 适用/不适用场景）。sec0-sec4 已就绪，全文草稿进入收尾阶段。若预算允许，可同步开始 image-prompts/openhands-architecture.md 的图 1-6 提示词编写。
