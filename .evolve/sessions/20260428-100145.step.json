@@ -20,8 +20,8 @@
   "evidence": [
     {"type": "url", "ref": "https://www.anthropic.com/research/building-effective-agents", "claim": "Anthropic 'Building Effective Agents' is a top practitioner sample for agent architecture writing; published Dec 19, 2024; defines workflows vs agents and 5 workflow patterns."},
     {"type": "url", "ref": "https://blog.langchain.dev/what-is-an-agent/", "claim": "LangChain 'What is an AI agent?' by Harrison Chase is a top practitioner sample for agent definition writing; published Jun 28, 2024; introduces agentic spectrum concept."},
-    {"type": "local-command", "ref": "curl -sL 'https://www.anthropic.com/research/building-effective-agents' | pandoc -f html -t plain > .evolve/raw/web/anthropic-building-effective-agents-20241219.txt", "claim": "Anthropic article content was successfully fetched and saved on 2026-04-28."},
-    {"type": "local-command", "ref": "curl -sL 'https://blog.langchain.dev/what-is-an-agent/' | pandoc -f html -t plain > .evolve/raw/web/langchain-what-is-an-agent-20240628.txt", "claim": "LangChain article content was successfully fetched and saved on 2026-04-28."}
+    {"type": "local-command", "ref": "curl -sL 'https://www.anthropic.com/research/building-effective-agents' | pandoc -f html -t plain > .evolve/raw/web/anthropic-building-effective-agents-20241219.md", "claim": "Anthropic article content was successfully fetched and saved on 2026-04-28."},
+    {"type": "local-command", "ref": "curl -sL 'https://blog.langchain.dev/what-is-an-agent/' | pandoc -f html -t plain > .evolve/raw/web/langchain-what-is-an-agent-20240628.md", "claim": "LangChain article content was successfully fetched and saved on 2026-04-28."}
   ],
   "next_step": "Step B: Methodology learning. Reverse-engineer the 2-3 top samples (Anthropic, LangChain, and optionally a Chinese deep-dive source) to extract reusable writing methodology: structure templates, argument flow patterns, evidence density standards, and anti-listicle techniques. Archive brain baseline and diff against research findings."
 }
