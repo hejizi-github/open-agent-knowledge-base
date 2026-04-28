@@ -1,0 +1,26 @@
+{
+  "session": "20260428-132353",
+  "selected_step": "D",
+  "why_this_step": "上轮已产出完整大纲+图片提示词包+inheritance-breakdown-matrix方法论。本轮按评审建议优先扩写§3（~3,500字）和§6（~2,800字）两个核心论证段。方法论库和事实库已充分覆盖所需断言。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": false
+  },
+  "outputs": [
+    {"path": ".evolve/sessions/20260428-132353.task_framing.md", "type": "review-control"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec3.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec6.md", "type": "product"}
+  ],
+  "evidence": [
+    {"type": "local-command", "ref": ".evolve/library/facts/smolagents-001.md §2 §安全与执行策略", "claim": "smolagents CodeAgent ReAct loop 完全封装在 agents.py，开发者无法干预 loop 每一步"},
+    {"type": "local-command", "ref": ".evolve/library/facts/crewai-001.md §Process 抽象的现实", "claim": "Process enum 仅11行2个值，真正编排分散在 AgentTools/Flow/Task依赖三处"},
+    {"type": "local-command", "ref": ".evolve/library/facts/crewai-001.md §两种执行模式", "claim": "Flow框架3,572行，事件驱动路由，与Crew层Process形成分布式控制流"},
+    {"type": "local-command", "ref": ".evolve/library/facts/autogen-001.md §4.1 §4.2", "claim": "AutoGen Core API基于Actor模型异步消息传递，AgentChat提供RoundRobin/Selector/GraphFlow/MagenticOne四种Team模式"},
+    {"type": "local-command", "ref": ".evolve/library/facts/maf-001.md §4.1 §4.3 §4.4 §4.5", "claim": "MAF采用Tier 0/1/2扁平导入，提供Sequential/Concurrent/Handoff/GroupChat/Magentic五种Builder，原生Graph Workflow+checkpoint+time-travel，DurableTask持久化"},
+    {"type": "local-command", "ref": ".evolve/library/facts/maf-001.md §9", "claim": "MAF与AutoGen存在5处继承+8处断裂，组织背景从研究院变为产品团队"},
+    {"type": "local-command", "ref": ".evolve/library/methodology/inheritance-breakdown-matrix.md", "claim": "继承/断裂矩阵方法论提供结构化分析继任者框架与前身框架关系的框架"}
+  ],
+  "next_step": "建议下一轮跑 Step D 续写：扩写 §4（角色语义深度，~2,500字）和 §5（生态锁定强度，~2,200字），或 §8（设计取舍与失败模式，~2,000字）"
+}
