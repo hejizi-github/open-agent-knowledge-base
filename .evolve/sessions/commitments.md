@@ -1,3 +1,3 @@
-- drafting 前精确确认单节字数目标，正文超出目标 20% 以上时主动精简，不依赖 lint 阶段修正
-- Write 任何已存在文件（包括 next.md、step.json、wiki_update.md）前，先 Read 确认当前内容，不因「上轮读过」「逻辑上刚创建」或「控制面文件」而省略
-- Bash/Python 验证脚本写成独立脚本文件或 heredoc 实现，不走 shell eval 避免引号转义失败
+- 将「Write 前 Read」规则写入 startup-checklist.md 作为强制检查项，session 启动时逐条打钩，不凭记忆判断「上轮读过」
+- 运行 lint 前先用 `grep -n "通常\|一般来说\|一般\|大概\|应该\|显然\|众所周知\|大家都知道"` 确认项目定义的兜底词列表，区分工具扫描词与项目定义词
+- Step E 类纯机械性任务优先用 Python/Bash 脚本批量处理，单 session 交互式 Edit 超过 10 次时中断并转脚本

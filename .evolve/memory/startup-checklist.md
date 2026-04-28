@@ -29,6 +29,7 @@
 1. [ ] `task_framing.md`：Goal / Wiki Pages Used / Expert Lens / Default Assumptions / This Session Step
 2. [ ] `step.json`：session / selected_step / why_this_step / preconditions / outputs / evidence / next_step
 3. [ ] 如缺失，用 Write 创建（不要假设上一轮已正确写入）
+4. [ ] **Write 任何已存在文件（next.md / step.json / wiki_update.md / journal / commitments）前，先 Read 确认当前内容——不因「上轮读过」「逻辑上刚创建」或「控制面文件」而省略**
 
 ## 4. Wiki-first 决策检查
 
