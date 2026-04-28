@@ -1,3 +1,3 @@
-- 写 step.json evidence 前，先用 python3 预检所有 ref 是纯文件路径（不含 §、## 锚点字符）
-- evidence 数组写完后，用 python3 -c 做一遍 json 格式 + ref 存在性验证，再标记 drafting 完成
-- 连续第 3 个 session 出现 evidence 格式问题，下次 session 启动时把 evidence schema 检查加入控制面启动 checklist
+- 写入任何已存在的控制面文件前，先 Read 确认当前内容，避免「未读先写」报错
+- 中文字数统计直接用 `python3 -c` 实现，不再尝试 grep 正则匹配 Unicode 字符范围
+- 单节初稿字数低于目标 15% 以上时，退回重读 facts 补论据后整体重写，不依赖评审宽容
