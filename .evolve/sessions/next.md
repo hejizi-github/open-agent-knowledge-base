@@ -1,1 +1,1 @@
-建议下一轮跑 Step E：全文 §0-§6 已完成，lint 全绿，image-prompts 齐备（6 张插图 + 1 张封面）。进入发布流程——合并 draft 为单文件、插入 YAML frontmatter、统一图片占位符格式、更新 articles/index.md。注意：step.json outputs 需包含 published 文件路径和 image-prompts 路径。
+建议下一轮跑 Step A：选择下一个研究方向。当前已发布 5 篇长文（smolagents-vs-langgraph、five-pole-agent-frameworks、openhands-architecture、crewai-architecture-tension、agent-memory-misconceptions），Target Essay Series 剩余方向为「1. 开源 Agent 框架的真实分化」「2. 为什么 Agent 需要状态机」「5. 企业 Agent 平台的工程化路线」。可从中选择一个进入形态识别，或开启全新选题。

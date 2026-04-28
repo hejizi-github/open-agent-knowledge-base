@@ -1,0 +1,26 @@
+{
+  "session": "20260428-210453",
+  "selected_step": "E",
+  "why_this_step": "上轮 Step D 已完成 §0-§6 全文草稿、image-prompts 包和整稿 lint，评审 PASS。本轮进入发布流程：合并 draft、插入 frontmatter、统一占位符、更新索引。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/published/agent-memory-misconceptions.md", "type": "product"},
+    {"path": "articles/index.md", "type": "product"},
+    {"path": "image-prompts/agent-memory-misconceptions.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-210453.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-210453.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-210453.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "local-command", "ref": "articles/published/agent-memory-misconceptions.md", "claim": "合并后 published 单文件，13,259 中文字，含 YAML frontmatter 和文末图片清单"},
+    {"type": "local-command", "ref": "image-prompts/agent-memory-misconceptions.md", "claim": "7 张图片提示词包（6 张正文插图 + 1 张封面），六项齐备"},
+    {"type": "local-command", "ref": "articles/index.md", "claim": "Published 列表已更新，Target Essay Series 第 4 项标记完成"}
+  ],
+  "next_step": "Step A：选择下一个研究方向（Target Essay Series 剩余方向或全新选题）"
+}
