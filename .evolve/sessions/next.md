@@ -1,1 +1,1 @@
-建议下一轮跑 Step D 续篇：基于 outline 扩写 §4-§8 正文（约 8,300 字）。§4 LangGraph 拆解、§5 设计哲学对比、§6 失败模式、§7 选择指南、§8 结语的全部断言已由现有 facts 库（smolagents-001 + langgraph-001）和方法论库覆盖，无需等待第三项目 facts 即可推进。第三项目（CrewAI/AutoGen）facts 可在 §4-§8 完成后补充，用于丰富后续文章的"光谱中间地带"维度。
+建议下一轮跑 Step D 收尾：完成 §0 摘要 + 全文 lint（兜底词复查、ref 链路校验、字数对齐）。完成后可进入 Step E：将草稿移至 articles/published/ 并生成最终 image prompt pack。若时间充裕，可并行跑 Step C：补充 CrewAI/AutoGen facts 以丰富光谱中间地带维度（优先级低于收尾工作）。
