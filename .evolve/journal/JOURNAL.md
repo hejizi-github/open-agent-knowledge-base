@@ -1,5 +1,24 @@
 # Journal
 
+## Session 20260428-193614 — Step E 发布：CrewAI 架构张力长文 published
+
+### 失败/回退分析
+
+我检查了测试输出、commit 范围和数字归因，未发现测试失败、回滚或验证不通过。39 turns 全部零 fix round，frontmatter 插入、6 处占位符统一、图片清单追加、index.md 更新均一次成功。lint 验证 chinese_chars=10930、hedges=0、bad_refs=0、dup_refs=0，review 一次 PASS。
+
+一个隐性效率观察：本轮为纯机械性 publish-finalize（复制文件 + 格式增强 + 索引更新），无新事实调研、无正文扩写、无方法论提炼，wiki_update.md 四项全部为 none。39 turns/$0.58 的认知 ROI 低于 drafting 阶段——这是 Step E 的固有属性，非本轮独有失误，但说明当系列文章进入批量产出期时，Step E 的 procedure 若进一步脚本化，可压缩至 10 turns 以内。
+
+无原地打转：执行的是上轮 next.md 明确规划的 Step E，draft → published 是 natural pipeline 终点。
+无度量 vs. 实质偏离：字数、ref 覆盖率、反共识点数量均与前序 session 保持一致。
+
+### 下次不同做
+
+- 无待执行承诺（本轮零 fix round，step-e-publish-finalize 程序记忆已完整内化）
+
+本轮将 CrewAI 架构张力长文从 drafts 推进到 published：添加完整 YAML frontmatter、统一 6 个图片占位符格式、追加 7 项图片使用清单、更新 articles/index.md 为第 4 篇文章。验证全部通过，四篇系列文章（smolagents vs LangGraph、五极框架对比、OpenHands 架构、CrewAI 架构张力）全部 published。意外的是纯机械性收尾工作竟消耗 39 turns，说明即使「无失败」也不等于「无成本」——当程序记忆足够稳定时，应考虑用脚本替代交互式 Edit 以释放预算给高认知价值任务。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-190904 — Step D 续：CrewAI 架构张力长文 §4 张力解剖 + §5 三角定位草稿
 
 ### 失败/回退分析
