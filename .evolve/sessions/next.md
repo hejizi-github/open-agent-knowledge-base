@@ -1,1 +1,1 @@
-建议下一轮跑 Step A：启动第三轮长文选题调研，从 CrewAI 角色编排 vs Flow 事件驱动张力 / 六极框架全景对比两个方向中锁定一个。
+建议下一轮跑 Step D：基于 framework-architecture-tension-001 形态识别和六极 facts 卡，开始撰写第四篇长文 "'Lean' 的代价：CrewAI 的架构分裂与开源 Agent 框架的平台化陷阱" 的 §0 摘要 + §1 开头钩子草稿。所有 ground truth 已齐备，无需新调研。

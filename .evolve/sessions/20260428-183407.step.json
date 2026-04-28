@@ -1,0 +1,33 @@
+{
+  "session": "20260428-183407",
+  "selected_step": "A",
+  "why_this_step": "第四篇长文需先完成形态识别（体裁/顶尖样本/ground truth/结构模板）。六极 facts 全部齐备、续篇方法论已存在，满足 Step A 前置条件。选题锁定为 CrewAI 架构张力分析，因 crewai-001 facts 卡的反共识点密度足够支撑深度分析。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": ".evolve/wiki/methodology/_form.md", "type": "wiki"},
+    {"path": ".evolve/wiki/methodology/framework-architecture-tension-001.md", "type": "wiki"},
+    {"path": ".evolve/wiki/brain_baseline/20260428-183407.md", "type": "wiki"},
+    {"path": ".evolve/library/methodology/framework-architecture-tension-001.md", "type": "legacy-library"},
+    {"path": ".evolve/library/brain_baseline/20260428-183407.md", "type": "legacy-library"},
+    {"path": ".evolve/library/methodology/_form.md", "type": "legacy-library"},
+    {"path": ".evolve/memory/startup-checklist.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-183407.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-183407.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/wiki/methodology/sequel-essay-form-001.md", "claim": "续篇形态识别方法论已存在，提供结构A/B/C模板"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "CrewAI facts 卡完整，含519文件/8.4MB代码量、Process 11行、Flow 3572行、3个反共识点"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "smolagents facts 卡完整，1814行极简对照组"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "LangGraph facts 卡完整，原生状态机对照组"},
+    {"type": "raw", "ref": "articles/published/openhands-architecture.md", "claim": "专题深潜结构实证存在，提供反直觉发现叙事参考"},
+    {"type": "raw", "ref": "articles/published/smolagents-vs-langgraph.md", "claim": "光谱对比结构实证存在"},
+    {"type": "raw", "ref": "articles/index.md", "claim": "已发表3篇文章，需确定第四篇选题避免重复"}
+  ],
+  "next_step": "Step D：基于本形态识别和六极 facts 卡，撰写第四篇长文 §0-§1 草稿"
+}
