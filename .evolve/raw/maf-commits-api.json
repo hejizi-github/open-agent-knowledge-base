@@ -1,0 +1,822 @@
+[
+  {
+    "sha": "9b22ecd1191315a32ad638c88599a6a4ca0b37b3",
+    "node_id": "C_kwDOOhTcGNoAKDliMjJlY2QxMTkxMzE1YTMyYWQ2MzhjODg1OTlhNmE0Y2EwYjM3YjM",
+    "commit": {
+      "author": {
+        "name": "Evan Mattson",
+        "email": "35585003+moonbox3@users.noreply.github.com",
+        "date": "2026-04-27T22:22:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-27T22:22:07Z"
+      },
+      "message": "Python: Add `requirements.txt` and `.env.example` to the `a2a/` sample for pip-based setup (#5510)\n\n* Add requirements.txt and .env.example to a2a sample\n\nBeginners following the a2a/ sample had no pip-based install path:\nthe directory lacked requirements.txt and .env.example, unlike every\nother 04-hosting/ sample.\n\n- Add requirements.txt with editable local package paths matching the\n  pattern used in azure_functions/ and similar hosting samples\n- Add .env.example documenting FOUNDRY_PROJECT_ENDPOINT, FOUNDRY_MODEL,\n  and A2A_AGENT_HOST\n- Update README Quick Start to cover both pip (.venv) and uv workflows\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Python: Add `requirements.txt` and `.env.example` to the `a2a/` sample for pip-based setup\n\nFixes #5395\n\n* fix(a2a-sample): address PR review feedback for issue #5395\n\n- Remove 'from repo root' wording from Option B uv heading in README\n  to avoid contradicting the 'run from this directory' instruction\n- Fix A2A_AGENT_HOST default in .env.example from 5001 to 5000 to match\n  function-tools flow; add clarifying comments about port usage\n- Add note for pip users explaining they can replace 'uv run python'\n  with 'python' once the virtual environment is activated\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Address review feedback for #5395: Python: [Samples][Python] a2a/ sample missing requirements.txt — beginners cannot install dependencies\n\n---------\n\nCo-authored-by: Copilot <copilot@github.com>\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+      "tree": {
+        "sha": "e415581982b8dd50492c0d28f9b6da59a7ed243e",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/git/trees/e415581982b8dd50492c0d28f9b6da59a7ed243e"
+      },
+      "url": "https://api.github.com/repos/microsoft/agent-framework/git/commits/9b22ecd1191315a32ad638c88599a6a4ca0b37b3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp7+GeCRC1aQ7uu5UhlAAAhGwQAFEHkMx7DUM3Ok27AbOkX97A\ni+3FUfU51HFAmi6jgm4F8HIFvpL9mGvroRSCnpgFlTtfD85NE28kcjiM+9oLJ2T7\nvKURe9IuxfrqBODl8OEKn1LoOo+AwsGagN62+K6luz7prn0EXADm1/y3ZQh3/CL2\nVWmsOogNARkY/0900rK7I22IIilHtQhFLxMGuOkSB6dw3Sog+GozabRy7ZsEWbfM\ndMS3YZ9cxqEAEYX/chTorp1ODFdQZsmI8NxzNoAOinbjTGPGBvh6Rhf5vP0OeEUw\n6it0VRuplOemjCm1D2onpWSA56b2C87yk9yDLqa61OtbeuwqMUXnBHcB8P1SYBAW\nHJl3l9p0gY0EFuf7Xa6yC+yVBblplyL5fj4yT/XG6C6OIe/mwDr1y/OHORVrk5pO\n2N/uHs/fRaFrEIBpeodbRlUObqsvE+1mLFBtfhnHY2rL42BGjGHu8MHApdxyPW/P\nruoK4+eSgmoU8gb1iEtj7Dsjw9J7ibTVo1h8tW/h9pgeX/wPD5bPx9f7hOB7Z/sr\nPJHjaoQFkkAgGjIUKreOekho/TYGXs+C3akHZouGDl1bVG3sKJSP21R1uhZHNiw5\nZBtUKT7vlxbQeF54ieYuEIPFHQJ2WgTx8CxKcU+oC9LcOtA6IEVc55SXjtx/ax/A\ng4zHxa51JuO8MPhI1LQr\n=OXqr\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e415581982b8dd50492c0d28f9b6da59a7ed243e\nparent 2eb0705ee0062cf3918c7fca304c1506b8b78911\nauthor Evan Mattson <35585003+moonbox3@users.noreply.github.com> 1777328527 +0900\ncommitter GitHub <noreply@github.com> 1777328527 +0000\n\nPython: Add `requirements.txt` and `.env.example` to the `a2a/` sample for pip-based setup (#5510)\n\n* Add requirements.txt and .env.example to a2a sample\n\nBeginners following the a2a/ sample had no pip-based install path:\nthe directory lacked requirements.txt and .env.example, unlike every\nother 04-hosting/ sample.\n\n- Add requirements.txt with editable local package paths matching the\n  pattern used in azure_functions/ and similar hosting samples\n- Add .env.example documenting FOUNDRY_PROJECT_ENDPOINT, FOUNDRY_MODEL,\n  and A2A_AGENT_HOST\n- Update README Quick Start to cover both pip (.venv) and uv workflows\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Python: Add `requirements.txt` and `.env.example` to the `a2a/` sample for pip-based setup\n\nFixes #5395\n\n* fix(a2a-sample): address PR review feedback for issue #5395\n\n- Remove 'from repo root' wording from Option B uv heading in README\n  to avoid contradicting the 'run from this directory' instruction\n- Fix A2A_AGENT_HOST default in .env.example from 5001 to 5000 to match\n  function-tools flow; add clarifying comments about port usage\n- Add note for pip users explaining they can replace 'uv run python'\n  with 'python' once the virtual environment is activated\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Address review feedback for #5395: Python: [Samples][Python] a2a/ sample missing requirements.txt — beginners cannot install dependencies\n\n---------\n\nCo-authored-by: Copilot <copilot@github.com>\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+        "verified_at": "2026-04-27T22:22:23Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/agent-framework/commits/9b22ecd1191315a32ad638c88599a6a4ca0b37b3",
+    "html_url": "https://github.com/microsoft/agent-framework/commit/9b22ecd1191315a32ad638c88599a6a4ca0b37b3",
+    "comments_url": "https://api.github.com/repos/microsoft/agent-framework/commits/9b22ecd1191315a32ad638c88599a6a4ca0b37b3/comments",
+    "author": {
+      "login": "moonbox3",
+      "id": 35585003,
+      "node_id": "MDQ6VXNlcjM1NTg1MDAz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35585003?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/moonbox3",
+      "html_url": "https://github.com/moonbox3",
+      "followers_url": "https://api.github.com/users/moonbox3/followers",
+      "following_url": "https://api.github.com/users/moonbox3/following{/other_user}",
+      "gists_url": "https://api.github.com/users/moonbox3/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/moonbox3/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/moonbox3/subscriptions",
+      "organizations_url": "https://api.github.com/users/moonbox3/orgs",
+      "repos_url": "https://api.github.com/users/moonbox3/repos",
+      "events_url": "https://api.github.com/users/moonbox3/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/moonbox3/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2eb0705ee0062cf3918c7fca304c1506b8b78911",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/commits/2eb0705ee0062cf3918c7fca304c1506b8b78911",
+        "html_url": "https://github.com/microsoft/agent-framework/commit/2eb0705ee0062cf3918c7fca304c1506b8b78911"
+      }
+    ]
+  },
+  {
+    "sha": "2eb0705ee0062cf3918c7fca304c1506b8b78911",
+    "node_id": "C_kwDOOhTcGNoAKDJlYjA3MDVlZTAwNjJjZjM5MThjN2ZjYTMwNGMxNTA2YjhiNzg5MTE",
+    "commit": {
+      "author": {
+        "name": "SergeyMenshykh",
+        "email": "68852919+SergeyMenshykh@users.noreply.github.com",
+        "date": "2026-04-27T15:37:10Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-27T15:37:10Z"
+      },
+      "message": ".NET: [Breaking] Support string[] arguments for file-based skill scripts (#5475)\n\n* support arguments of string[] shape for file-based skill scripts\n\n* suppress breaking changes errors\n\n* address feedback\n\n* remove unnecessary usung directive",
+      "tree": {
+        "sha": "4f5c24bbdcf16a3b00b4467557c0bb4d8fd404bb",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/git/trees/4f5c24bbdcf16a3b00b4467557c0bb4d8fd404bb"
+      },
+      "url": "https://api.github.com/repos/microsoft/agent-framework/git/commits/2eb0705ee0062cf3918c7fca304c1506b8b78911",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp74K2CRC1aQ7uu5UhlAAAVlQQAK6NWZZ6ee0RtBG7WC8e/psF\noMx2dYWG7BF1OqHd7IFyjheyDz+4gTG0jXu/rHN8Q7yKloTzkXuyCOI+ODHqrvd6\nhl3MGDUEDyhMzAauYcNfz5BaeT0GhybxEDbArOveSXBG4XQA5OtGJV4vMCnKDNq8\nDKATxa44coG8Ur7UHr4q8SzNz3RrEayUFIIcDPXvJi//27X6zUjX4a0l/ywvbctc\nUN/FbrFMrHchrq9rhNIM0YM5UIwqx0m9GJj52N5aYxroc1/IFprHhJu7kyydnq1z\n28qovgA0NjwZE058Ne5YrEVb8+TtpR+GYkgVDzG+jb9yGj2gBI22+rA65QU2KIYj\nQPwN/lvN+Jn/NMBy3Y7rTCrisjHI4wesZc/VgNCD8gfgmbJkECmay1j6lU1JldKe\nZdEYjK/wQvcmUDiMFpwdVa+EOkZMvpgRmZCcbMqOKcx4onR4ypdSzlitgeROtbi1\notz1x7G1Nw9Dw4Hu6GA+V/BdqqJF5pdY6nY5cOW16wjEkO0jaoQxw7W3ah2yacUo\nLZHJ2GG+8LV58oXMZpQeGoxBTTjHD4JTT++H1FvgD5U2IeYpV4f2DZNaS4NjLloB\nq2XyWO9p3CTsj7Ziciqg9qE0OIvrRz/JBvAJYIPQvf6OiYmb8yIQDHQxi6XqsIqd\n46VbJAukDxOlk9yl2uJT\n=Xhen\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4f5c24bbdcf16a3b00b4467557c0bb4d8fd404bb\nparent dad3652f46d38539b4c588b9732e9eb1b3c1e6f8\nauthor SergeyMenshykh <68852919+SergeyMenshykh@users.noreply.github.com> 1777304230 +0100\ncommitter GitHub <noreply@github.com> 1777304230 +0000\n\n.NET: [Breaking] Support string[] arguments for file-based skill scripts (#5475)\n\n* support arguments of string[] shape for file-based skill scripts\n\n* suppress breaking changes errors\n\n* address feedback\n\n* remove unnecessary usung directive",
+        "verified_at": "2026-04-27T15:37:26Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/agent-framework/commits/2eb0705ee0062cf3918c7fca304c1506b8b78911",
+    "html_url": "https://github.com/microsoft/agent-framework/commit/2eb0705ee0062cf3918c7fca304c1506b8b78911",
+    "comments_url": "https://api.github.com/repos/microsoft/agent-framework/commits/2eb0705ee0062cf3918c7fca304c1506b8b78911/comments",
+    "author": {
+      "login": "SergeyMenshykh",
+      "id": 68852919,
+      "node_id": "MDQ6VXNlcjY4ODUyOTE5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68852919?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SergeyMenshykh",
+      "html_url": "https://github.com/SergeyMenshykh",
+      "followers_url": "https://api.github.com/users/SergeyMenshykh/followers",
+      "following_url": "https://api.github.com/users/SergeyMenshykh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SergeyMenshykh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SergeyMenshykh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SergeyMenshykh/subscriptions",
+      "organizations_url": "https://api.github.com/users/SergeyMenshykh/orgs",
+      "repos_url": "https://api.github.com/users/SergeyMenshykh/repos",
+      "events_url": "https://api.github.com/users/SergeyMenshykh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SergeyMenshykh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dad3652f46d38539b4c588b9732e9eb1b3c1e6f8",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/commits/dad3652f46d38539b4c588b9732e9eb1b3c1e6f8",
+        "html_url": "https://github.com/microsoft/agent-framework/commit/dad3652f46d38539b4c588b9732e9eb1b3c1e6f8"
+      }
+    ]
+  },
+  {
+    "sha": "dad3652f46d38539b4c588b9732e9eb1b3c1e6f8",
+    "node_id": "C_kwDOOhTcGNoAKGRhZDM2NTJmNDZkMzg1MzliNGM1ODhiOTczMmU5ZWIxYjNjMWU2Zjg",
+    "commit": {
+      "author": {
+        "name": "bahtyar",
+        "email": "34988899+Bahtya@users.noreply.github.com",
+        "date": "2026-04-27T04:53:06Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-27T04:53:06Z"
+      },
+      "message": "Python: fix: prevent inner_exception from being lost in AgentFrameworkException (#5167)\n\n* fix: prevent inner_exception from being lost in AgentFrameworkException\n\nThe __init__ method unconditionally called super().__init__() after\nthe conditional call with inner_exception, effectively overwriting the\nexception args and losing the inner_exception reference.\n\nAdd else branch so super().__init__() is only called once with the\ncorrect arguments.\n\nFixes #5155\n\nSigned-off-by: bahtya <bahtyar153@qq.com>\n\n* test: add explicit tests for AgentFrameworkException inner_exception handling\n\n- test_exception_with_inner_exception: verifies args include inner exception\n- test_exception_without_inner_exception: verifies args only contain message\n- test_exception_inner_exception_none_explicit: verifies explicit None\n\nCovers both branches of the if/else in __init__.\n\n* fix: export AgentFrameworkException from package\n\nBahtya\n\n---------\n\nSigned-off-by: bahtya <bahtyar153@qq.com>",
+      "tree": {
+        "sha": "658cbc41e608fbd8c3a31324c5c1113b4060f85f",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/git/trees/658cbc41e608fbd8c3a31324c5c1113b4060f85f"
+      },
+      "url": "https://api.github.com/repos/microsoft/agent-framework/git/commits/dad3652f46d38539b4c588b9732e9eb1b3c1e6f8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp7uvBCRC1aQ7uu5UhlAAAA94QACde0Kdyx3iJNPquKuxG06Fo\nVJBH5GX+mHSAv1In1my9pKgE/jPMLWhffwb1GFpKnzZmFeHlumQmV+/fbHZWHsmg\nnnxQbrNHQeIcF5XVydCXems5RnqBSbJOchRGAoRhfbSmj6Q1FYXdR28tv1zMb4Ye\nDsx245YHQpFIFBFxirOV2zIAhJIRv6XJVxZrzaIeg7kqoe1RETHIC6fKjQPjqMOJ\nFiXAJixZfS9BmY4NAMGy0i722C3Eam6vBR1QvD36x1Fx8HLwar352TMp5M4C5gra\nduOfH1M6XHi70VvgG2672zDxmdZc9ZVp8YeCxHUrmrJw+trCtTRwqdlO+61PQDCM\nrfiGweGo8io4CLX3m8a6fmpsvN1qx3jOEH/ViXZ8wVZ/DaOtpLtJL+pyWncV4vFE\nbPtS76g8viRdwjI+7n49nR6pDk6n9WojQ+2W0al8Uf/jEz1AdBQAeuFQ2Qh6kDDH\n1cHlygCb/boivFMc0sS4zfcoBFMLh/qUHgXrs/0CroeCiRFuC8XcoZUpKes9r69E\ngisSemTqCJoMiYbQGg8d4EzxSuFo+zifFje8dtoTqvN0QMONTMghIzFMJDDOzH07\nDalShfbHSh7YH7v6G2LQOYNnE/k3XppddSu3RtUBmnvf/5qe08NaCX1QnepC1MHq\nT+gYvp16/G6SdjrIR7xf\n=ToV+\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 658cbc41e608fbd8c3a31324c5c1113b4060f85f\nparent 56fb634f0e921f1e0227aa843ce2551d26eaabd6\nauthor bahtyar <34988899+Bahtya@users.noreply.github.com> 1777265586 +0800\ncommitter GitHub <noreply@github.com> 1777265586 +0000\n\nPython: fix: prevent inner_exception from being lost in AgentFrameworkException (#5167)\n\n* fix: prevent inner_exception from being lost in AgentFrameworkException\n\nThe __init__ method unconditionally called super().__init__() after\nthe conditional call with inner_exception, effectively overwriting the\nexception args and losing the inner_exception reference.\n\nAdd else branch so super().__init__() is only called once with the\ncorrect arguments.\n\nFixes #5155\n\nSigned-off-by: bahtya <bahtyar153@qq.com>\n\n* test: add explicit tests for AgentFrameworkException inner_exception handling\n\n- test_exception_with_inner_exception: verifies args include inner exception\n- test_exception_without_inner_exception: verifies args only contain message\n- test_exception_inner_exception_none_explicit: verifies explicit None\n\nCovers both branches of the if/else in __init__.\n\n* fix: export AgentFrameworkException from package\n\nBahtya\n\n---------\n\nSigned-off-by: bahtya <bahtyar153@qq.com>",
+        "verified_at": "2026-04-27T04:53:22Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/agent-framework/commits/dad3652f46d38539b4c588b9732e9eb1b3c1e6f8",
+    "html_url": "https://github.com/microsoft/agent-framework/commit/dad3652f46d38539b4c588b9732e9eb1b3c1e6f8",
+    "comments_url": "https://api.github.com/repos/microsoft/agent-framework/commits/dad3652f46d38539b4c588b9732e9eb1b3c1e6f8/comments",
+    "author": {
+      "login": "Bahtya",
+      "id": 34988899,
+      "node_id": "MDQ6VXNlcjM0OTg4ODk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34988899?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Bahtya",
+      "html_url": "https://github.com/Bahtya",
+      "followers_url": "https://api.github.com/users/Bahtya/followers",
+      "following_url": "https://api.github.com/users/Bahtya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Bahtya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Bahtya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Bahtya/subscriptions",
+      "organizations_url": "https://api.github.com/users/Bahtya/orgs",
+      "repos_url": "https://api.github.com/users/Bahtya/repos",
+      "events_url": "https://api.github.com/users/Bahtya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Bahtya/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "56fb634f0e921f1e0227aa843ce2551d26eaabd6",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/commits/56fb634f0e921f1e0227aa843ce2551d26eaabd6",
+        "html_url": "https://github.com/microsoft/agent-framework/commit/56fb634f0e921f1e0227aa843ce2551d26eaabd6"
+      }
+    ]
+  },
+  {
+    "sha": "56fb634f0e921f1e0227aa843ce2551d26eaabd6",
+    "node_id": "C_kwDOOhTcGNoAKDU2ZmI2MzRmMGU5MjFmMWUwMjI3YWE4NDNjZTI1NTFkMjZlYWFiZDY",
+    "commit": {
+      "author": {
+        "name": "Shyju Krishnankutty",
+        "email": "connectshyju@gmail.com",
+        "date": "2026-04-25T00:55:28Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-25T00:55:28Z"
+      },
+      "message": ".NET: Support returning durable workflow results from HTTP trigger endpoint (#5321)\n\n* Adding support for \"wait for response\" when invoking workflow http endpoint.\n\n* update changelog.\n\n* PR comment fixes.\n\n* Address PR review feedback.\n\n- Return 404 Not Found when no orchestration with the given ID exists\n- Return 200 OK for failed workflows (the HTTP operation succeeded;\n  the workflow outcome is conveyed via the response body)\n- Rename 'status' to 'workflowStatus' in WorkflowRunResponse to avoid\n  inconsistency with AgentRunSuccessResponse which uses integer status\n- Add optional 'error' field (omitted from JSON when null) to\n  WorkflowRunResponse for failed workflow details",
+      "tree": {
+        "sha": "3dcaa53fa8470a4ba646c8d9065c3941cec9f363",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/git/trees/3dcaa53fa8470a4ba646c8d9065c3941cec9f363"
+      },
+      "url": "https://api.github.com/repos/microsoft/agent-framework/git/commits/56fb634f0e921f1e0227aa843ce2551d26eaabd6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp7BEPCRC1aQ7uu5UhlAAAXCwQAGkcQdkvcExiiW1AkM3jTu86\ngXq5EwMXMcrG0RziMh68xXokH00o8dja2v7L5HCkUIjwGDJbIlv5RI3QUzytadaB\nek4SLTErmuBVmSqtjz3u/TWwhL9/8iycMcpV3sqd8IZISiO+9yFPd6GE3Hi4YzXz\nlHVNVLZWroCrgbGmr6+dAxsT6iPQ/WMGd/GwE/IBIpul3IdNgTR4zpbd9ixmAqIu\ngLDubAJjZQZ3tBvErDCER15Az9zbfGalxtfJ33Z2j+26nevN77jPgy2gtaJFCytu\nwnNPqUAwavWI5D7KUVFQH6J/0rs7pBLEAZWXn3HdnV3jRQis7dv3AoP3n5/FinTt\nYu1T6fTEEQVbgdLTcMb1jG37PejWFc8dt9x1MW3USiCyQvZEbyZ8xyNUiAZmwJL5\nEAKutM/CC5nJ/ojAgKqwdNG0y37WuoEpmgtP1L3ofB0+JA8J7J//IMnoiaoh1uVh\nm8cmB5bECBktBUCN1QZSDGJ+pj8X0AnhxD/1uAgOpzK7eahz8v4O1wxJGK7injqM\nI76LxRXMnP4fHFlRkVbUMekBTjhx7Aed1ZjEZocePpowLXovmQlclrL5Tv7G1+Ox\nOzLdMJ6UBxckaGyqt7yGnoouPCaFzQNLgWW9iRKwcfdq/mVQYqY35wduIhHAGL/P\nlRsaO4Oq0dAPww14hEGv\n=6V3C\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3dcaa53fa8470a4ba646c8d9065c3941cec9f363\nparent 56c3f8d82582f8d848dbc96e487a036075ba5696\nauthor Shyju Krishnankutty <connectshyju@gmail.com> 1777078528 -0700\ncommitter GitHub <noreply@github.com> 1777078528 +0000\n\n.NET: Support returning durable workflow results from HTTP trigger endpoint (#5321)\n\n* Adding support for \"wait for response\" when invoking workflow http endpoint.\n\n* update changelog.\n\n* PR comment fixes.\n\n* Address PR review feedback.\n\n- Return 404 Not Found when no orchestration with the given ID exists\n- Return 200 OK for failed workflows (the HTTP operation succeeded;\n  the workflow outcome is conveyed via the response body)\n- Rename 'status' to 'workflowStatus' in WorkflowRunResponse to avoid\n  inconsistency with AgentRunSuccessResponse which uses integer status\n- Add optional 'error' field (omitted from JSON when null) to\n  WorkflowRunResponse for failed workflow details",
+        "verified_at": "2026-04-25T00:55:44Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/agent-framework/commits/56fb634f0e921f1e0227aa843ce2551d26eaabd6",
+    "html_url": "https://github.com/microsoft/agent-framework/commit/56fb634f0e921f1e0227aa843ce2551d26eaabd6",
+    "comments_url": "https://api.github.com/repos/microsoft/agent-framework/commits/56fb634f0e921f1e0227aa843ce2551d26eaabd6/comments",
+    "author": {
+      "login": "kshyju",
+      "id": 144469,
+      "node_id": "MDQ6VXNlcjE0NDQ2OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144469?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kshyju",
+      "html_url": "https://github.com/kshyju",
+      "followers_url": "https://api.github.com/users/kshyju/followers",
+      "following_url": "https://api.github.com/users/kshyju/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kshyju/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kshyju/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kshyju/subscriptions",
+      "organizations_url": "https://api.github.com/users/kshyju/orgs",
+      "repos_url": "https://api.github.com/users/kshyju/repos",
+      "events_url": "https://api.github.com/users/kshyju/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kshyju/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "56c3f8d82582f8d848dbc96e487a036075ba5696",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/commits/56c3f8d82582f8d848dbc96e487a036075ba5696",
+        "html_url": "https://github.com/microsoft/agent-framework/commit/56c3f8d82582f8d848dbc96e487a036075ba5696"
+      }
+    ]
+  },
+  {
+    "sha": "56c3f8d82582f8d848dbc96e487a036075ba5696",
+    "node_id": "C_kwDOOhTcGNoAKDU2YzNmOGQ4MjU4MmY4ZDg0OGRiYzk2ZTQ4N2EwMzYwNzViYTU2OTY",
+    "commit": {
+      "author": {
+        "name": "SergeyMenshykh",
+        "email": "68852919+SergeyMenshykh@users.noreply.github.com",
+        "date": "2026-04-24T21:56:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-24T21:56:30Z"
+      },
+      "message": ".NET: Bump OpenTelemetry packages to 1.15.3 (#5478)\n\n* Bump OpenTelemetry packages to 1.15.3 to fix known vulnerabilities\n\nUpdate OpenTelemetry packages from 1.15.0 to 1.15.3 in Directory.Packages.props\nto resolve NU1902 warnings-as-errors for CVEs GHSA-g94r-2vxg-569j,\nGHSA-mr8r-92fq-pj8p, and GHSA-q834-8qmm-v933.\n\nAdd explicit PackageReference for OpenTelemetry.Exporter.OpenTelemetryProtocol\nin Foundry.Hosting and OpenTelemetry.Api + OpenTelemetry.Exporter.OpenTelemetryProtocol\nin Hosted-Invocations-EchoAgent to override transitive 1.15.0 resolution in\nprojects with CentralPackageTransitivePinningEnabled=false.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Bump OpenTelemetry Extensions and Instrumentation packages to 1.15.x\n\nAlign the full OpenTelemetry package set to the 1.15.x family:\n- OpenTelemetry.Extensions.Hosting: 1.14.0 -> 1.15.3\n- OpenTelemetry.Instrumentation.AspNetCore: 1.14.0 -> 1.15.2\n- OpenTelemetry.Instrumentation.Http: 1.14.0 -> 1.15.1\n- OpenTelemetry.Instrumentation.Runtime: 1.14.0 -> 1.15.1\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n---------\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+      "tree": {
+        "sha": "1f3ccf412d4487607c2486c8000367cf3e45b1ec",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/git/trees/1f3ccf412d4487607c2486c8000367cf3e45b1ec"
+      },
+      "url": "https://api.github.com/repos/microsoft/agent-framework/git/commits/56c3f8d82582f8d848dbc96e487a036075ba5696",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6+cdCRC1aQ7uu5UhlAAAMbgQAIRhG/noss9lwGSL0svylzoR\n9fqJ2P/fk+03GzJo2Nsz2GmpOc/xiWUxkkEiWUVDOhx+mbkSwdKqo6g64tVp8cCb\nOru2JfiCmNX7VS1BeC9SB9cGio2251zj5BXYUsHXWXTCnFTCYn6MLzi/oSA21HoS\n2EPV1aI+6TmKXL1JrRy01KrMzdXgZjQNmzO04ltsYNJkmkFWcx+BPdYxjVMJd8Gj\n5FFbyWY2JmXaG5hkqKuYko2caMVciyhatTQ1JOt4nLmzUJGIbbXr1WdpVHqWtiLi\n3Ogpq2er9Xwmv3wv00OPvey8DSRAhFArqGKUMYaJ1g4wMdCtrZM/5p04zDRWUmjP\nVhCmfCnolSXmlLnRGg8b4NQ6oFR+LVH67gbUbWpxUDQAbrAnqd2BwaUEpt5pkNxC\nweFsdYchcCRHyxeFo2PmRkX/xCztkqecJPyHlwCMj51oCKYqLKS++gcAhoH+ewm7\nZfm93Soghsx0RxEA7iAhujl8aNk5/DtxXMQOawzMV7j0dqqKDY4X9HRLmhlLN2lm\nPTnLW4RgF94czZrk1RYyCsUmCSCPW+j/9+jBgKV9BL0uW3C6hSV5AHvQ68gXCxLQ\nS9eMStFBCHd3luXkqy2ovPXVz1SZqcF7Agl/qBAmovFwI9OeEK+R01hkFKSWvPhy\nscHy5QfrZuV+vm7zTb9T\n=M7h0\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1f3ccf412d4487607c2486c8000367cf3e45b1ec\nparent 0b69d7fd151e2a176ad182648cb419a56584b8f8\nauthor SergeyMenshykh <68852919+SergeyMenshykh@users.noreply.github.com> 1777067790 +0100\ncommitter GitHub <noreply@github.com> 1777067790 +0000\n\n.NET: Bump OpenTelemetry packages to 1.15.3 (#5478)\n\n* Bump OpenTelemetry packages to 1.15.3 to fix known vulnerabilities\n\nUpdate OpenTelemetry packages from 1.15.0 to 1.15.3 in Directory.Packages.props\nto resolve NU1902 warnings-as-errors for CVEs GHSA-g94r-2vxg-569j,\nGHSA-mr8r-92fq-pj8p, and GHSA-q834-8qmm-v933.\n\nAdd explicit PackageReference for OpenTelemetry.Exporter.OpenTelemetryProtocol\nin Foundry.Hosting and OpenTelemetry.Api + OpenTelemetry.Exporter.OpenTelemetryProtocol\nin Hosted-Invocations-EchoAgent to override transitive 1.15.0 resolution in\nprojects with CentralPackageTransitivePinningEnabled=false.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Bump OpenTelemetry Extensions and Instrumentation packages to 1.15.x\n\nAlign the full OpenTelemetry package set to the 1.15.x family:\n- OpenTelemetry.Extensions.Hosting: 1.14.0 -> 1.15.3\n- OpenTelemetry.Instrumentation.AspNetCore: 1.14.0 -> 1.15.2\n- OpenTelemetry.Instrumentation.Http: 1.14.0 -> 1.15.1\n- OpenTelemetry.Instrumentation.Runtime: 1.14.0 -> 1.15.1\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n---------\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+        "verified_at": "2026-04-24T21:56:46Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/agent-framework/commits/56c3f8d82582f8d848dbc96e487a036075ba5696",
+    "html_url": "https://github.com/microsoft/agent-framework/commit/56c3f8d82582f8d848dbc96e487a036075ba5696",
+    "comments_url": "https://api.github.com/repos/microsoft/agent-framework/commits/56c3f8d82582f8d848dbc96e487a036075ba5696/comments",
+    "author": {
+      "login": "SergeyMenshykh",
+      "id": 68852919,
+      "node_id": "MDQ6VXNlcjY4ODUyOTE5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68852919?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SergeyMenshykh",
+      "html_url": "https://github.com/SergeyMenshykh",
+      "followers_url": "https://api.github.com/users/SergeyMenshykh/followers",
+      "following_url": "https://api.github.com/users/SergeyMenshykh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SergeyMenshykh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SergeyMenshykh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SergeyMenshykh/subscriptions",
+      "organizations_url": "https://api.github.com/users/SergeyMenshykh/orgs",
+      "repos_url": "https://api.github.com/users/SergeyMenshykh/repos",
+      "events_url": "https://api.github.com/users/SergeyMenshykh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SergeyMenshykh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0b69d7fd151e2a176ad182648cb419a56584b8f8",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/commits/0b69d7fd151e2a176ad182648cb419a56584b8f8",
+        "html_url": "https://github.com/microsoft/agent-framework/commit/0b69d7fd151e2a176ad182648cb419a56584b8f8"
+      }
+    ]
+  },
+  {
+    "sha": "0b69d7fd151e2a176ad182648cb419a56584b8f8",
+    "node_id": "C_kwDOOhTcGNoAKDBiNjlkN2ZkMTUxZTJhMTc2YWQxODI2NDhjYjQxOWE1NjU4NGI4Zjg",
+    "commit": {
+      "author": {
+        "name": "Evan Mattson",
+        "email": "35585003+moonbox3@users.noreply.github.com",
+        "date": "2026-04-24T10:54:59Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-24T10:54:59Z"
+      },
+      "message": "Python: Bump Python package versions for 1.2.0 release (#5468)\n\n* Bump Python package versions for 1.2.0 release\n\nReleased tier bumps 1.1.1 -> 1.2.0 (core, openai, foundry, root) to\nreflect additive public APIs landed since 1.1.0: functional workflow API\n(#4238) and FunctionTool SKIP_PARSING sentinel (#5424). All beta packages\nstamped 1.0.0b260424, alpha packages 1.0.0a260424. All 26 non-core\nagent-framework-core floors raised to >=1.2.0,<2. CHANGELOG consolidates\nthe never-tagged 1.1.1 entries with the post-merge additions into [1.2.0].\n\n* Update CHANGELOG footer links for 1.2.0\n\nAdvance [Unreleased] comparison base from python-1.1.0 to python-1.2.0\nand add a [1.2.0] reference link comparing python-1.1.0...python-1.2.0\nso the heading links resolve correctly.\n\n* Fix CHANGELOG: restore [1.1.1] section and add proper [1.2.0]\n\nPrevious commit incorrectly renamed the [1.1.1] header to [1.2.0], which\nwiped the historical 1.1.1 entries and wrongly attributed them to 1.2.0.\nThis restores [1.1.1] to its origin/main content and adds a new [1.2.0]\nsection above containing only the commits in python-1.1.1..HEAD:\n\n- #4238 functional workflow API\n- #5142 GitHub Copilot OpenTelemetry\n- #2403 A2A bridge support\n- #5070 oauth_consent_request events in Foundry clients\n- #5447 FoundryAgent hosted agent sessions\n- #5459 hosting server dependency upgrade + types\n- #5389 AG-UI reasoning/multimodal parsing fix\n- #5440 stop [TOOLBOXES] warning spam\n- #5455 user agent prefix fix\n\nAlso corrects the [1.2.0] compare base to python-1.1.1 (not 1.1.0) and\nadds the missing [1.1.1] reference link.",
+      "tree": {
+        "sha": "7902d525d300ba2d3cb0248fce90750158990ca4",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/git/trees/7902d525d300ba2d3cb0248fce90750158990ca4"
+      },
+      "url": "https://api.github.com/repos/microsoft/agent-framework/git/commits/0b69d7fd151e2a176ad182648cb419a56584b8f8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp60wDCRC1aQ7uu5UhlAAAfjgQAJNXLOGCP5HOLpIhAv3eoGcU\nYmgi5AQjGh+z2foISB4HImHJrj8L8Ac7JygPs0ZLfGzjJL4QcBOVLfV+vbU6UTtf\nLjK2eLeMLMmF+4N8lc4EamWoaLEcILCoyftdHHVbCtPUyDnEK5vqjTZkbPbKjaYF\nQkFHkDGT/GFZVfvpFtc7q7MkKwl+75VwBfotZFLpdh1XhFm7NdtRVVPcB+fDCxPF\n6US8d6HfA8hP2ytYJjUjgET2IvdddoVHe4Bq4+MOvcNawUus6E84Au6Xh4VgwtzP\nen6CLtFhWTSfkM7W9wCJT9DfkJ//I+9xeKiteRF4svemzEm0z0gMsAn37KZ7/w+X\nC4EKWe1psbEcbyVJjQB1SDV4A3WmGCQlytvYX4djWUL0wA2mJIpBW/R7gw3sXf14\nx8lr+jV0RYhV4/CXK31opfhTEIZ0m5sqYjv9GFFBl+hJwXXjKD1y2cw5RkdkJeka\nmBLBG48J5Hskkt/UPl6AOrPa/BXo0aYl5PC91q3tLeEcfT1KtkBK9ePmHU0Zwaiv\n3ddqbZIHHFh36dk5fb0ayzOrqPNjBaoR6S3Z54n0cDAZvqa9OwgqpFVKaTEEtGSj\nYGTRDzECluyfyN5rjjg0MRRpyE7yPRQqrsqITl7b0Yh+75KA1wVSwXFCLmm3xaOS\nK8vTdNCgza7Eo7z1Hz2z\n=3k9E\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7902d525d300ba2d3cb0248fce90750158990ca4\nparent 7b70f80036bcc9a4138bb321249bd4d7983f803d\nauthor Evan Mattson <35585003+moonbox3@users.noreply.github.com> 1777028099 +0900\ncommitter GitHub <noreply@github.com> 1777028099 +0900\n\nPython: Bump Python package versions for 1.2.0 release (#5468)\n\n* Bump Python package versions for 1.2.0 release\n\nReleased tier bumps 1.1.1 -> 1.2.0 (core, openai, foundry, root) to\nreflect additive public APIs landed since 1.1.0: functional workflow API\n(#4238) and FunctionTool SKIP_PARSING sentinel (#5424). All beta packages\nstamped 1.0.0b260424, alpha packages 1.0.0a260424. All 26 non-core\nagent-framework-core floors raised to >=1.2.0,<2. CHANGELOG consolidates\nthe never-tagged 1.1.1 entries with the post-merge additions into [1.2.0].\n\n* Update CHANGELOG footer links for 1.2.0\n\nAdvance [Unreleased] comparison base from python-1.1.0 to python-1.2.0\nand add a [1.2.0] reference link comparing python-1.1.0...python-1.2.0\nso the heading links resolve correctly.\n\n* Fix CHANGELOG: restore [1.1.1] section and add proper [1.2.0]\n\nPrevious commit incorrectly renamed the [1.1.1] header to [1.2.0], which\nwiped the historical 1.1.1 entries and wrongly attributed them to 1.2.0.\nThis restores [1.1.1] to its origin/main content and adds a new [1.2.0]\nsection above containing only the commits in python-1.1.1..HEAD:\n\n- #4238 functional workflow API\n- #5142 GitHub Copilot OpenTelemetry\n- #2403 A2A bridge support\n- #5070 oauth_consent_request events in Foundry clients\n- #5447 FoundryAgent hosted agent sessions\n- #5459 hosting server dependency upgrade + types\n- #5389 AG-UI reasoning/multimodal parsing fix\n- #5440 stop [TOOLBOXES] warning spam\n- #5455 user agent prefix fix\n\nAlso corrects the [1.2.0] compare base to python-1.1.1 (not 1.1.0) and\nadds the missing [1.1.1] reference link.",
+        "verified_at": "2026-04-24T10:54:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/agent-framework/commits/0b69d7fd151e2a176ad182648cb419a56584b8f8",
+    "html_url": "https://github.com/microsoft/agent-framework/commit/0b69d7fd151e2a176ad182648cb419a56584b8f8",
+    "comments_url": "https://api.github.com/repos/microsoft/agent-framework/commits/0b69d7fd151e2a176ad182648cb419a56584b8f8/comments",
+    "author": {
+      "login": "moonbox3",
+      "id": 35585003,
+      "node_id": "MDQ6VXNlcjM1NTg1MDAz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35585003?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/moonbox3",
+      "html_url": "https://github.com/moonbox3",
+      "followers_url": "https://api.github.com/users/moonbox3/followers",
+      "following_url": "https://api.github.com/users/moonbox3/following{/other_user}",
+      "gists_url": "https://api.github.com/users/moonbox3/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/moonbox3/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/moonbox3/subscriptions",
+      "organizations_url": "https://api.github.com/users/moonbox3/orgs",
+      "repos_url": "https://api.github.com/users/moonbox3/repos",
+      "events_url": "https://api.github.com/users/moonbox3/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/moonbox3/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7b70f80036bcc9a4138bb321249bd4d7983f803d",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/commits/7b70f80036bcc9a4138bb321249bd4d7983f803d",
+        "html_url": "https://github.com/microsoft/agent-framework/commit/7b70f80036bcc9a4138bb321249bd4d7983f803d"
+      }
+    ]
+  },
+  {
+    "sha": "7b70f80036bcc9a4138bb321249bd4d7983f803d",
+    "node_id": "C_kwDOOhTcGNoAKDdiNzBmODAwMzZiY2M5YTQxMzhiYjMyMTI0OWJkNGQ3OTgzZjgwM2Q",
+    "commit": {
+      "author": {
+        "name": "Giles Odigwe",
+        "email": "79032838+giles17@users.noreply.github.com",
+        "date": "2026-04-24T09:59:14Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-24T09:59:14Z"
+      },
+      "message": "Python: Surface `oauth_consent_request` events from Responses API in Foundry clients (#5070)\n\n* Fix Foundry clients not surfacing oauth_consent_request events (#5054)\n\nOverride _parse_chunk_from_openai in both RawFoundryChatClient and\nRawFoundryAgentChatClient to intercept response.output_item.added\nevents with item.type == 'oauth_consent_request'. The consent link\nis validated (HTTPS required) and converted to\nContent.from_oauth_consent_request, which the AG-UI layer already\nknows how to emit as a CUSTOM event.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Address PR review feedback for #5054 OAuth consent parsing\n\n- Extract shared helper (try_parse_oauth_consent_event) to avoid\n  duplicated logic between RawFoundryChatClient and\n  RawFoundryAgentChatClient\n- Use urllib.parse.urlparse() for HTTPS validation instead of\n  case-sensitive startswith check\n- Sanitize log messages to avoid leaking consent_link tokens;\n  log only item id\n- Add model=self.model to ChatResponseUpdate to match parent behavior\n- Add assertions on role, raw_representation, and model in happy-path\n  tests\n- Add test for empty-string consent_link\n- Add test verifying non-oauth events delegate to super()\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Handle response.oauth_consent_requested top-level event (#5054)\n\nAdd support for the top-level response.oauth_consent_requested stream\nevent in addition to the response.output_item.added variant. The\nservice may emit either form; handle both so the consent link is\nreliably surfaced.\n\nExtract _validate_consent_link helper within _oauth_helpers.py to\nreduce nesting.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Address review feedback for #5054: Python: [Bug]: `FoundryAgent` (Responses API) Does Not Surface `oauth_consent_request` as a CUSTOM AG-UI Event\n\n* Address review feedback: defensive getattr and dedicated helper tests (#5054)\n\n- Use getattr(event, 'type', None) in try_parse_oauth_consent_event\n  for defensive access against malformed events without a type attribute\n- Add test_oauth_helpers.py with unit tests for _validate_consent_link\n  and try_parse_oauth_consent_event covering edge cases:\n  - HTTPS URL with empty netloc (https:///path)\n  - Warning log messages for rejected consent links\n  - Event objects missing 'type' attribute\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Address review feedback for #5054: Python: [Bug]: `FoundryAgent` (Responses API) Does Not Surface `oauth_consent_request` as a CUSTOM AG-UI Event\n\n* Fix mypy: match _parse_chunk_from_openai signature with superclass\n\nAdd seen_reasoning_delta_item_ids parameter to _parse_chunk_from_openai\noverrides in both RawFoundryChatClient and RawFoundryAgentChatClient to\nmatch the updated superclass signature on main. Update super() calls and\ntest assertions accordingly.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n---------\n\nCo-authored-by: Copilot <copilot@github.com>\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCo-authored-by: Evan Mattson <evan.mattson@microsoft.com>",
+      "tree": {
+        "sha": "38875fac9b7b350de5e4bd9f48f829b2253af6a8",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/git/trees/38875fac9b7b350de5e4bd9f48f829b2253af6a8"
+      },
+      "url": "https://api.github.com/repos/microsoft/agent-framework/git/commits/7b70f80036bcc9a4138bb321249bd4d7983f803d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6z8CCRC1aQ7uu5UhlAAAb/MQAE8nI8PXNBAPqsAVJ3VT4S5G\nIPYb/FKQ71bGmUcrWHsC/oMyL/FNqVTznruyRm1bbHrnEkmN0VUcWPjb2ISP8A0a\noXPAaD+MdMoknWboN2741eL6TCKdD8n96PWPTINVYe6z91MERy4EHN+fB/JvNA0Q\nMnn/LuO3JWZyu6yWMIjG2HaDikfDTnBighTBsbvKLAa/UKcxiH8SXQsuJQPR8uwT\n0IghKXtEUlTwaH36BsMqmHk9nw5vfZHCwyJp8G/+6cIJoO0kRL+Aq+e5sWRH4ZaD\n26WRWRE+AG4nOzdOoO9k63IkqATwhaiVzvBp9YT0floQFtFAAQlGnbDn5u5ofupd\ni96vzK/I8xmGBuaXsiy3a/X7wP06rK4ndeOdgdcVdpxP9sBiJYO5+XLN+Jz1AaWk\n2SXVkDFPc2c2hAFwCVeHwPEUoZniXolByL9eainFIvH92CxUMbvC6KV1kDMg55Se\nHXP4lu8id6Vp40TPiZNmRJfaIIeDV6TmK3cqSFSqEKCRqXoMLF9RRe2cr80qt2HI\nFV6eOpja5yWFejXBgFjaJDfhYwePWxNiY10g4ivQS9FsM9FxMeComH86DsHxKE7A\n1bR+pN9Wd9RG5hfkqCpP9qQeOFJclgRX/dFWFs2m0p/D+pJJSjSSTTU/wEkmmlHz\nAxPh3AhaCcwlzNPOoFXX\n=iT8S\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 38875fac9b7b350de5e4bd9f48f829b2253af6a8\nparent da32e8cf80a8e90232fcd7a519b5f66997a33275\nauthor Giles Odigwe <79032838+giles17@users.noreply.github.com> 1777024754 -0700\ncommitter GitHub <noreply@github.com> 1777024754 +0000\n\nPython: Surface `oauth_consent_request` events from Responses API in Foundry clients (#5070)\n\n* Fix Foundry clients not surfacing oauth_consent_request events (#5054)\n\nOverride _parse_chunk_from_openai in both RawFoundryChatClient and\nRawFoundryAgentChatClient to intercept response.output_item.added\nevents with item.type == 'oauth_consent_request'. The consent link\nis validated (HTTPS required) and converted to\nContent.from_oauth_consent_request, which the AG-UI layer already\nknows how to emit as a CUSTOM event.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Address PR review feedback for #5054 OAuth consent parsing\n\n- Extract shared helper (try_parse_oauth_consent_event) to avoid\n  duplicated logic between RawFoundryChatClient and\n  RawFoundryAgentChatClient\n- Use urllib.parse.urlparse() for HTTPS validation instead of\n  case-sensitive startswith check\n- Sanitize log messages to avoid leaking consent_link tokens;\n  log only item id\n- Add model=self.model to ChatResponseUpdate to match parent behavior\n- Add assertions on role, raw_representation, and model in happy-path\n  tests\n- Add test for empty-string consent_link\n- Add test verifying non-oauth events delegate to super()\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Handle response.oauth_consent_requested top-level event (#5054)\n\nAdd support for the top-level response.oauth_consent_requested stream\nevent in addition to the response.output_item.added variant. The\nservice may emit either form; handle both so the consent link is\nreliably surfaced.\n\nExtract _validate_consent_link helper within _oauth_helpers.py to\nreduce nesting.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Address review feedback for #5054: Python: [Bug]: `FoundryAgent` (Responses API) Does Not Surface `oauth_consent_request` as a CUSTOM AG-UI Event\n\n* Address review feedback: defensive getattr and dedicated helper tests (#5054)\n\n- Use getattr(event, 'type', None) in try_parse_oauth_consent_event\n  for defensive access against malformed events without a type attribute\n- Add test_oauth_helpers.py with unit tests for _validate_consent_link\n  and try_parse_oauth_consent_event covering edge cases:\n  - HTTPS URL with empty netloc (https:///path)\n  - Warning log messages for rejected consent links\n  - Event objects missing 'type' attribute\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Address review feedback for #5054: Python: [Bug]: `FoundryAgent` (Responses API) Does Not Surface `oauth_consent_request` as a CUSTOM AG-UI Event\n\n* Fix mypy: match _parse_chunk_from_openai signature with superclass\n\nAdd seen_reasoning_delta_item_ids parameter to _parse_chunk_from_openai\noverrides in both RawFoundryChatClient and RawFoundryAgentChatClient to\nmatch the updated superclass signature on main. Update super() calls and\ntest assertions accordingly.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n---------\n\nCo-authored-by: Copilot <copilot@github.com>\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCo-authored-by: Evan Mattson <evan.mattson@microsoft.com>",
+        "verified_at": "2026-04-24T09:59:31Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/agent-framework/commits/7b70f80036bcc9a4138bb321249bd4d7983f803d",
+    "html_url": "https://github.com/microsoft/agent-framework/commit/7b70f80036bcc9a4138bb321249bd4d7983f803d",
+    "comments_url": "https://api.github.com/repos/microsoft/agent-framework/commits/7b70f80036bcc9a4138bb321249bd4d7983f803d/comments",
+    "author": {
+      "login": "giles17",
+      "id": 79032838,
+      "node_id": "MDQ6VXNlcjc5MDMyODM4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79032838?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/giles17",
+      "html_url": "https://github.com/giles17",
+      "followers_url": "https://api.github.com/users/giles17/followers",
+      "following_url": "https://api.github.com/users/giles17/following{/other_user}",
+      "gists_url": "https://api.github.com/users/giles17/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/giles17/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/giles17/subscriptions",
+      "organizations_url": "https://api.github.com/users/giles17/orgs",
+      "repos_url": "https://api.github.com/users/giles17/repos",
+      "events_url": "https://api.github.com/users/giles17/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/giles17/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "da32e8cf80a8e90232fcd7a519b5f66997a33275",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/commits/da32e8cf80a8e90232fcd7a519b5f66997a33275",
+        "html_url": "https://github.com/microsoft/agent-framework/commit/da32e8cf80a8e90232fcd7a519b5f66997a33275"
+      }
+    ]
+  },
+  {
+    "sha": "da32e8cf80a8e90232fcd7a519b5f66997a33275",
+    "node_id": "C_kwDOOhTcGNoAKGRhMzJlOGNmODBhOGU5MDIzMmZjZDdhNTE5YjVmNjY5OTdhMzMyNzU",
+    "commit": {
+      "author": {
+        "name": "Evan Mattson",
+        "email": "35585003+moonbox3@users.noreply.github.com",
+        "date": "2026-04-24T09:41:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-24T09:41:20Z"
+      },
+      "message": "Python: (core): Add functional workflow API (#4238)\n\n* Add functional workflow api\n\n* cleanup\n\n* More cleanup\n\n* address copilot feedback\n\n* Address PR feedbacK\n\n* updates\n\n* PR feedback\n\n* Address review comments on functional workflow samples\n\n- Swap 05/06 get-started samples: agent workflow first (motivates\n  why workflows exist), simple text workflow second\n- Rename text_pipeline → text_workflow, poem_pipeline → poem_workflow\n- Add @step to agent workflow sample (05) to demonstrate caching\n- Switch agent samples to AzureOpenAIResponsesClient with Foundry\n- Remove .as_agent() from agent_integration.py to focus on the key\n  difference between inline agent calls vs @step-cached calls\n- Add commented-out Agent.run example in hitl_review.py\n- Add clarifying comment in _functional.py that event streaming is\n  buffered (not true per-token streaming)\n- Add naive_group_chat.py functional sample: round-robin group chat\n  as a plain Python loop\n- Update READMEs to reflect new file names and group chat sample\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Fix pyright type errors\n\n* Address PR review comments on functional workflow API\n\n1. Allow request_info inside @step: Auto-inject RunContext into step\n   functions that declare a RunContext parameter (by type or name 'ctx'),\n   and expose get_run_context() for programmatic access.\n\n2. Handle None responses: Log a warning when a response value is None,\n   and document the behavior in request_info docstring.\n\n3. Add executor_bypassed event type: Replace executor_invoked +\n   executor_completed with a single executor_bypassed event when a step\n   replays from cache, making cached vs live execution explicit.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Add regression tests for PR review comments on functional workflow API\n\nThe three review comments (request_info in @step, None response handling,\nexecutor_bypassed event type) were already addressed in 7da7db4e. This\ncommit adds cross-cutting regression tests that exercise the interactions\nbetween these features:\n\n- HITL in step with caching: preceding step bypassed on resume\n- Full checkpoint lifecycle with HITL step (interrupt -> resume -> restore)\n- None response inside step-level request_info logs warning\n- WorkflowInterrupted from step does not emit executor_failed\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Address PR #4238 review comments on functional workflow API\n\nComment 1 (request_info in @step): Already supported. Added comment in\nStepWrapper.__call__ explaining why WorkflowInterrupted (BaseException)\nsafely bypasses the except Exception handler.\n\nComment 2 (None response): Added docstring to _get_response clarifying\nthe (found, value) return tuple semantics and None handling.\n\nComment 3 (bypass event type): executor_bypassed is already a dedicated\nevent type in WorkflowEventType. Updated comment at the bypass site to\nmake the deliberate event type choice explicit.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Add experimental API warnings to functional workflow module\n\nMark all public classes and decorators (workflow, step, RunContext,\nFunctionalWorkflow, StepWrapper, FunctionalWorkflowAgent) as\nexperimental and subject to change or removal.\n\n* Address PR #4238 review comments from @eavanvalkenburg\n\n- RunContext docstring leads with purpose (opt-in handle for HITL,\n  custom events, state) so readers importing it from the public surface\n  understand its role before the mechanics (#2993513452).\n- Rename `06_first_functional_workflow.py` to\n  `06_functional_workflow_basics.py`; the previous filename was\n  confusing since it followed `05_functional_workflow_with_agents.py`\n  (#2993531979).\n- Simplify `05_functional_workflow_with_agents.py` to call agents\n  directly without a @step wrapper; the step-vs-no-step contrast lives\n  in `03-workflows/functional/agent_integration.py`, keeping the\n  get-started sample minimal (#2993525532).\n- Switch functional samples to `FoundryChatClient` for consistency with\n  the rest of 01-get-started and 03-workflows (follow-up on #2876988570).\n- Use walrus in `hitl_review.py` final-state assertion (#2993572182).\n- Add expected-output block to `basic_streaming_pipeline.py` (#2993557609).\n- Clarify in `parallel_pipeline.py` that `@step` composes with\n  `asyncio.gather` (#2993597282).\n- `naive_group_chat.py` threads `list[Message]` between turns instead\n  of stringifying the transcript, preserving role/authorship (#2993583231).\n\nDrive-by: pre-commit hook sorts an unrelated import block in\n`samples/04-hosting/foundry-hosted-agents/responses/02_local_tools/main.py`.\n\n* Fix 10 functional-workflow API bugs from /ultrareview pass\n\n- bug_001: `ctx.request_info()` without an explicit `request_id` now derives\n  a deterministic `auto::<index>` id from the call-counter, so HITL resume\n  works correctly on the documented default path.  A uuid was regenerated on\n  every replay, making resume impossible.\n\n- bug_002: `StepWrapper.__call__` no longer deepcopies arguments on the\n  cache-hit replay branch.  The copy is only performed on the live-execution\n  path (for the event log) and falls back to the original mapping if deepcopy\n  fails, so steps whose args aren't deepcopyable (locks, sockets, sessions)\n  can still resume from checkpoint.\n\n- bug_007: `_set_responses` now prunes each resolved `request_id` from\n  `_pending_requests`, and the cache-hit branch in `request_info` does the\n  same.  Previously, answered requests were re-serialized into every\n  subsequent checkpoint and the final checkpoint falsely claimed pending\n  requests even after the workflow completed.\n\n- bug_008: `_compute_signature_hash` now mixes the function's `co_code` and\n  `co_names` into the checkpoint signature, so changes to the workflow body\n  invalidate older checkpoints even when steps are accessed via module /\n  class attributes (which `_discover_step_names` can't see statically).\n  `RunContext._record_observed_step` records observed step names for\n  diagnostics.\n\n- bug_010: `FunctionalWorkflow.run()` docstring corrected — says \"at least\n  one of message/responses/checkpoint_id\" and explicitly notes `responses`\n  may be combined with `checkpoint_id` (the validator already allowed this).\n\n- bug_013: `FunctionalWorkflowAgent` now surfaces `request_info` events as\n  `FunctionApprovalRequestContent` items (mirroring graph `WorkflowAgent`),\n  threads `responses=` and `checkpoint_id=` through to the underlying\n  workflow, and exposes `pending_requests`.  Previously `.as_agent()`\n  returned empty `AgentResponse` for HITL workflows — effectively unusable.\n\n- bug_014: `FunctionalWorkflow` now clears `_last_message`,\n  `_last_step_cache`, and `_last_pending_request_ids` on clean completion.\n  `run()` validates that `responses=` keys intersect the currently-pending\n  request set (or raises with a clear error) instead of silently replaying\n  against stale singleton state from a prior run.\n\n- bug_015: `FunctionalWorkflow.as_agent` signature now matches graph\n  `Workflow.as_agent`: accepts `name`, `description`, `context_providers`,\n  and `**kwargs`.  `FunctionalWorkflowAgent` stores the overrides.\n\n- bug_017: `RunContext.set_state` raises `ValueError` for underscore-\n  prefixed keys (the framework's `_step_cache` / `_original_message` keys\n  would silently clobber user state on checkpoint save and user\n  underscore-prefixed state was dropped on restore).  Docstring documents\n  the reserved prefix.\n\n- merged_bug_003: Workflow function arity is validated at decoration time.\n  Multiple non-ctx parameters raise `ValueError` immediately (previously\n  every arg past the first was silently dropped at call time).  Passing a\n  non-None `message` to a ctx-only workflow raises `ValueError` instead of\n  silently discarding the message.\n\nTest coverage: +18 regression tests covering every fix.  Full workflow\nsuite now 766 passed, 1 skipped, 2 xfailed; full core suite 2338 passed.\n\n* Deslop functional.py fix commit\n\n- Remove dead instrumentation added in the prior commit that was never\n  consumed: `RunContext._observed_step_names`,\n  `RunContext._record_observed_step`, `FunctionalWorkflow._runtime_step_names`,\n  and `FunctionalWorkflowAgent._extra_kwargs`.  The signature hash relies on\n  `co_code` alone, which covers the attribute-access case without the\n  collection-scaffolding.\n- Trim over-explanatory comments that restated what the code does or what\n  it no longer does.  Keep only the comments that answer \"why\" for the\n  non-obvious bits (deterministic id contract, defensive deepcopy, stale\n  replay guard).\n- Compress the `_compute_signature_hash` and FunctionalWorkflow `__init__`\n  block docstrings without losing the user-facing reasoning.\n\nNet -49 lines.  Regression lock preserved (766 passed, 1 skipped, 2 xfailed).\n\n* Fix functional workflow review feedback\n\n---------\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCo-authored-by: Copilot <copilot@github.com>",
+      "tree": {
+        "sha": "75b06114a16a2869a46b4988d2d1a4358aa2ea91",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/git/trees/75b06114a16a2869a46b4988d2d1a4358aa2ea91"
+      },
+      "url": "https://api.github.com/repos/microsoft/agent-framework/git/commits/da32e8cf80a8e90232fcd7a519b5f66997a33275",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6zrRCRC1aQ7uu5UhlAAA4lkQAAfPbHfjiTAGJk4J/kjfY8vz\nLhN9D44L34Hk/DwlAMK6spzd0rS7wru/b9D09+2rm0gCMW5y215VSjV6hT1xUzUd\nd+R7xdMhNm6PLRq0Kq3WbOzYasO728gXd9Th8MJGO1t09Yw8SWhm3xnn72Vbq1dK\n1Wk/HK9u93JgKJhhXfDe4lFd1aaVh+SdxL9+RoyabO0rYXL9rzbFpFzOZ4mWMuNh\nIk/WaXNYnGU9ndSuKDMRGhZh93obv/81MSJ6V+zzYrNza6LWsHghv7FsoPAf8Am8\nCNx09CVavrRGNerXWodeRykH1pruEAeeSg7YMPHK/ruZ0B3bsdXjDlKGCYqMUTPP\nG/EUSZB2ly19FMV/C5uxHon3bygbznaZGOfbbyufscW1r6qc2bMhmgq2guEqYlUl\nUNGr8kxAajj9cAtv/cFtnyMKSqM+LqgE8iKS8nks8h+7fxLxFs4pFB1QddzZRp36\n6iOYcP59nmwMKSILxm/RKLJeH9o0l+2yT/Qz2Irx7lbCNLoazxVIvaLjxuSoyL8I\nq06AYwNcViMOKa7eoj44FU18fwxfsmz+icL4gdjDe1AJLg8G8KRHvrQ4I9PgOkq7\nbRkZTY35NkLZYICYqNh8/0IH3lBSeOjjIuoIzQKb5S89VVFKu5nXAkBGpt1ztLUO\nrGC+Fadw/OYfvnQbwavR\n=xfBd\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 75b06114a16a2869a46b4988d2d1a4358aa2ea91\nparent 62e02da698b4b85932323b3067154071b41d74d7\nauthor Evan Mattson <35585003+moonbox3@users.noreply.github.com> 1777023680 +0900\ncommitter GitHub <noreply@github.com> 1777023680 +0000\n\nPython: (core): Add functional workflow API (#4238)\n\n* Add functional workflow api\n\n* cleanup\n\n* More cleanup\n\n* address copilot feedback\n\n* Address PR feedbacK\n\n* updates\n\n* PR feedback\n\n* Address review comments on functional workflow samples\n\n- Swap 05/06 get-started samples: agent workflow first (motivates\n  why workflows exist), simple text workflow second\n- Rename text_pipeline → text_workflow, poem_pipeline → poem_workflow\n- Add @step to agent workflow sample (05) to demonstrate caching\n- Switch agent samples to AzureOpenAIResponsesClient with Foundry\n- Remove .as_agent() from agent_integration.py to focus on the key\n  difference between inline agent calls vs @step-cached calls\n- Add commented-out Agent.run example in hitl_review.py\n- Add clarifying comment in _functional.py that event streaming is\n  buffered (not true per-token streaming)\n- Add naive_group_chat.py functional sample: round-robin group chat\n  as a plain Python loop\n- Update READMEs to reflect new file names and group chat sample\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Fix pyright type errors\n\n* Address PR review comments on functional workflow API\n\n1. Allow request_info inside @step: Auto-inject RunContext into step\n   functions that declare a RunContext parameter (by type or name 'ctx'),\n   and expose get_run_context() for programmatic access.\n\n2. Handle None responses: Log a warning when a response value is None,\n   and document the behavior in request_info docstring.\n\n3. Add executor_bypassed event type: Replace executor_invoked +\n   executor_completed with a single executor_bypassed event when a step\n   replays from cache, making cached vs live execution explicit.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Add regression tests for PR review comments on functional workflow API\n\nThe three review comments (request_info in @step, None response handling,\nexecutor_bypassed event type) were already addressed in 7da7db4e. This\ncommit adds cross-cutting regression tests that exercise the interactions\nbetween these features:\n\n- HITL in step with caching: preceding step bypassed on resume\n- Full checkpoint lifecycle with HITL step (interrupt -> resume -> restore)\n- None response inside step-level request_info logs warning\n- WorkflowInterrupted from step does not emit executor_failed\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Address PR #4238 review comments on functional workflow API\n\nComment 1 (request_info in @step): Already supported. Added comment in\nStepWrapper.__call__ explaining why WorkflowInterrupted (BaseException)\nsafely bypasses the except Exception handler.\n\nComment 2 (None response): Added docstring to _get_response clarifying\nthe (found, value) return tuple semantics and None handling.\n\nComment 3 (bypass event type): executor_bypassed is already a dedicated\nevent type in WorkflowEventType. Updated comment at the bypass site to\nmake the deliberate event type choice explicit.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Add experimental API warnings to functional workflow module\n\nMark all public classes and decorators (workflow, step, RunContext,\nFunctionalWorkflow, StepWrapper, FunctionalWorkflowAgent) as\nexperimental and subject to change or removal.\n\n* Address PR #4238 review comments from @eavanvalkenburg\n\n- RunContext docstring leads with purpose (opt-in handle for HITL,\n  custom events, state) so readers importing it from the public surface\n  understand its role before the mechanics (#2993513452).\n- Rename `06_first_functional_workflow.py` to\n  `06_functional_workflow_basics.py`; the previous filename was\n  confusing since it followed `05_functional_workflow_with_agents.py`\n  (#2993531979).\n- Simplify `05_functional_workflow_with_agents.py` to call agents\n  directly without a @step wrapper; the step-vs-no-step contrast lives\n  in `03-workflows/functional/agent_integration.py`, keeping the\n  get-started sample minimal (#2993525532).\n- Switch functional samples to `FoundryChatClient` for consistency with\n  the rest of 01-get-started and 03-workflows (follow-up on #2876988570).\n- Use walrus in `hitl_review.py` final-state assertion (#2993572182).\n- Add expected-output block to `basic_streaming_pipeline.py` (#2993557609).\n- Clarify in `parallel_pipeline.py` that `@step` composes with\n  `asyncio.gather` (#2993597282).\n- `naive_group_chat.py` threads `list[Message]` between turns instead\n  of stringifying the transcript, preserving role/authorship (#2993583231).\n\nDrive-by: pre-commit hook sorts an unrelated import block in\n`samples/04-hosting/foundry-hosted-agents/responses/02_local_tools/main.py`.\n\n* Fix 10 functional-workflow API bugs from /ultrareview pass\n\n- bug_001: `ctx.request_info()` without an explicit `request_id` now derives\n  a deterministic `auto::<index>` id from the call-counter, so HITL resume\n  works correctly on the documented default path.  A uuid was regenerated on\n  every replay, making resume impossible.\n\n- bug_002: `StepWrapper.__call__` no longer deepcopies arguments on the\n  cache-hit replay branch.  The copy is only performed on the live-execution\n  path (for the event log) and falls back to the original mapping if deepcopy\n  fails, so steps whose args aren't deepcopyable (locks, sockets, sessions)\n  can still resume from checkpoint.\n\n- bug_007: `_set_responses` now prunes each resolved `request_id` from\n  `_pending_requests`, and the cache-hit branch in `request_info` does the\n  same.  Previously, answered requests were re-serialized into every\n  subsequent checkpoint and the final checkpoint falsely claimed pending\n  requests even after the workflow completed.\n\n- bug_008: `_compute_signature_hash` now mixes the function's `co_code` and\n  `co_names` into the checkpoint signature, so changes to the workflow body\n  invalidate older checkpoints even when steps are accessed via module /\n  class attributes (which `_discover_step_names` can't see statically).\n  `RunContext._record_observed_step` records observed step names for\n  diagnostics.\n\n- bug_010: `FunctionalWorkflow.run()` docstring corrected — says \"at least\n  one of message/responses/checkpoint_id\" and explicitly notes `responses`\n  may be combined with `checkpoint_id` (the validator already allowed this).\n\n- bug_013: `FunctionalWorkflowAgent` now surfaces `request_info` events as\n  `FunctionApprovalRequestContent` items (mirroring graph `WorkflowAgent`),\n  threads `responses=` and `checkpoint_id=` through to the underlying\n  workflow, and exposes `pending_requests`.  Previously `.as_agent()`\n  returned empty `AgentResponse` for HITL workflows — effectively unusable.\n\n- bug_014: `FunctionalWorkflow` now clears `_last_message`,\n  `_last_step_cache`, and `_last_pending_request_ids` on clean completion.\n  `run()` validates that `responses=` keys intersect the currently-pending\n  request set (or raises with a clear error) instead of silently replaying\n  against stale singleton state from a prior run.\n\n- bug_015: `FunctionalWorkflow.as_agent` signature now matches graph\n  `Workflow.as_agent`: accepts `name`, `description`, `context_providers`,\n  and `**kwargs`.  `FunctionalWorkflowAgent` stores the overrides.\n\n- bug_017: `RunContext.set_state` raises `ValueError` for underscore-\n  prefixed keys (the framework's `_step_cache` / `_original_message` keys\n  would silently clobber user state on checkpoint save and user\n  underscore-prefixed state was dropped on restore).  Docstring documents\n  the reserved prefix.\n\n- merged_bug_003: Workflow function arity is validated at decoration time.\n  Multiple non-ctx parameters raise `ValueError` immediately (previously\n  every arg past the first was silently dropped at call time).  Passing a\n  non-None `message` to a ctx-only workflow raises `ValueError` instead of\n  silently discarding the message.\n\nTest coverage: +18 regression tests covering every fix.  Full workflow\nsuite now 766 passed, 1 skipped, 2 xfailed; full core suite 2338 passed.\n\n* Deslop functional.py fix commit\n\n- Remove dead instrumentation added in the prior commit that was never\n  consumed: `RunContext._observed_step_names`,\n  `RunContext._record_observed_step`, `FunctionalWorkflow._runtime_step_names`,\n  and `FunctionalWorkflowAgent._extra_kwargs`.  The signature hash relies on\n  `co_code` alone, which covers the attribute-access case without the\n  collection-scaffolding.\n- Trim over-explanatory comments that restated what the code does or what\n  it no longer does.  Keep only the comments that answer \"why\" for the\n  non-obvious bits (deterministic id contract, defensive deepcopy, stale\n  replay guard).\n- Compress the `_compute_signature_hash` and FunctionalWorkflow `__init__`\n  block docstrings without losing the user-facing reasoning.\n\nNet -49 lines.  Regression lock preserved (766 passed, 1 skipped, 2 xfailed).\n\n* Fix functional workflow review feedback\n\n---------\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCo-authored-by: Copilot <copilot@github.com>",
+        "verified_at": "2026-04-24T09:41:38Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/agent-framework/commits/da32e8cf80a8e90232fcd7a519b5f66997a33275",
+    "html_url": "https://github.com/microsoft/agent-framework/commit/da32e8cf80a8e90232fcd7a519b5f66997a33275",
+    "comments_url": "https://api.github.com/repos/microsoft/agent-framework/commits/da32e8cf80a8e90232fcd7a519b5f66997a33275/comments",
+    "author": {
+      "login": "moonbox3",
+      "id": 35585003,
+      "node_id": "MDQ6VXNlcjM1NTg1MDAz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35585003?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/moonbox3",
+      "html_url": "https://github.com/moonbox3",
+      "followers_url": "https://api.github.com/users/moonbox3/followers",
+      "following_url": "https://api.github.com/users/moonbox3/following{/other_user}",
+      "gists_url": "https://api.github.com/users/moonbox3/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/moonbox3/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/moonbox3/subscriptions",
+      "organizations_url": "https://api.github.com/users/moonbox3/orgs",
+      "repos_url": "https://api.github.com/users/moonbox3/repos",
+      "events_url": "https://api.github.com/users/moonbox3/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/moonbox3/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "62e02da698b4b85932323b3067154071b41d74d7",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/commits/62e02da698b4b85932323b3067154071b41d74d7",
+        "html_url": "https://github.com/microsoft/agent-framework/commit/62e02da698b4b85932323b3067154071b41d74d7"
+      }
+    ]
+  },
+  {
+    "sha": "62e02da698b4b85932323b3067154071b41d74d7",
+    "node_id": "C_kwDOOhTcGNoAKDYyZTAyZGE2OThiNGI4NTkzMjMyM2IzMDY3MTU0MDcxYjQxZDc0ZDc",
+    "commit": {
+      "author": {
+        "name": "Eduard van Valkenburg",
+        "email": "eavanvalkenburg@users.noreply.github.com",
+        "date": "2026-04-24T09:25:03Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-24T09:25:03Z"
+      },
+      "message": "Python: update FoundryAgent for hosted agent sessions (#5447)\n\n* fixes to FoundryAgent to connect to new hosted agents\n\nCo-authored-by: Copilot <copilot@github.com>\n\n* fix mypy\n\nCo-authored-by: Copilot <copilot@github.com>\n\n* Python: remove Foundry service session helpers\n\nRemove the public hosted-agent service session CRUD helpers from FoundryAgent and drop the related feature-stage inventory entry.\n\nUpdate the hosted-agent sample to create and delete service sessions directly through the preview AIProjectClient APIs, and tighten a few test harnesses surfaced by full workspace validation.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* fix from merge\n\n* fix hosted env detection\n\nCo-authored-by: Copilot <copilot@github.com>\n\n* reverted sample update\n\n* fix tests and code\n\nCo-authored-by: Copilot <copilot@github.com>\n\n* remove aenter\n\n* skipping some tests\n\nCo-authored-by: Copilot <copilot@github.com>\n\n---------\n\nCo-authored-by: Copilot <copilot@github.com>\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+      "tree": {
+        "sha": "13c1dd6483f2fd4a7cd1584a89fdf285e45e10b4",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/git/trees/13c1dd6483f2fd4a7cd1584a89fdf285e45e10b4"
+      },
+      "url": "https://api.github.com/repos/microsoft/agent-framework/git/commits/62e02da698b4b85932323b3067154071b41d74d7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6zb/CRC1aQ7uu5UhlAAA0MEQAHNODal5Mhyfk3+/HbQQAzBs\nOtxLmvZYC84dE4I9NWW0bs9vuH7XFMR6cVSADE+m0AH2L74e22LmTL7eSsUvElGs\nDDLX5fcGIDLdAPtPD81j3LKNiI7xPQRKVEteIlWxhx57Osyl786aTngT9SGYRIxL\n9UoOcwllj9qGAvXHbY7yccBgVqwrZR2TPSGodU0bcoSy2LsrbtSqH17FRj9X20Q1\n8gbFhpR4n0jSnmLa+kdEiTtOnCOV4KLTdUg8Q3ntrk1N6k8NvMlZWByz1JPQcHbE\n1MGtcJrze0TqUYiPFQlL21sXIZG9hW3RjQ77WwFrRiP0Sl0AgnKIihjL0hMEenBe\nqH5p3eCQRVSgavaPgkGY7DPB6QVLLSQYHQVnNGkKpUciGWlVJs3B3PLGdHWyof3F\nyuOm8QPt6yzODlvb6IBqlBMpAmywP7ZqHxJH7tntW5XKYHhjOXJUyw4yfu1LO0rK\nizWSSiDl/9JjjV+e14NG1c0bp4wbFjx/4vsbYzu3MVq+PodJ+zqBUlQauV/jpQDD\nhryvUntyjuJ6v0HCuniFRtQ3+IDzRG2VdzWx1d45YgEpvLJLGqHAeIHbrXDcIc3c\ncIebhdnUVv+QuelLCC6E+KNnDVGAhKEOhj4yh7kDImv4U0SW+SsCqkCBu1cBlp4E\neTGpzfyMT/QTRWjRW0/V\n=6lvI\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 13c1dd6483f2fd4a7cd1584a89fdf285e45e10b4\nparent 63c0a517970722e0765702019958a1830e055348\nauthor Eduard van Valkenburg <eavanvalkenburg@users.noreply.github.com> 1777022703 +0200\ncommitter GitHub <noreply@github.com> 1777022703 +0000\n\nPython: update FoundryAgent for hosted agent sessions (#5447)\n\n* fixes to FoundryAgent to connect to new hosted agents\n\nCo-authored-by: Copilot <copilot@github.com>\n\n* fix mypy\n\nCo-authored-by: Copilot <copilot@github.com>\n\n* Python: remove Foundry service session helpers\n\nRemove the public hosted-agent service session CRUD helpers from FoundryAgent and drop the related feature-stage inventory entry.\n\nUpdate the hosted-agent sample to create and delete service sessions directly through the preview AIProjectClient APIs, and tighten a few test harnesses surfaced by full workspace validation.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* fix from merge\n\n* fix hosted env detection\n\nCo-authored-by: Copilot <copilot@github.com>\n\n* reverted sample update\n\n* fix tests and code\n\nCo-authored-by: Copilot <copilot@github.com>\n\n* remove aenter\n\n* skipping some tests\n\nCo-authored-by: Copilot <copilot@github.com>\n\n---------\n\nCo-authored-by: Copilot <copilot@github.com>\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+        "verified_at": "2026-04-24T09:25:20Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/agent-framework/commits/62e02da698b4b85932323b3067154071b41d74d7",
+    "html_url": "https://github.com/microsoft/agent-framework/commit/62e02da698b4b85932323b3067154071b41d74d7",
+    "comments_url": "https://api.github.com/repos/microsoft/agent-framework/commits/62e02da698b4b85932323b3067154071b41d74d7/comments",
+    "author": {
+      "login": "eavanvalkenburg",
+      "id": 13749212,
+      "node_id": "MDQ6VXNlcjEzNzQ5MjEy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13749212?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eavanvalkenburg",
+      "html_url": "https://github.com/eavanvalkenburg",
+      "followers_url": "https://api.github.com/users/eavanvalkenburg/followers",
+      "following_url": "https://api.github.com/users/eavanvalkenburg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eavanvalkenburg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eavanvalkenburg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eavanvalkenburg/subscriptions",
+      "organizations_url": "https://api.github.com/users/eavanvalkenburg/orgs",
+      "repos_url": "https://api.github.com/users/eavanvalkenburg/repos",
+      "events_url": "https://api.github.com/users/eavanvalkenburg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eavanvalkenburg/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "63c0a517970722e0765702019958a1830e055348",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/commits/63c0a517970722e0765702019958a1830e055348",
+        "html_url": "https://github.com/microsoft/agent-framework/commit/63c0a517970722e0765702019958a1830e055348"
+      }
+    ]
+  },
+  {
+    "sha": "63c0a517970722e0765702019958a1830e055348",
+    "node_id": "C_kwDOOhTcGNoAKDYzYzBhNTE3OTcwNzIyZTA3NjU3MDIwMTk5NThhMTgzMGUwNTUzNDg",
+    "commit": {
+      "author": {
+        "name": "Dineshsuriya D",
+        "email": "43177361+droideronline@users.noreply.github.com",
+        "date": "2026-04-24T08:44:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-24T08:44:44Z"
+      },
+      "message": "Python: Add OpenTelemetry integration for GitHubCopilotAgent (#5142)\n\n* Python: Add OpenTelemetry integration for GitHubCopilotAgent\n\n- Split GitHubCopilotAgent into RawGitHubCopilotAgent (core, no OTel) and\n  GitHubCopilotAgent(AgentTelemetryLayer, RawGitHubCopilotAgent) with tracing\n- Add default_options property to expose model for span attributes\n- Export RawGitHubCopilotAgent from all public namespaces\n- Add github_copilot_with_observability.py sample and update README\n\n* Python: Fix OTEL_SERVICE_NAME default in GitHub Copilot README\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>\n\n* Python: Add unit tests for RawGitHubCopilotAgent.default_options property\n\n* Python: Address review feedback on GitHubCopilotAgent OTel integration\n\n- Add middleware param to GitHubCopilotAgent.run() overloads so per-call\n  middleware is explicitly forwarded through AgentTelemetryLayer\n- Remove github_copilot_with_observability.py sample per feedback; replace\n  with inline snippet + link to observability samples in README\n\n* Python: Address review feedback on log_level and session kwargs typing\n\n- Add middleware param to RawGitHubCopilotAgent.run() overloads for interface\n  compatibility with AgentTelemetryLayer\n- Fix import in README observability snippet to use agent_framework.github\n\n* Python: Add AgentMiddlewareLayer to GitHubCopilotAgent MRO\n\nFollow FoundryAgent pattern: AgentMiddlewareLayer runs outside the telemetry\nspan so middleware execution time is not captured in traces. Overloads removed\nas AgentMiddlewareLayer.run() handles dispatch via MRO.\n\n* Python: Add explicit __init__ to GitHubCopilotAgent for auto-complete and docstrings\n\n* Python: Address review feedback on middleware warning and test assertions\n\n- Add assert \"timeout\" not in opts to test_default_options_includes_model_for_telemetry\n  to document the intentional asymmetry where timeout is extracted into _settings\n  and not returned in default_options.\n- Replace silent del middleware with a logged warning when per-run middleware is\n  passed to RawGitHubCopilotAgent, making it clear that the GitHub Copilot SDK\n  handles tool execution internally and chat/function middleware cannot be injected.\n\n* Python: Use Self for __aenter__ return type in RawGitHubCopilotAgent\n\nAddress review feedback: use typing.Self (3.11+) / typing_extensions.Self\n(3.10) for __aenter__ so subclasses like GitHubCopilotAgent get the correct\nreturn type from async context manager usage.\n\n---------\n\nCo-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "c9e2865c96956e401c7acef96330e0970f175d13",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/git/trees/c9e2865c96956e401c7acef96330e0970f175d13"
+      },
+      "url": "https://api.github.com/repos/microsoft/agent-framework/git/commits/63c0a517970722e0765702019958a1830e055348",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6y2MCRC1aQ7uu5UhlAAABAUQAIDnRk1iixHFKPw0FjnCFk43\n7schEoUVLJsUqTlEpFzyt9zWMdvDMVWn1wfHP97KV5dwfCr77HUr8+xRMjh881Nz\nzx77H5BpIqllTJl9HseHITOH31+3fvMqsAepAl6fbj0UbYeHmmTV5n45UBidXFZP\nO7H0YC9SYqmyb+FPHO9eQrYW38Y5yMzSTQkKn1d8oXU/T1xuq5HAUbb9toHszHej\nJVhqh2/QQBh0hVGQjuMsBIcHDnazgUytEjjXj2jkGlQH9ThRNhNaIr0cqz2GZeRS\nBUh4mYCFnT4lVedDsaHEB4h5w+VXJiSyHRXk90Z0Uzfu8LYmtZ9R14RMdFk36rTH\nsrxvj1WMQip9xa8CO4H+i1lVrDJ1K4pKNYUV+vhDnbggSOrcSY//wSmgwuuU4BvD\n2d759CW3oeIQP3IaQLDVgjHG3+C7HEqHr6PVk8hLDt2Jd7Jradz//DJ3eLtjueur\n5+M4TO9UaX1opC0157OkQw/rX976jekASNyp0wO80S4jFYDF3KRYZ4SmV/kKPg9Q\nCo6LBaBe46uiufIp0TTpw1Rdee4H5AOBUwkCCmAu9UxC4Mz/9emcQnarroaOoTVe\nJef+OMSKRiGBRv37lL++IKMJ6GnCHLdbTeSIptKMkkpsEiUsLjEVD/UNgFTf8QA4\nRVYWKkW0/ZUBQnnQ4Zhk\n=jh1X\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c9e2865c96956e401c7acef96330e0970f175d13\nparent b00465d7bef4858f35c0cef15de1a30298a2dde4\nauthor Dineshsuriya D <43177361+droideronline@users.noreply.github.com> 1777020284 +0530\ncommitter GitHub <noreply@github.com> 1777020284 +0000\n\nPython: Add OpenTelemetry integration for GitHubCopilotAgent (#5142)\n\n* Python: Add OpenTelemetry integration for GitHubCopilotAgent\n\n- Split GitHubCopilotAgent into RawGitHubCopilotAgent (core, no OTel) and\n  GitHubCopilotAgent(AgentTelemetryLayer, RawGitHubCopilotAgent) with tracing\n- Add default_options property to expose model for span attributes\n- Export RawGitHubCopilotAgent from all public namespaces\n- Add github_copilot_with_observability.py sample and update README\n\n* Python: Fix OTEL_SERVICE_NAME default in GitHub Copilot README\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>\n\n* Python: Add unit tests for RawGitHubCopilotAgent.default_options property\n\n* Python: Address review feedback on GitHubCopilotAgent OTel integration\n\n- Add middleware param to GitHubCopilotAgent.run() overloads so per-call\n  middleware is explicitly forwarded through AgentTelemetryLayer\n- Remove github_copilot_with_observability.py sample per feedback; replace\n  with inline snippet + link to observability samples in README\n\n* Python: Address review feedback on log_level and session kwargs typing\n\n- Add middleware param to RawGitHubCopilotAgent.run() overloads for interface\n  compatibility with AgentTelemetryLayer\n- Fix import in README observability snippet to use agent_framework.github\n\n* Python: Add AgentMiddlewareLayer to GitHubCopilotAgent MRO\n\nFollow FoundryAgent pattern: AgentMiddlewareLayer runs outside the telemetry\nspan so middleware execution time is not captured in traces. Overloads removed\nas AgentMiddlewareLayer.run() handles dispatch via MRO.\n\n* Python: Add explicit __init__ to GitHubCopilotAgent for auto-complete and docstrings\n\n* Python: Address review feedback on middleware warning and test assertions\n\n- Add assert \"timeout\" not in opts to test_default_options_includes_model_for_telemetry\n  to document the intentional asymmetry where timeout is extracted into _settings\n  and not returned in default_options.\n- Replace silent del middleware with a logged warning when per-run middleware is\n  passed to RawGitHubCopilotAgent, making it clear that the GitHub Copilot SDK\n  handles tool execution internally and chat/function middleware cannot be injected.\n\n* Python: Use Self for __aenter__ return type in RawGitHubCopilotAgent\n\nAddress review feedback: use typing.Self (3.11+) / typing_extensions.Self\n(3.10) for __aenter__ so subclasses like GitHubCopilotAgent get the correct\nreturn type from async context manager usage.\n\n---------\n\nCo-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>",
+        "verified_at": "2026-04-24T08:45:00Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/agent-framework/commits/63c0a517970722e0765702019958a1830e055348",
+    "html_url": "https://github.com/microsoft/agent-framework/commit/63c0a517970722e0765702019958a1830e055348",
+    "comments_url": "https://api.github.com/repos/microsoft/agent-framework/commits/63c0a517970722e0765702019958a1830e055348/comments",
+    "author": {
+      "login": "droideronline",
+      "id": 43177361,
+      "node_id": "MDQ6VXNlcjQzMTc3MzYx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43177361?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/droideronline",
+      "html_url": "https://github.com/droideronline",
+      "followers_url": "https://api.github.com/users/droideronline/followers",
+      "following_url": "https://api.github.com/users/droideronline/following{/other_user}",
+      "gists_url": "https://api.github.com/users/droideronline/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/droideronline/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/droideronline/subscriptions",
+      "organizations_url": "https://api.github.com/users/droideronline/orgs",
+      "repos_url": "https://api.github.com/users/droideronline/repos",
+      "events_url": "https://api.github.com/users/droideronline/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/droideronline/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b00465d7bef4858f35c0cef15de1a30298a2dde4",
+        "url": "https://api.github.com/repos/microsoft/agent-framework/commits/b00465d7bef4858f35c0cef15de1a30298a2dde4",
+        "html_url": "https://github.com/microsoft/agent-framework/commit/b00465d7bef4858f35c0cef15de1a30298a2dde4"
+      }
+    ]
+  }
+]
