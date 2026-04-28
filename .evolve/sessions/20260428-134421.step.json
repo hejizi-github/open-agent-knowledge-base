@@ -1,0 +1,27 @@
+{
+  "session": "20260428-134421",
+  "selected_step": "D",
+  "why_this_step": "上轮已完成§3和§6扩写，评审建议本轮续写§4（~2,500字）和§5（~2,200字）。方法论库（deep-tech-essay-agent-architecture-001、inheritance-breakdown-matrix、reverse-anthropic、reverse-langchain）和事实库（5个项目facts文件）已充分覆盖角色语义与生态锁定两个维度的全部断言。preconditions全部满足。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": false
+  },
+  "outputs": [
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec4.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec5.md", "type": "product"}
+  ],
+  "evidence": [
+    {"type": "local-command", "ref": ".evolve/library/facts/crewai-001.md", "claim": "CrewAI Agent定义包含role/goal/backstory三元组，注入system prompt驱动LLM行为"},
+    {"type": "local-command", "ref": ".evolve/library/facts/smolagents-001.md", "claim": "smolagents无role概念，Agent=工具列表+ReAct loop"},
+    {"type": "local-command", "ref": ".evolve/library/facts/langgraph-001.md", "claim": "LangGraph无内置角色概念，Agent=图中的一个节点函数"},
+    {"type": "local-command", "ref": ".evolve/library/facts/autogen-001.md", "claim": "AutoGen Agent有name和description，无CrewAI式三元组"},
+    {"type": "local-command", "ref": ".evolve/library/facts/maf-001.md", "claim": "MAF Agent(name, instructions, tools)，instructions相当于简化角色描述"},
+    {"type": "local-command", "ref": ".evolve/library/facts/smolagents-001.md", "claim": "smolagents Apache-2.0许可，无商业平台绑定，通过LiteLLM覆盖100+提供商"},
+    {"type": "local-command", "ref": ".evolve/library/facts/langgraph-001.md", "claim": "LangGraph MIT许可但完整可观测性锁定在LangSmith商业平台"},
+    {"type": "local-command", "ref": ".evolve/library/facts/crewai-001.md", "claim": "CrewAI MIT许可，CrewAI Cloud/AMP Suite提供企业级可观测性"},
+    {"type": "local-command", "ref": ".evolve/library/facts/maf-001.md", "claim": "MAF quickstart默认Azure CLI+Microsoft Foundry，README含第三方系统免责声明"}
+  ],
+  "next_step": "建议下一轮Step D续写§0摘要+§1开头钩子+§2坐标系定义（~4,500字），或§8设计取舍与失败模式（~2,000字）"
+}
