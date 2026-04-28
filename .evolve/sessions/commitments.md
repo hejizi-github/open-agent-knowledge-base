@@ -1,3 +1,3 @@
-- 当 facts 卡收录 README 关键原文段落时，在 facts 卡中直接补录 verbatim 原文，不依赖间接引用（确保 Wiki 追踪链完整）
-- 对 library/ 镜像文件执行 Edit 前，必须先 Read，不因「wiki 版本已修改」而省略
 - drafting 前精确确认单节字数目标，正文超出目标 20% 以上时主动精简，不依赖 lint 阶段修正
+- Write 任何已存在文件（包括 next.md、step.json、wiki_update.md）前，先 Read 确认当前内容，不因「上轮读过」「逻辑上刚创建」或「控制面文件」而省略
+- Bash/Python 验证脚本写成独立脚本文件或 heredoc 实现，不走 shell eval 避免引号转义失败
