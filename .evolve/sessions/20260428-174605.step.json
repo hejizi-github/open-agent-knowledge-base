@@ -1,0 +1,38 @@
+{
+  "session": "20260428-174605",
+  "selected_step": "D",
+  "why_this_step": "sec0-sec4 已完成（8,116 中文字），methodology（sequel-essay-form-001）和 facts（六项目 facts 卡）均已齐备。本轮完成 §5 坐标系定位 + §6 实践建议，结束全文草稿阶段。同时修复上轮遗留问题：迁移五极 facts 到 wiki/facts/。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/openhands-architecture-sec5.md", "type": "product"},
+    {"path": "articles/drafts/openhands-architecture-sec6.md", "type": "product"},
+    {"path": ".evolve/wiki/facts/autogen-001.md", "type": "wiki"},
+    {"path": ".evolve/wiki/facts/crewai-001.md", "type": "wiki"},
+    {"path": ".evolve/wiki/facts/langgraph-001.md", "type": "wiki"},
+    {"path": ".evolve/wiki/facts/maf-001.md", "type": "wiki"},
+    {"path": ".evolve/wiki/facts/smolagents-001.md", "type": "wiki"},
+    {"path": ".evolve/sessions/20260428-174605.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-174605.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-174605.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": "articles/drafts/openhands-architecture-sec5.md", "claim": "sec5 提出控制流显式度光谱分析和代码执行深度新增维度"},
+    {"type": "raw", "ref": "articles/drafts/openhands-architecture-sec6.md", "claim": "sec6 提供基于架构假设匹配的决策树和适用/不适用场景分析"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/openhands-001.md", "claim": "OpenHands 项目事实卡（产品矩阵、版本、架构）"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "smolagents 项目事实卡（沙箱层级、代码量）"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "LangGraph 项目事实卡（Pregel 状态机、商业闭环）"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/autogen-001.md", "claim": "AutoGen 项目事实卡（维护模式、Actor 模型）"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "CrewAI 项目事实卡（角色编排、Flow 框架）"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/maf-001.md", "claim": "MAF 项目事实卡（Tier 体系、DurableTask）"},
+    {"type": "raw", "ref": "raw:openhands-readme.md", "claim": "OpenHands README（SWE-bench 77.6 分、产品矩阵描述）"},
+    {"type": "raw", "ref": "raw:openhands-agents.md", "claim": "OpenHands 贡献者指南（Runtime=local/docker 配置）"},
+    {"type": "raw", "ref": "articles/published/five-pole-agent-frameworks.md", "claim": "首篇五极长文（五维坐标系定义）"}
+  ],
+  "next_step": "Step E：成稿发布。合并 sec0-sec6 为单篇 published 文件，编写 image-prompts/openhands-architecture.md，更新 articles/index.md。"
+}

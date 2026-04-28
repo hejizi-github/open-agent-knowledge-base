@@ -1,1 +1,1 @@
-建议下一轮跑 Step D 续：撰写 §5 坐标系定位（OpenHands 在五维+代码执行深度坐标系中的位置）+ §6 实践建议（决策树 + 适用/不适用场景）。sec0-sec4 已就绪，全文草稿进入收尾阶段。若预算允许，可同步开始 image-prompts/openhands-architecture.md 的图 1-6 提示词编写。
+建议下一轮跑 Step E：全文草稿已完成（sec0-sec6, 11,520 中文字），进入成稿发布阶段。任务清单：1）编写 image-prompts/openhands-architecture.md 图 1-6 + 封面的生图提示词；2）合并 sec0-sec6 为单篇 published 文件，添加 YAML frontmatter；3）统一图片占位符格式并交叉验证图号；4）更新 articles/index.md。
