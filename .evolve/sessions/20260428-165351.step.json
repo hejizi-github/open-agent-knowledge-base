@@ -21,10 +21,10 @@
     {"path": ".evolve/sessions/next.md", "type": "review-control"}
   ],
   "evidence": [
-    {"type": "local-command", "ref": ".evolve/raw/openhands-readme.md (8390 bytes)", "claim": "OpenHands 根目录 README.md 已下载，验证 License MIT、五层产品矩阵描述"},
-    {"type": "local-command", "ref": ".evolve/raw/openhands-core-readme.md (2785 bytes)", "claim": "openhands 核心模块 README.md 已下载，验证 EventStream 架构定义和控制流伪代码"},
-    {"type": "local-command", "ref": ".evolve/raw/openhands-agents.md (24636 bytes)", "claim": "AGENTS.md 已下载，验证 RUNTIME=local、pre-commit/Mypy/Ruff 工具链、.pr/ 目录机制"},
-    {"type": "local-command", "ref": ".evolve/raw/openhands-pyproject.toml (7855 bytes)", "claim": "pyproject.toml 已下载，验证 Python >=3.12、LiteLLM >=1.74.3、自研组件版本 ==1.17"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-readme.md", "claim": "OpenHands 根目录 README.md 已下载，验证 License MIT、五层产品矩阵描述"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-core-readme.md", "claim": "openhands 核心模块 README.md 已下载，验证 EventStream 架构定义和控制流伪代码"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-agents.md", "claim": "AGENTS.md 已下载，验证 RUNTIME=local、pre-commit/Mypy/Ruff 工具链、.pr/ 目录机制"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-pyproject.toml", "claim": "pyproject.toml 已下载，验证 Python >=3.12、LiteLLM >=1.74.3、自研组件版本 ==1.17"},
     {"type": "raw", "ref": ".evolve/wiki/facts/openhands-001.md", "claim": "所有 dangling refs 已修复为实际文件名；主观断言已降级为客观描述"},
     {"type": "raw", "ref": ".evolve/library/facts/openhands-001.md", "claim": "library 镜像同步修复，与 wiki 版本一致"}
   ],
