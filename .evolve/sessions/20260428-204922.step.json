@@ -1,0 +1,29 @@
+{
+  "session": "20260428-204922",
+  "selected_step": "D",
+  "why_this_step": "全文 §0-§5 已完成，methodology/facts/brain_baseline 全部就绪，source_inbox 充足。本轮进入 §6（实践建议）写作 + image-prompts 补全 + 整稿 lint。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/agent-memory-misconceptions-sec6.md", "type": "product"},
+    {"path": "image-prompts/agent-memory-misconceptions.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-204922.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-204922.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-204922.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "LangGraph checkpoint 的设计目标是 durable execution，与 learnable memory 存在语义鸿沟"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "CrewAI memory/knowledge/rag 三子系统底层共享向量存储，API 边界模糊"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/mem0-001.md", "claim": "Mem0 是框架无关的独立记忆层，ADD-only + 多信号检索，支持 15+ 向量后端"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/letta-001.md", "claim": "Letta 的 Block 抽象使记忆成为上下文窗口保留区，Agent 显式编辑"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/autogen-001.md", "claim": "AutoGen 提供 ListMemory/RedisMemory/Mem0/ChromaDB 多后端但无统一抽象"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "smolagents 不提供内置持久化记忆"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/openhands-001.md", "claim": "OpenHands State 对象通过 EventStream 持久化执行轨迹"}
+  ],
+  "next_step": "Step E：lint 全绿通过，全文 12,598 字，6 张插图 + 1 张封面提示词齐备，进入发布流程"
+}

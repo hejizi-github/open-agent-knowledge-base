@@ -1,1 +1,1 @@
-建议下一轮跑 Step D 续：撰写 §6 实践建议（框架内置记忆 / 独立记忆层 / 自建方案的决策树）+ 补全 image-prompts 包（§0-§5 对应的 5 张图生图提示词）。全文 §0-§5 已完成，§6 预计 ~1,000 字，完成后进入整稿 lint 与发布流程。
+建议下一轮跑 Step E：全文 §0-§6 已完成，lint 全绿，image-prompts 齐备（6 张插图 + 1 张封面）。进入发布流程——合并 draft 为单文件、插入 YAML frontmatter、统一图片占位符格式、更新 articles/index.md。注意：step.json outputs 需包含 published 文件路径和 image-prompts 路径。
