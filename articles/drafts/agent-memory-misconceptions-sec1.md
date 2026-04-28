@@ -42,7 +42,7 @@ AutoGen 不提供自己的记忆抽象，而是提供四种后端的适配器。
 
 这种语义混乱对工程决策的损害不是理论性的。让我们看两个具体场景。
 
-**场景一：选型困惑。** 一个工程师在评估 Agent 框架，看到 LangGraph 宣传「long-term memory」，CrewAI 宣传「Unified Memory」，Mem0 宣传「Universal memory layer」。他的合理推断是：这些框架都「支持记忆」，区别只在实现细节。于是他选择 star 数最高的 LangGraph，以为长期记忆问题已经解决。六个月后他发现，LangGraph 的 long-term memory 是 checkpoint 持久化——能保存执行状态，但不能让 Agent 在跨 session 对话中「记住」用户的偏好。他需要的其实是 Mem0 的语义记忆层或 Letta 的 Block 自编辑机制，但框架的宣传语没有给他做出这个区分的线索 [ref: facts/langgraph-001.md] [ref: facts/mem0-001.md]。
+**场景一：选型困惑。** 一个工程师在评估 Agent 框架，看到 LangGraph 宣传「long-term memory」，CrewAI 宣传「Unified Memory」，Mem0 宣传「Universal memory layer」。他的合理推断是：这些框架都「支持记忆」，区别只在实现细节。于是他选择 LangGraph——star 数 30,593，文档齐全，社区活跃——以为长期记忆问题已经解决。六个月后他发现，LangGraph 的 long-term memory 是 checkpoint 持久化——能保存执行状态，但不能让 Agent 在跨 session 对话中「记住」用户的偏好。他需要的其实是 Mem0 的语义记忆层或 Letta 的 Block 自编辑机制，但框架的宣传语没有给他做出这个区分的线索 [ref: facts/langgraph-001.md] [ref: facts/mem0-001.md] [ref: facts/letta-001.md]。
 
 **场景二：概念误用。** 一个团队在 CrewAI 中同时使用 memory、knowledge 和 rag 三个子系统。他们把用户对话历史存入 memory，把产品文档存入 knowledge，把 FAQ 存入 rag。三个月后排查 bug 时发现，这三个子系统的底层都指向同一个 ChromaDB 向量存储，embedding 模型相同，检索逻辑也相同 [ref: facts/crewai-001.md]。「memory 条目」和「knowledge 条目」在数据库层面没有结构差异——它们都是向量 + 文本 + 元数据。三个名词在 API 文档中制造了「我在做三件事」的幻觉，实际上团队在做一件事的三个入口。
 

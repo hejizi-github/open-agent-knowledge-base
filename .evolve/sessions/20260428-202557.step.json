@@ -1,0 +1,31 @@
+{
+  "session": "20260428-202557",
+  "selected_step": "D",
+  "why_this_step": "上轮 Step D 产出的 sec1.md 存在事实自相矛盾（star 数叙事与 §1.1 数据冲突），本轮优先修正错误，并继续撰写 §2-§3 草稿。方法论层已覆盖横向概念深潜体裁，事实层 8 个框架 facts 卡齐备，前置条件全部满足。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": ".evolve/sessions/20260428-202557.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-202557.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-202557.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"},
+    {"path": "articles/drafts/agent-memory-misconceptions-sec1.md", "type": "product"},
+    {"path": "articles/drafts/agent-memory-misconceptions-sec2.md", "type": "product"},
+    {"path": "articles/drafts/agent-memory-misconceptions-sec3.md", "type": "product"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/wiki/methodology/agent-memory-misconceptions-001.md", "claim": "横向概念深潜体裁方法论、结构模板、4 个反共识点已定义"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/mem0-001.md", "claim": "Mem0 benchmark 数据：LoCoMo 91.6, LongMemEval 93.4, BEAM 1M 64.1, BEAM 10M 48.6；ADD-only 提取策略；多信号检索（语义+BM25+实体）"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "CrewAI memory/knowledge/rag 三子系统底层均依赖向量存储（chromadb/lancedb）和 embedding，API 边界模糊"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "LangGraph checkpoint 设计目标是 durable execution，与 learnable memory 有语义鸿沟"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/letta-001.md", "claim": "Letta Block 是上下文窗口保留区，Agent 显式工具编辑记忆；OS 式四级记忆分层"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/autogen-001.md", "claim": "AutoGen 支持 ListMemory/RedisMemory/Mem0 多后端，无统一记忆抽象"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/openhands-001.md", "claim": "OpenHands EventStream 存储事件历史，非结构化记忆"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "smolagents 无内置持久化记忆"}
+  ],
+  "next_step": "Step D 续：撰写 §4 误区三（Checkpoint = 状态 = 记忆：LangGraph durable execution 与 learnable memory 的语义鸿沟）+ §5 独立记忆层的崛起（Mem0 分层记忆 vs Letta memory_blocks）草稿"
+}

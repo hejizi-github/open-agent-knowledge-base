@@ -1,1 +1,1 @@
-建议下一轮跑 Step D 续：撰写 §2 误区一（上下文窗口崇拜：为什么 10M tokens 不能替代记忆层，用 Mem0 benchmark 数据证明「有信息≠能回忆」）+ §3 误区二（RAG 伪装记忆：CrewAI memory/knowledge/rag 三子系统解剖）草稿。
+建议下一轮跑 Step D 续：撰写 §4 误区三（Checkpoint = 状态 = 记忆：LangGraph durable execution 与 learnable memory 的语义鸿沟）+ §5 独立记忆层的崛起（Mem0 分层记忆 vs Letta memory_blocks）草稿。
