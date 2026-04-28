@@ -5,16 +5,16 @@
 | 字段 | 值 |
 |------|-----|
 | slug | smolagents-vs-langgraph |
-| 预估总字数 | 12,000 ~ 14,000 中文字 |
+| 预估总字数 | 12,500 ~ 14,500 中文字（含 §0 摘要 ~280 字） |
 | 轨道 | A+B 混合（主体 Anthropic 模式归纳法 + 概念辨析处 LangChain 光谱法） |
 | 核心反共识 | ① "~1,000 行" slogan drift；② LangGraph 不是 agent 框架而是状态机编排框架；③ 两个框架都有过度工程化风险，只是方向相反 |
 | 目标读者 | 有经验的后端/AI 工程师、技术负责人 |
 
 ---
 
-## §0 摘要（Abstract，成文时写，outline 阶段占位）
+## §0 摘要（Abstract，~280 字）
 
-> 占位提示：300 字以内，概括核心结论——两个框架代表 Agent 控制流显式光谱的两极，选择取决于"你愿意为控制力付出多少认知税"。
+> smolagents 与 LangGraph 拥有接近的 GitHub star 数（约 2.7 万 vs 3.1 万），却代表了 Agent 控制流设计光谱的两个极端。本文通过逆向工程 Anthropic 的"Building Effective Agents"实践方法论和 LangChain 的"agentic spectrum"概念框架，对两个项目进行源码级拆解，揭示三个反直觉发现：第一，smolagents 宣称"~1,000 行"的极简口号已膨胀至 1,814 行，"小而美"在功能压力下存在设计张力；第二，LangGraph 的核心不是"Agent 框架"而是状态机编排引擎，Agent 只是其上的一个应用形态；第三，两个框架都存在过度工程化风险——smolagents 试图用极简包装不断增长的复杂度，LangGraph 则在简单任务上强加固有的图抽象。本文不回答"哪个更好"，而是展示控制流显式程度如何决定框架的适用边界，帮助读者根据"你愿意为控制力付出多少认知税"做出选择。
 
 ---
 
@@ -98,8 +98,8 @@
   - 对比传统：JSON/text tool-call → 解析 → 执行函数
   - 代码 action 优势：原生支持变量、循环、条件判断；无需中间表示层
 - 论文背书：
-  - Executable Code Actions Elicit Better LLM Agents (Wang et al., 2024)
-  - CodeAct: Agent-Centric Code Execution Improves LLM Agent Performance (2024)
+  - Executable Code Actions Elicit Better LLM Agents (Wang et al., 2024, arXiv:2402.01030, ICML 2024)
+  - CodeAct: Agent-Centric Code Execution Improves LLM Agent Performance (2024) — arXiv ID 待查 [ref: facts/smolagents-001.md §双 Agent 模式]
 - README 声称："uses 30% fewer steps" 并 "reaches higher performance on difficult benchmarks"
 - **限制**：CodeAgent 要求模型能生成有效 Python 代码
   - weaker models 可能产生语法错误，导致循环失败
@@ -326,15 +326,16 @@
 
 | 章节 | 预估字数 | 占比 |
 |------|---------|------|
+| §0 摘要 | 280 | 2% |
 | §1 开头钩子 | 900 | 7% |
 | §2 定义与边界 | 1,200 | 9% |
-| §3 smolagents 拆解 | 2,800 | 21% |
-| §4 LangGraph 拆解 | 2,800 | 21% |
-| §5 设计哲学对比 | 2,200 | 17% |
+| §3 smolagents 拆解 | 2,800 | 20% |
+| §4 LangGraph 拆解 | 2,800 | 20% |
+| §5 设计哲学对比 | 2,200 | 16% |
 | §6 失败模式 | 1,600 | 12% |
 | §7 选择指南 | 1,200 | 9% |
 | §8 结语 | 500 | 4% |
-| **总计** | **~13,200** | **~100%** |
+| **总计** | **~13,480** | **~99%** |
 
 ---
 
