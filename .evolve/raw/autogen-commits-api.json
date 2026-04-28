@@ -1,0 +1,1642 @@
+[
+  {
+    "sha": "027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+    "node_id": "C_kwDOKInPB9oAKDAyN2VjZjBhMzc5YmNjMWQwOTk1NmQ0NmQxMmQ0NGEzYWQ5Y2VlMTQ",
+    "commit": {
+      "author": {
+        "name": "chetantoshniwal",
+        "email": "chetantoshniwal@gmail.com",
+        "date": "2026-04-06T22:35:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-06T22:35:32Z"
+      },
+      "message": "Update maintenance mode banner in readme (#7521)\n\nUpdating maintenance banner and redirect new users to Microsoft Agent Framework.",
+      "tree": {
+        "sha": "0cec8faf5dfc9692b004d62955d42477a2935204",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/0cec8faf5dfc9692b004d62955d42477a2935204"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp1DU0CRC1aQ7uu5UhlAAAHpwQABgCUzOqztOXLiEiEA7lXZjv\n+TeLiw2LTHPBcDPS2L6WeAE9D7wM4wKT7lBcW78uGR2RW9zpRfvf3qW7dtf+YmHH\n0hfnrz/w9ipSF87FeL3VIdK82r22tn6aClYmn+Uusu1DcMqFwB6rN/3UX1CoDdYA\nxNHfR16cCyFtX8oPZVHkBco6h4U2W2aPAJMG9mUgfD/frWa8aasbrzDtRs9uKgFE\nc2UbYGhKnqB91xfK1V0KwljH4DRi1mABeQErBIw7PP0bHCmM24djqV5zPPlRqXtd\n9EQZPaCTuykq9ztdhF4W39SUyFG478GvflAsqUWzPISNmn2lGuvtJoekDuYgVubm\nDQcfeIs4FKcJ3IIlNxfKye51cC05CSgNfZba+318JZZukQlVhSIc7urKBJ7otZv9\ncTywYw3OlHLpUWt2l2MxcH8ygQi1H8dZpVKu4Wfmk/hg27XO9VWnDD4NIjuWGZcs\nlpfwzC/2WjDCRkvBE440+4yrW5zteKFg1x5W4bk9bKAnI2NM+FeE4jmfLh0H/+g6\nl5FMZ49dCAqs8gpIlWjRE+ssgImtRvAaoVo6V6trJfPcRJYQtygJWEA2ks3fOKfj\nTFCz+rt6ygRTVuzaicwGhBRSuXZN9vP5NeZFpO50oY60qZLqSzn0rtJHXoIdGOnS\n/87RCLbcgv3qMitot784\n=/N/d\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0cec8faf5dfc9692b004d62955d42477a2935204\nparent 8544314fa6cc9f906c3ec2395927f5404ffbb5eb\nauthor chetantoshniwal <chetantoshniwal@gmail.com> 1775514932 -0700\ncommitter GitHub <noreply@github.com> 1775514932 -0700\n\nUpdate maintenance mode banner in readme (#7521)\n\nUpdating maintenance banner and redirect new users to Microsoft Agent Framework.",
+        "verified_at": "2026-04-06T22:35:32Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+    "html_url": "https://github.com/microsoft/autogen/commit/027ecf0a379bcc1d09956d46d12d44a3ad9cee14",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/027ecf0a379bcc1d09956d46d12d44a3ad9cee14/comments",
+    "author": {
+      "login": "chetantoshniwal",
+      "id": 255221507,
+      "node_id": "U_kgDODzZfAw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/255221507?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chetantoshniwal",
+      "html_url": "https://github.com/chetantoshniwal",
+      "followers_url": "https://api.github.com/users/chetantoshniwal/followers",
+      "following_url": "https://api.github.com/users/chetantoshniwal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chetantoshniwal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chetantoshniwal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chetantoshniwal/subscriptions",
+      "organizations_url": "https://api.github.com/users/chetantoshniwal/orgs",
+      "repos_url": "https://api.github.com/users/chetantoshniwal/repos",
+      "events_url": "https://api.github.com/users/chetantoshniwal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chetantoshniwal/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8544314fa6cc9f906c3ec2395927f5404ffbb5eb",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/8544314fa6cc9f906c3ec2395927f5404ffbb5eb",
+        "html_url": "https://github.com/microsoft/autogen/commit/8544314fa6cc9f906c3ec2395927f5404ffbb5eb"
+      }
+    ]
+  },
+  {
+    "sha": "8544314fa6cc9f906c3ec2395927f5404ffbb5eb",
+    "node_id": "C_kwDOKInPB9oAKDg1NDQzMTRmYTZjYzlmOTA2YzNlYzIzOTU5MjdmNTQwNGZmYmI1ZWI",
+    "commit": {
+      "author": {
+        "name": "Victor Dibia",
+        "email": "victordibia@microsoft.com",
+        "date": "2026-03-26T03:15:37Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-03-26T03:15:37Z"
+      },
+      "message": "fix: restrict importlib provider loading to trusted namespaces (#7463)",
+      "tree": {
+        "sha": "b72c0d77977566fe8ca179ff06a74145ef69b74f",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/b72c0d77977566fe8ca179ff06a74145ef69b74f"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/8544314fa6cc9f906c3ec2395927f5404ffbb5eb",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpxKTZCRC1aQ7uu5UhlAAAk78QAAwZmvlSVjUwbUkAyqDmanoM\nMgaVMYbdy1+pzBYEYnicTj2GSFZj4TMENFQ+FP5clRhwbel6VnMb8ok0Ag7kwuRP\nCUgAA+JqD4PDxMRsuECsYLvWOFNHDWBfFwb1B5+M/jWiwyhAP7MASwq0bMhDb0rg\nzjxMu4CqfRJJ9LUOMw3T33sVxXuBChLCwmMh2u/zaWMt5Ak38rkmr1FC3zodAfbc\nijmM1wSRYMuxyt7HnrtS3a0S8PAcWFIHFh8gQ/0b9PqVeIHwAg3OjKUM2SA33KJn\nMECEHxjgU3Vf+LYZWmRKV7chkO+8PCFvGiDRrV+V54DRTfeJFnsr+CD16blApA3I\noZFzvlwds5FJ9VjRM6WJ1xg2jZi6ydov0r+PWGI+lSvZYuWHsHjom09mXPk5s5yg\n6IigkbIOio/19+Q7i6Rs+4NAb+bUq1HYPUDoAJaqjs/cZYnxBr0mj4xdzyuXIf7U\ndpU8cA5iox24TGlW06BuffZL5r3Ap6UGl1AVwKmBWPL58u2aGsMO1Xr+1DbmLDYc\nb8+Yaw/FOE6932ocCCc8iSrtSnfaJpOZNG1YwKGXDU6XJL7IQp+Ty/I0alcKlPz5\nKlSiGrmJtptO2z5xzDMOc8NF2rVpmIXmHYx7Cp4ymPJmMI9RiHJgUMWQj8LZxQLU\n5WtG3L4qFb5RMZfGwCXa\n=+8vI\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b72c0d77977566fe8ca179ff06a74145ef69b74f\nparent b0477309d2a0baf489aa256646e41e513ab3bfe8\nauthor Victor Dibia <victordibia@microsoft.com> 1774494937 -0700\ncommitter GitHub <noreply@github.com> 1774494937 -0700\n\nfix: restrict importlib provider loading to trusted namespaces (#7463)",
+        "verified_at": "2026-03-26T03:15:37Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/8544314fa6cc9f906c3ec2395927f5404ffbb5eb",
+    "html_url": "https://github.com/microsoft/autogen/commit/8544314fa6cc9f906c3ec2395927f5404ffbb5eb",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/8544314fa6cc9f906c3ec2395927f5404ffbb5eb/comments",
+    "author": {
+      "login": "victordibia",
+      "id": 1547007,
+      "node_id": "MDQ6VXNlcjE1NDcwMDc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1547007?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/victordibia",
+      "html_url": "https://github.com/victordibia",
+      "followers_url": "https://api.github.com/users/victordibia/followers",
+      "following_url": "https://api.github.com/users/victordibia/following{/other_user}",
+      "gists_url": "https://api.github.com/users/victordibia/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/victordibia/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/victordibia/subscriptions",
+      "organizations_url": "https://api.github.com/users/victordibia/orgs",
+      "repos_url": "https://api.github.com/users/victordibia/repos",
+      "events_url": "https://api.github.com/users/victordibia/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/victordibia/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b0477309d2a0baf489aa256646e41e513ab3bfe8",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/b0477309d2a0baf489aa256646e41e513ab3bfe8",
+        "html_url": "https://github.com/microsoft/autogen/commit/b0477309d2a0baf489aa256646e41e513ab3bfe8"
+      }
+    ]
+  },
+  {
+    "sha": "b0477309d2a0baf489aa256646e41e513ab3bfe8",
+    "node_id": "C_kwDOKInPB9oAKGIwNDc3MzA5ZDJhMGJhZjQ4OWFhMjU2NjQ2ZTQxZTUxM2FiM2JmZTg",
+    "commit": {
+      "author": {
+        "name": "Victor Dibia",
+        "email": "victordibia@microsoft.com",
+        "date": "2026-03-11T19:42:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-03-11T19:42:46Z"
+      },
+      "message": "fix: Improve AutoGen Studio: deprecate FunctionTool, harden MCP WebSocket endpoint (#7362)",
+      "tree": {
+        "sha": "a1daaa9b8fbb6a80f179d1fb9625649996e45f45",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/a1daaa9b8fbb6a80f179d1fb9625649996e45f45"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/b0477309d2a0baf489aa256646e41e513ab3bfe8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpscW2CRC1aQ7uu5UhlAAAd00QAByRP3Lr1DIRidd74cQrvB6P\n+s/u3x6xpk8lOKdO6V2xfhVui7C4JOY+EDdjQ8tHDR/FiVPSx1DaQH/6V0PeTxos\nZMTM4t9B17YPiNke9SwaK4Xa1Vt4ZR1foO2ezDy8RJ0Xezo1MxJsdZACxcIfWa6x\nKjV3v7VWOkMz0euw45u6Pn+KMPVgZim3RWzPUWNB4sbyrUjR8mGdF0VBr9s441vR\nIPfNONW89DdCCkgVF6wVbEabVn18fi7FbntFN71XREOI3TDzYJ16JF1gSLDJSFLx\ncxtqHpQoxJ/CoYU+ggRj9V+8Opzt/zLrd9LB1k8VYRdfTksqUEXzL52gtI/rfpya\nuu6GICDqAfW71oO1oGcNV3X4a2NYgLyEqSipy8oYeWLKMGug7L7w8gEBYsaYKIti\nT8twwsEkHWR1bUlTOytXIzCSgRxV6iMH8ekMj3Vqc5stfe9AF5UiwV6ryQwAHtFA\n/+AEV6hnH1YlUeGI11l52qaBHJC+tuCQjWiFSkksFZXdUIZ8v7Tz96/qpdHr831t\nR8OMHkhQepMfVzJfbZp4r36a0f/76zd9W0r/wOwxxQnsQOsbLF/1rYNdySgz5ztm\njGWsfSKMz6B5EIfTc2rG1LjziawrOSKd8PaSmKUcZAn41k6ItyoO+65DAKXT1eKB\n20nd6BA3utOUGabWelek\n=4FwT\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a1daaa9b8fbb6a80f179d1fb9625649996e45f45\nparent 13e144e5476a76ca0d76bf4f07a6401d133a03ed\nauthor Victor Dibia <victordibia@microsoft.com> 1773258166 -0700\ncommitter GitHub <noreply@github.com> 1773258166 -0700\n\nfix: Improve AutoGen Studio: deprecate FunctionTool, harden MCP WebSocket endpoint (#7362)",
+        "verified_at": "2026-03-11T19:42:47Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/b0477309d2a0baf489aa256646e41e513ab3bfe8",
+    "html_url": "https://github.com/microsoft/autogen/commit/b0477309d2a0baf489aa256646e41e513ab3bfe8",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/b0477309d2a0baf489aa256646e41e513ab3bfe8/comments",
+    "author": {
+      "login": "victordibia",
+      "id": 1547007,
+      "node_id": "MDQ6VXNlcjE1NDcwMDc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1547007?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/victordibia",
+      "html_url": "https://github.com/victordibia",
+      "followers_url": "https://api.github.com/users/victordibia/followers",
+      "following_url": "https://api.github.com/users/victordibia/following{/other_user}",
+      "gists_url": "https://api.github.com/users/victordibia/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/victordibia/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/victordibia/subscriptions",
+      "organizations_url": "https://api.github.com/users/victordibia/orgs",
+      "repos_url": "https://api.github.com/users/victordibia/repos",
+      "events_url": "https://api.github.com/users/victordibia/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/victordibia/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "13e144e5476a76ca0d76bf4f07a6401d133a03ed",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/13e144e5476a76ca0d76bf4f07a6401d133a03ed",
+        "html_url": "https://github.com/microsoft/autogen/commit/13e144e5476a76ca0d76bf4f07a6401d133a03ed"
+      }
+    ]
+  },
+  {
+    "sha": "13e144e5476a76ca0d76bf4f07a6401d133a03ed",
+    "node_id": "C_kwDOKInPB9oAKDEzZTE0NGU1NDc2YTc2Y2EwZDc2YmY0ZjA3YTY0MDFkMTMzYTAzZWQ",
+    "commit": {
+      "author": {
+        "name": "4shen0ne",
+        "email": "33086594+zrquan@users.noreply.github.com",
+        "date": "2025-10-04T01:06:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-04T01:06:04Z"
+      },
+      "message": "fix: order by clause (#7051)\n\nCo-authored-by: Victor Dibia <victordibia@microsoft.com>",
+      "tree": {
+        "sha": "0e77cc71fb96951a78f0758eccef8c812c66ca82",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/0e77cc71fb96951a78f0758eccef8c812c66ca82"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/13e144e5476a76ca0d76bf4f07a6401d133a03ed",
+      "comment_count": 1,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo4HL8CRC1aQ7uu5UhlAAAuToQAJTCFF+pwl2/PlxhEDif82d2\nX0c6iXm4BkFN8v9rQxmVL4Yj7TUQh8RgX6kPJcKujYdJhxx2YMaIFSG+/2FLEqhX\n3ZKmO3HjaV7LyQUvON3BBqqytiqC68S8ZJlTtvKzJ0mfVQKKB359Ru6Z7C+4sA8q\nG2P8g7KfIK2JwwaDF0rsL1qTwC38PFGl63KPTftqliTDB/3j0vhjiLfPb/UMD0FJ\nT0ioQg0+rNqMU3ON/tujCXBe3Iv04xqywNjFqH0x7oWpK+UuPfn3aaNUX2Co8jEj\nhuRvjOUpK82ihy4R3I3jSt4Sjd8NSTZMOzWbYzaDnk6vYaXbqESyHa1ZyOBT68S8\nPEqZegZ4pybKGiIJneGc0J7kPCEDL5NE6+UNGQME429kkElJY7Y+Sq0RGGDoLIbl\nosMUZ20aT7fJ4qxE22IaR1zASDWQOEb/SXex7MPaysn30tYnf18oiHhA4ckprx7H\ns/5ie4SOtlTmcQRSJphbCmSf5W0DCb7k0IM/6u9AEENgCW9FmUPwghuAlOpHeFqU\nBC0/v54Ma+RTO+DFCZCnddJAEtJ4KgCXHK6boM7jPwRjTbCnIDvNqvIR/porSOVN\nMgvQWHESED1GwhnnIXaALSYIgAg7636Ya40NSUfNwT6530npu9/7HYDgK4oP7hx7\nnekAvcx2KA6n3p8jz/py\n=lq1M\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0e77cc71fb96951a78f0758eccef8c812c66ca82\nparent 6dc0a2340d65ba28f0528b5b1173ac9deec84755\nauthor 4shen0ne <33086594+zrquan@users.noreply.github.com> 1759539964 +0800\ncommitter GitHub <noreply@github.com> 1759539964 +0000\n\nfix: order by clause (#7051)\n\nCo-authored-by: Victor Dibia <victordibia@microsoft.com>",
+        "verified_at": "2025-10-04T01:06:04Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/13e144e5476a76ca0d76bf4f07a6401d133a03ed",
+    "html_url": "https://github.com/microsoft/autogen/commit/13e144e5476a76ca0d76bf4f07a6401d133a03ed",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/13e144e5476a76ca0d76bf4f07a6401d133a03ed/comments",
+    "author": {
+      "login": "zrquan",
+      "id": 33086594,
+      "node_id": "MDQ6VXNlcjMzMDg2NTk0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33086594?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zrquan",
+      "html_url": "https://github.com/zrquan",
+      "followers_url": "https://api.github.com/users/zrquan/followers",
+      "following_url": "https://api.github.com/users/zrquan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zrquan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zrquan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zrquan/subscriptions",
+      "organizations_url": "https://api.github.com/users/zrquan/orgs",
+      "repos_url": "https://api.github.com/users/zrquan/repos",
+      "events_url": "https://api.github.com/users/zrquan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zrquan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6dc0a2340d65ba28f0528b5b1173ac9deec84755",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/6dc0a2340d65ba28f0528b5b1173ac9deec84755",
+        "html_url": "https://github.com/microsoft/autogen/commit/6dc0a2340d65ba28f0528b5b1173ac9deec84755"
+      }
+    ]
+  },
+  {
+    "sha": "6dc0a2340d65ba28f0528b5b1173ac9deec84755",
+    "node_id": "C_kwDOKInPB9oAKDZkYzBhMjM0MGQ2NWJhMjhmMDUyOGI1YjExNzNhYzlkZWVjODQ3NTU",
+    "commit": {
+      "author": {
+        "name": "Jirka Borovec",
+        "email": "6035284+Borda@users.noreply.github.com",
+        "date": "2025-10-04T00:18:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-04T00:18:31Z"
+      },
+      "message": "update instructions for Quickstart (#7068)",
+      "tree": {
+        "sha": "461e39d3d488197d303eac850d69d78bcf396364",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/461e39d3d488197d303eac850d69d78bcf396364"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/6dc0a2340d65ba28f0528b5b1173ac9deec84755",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo4GfXCRC1aQ7uu5UhlAAAObsQACM4bf/whdPkFElPK7Gy/pdW\nckQ7/4q84T4QviclBHvblgKMMid4i9uh9Sg9vc7EPN3JVjuyNa6gv0Qk7ndHhgRo\nqX8v8e1UYu72Pv680dWvS2b3zBLW+u1PLZKWz3hy6yqCdLgZyYgFjx99roC0rELY\n3VisrT1eR1lj92uNpfvKWqipHTJ3O2vyeWYRq8EfZnbibTRLJ2LNltZGwGalZSdP\n6GRTCuWAVHOdf1KGeDPBoH0/y/ZhETiH2VJfzjo8IkUKKxlcz27x4N78EtwquQXx\nSxeGUbNXcmffTCjsg++QtORpGiYpILfjdwFG8SxU9gxykUoDwUUJMfgubmdaRcRC\nkqP7cwT8DhKKoxdXlsWVm6kRdXH1Gnv3TqWBqxQRmtcRE28dcnKvZZukxUlViWm2\n8KZUZ+ILCYcPZFZW6joQiJEI3Ap++qK1JSqdS3LSVG+xOzk7Wbb/8GHLt3Wn5F14\nX9BlFANBzyUxk0niIAu0tCxF+nCar1SlZS4hHVXknmSDk1XM6gqHWG3+aaApBQEE\n51q63E/eWGUxzdU84RIB8Q0oJPC0QzeR+MXaO/y9XP0Igzj/c53KfdkHRO26jB8m\nObI32rH1WpKAVLU+P4K0WRWAFXl5ML6m4BSkxnb1iyoRjmToGSn+i1XmvBnde5Jq\nC7SVrqR18vMcGbpLHFTx\n=s/5I\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 461e39d3d488197d303eac850d69d78bcf396364\nparent 84f21a08992053334afaab7f7136e79011cd9837\nauthor Jirka Borovec <6035284+Borda@users.noreply.github.com> 1759537111 +0200\ncommitter GitHub <noreply@github.com> 1759537111 -0700\n\nupdate instructions for Quickstart (#7068)\n\n",
+        "verified_at": "2025-10-04T00:18:32Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/6dc0a2340d65ba28f0528b5b1173ac9deec84755",
+    "html_url": "https://github.com/microsoft/autogen/commit/6dc0a2340d65ba28f0528b5b1173ac9deec84755",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/6dc0a2340d65ba28f0528b5b1173ac9deec84755/comments",
+    "author": {
+      "login": "Borda",
+      "id": 6035284,
+      "node_id": "MDQ6VXNlcjYwMzUyODQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6035284?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Borda",
+      "html_url": "https://github.com/Borda",
+      "followers_url": "https://api.github.com/users/Borda/followers",
+      "following_url": "https://api.github.com/users/Borda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Borda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Borda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Borda/subscriptions",
+      "organizations_url": "https://api.github.com/users/Borda/orgs",
+      "repos_url": "https://api.github.com/users/Borda/repos",
+      "events_url": "https://api.github.com/users/Borda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Borda/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "84f21a08992053334afaab7f7136e79011cd9837",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/84f21a08992053334afaab7f7136e79011cd9837",
+        "html_url": "https://github.com/microsoft/autogen/commit/84f21a08992053334afaab7f7136e79011cd9837"
+      }
+    ]
+  },
+  {
+    "sha": "84f21a08992053334afaab7f7136e79011cd9837",
+    "node_id": "C_kwDOKInPB9oAKDg0ZjIxYTA4OTkyMDUzMzM0YWZhYWI3ZjcxMzZlNzkwMTFjZDk4Mzc",
+    "commit": {
+      "author": {
+        "name": "Eric Zhu",
+        "email": "ekzhu@users.noreply.github.com",
+        "date": "2025-10-02T23:54:22Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-02T23:54:22Z"
+      },
+      "message": "Update README with maintenance and resource information (#7067)",
+      "tree": {
+        "sha": "6ae8ee66e493849168d518915897a97e383203f0",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/6ae8ee66e493849168d518915897a97e383203f0"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/84f21a08992053334afaab7f7136e79011cd9837",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo3xCuCRC1aQ7uu5UhlAAA+IoQABz4dYla9+e8QpL6d8VNd1OP\njoTioR3Nxl/PxpRngwE8H+QqA6ANO7EmaKZX9dp62kR2JEVhBxNj24CdJOD5jb+Q\nw6QmKr5SZmAY260UL1TLcjgESTvoY4DoyFiWa5YDd5T41a84pmABmPGm35yejV4n\nOwh3yonZquvNA7Ys6uo1/GycF/4c4OxBNpoC1hjIYdbrLVHNTngT2DoyXAgjtE3D\n+A4LBtLZthyAgGFfyV+IK3RrfAkQ9XAn9qZOeKqP1sSpKE+I0Ea9pe+I2nfvqffw\ncq2TVxuDm0zB5WeRWYXKLxxSGzzKedceg0fgtrkdEUphUds5s1xXJm3cWOG8i6aT\nTUhSmT0y8IW76wAgHNRrdknq/yDtjHh7i5PYvASrUYp8rI6fhfNu7seL5J+G9KT7\noTKk5FAWpPJUJ2FfKujsW+TWnvzSMwd4sdv6nlHmEARBBM8glskuyn1AjmawP6Qm\naJBDcECNrp9Bm5iI5e4zKqcsYfLcmosZIEe7p9Ei0IzLu6vSOb3wdcRdk84hrvC8\nOl+0lqKeK8CcoYwBeDybjsJlnLqQAdDkqClbrZ/EPMF4DygwI1EJEP4GLGCkELAn\nNCGxIQOw6zj37gQWHVFj0gu1sGGcUy6ai23oBz56Y6ZIOMxqunUI+8bQlXeLRi02\nwdqLuHna5YFGK2CHWqyQ\n=F4ON\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6ae8ee66e493849168d518915897a97e383203f0\nparent c02791282b405d83632274274f31236b496ea3c6\nauthor Eric Zhu <ekzhu@users.noreply.github.com> 1759449262 -0700\ncommitter GitHub <noreply@github.com> 1759449262 -0700\n\nUpdate README with maintenance and resource information (#7067)\n\n",
+        "verified_at": "2025-10-02T23:54:23Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/84f21a08992053334afaab7f7136e79011cd9837",
+    "html_url": "https://github.com/microsoft/autogen/commit/84f21a08992053334afaab7f7136e79011cd9837",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/84f21a08992053334afaab7f7136e79011cd9837/comments",
+    "author": {
+      "login": "ekzhu",
+      "id": 320302,
+      "node_id": "MDQ6VXNlcjMyMDMwMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/320302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ekzhu",
+      "html_url": "https://github.com/ekzhu",
+      "followers_url": "https://api.github.com/users/ekzhu/followers",
+      "following_url": "https://api.github.com/users/ekzhu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ekzhu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ekzhu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ekzhu/subscriptions",
+      "organizations_url": "https://api.github.com/users/ekzhu/orgs",
+      "repos_url": "https://api.github.com/users/ekzhu/repos",
+      "events_url": "https://api.github.com/users/ekzhu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ekzhu/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c02791282b405d83632274274f31236b496ea3c6",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/c02791282b405d83632274274f31236b496ea3c6",
+        "html_url": "https://github.com/microsoft/autogen/commit/c02791282b405d83632274274f31236b496ea3c6"
+      }
+    ]
+  },
+  {
+    "sha": "c02791282b405d83632274274f31236b496ea3c6",
+    "node_id": "C_kwDOKInPB9oAKGMwMjc5MTI4MmI0MDVkODM2MzIyNzQyNzRmMzEyMzZiNDk2ZWEzYzY",
+    "commit": {
+      "author": {
+        "name": "Tyler Payne",
+        "email": "tylerpayne@users.noreply.github.com",
+        "date": "2025-10-02T16:35:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-02T16:35:12Z"
+      },
+      "message": "Support MCP Elicitation, Sampling, and Roots via new McpSessionHost (#6833)\n\nCo-authored-by: Tyler Payne <tylerpayne@microsoft.com>\nCo-authored-by: Claude <noreply@anthropic.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+      "tree": {
+        "sha": "3dd179cbc9299a1c7ee2b140d125e61b10c02484",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/3dd179cbc9299a1c7ee2b140d125e61b10c02484"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/c02791282b405d83632274274f31236b496ea3c6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo3qnACRC1aQ7uu5UhlAAAhlEQAJBbhYyl1dtESM9CBR5koL1/\nEX32dEBdIctueqzLg1T9QwkqUwnPPvyfID4qE/jukktEgXkgnyTyk+l4MF0Cn4ky\nrl3UzO2J7gQNKWiw2XUoBvNKkR+rxekpM7gD/NXkgPSUAds6QWJqyaYkgH5ZX2nZ\nDZ/FBE/v2ai5+Etmwqw6dsuotPotPZtEo40r04yq8Gk+K+V3lmpn7fS+wYhrgUaL\niDeep3OMwFkEtSF6RHbSH72D6EdqhxDkdia8Lr9uxXaxhvoBLomSgMy2E6KfYbPQ\nlWpW/RuRDuuKYhqYT8Q8JFdN9Hn5GTulpH8YGPNQtiVOTZdDGVjkjp3dz7thKNH/\n4qV+oZWuZYfCu1UbmynSfK108MBQkFQvupeoS67mfVS7Dmxv5t00XqRcTfP5verP\nPlX2mCvx9lBYRgkoccVfRZU2S0g4jQdHq6iZu4DTlGaAwKZs7kJuPCn3yJ9b3GaV\nwzle3sxqSiINGvzI9uSy27Fj1sDKBbo71cQywDvXh+DRBzCRLmkw4i2P5Qvhwmn8\nC0RJQU3Xw0TsQUyxM7QcFLgr4r+JfonEmh1dB0nYxQRgr9/SGt+YklXKFO8bm8HG\nrUlu064Zm/0Vy0Kc+xmp3TpVTOTrkcxTLKtITujJJq5XMGlkD1f6wSXVIFVS0YKG\nXSU8YPeYpG435gfHgL7+\n=BH96\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3dd179cbc9299a1c7ee2b140d125e61b10c02484\nparent a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8\nauthor Tyler Payne <tylerpayne@users.noreply.github.com> 1759422912 -0400\ncommitter GitHub <noreply@github.com> 1759422912 -0700\n\nSupport MCP Elicitation, Sampling, and Roots via new McpSessionHost (#6833)\n\nCo-authored-by: Tyler Payne <tylerpayne@microsoft.com>\nCo-authored-by: Claude <noreply@anthropic.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+        "verified_at": "2025-10-02T16:35:13Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/c02791282b405d83632274274f31236b496ea3c6",
+    "html_url": "https://github.com/microsoft/autogen/commit/c02791282b405d83632274274f31236b496ea3c6",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/c02791282b405d83632274274f31236b496ea3c6/comments",
+    "author": {
+      "login": "tylerpayne",
+      "id": 5408889,
+      "node_id": "MDQ6VXNlcjU0MDg4ODk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5408889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tylerpayne",
+      "html_url": "https://github.com/tylerpayne",
+      "followers_url": "https://api.github.com/users/tylerpayne/followers",
+      "following_url": "https://api.github.com/users/tylerpayne/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tylerpayne/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tylerpayne/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tylerpayne/subscriptions",
+      "organizations_url": "https://api.github.com/users/tylerpayne/orgs",
+      "repos_url": "https://api.github.com/users/tylerpayne/repos",
+      "events_url": "https://api.github.com/users/tylerpayne/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tylerpayne/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8",
+        "html_url": "https://github.com/microsoft/autogen/commit/a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8"
+      }
+    ]
+  },
+  {
+    "sha": "a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8",
+    "node_id": "C_kwDOKInPB9oAKGEyYmY1Mzk0YWVkN2E4YWIxMGExNjcxZTUyZjBkMmFkNDAwZmQ1Yjg",
+    "commit": {
+      "author": {
+        "name": "Eric Zhu",
+        "email": "ekzhu@users.noreply.github.com",
+        "date": "2025-09-30T06:14:21Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-30T06:14:21Z"
+      },
+      "message": "Update website for 0.7.5 (#7060)",
+      "tree": {
+        "sha": "6017a7c08ea65e3f2002463b72c9dafec9d5c0c3",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/6017a7c08ea65e3f2002463b72c9dafec9d5c0c3"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo23U9CRC1aQ7uu5UhlAAAxkgQAGNncqfsiADkrK9/mRaU50HW\nvYr9ycfsICeT3FyYC9QQVuX677ENbkEsxB7EAxXwsdUwUrFSdpDhUdMbBUlVI+jg\n1rxLt1j3zTjqnxP7+N/A84Cy3HcPJOIeFb+OXhiTAePCqJRaRSC7cwo4KGl+1kW2\nbv3rzPcjG+aX3wtJYGG+plcITZqss4cJnBxALeH5u67yBpnevg7NzraBFnnmZLp/\nb75gsZG/lcuRoV9kpILw/mEAtj5hSZ1AdFrlHiSXuV2wL+bhaOXv7euY+qADBJGZ\n0dbPFUcaKuKb8xTXGLOSbUyhY+ECag3wvvMCs6DuWwOroitugZHdoQ1L3rPWwWGR\nesAWOf5yxM4VItc7ci+JRz/9K0O0tWEUXCELUTKaaRJL1Sm1YorASYOcFUTpAo09\nRGr1psImn6HtrFSvltweU+GSr3y1WnGtOH6PtIGo5zSG3Vj13GaS5Q2+ynx/HGkI\n2feqnUQfMAoWZ628EMn0bygjS29Z2XU6MUDvZovovBGgi6WZXirT34xVY85FQUjw\nB4MlbXBhaNnhf8UdrDI+x45W4qlKJlhELT9Y6VwHSCrFeKURcmlnIhZcANJtj7vn\nXkgvcTzLa18/w7LXvbx09EXCaw7825Ms4cIZOwPHVwIoVD619cRP/9WsNb5phI4F\nt0t09toHDYEvcZB8v3gy\n=yUL/\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6017a7c08ea65e3f2002463b72c9dafec9d5c0c3\nparent 83afbf5857aac683340d4c692194e548b1e8edda\nauthor Eric Zhu <ekzhu@users.noreply.github.com> 1759212861 -0700\ncommitter GitHub <noreply@github.com> 1759212861 -0700\n\nUpdate website for 0.7.5 (#7060)\n\n",
+        "verified_at": "2025-09-30T06:14:22Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8",
+    "html_url": "https://github.com/microsoft/autogen/commit/a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/a2bf5394aed7a8ab10a1671e52f0d2ad400fd5b8/comments",
+    "author": {
+      "login": "ekzhu",
+      "id": 320302,
+      "node_id": "MDQ6VXNlcjMyMDMwMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/320302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ekzhu",
+      "html_url": "https://github.com/ekzhu",
+      "followers_url": "https://api.github.com/users/ekzhu/followers",
+      "following_url": "https://api.github.com/users/ekzhu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ekzhu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ekzhu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ekzhu/subscriptions",
+      "organizations_url": "https://api.github.com/users/ekzhu/orgs",
+      "repos_url": "https://api.github.com/users/ekzhu/repos",
+      "events_url": "https://api.github.com/users/ekzhu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ekzhu/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "83afbf5857aac683340d4c692194e548b1e8edda",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/83afbf5857aac683340d4c692194e548b1e8edda",
+        "html_url": "https://github.com/microsoft/autogen/commit/83afbf5857aac683340d4c692194e548b1e8edda"
+      }
+    ]
+  },
+  {
+    "sha": "83afbf5857aac683340d4c692194e548b1e8edda",
+    "node_id": "C_kwDOKInPB9oAKDgzYWZiZjU4NTdhYWM2ODMzNDBkNGM2OTIxOTRlNTQ4YjFlOGVkZGE",
+    "commit": {
+      "author": {
+        "name": "Eric Zhu",
+        "email": "ekzhu@users.noreply.github.com",
+        "date": "2025-09-30T06:07:16Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-30T06:07:16Z"
+      },
+      "message": "Update version to 0.7.5 (#7058)",
+      "tree": {
+        "sha": "09a39a20d6f2b2838ebd59d7e607d00722e22635",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/09a39a20d6f2b2838ebd59d7e607d00722e22635"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/83afbf5857aac683340d4c692194e548b1e8edda",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo23OUCRC1aQ7uu5UhlAAAiLEQAKdkI+t7yqwp9nWZ85Srap90\nuwXjP+mC8sJ29AGUVm/AJyeM7NtaJ8cJMqh/6g496aD9HvSxqMQQ52gKPgytdAWm\nahmUOIisPfLeOQivvfwLFZiFG+VO80V2salsBfejIVt8GT2zagvmjShCyAYjJgHV\nu7QVKWwqKJQ4HVdaj+vOhUodTLfVEja4cisKECdh0y7JvsIkPMyjmKirWeKSXwv5\nFmG4bYuLqHn/KZXh8q/mxmOEFipv95tqWQDNvwJ7Wx6tcwlkiESmIVhSmwU026Jy\ngza5nSZ2zYORR09rq/G6IfhoaEnsxMPrtdpKKy2CKjBX15qIjjbfkZQ501XtFHnJ\nWaj7Eb37C5qAdh2+vKXtNJUCQYQf02J04EhlkHB/LNQ1ChP04NXbiXrl16EkRwvk\n+WamaIUe9UzvAn/SqKavTZTimUVyCa3bMqdDweFdpGa1f7ybY37DZsx88yAQATX+\nKWWei9GPgrAmVFM8E3x0BVHiWAIHwkb4qtCehm4EHqaplh63zZrH3oF10r3O51c3\n/CJk6jhJvXNvTPyx8CrMGzxZ2WM9IVSFna0Do4AIyzlPh50hzgcl5K106W9Nva8h\nDgLsJw9Ss1lhXI1DpExk+g9D0PauE4cFtcKBL4/ENehCRXLX0AwS+2EroByB4S08\ngaLEA4O9kUNkVIu+CREH\n=spAa\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 09a39a20d6f2b2838ebd59d7e607d00722e22635\nparent e04564390361665325b2df9bf9e696ab72fe6946\nauthor Eric Zhu <ekzhu@users.noreply.github.com> 1759212436 -0700\ncommitter GitHub <noreply@github.com> 1759212436 -0700\n\nUpdate version to 0.7.5 (#7058)\n\n",
+        "verified_at": "2025-09-30T06:07:17Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/83afbf5857aac683340d4c692194e548b1e8edda",
+    "html_url": "https://github.com/microsoft/autogen/commit/83afbf5857aac683340d4c692194e548b1e8edda",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/83afbf5857aac683340d4c692194e548b1e8edda/comments",
+    "author": {
+      "login": "ekzhu",
+      "id": 320302,
+      "node_id": "MDQ6VXNlcjMyMDMwMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/320302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ekzhu",
+      "html_url": "https://github.com/ekzhu",
+      "followers_url": "https://api.github.com/users/ekzhu/followers",
+      "following_url": "https://api.github.com/users/ekzhu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ekzhu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ekzhu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ekzhu/subscriptions",
+      "organizations_url": "https://api.github.com/users/ekzhu/orgs",
+      "repos_url": "https://api.github.com/users/ekzhu/repos",
+      "events_url": "https://api.github.com/users/ekzhu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ekzhu/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e04564390361665325b2df9bf9e696ab72fe6946",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/e04564390361665325b2df9bf9e696ab72fe6946",
+        "html_url": "https://github.com/microsoft/autogen/commit/e04564390361665325b2df9bf9e696ab72fe6946"
+      }
+    ]
+  },
+  {
+    "sha": "e04564390361665325b2df9bf9e696ab72fe6946",
+    "node_id": "C_kwDOKInPB9oAKGUwNDU2NDM5MDM2MTY2NTMyNWIyZGY5YmY5ZTY5NmFiNzJmZTY5NDY",
+    "commit": {
+      "author": {
+        "name": "Copilot",
+        "email": "198982749+Copilot@users.noreply.github.com",
+        "date": "2025-09-30T05:57:45Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-30T05:57:45Z"
+      },
+      "message": "Add missing reasoning_effort parameter support for OpenAI GPT-5 models (#7054)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: victordibia <1547007+victordibia@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Maurice Bailly <baillymaurice@hotmail.com>",
+      "tree": {
+        "sha": "c227e90b5b8e573a7f31aca243aae36a022b7b7c",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/c227e90b5b8e573a7f31aca243aae36a022b7b7c"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/e04564390361665325b2df9bf9e696ab72fe6946",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo23FZCRC1aQ7uu5UhlAAAvewQABEoN3ZSOxyIYaPH2wE4GLF6\njBHWFs2ZnF+rOlGHMhulBx2w4prri8aWx4vFs31/Ku+c1IlyMKYOJJxrqtYT6pvC\nTHO0pXh6x9eLpcZt5+k7naLnT3xeLtRODo0Aqg+VQ6S6g08PR6kiQQgU6nbNW3Sr\nZ7xACjBylCCXcX6BQL6Tbzb4h7Z51sdOjPS4wrDBDHZQ3GwjVEyEZGk4BPNwcgAq\npls0TJardFjCrBM6u4Ms99LLInrZcKAwgcKibmCmAvGyvmlLSxkZ0TGuMtGSIxyO\ns8/vYEhAcTQES+aIklVUtbXOkRYYx0HwF8JRuIVgVibZp47ZFeBNIb0lrgiJykyv\nPn0VyLmpB9SwyTKltOFxrXd5HfjlGhUKkOcBedrUKtpV18avm/8aHsHJk8wt47/G\nro7Fxk14HBJrtacilqqtFhbaX9xTCVVCQTa4ptOWBvTFwk2YKLVr6+9iJeHdwBQB\njigyRGsbHnVuXDiUI2UOVger8lPbOdQDzrsLx+Nyc/sv7DIIu/T68VoJc3bH6l44\nn+KVAZzh1Z3xF/A9S0fy+tWa8nhxef0XgKVEC1fapCsOql6St5XGbldf1IR1XF0/\nJpKyOu8SUw31Aua+3Nq1P26zvXXPeg4hxCMS5nH3GBVNkrNEiy0VmIqHhFZZ09/2\nzRJUsepQcbZKw89yjE5o\n=EWcb\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c227e90b5b8e573a7f31aca243aae36a022b7b7c\nparent 29931b37af6ead5d5eafa72c01f96f01792c6d23\nauthor Copilot <198982749+Copilot@users.noreply.github.com> 1759211865 -0700\ncommitter GitHub <noreply@github.com> 1759211865 -0700\n\nAdd missing reasoning_effort parameter support for OpenAI GPT-5 models (#7054)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: victordibia <1547007+victordibia@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Maurice Bailly <baillymaurice@hotmail.com>",
+        "verified_at": "2025-09-30T05:57:46Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/e04564390361665325b2df9bf9e696ab72fe6946",
+    "html_url": "https://github.com/microsoft/autogen/commit/e04564390361665325b2df9bf9e696ab72fe6946",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/e04564390361665325b2df9bf9e696ab72fe6946/comments",
+    "author": {
+      "login": "Copilot",
+      "id": 198982749,
+      "node_id": "BOT_kgDOC9w8XQ",
+      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Copilot",
+      "html_url": "https://github.com/apps/copilot-swe-agent",
+      "followers_url": "https://api.github.com/users/Copilot/followers",
+      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Copilot/orgs",
+      "repos_url": "https://api.github.com/users/Copilot/repos",
+      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "29931b37af6ead5d5eafa72c01f96f01792c6d23",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/29931b37af6ead5d5eafa72c01f96f01792c6d23",
+        "html_url": "https://github.com/microsoft/autogen/commit/29931b37af6ead5d5eafa72c01f96f01792c6d23"
+      }
+    ]
+  },
+  {
+    "sha": "29931b37af6ead5d5eafa72c01f96f01792c6d23",
+    "node_id": "C_kwDOKInPB9oAKDI5OTMxYjM3YWY2ZWFkNWQ1ZWFmYTcyYzAxZjk2ZjAxNzkyYzZkMjM",
+    "commit": {
+      "author": {
+        "name": "Sungjun.Kim",
+        "email": "kimsungjun@linecorp.com",
+        "date": "2025-09-30T04:30:15Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-30T04:30:15Z"
+      },
+      "message": "Fix(mcp): drain pending command futures on McpSessionActor failure (#7045)",
+      "tree": {
+        "sha": "570894078b5353e2721d9972479ea6f056ec1fb3",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/570894078b5353e2721d9972479ea6f056ec1fb3"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/29931b37af6ead5d5eafa72c01f96f01792c6d23",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo21zYCRC1aQ7uu5UhlAAA3mYQAKCttdlQr4kKwefnoUtbqNV1\nEx/RO4R7W2EKJR+YB8AITQXagA0pcgyJZEEkX93QNnFWDOhh1Pah2LTRoct8zsj2\nRsyPKRFmDseUNaU6YivaeyR0SjFGG6sXyWsU+bxg4SagZv8yo3OGUdXdnaw49LXq\ncZORsqbjf11uM0cMq3dKRz7Spif93voXsAM1JOQvHqU7xPEYD1/p9Zjdur+0xS7q\nYcPoCNcxQ+93Eh1psG1TynW2Z04CVEpIvF9Zd7zog76xNR0ds30jcdQ0Fro7rUzP\nilk7u0hbH2K2Y57Mb2wIedbMG6uTQ1b8rzjHwRWDxhto7Wf1+zUK9fRxeMXCqmOZ\nb103/NMl7Mf+mXc0DCWGOYne6YQWT03blSYrmeiBpvcyTFiqcq+vsBnkcGYFI9rG\nL4EDlyOqQ0UmZQTMeJs812GLxS7eyAe0lHLqIHuS/tGp8g+No+Y2q3lvcPL/B2AD\n/mUZmF0U+vigWuNsNWW6frsH9FtjIZ0N4HhVIsahIq9UsZyqD8wPTCovP6b/dOFZ\nsB2kuaqusA0SHC64VQFL9TzhT/32pkrhiyCJQej3QB5Wk1917RfID9iNnSFSFKwZ\nnkXgzzF9alW+npMb+jGoatSXGuRPrAuiDnoDv+gm7E563HqqmQJDprN96pLoVaVz\nDOxIY3+heZTAk1BiVWbr\n=fHCQ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 570894078b5353e2721d9972479ea6f056ec1fb3\nparent f76f92dd8c22af51cc62cce738342bf4fb7e8970\nauthor Sungjun.Kim <kimsungjun@linecorp.com> 1759206615 +0900\ncommitter GitHub <noreply@github.com> 1759206615 -0700\n\nFix(mcp): drain pending command futures on McpSessionActor failure (#7045)\n\n",
+        "verified_at": "2025-09-30T04:30:16Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/29931b37af6ead5d5eafa72c01f96f01792c6d23",
+    "html_url": "https://github.com/microsoft/autogen/commit/29931b37af6ead5d5eafa72c01f96f01792c6d23",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/29931b37af6ead5d5eafa72c01f96f01792c6d23/comments",
+    "author": {
+      "login": "withsmilo",
+      "id": 3915543,
+      "node_id": "MDQ6VXNlcjM5MTU1NDM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3915543?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/withsmilo",
+      "html_url": "https://github.com/withsmilo",
+      "followers_url": "https://api.github.com/users/withsmilo/followers",
+      "following_url": "https://api.github.com/users/withsmilo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/withsmilo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/withsmilo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/withsmilo/subscriptions",
+      "organizations_url": "https://api.github.com/users/withsmilo/orgs",
+      "repos_url": "https://api.github.com/users/withsmilo/repos",
+      "events_url": "https://api.github.com/users/withsmilo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/withsmilo/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f76f92dd8c22af51cc62cce738342bf4fb7e8970",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/f76f92dd8c22af51cc62cce738342bf4fb7e8970",
+        "html_url": "https://github.com/microsoft/autogen/commit/f76f92dd8c22af51cc62cce738342bf4fb7e8970"
+      }
+    ]
+  },
+  {
+    "sha": "f76f92dd8c22af51cc62cce738342bf4fb7e8970",
+    "node_id": "C_kwDOKInPB9oAKGY3NmY5MmRkOGMyMmFmNTFjYzYyY2NlNzM4MzQyYmY0ZmI3ZTg5NzA",
+    "commit": {
+      "author": {
+        "name": "seung",
+        "email": "38664481+seunggil1@users.noreply.github.com",
+        "date": "2025-09-18T04:06:24Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-18T04:06:24Z"
+      },
+      "message": "Fix not supported field warnings in count_tokens_openai (#6987)",
+      "tree": {
+        "sha": "f9f30f8d771e25fa3596ad44f7ddf0bf1eba6cb3",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/f9f30f8d771e25fa3596ad44f7ddf0bf1eba6cb3"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/f76f92dd8c22af51cc62cce738342bf4fb7e8970",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoy4VACRC1aQ7uu5UhlAAA7kQQAFjDqebQTjZqEJWEPhSM1otb\nZiNMSD2A0fS0Ye8VIOox+96Nr1GTHxVYBqc4OCqdiwzpxPZ3K2XilNYIUPcM1XF6\nL3Z9E1Uw6v6blClxhwn5GhbHS+dQoSupXtniqgN7bEMbp1m8RcQSjjz9XLOmKr4f\ncIqm1dTjk1dfqY4TBIt/OOQfniwWcamU/FufAQlLPvaz/nH8GXf4OwSp17FwUM06\np+OswliHfGe/IEIlTNodHajUhj/aJZuj2X15aoQlAT7XQJIpkGlIzjswZOQtDlaQ\ndDxBQ22JrKPtVfW4nlLox5RPsp4+LcxqgU267sJX0VYSMn9FETVzPun7+yoGOwo2\nvbLDR6XfHLHZGw4x4Z71/KEhCgJL/hoNddD3/09x72uv5lkQCyPlWiJzj9cDcxGZ\n2DVWGIaBFwQkzEEoRwk1WGJnZmHuQ/1Q5W/tBAQLbZhxgLSeKUhJoGshTUhCVeI3\nPHwk7WThwWnoe7ReeboZruteYBbuBRDgJAePFgf7dj4IePBUzSmYshTObKVyygFe\nShUPFrWl/pOnw7zq3BbYMcxe0Ooi2LGpU5molZgZ/Svl3hY9xGUvlc3fZTbUQeJD\npWuqj8wEFijhdQ2W5AnwF0gBxo6Hd/TavSxM+67mbBK+brRpZzoWGs0Lv8e3xC1q\n49Juq5CY4oNDcmqqzG8k\n=tYkL\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f9f30f8d771e25fa3596ad44f7ddf0bf1eba6cb3\nparent fb03c1c658822a9850c2a236bf3b509594379ae0\nauthor seung <38664481+seunggil1@users.noreply.github.com> 1758168384 +0900\ncommitter GitHub <noreply@github.com> 1758168384 +0000\n\nFix not supported field warnings in count_tokens_openai (#6987)\n\n",
+        "verified_at": "2025-09-18T04:06:24Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/f76f92dd8c22af51cc62cce738342bf4fb7e8970",
+    "html_url": "https://github.com/microsoft/autogen/commit/f76f92dd8c22af51cc62cce738342bf4fb7e8970",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/f76f92dd8c22af51cc62cce738342bf4fb7e8970/comments",
+    "author": {
+      "login": "seunggil1",
+      "id": 38664481,
+      "node_id": "MDQ6VXNlcjM4NjY0NDgx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38664481?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/seunggil1",
+      "html_url": "https://github.com/seunggil1",
+      "followers_url": "https://api.github.com/users/seunggil1/followers",
+      "following_url": "https://api.github.com/users/seunggil1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/seunggil1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/seunggil1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/seunggil1/subscriptions",
+      "organizations_url": "https://api.github.com/users/seunggil1/orgs",
+      "repos_url": "https://api.github.com/users/seunggil1/repos",
+      "events_url": "https://api.github.com/users/seunggil1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/seunggil1/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fb03c1c658822a9850c2a236bf3b509594379ae0",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/fb03c1c658822a9850c2a236bf3b509594379ae0",
+        "html_url": "https://github.com/microsoft/autogen/commit/fb03c1c658822a9850c2a236bf3b509594379ae0"
+      }
+    ]
+  },
+  {
+    "sha": "fb03c1c658822a9850c2a236bf3b509594379ae0",
+    "node_id": "C_kwDOKInPB9oAKGZiMDNjMWM2NTg4MjJhOTg1MGMyYTIzNmJmM2I1MDk1OTQzNzlhZTA",
+    "commit": {
+      "author": {
+        "name": "kkutrowski",
+        "email": "k.kutrowski@pl-businesssolutions.pl",
+        "date": "2025-09-18T01:10:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-18T01:10:46Z"
+      },
+      "message": "Fix: Handle nested objects in array items for JSON schema conversion (#6993)\n\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+      "tree": {
+        "sha": "852e878d47aa15f148733139613a79eb5986b115",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/852e878d47aa15f148733139613a79eb5986b115"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/fb03c1c658822a9850c2a236bf3b509594379ae0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoy1wWCRC1aQ7uu5UhlAAAPloQAB1h78xWoRQU6zuWKDx7wWXL\ntyi1Z1jsHy89P/3JcZKUTKOb1hs41yb23hd0C0wtj6fvOQpLJMuWzlxQmhJBFdwI\n3fwzIUybaKqDah0g52Z9AqDqN6ONWzyrp7lm7dvXus+I4Bpb5xAnYiX3F2JtRF0j\nEUZVwlI3Ua3CK4EY91T96zpgJ6ZHpDEHlpIv727vbqmcl7O84sKCVc5otfy1AnLC\nfXttRTaffwFY06ixy2yn8qOnBdzeNl0rh3tqHbS7f7HxMwei4UTOCNkgrBHLbtFd\nnFRv5SXVCrF9FHQfWu40kcDGGqAkYtbp8ZLKelGBy8dbE7dliEB3VEDcCbXA9qtX\nXE7SWWcp0+Sx2a5BDGhew+xPfZs2ZrZgrG1UWcm4O9OEPJNacLibY1G6d0zKEoJJ\nCFOtrfEsZFgxEaUDT0JV7xcyAoDuGc7arcO9PliNs+3lUakDBo10QWaK+Egj66t8\n6/cetYsIjt3DLNN+wDSdkBUoH+DU+DZTuLJX9CBp8q7b/45IubjwYWGONNtrxUct\n9ZvpER16bcKJJpRWV6QgjuwQDjSAyQtLYOjbzBKTiPHaVURYGArGG0mY5eP34iv7\nNGQjq0ACtmiYGBCbFEb3stmSU8oQJFR3wOoeqo3p1GjkOfIilfqiRj2GkPXVT2SS\n0T3K8lX04XNqJPS+b0Fz\n=YHUW\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 852e878d47aa15f148733139613a79eb5986b115\nparent 17d3aef9f558727057bc1819a468fea8699c2b7c\nauthor kkutrowski <k.kutrowski@pl-businesssolutions.pl> 1758157846 +0200\ncommitter GitHub <noreply@github.com> 1758157846 -0700\n\nFix: Handle nested objects in array items for JSON schema conversion (#6993)\n\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+        "verified_at": "2025-09-18T01:10:46Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/fb03c1c658822a9850c2a236bf3b509594379ae0",
+    "html_url": "https://github.com/microsoft/autogen/commit/fb03c1c658822a9850c2a236bf3b509594379ae0",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/fb03c1c658822a9850c2a236bf3b509594379ae0/comments",
+    "author": {
+      "login": "kkutrowski",
+      "id": 186727427,
+      "node_id": "U_kgDOCyE8Aw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186727427?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kkutrowski",
+      "html_url": "https://github.com/kkutrowski",
+      "followers_url": "https://api.github.com/users/kkutrowski/followers",
+      "following_url": "https://api.github.com/users/kkutrowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kkutrowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kkutrowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kkutrowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/kkutrowski/orgs",
+      "repos_url": "https://api.github.com/users/kkutrowski/repos",
+      "events_url": "https://api.github.com/users/kkutrowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kkutrowski/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "17d3aef9f558727057bc1819a468fea8699c2b7c",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/17d3aef9f558727057bc1819a468fea8699c2b7c",
+        "html_url": "https://github.com/microsoft/autogen/commit/17d3aef9f558727057bc1819a468fea8699c2b7c"
+      }
+    ]
+  },
+  {
+    "sha": "17d3aef9f558727057bc1819a468fea8699c2b7c",
+    "node_id": "C_kwDOKInPB9oAKDE3ZDNhZWY5ZjU1ODcyNzA1N2JjMTgxOWE0NjhmZWE4Njk5YzJiN2M",
+    "commit": {
+      "author": {
+        "name": "Eric Zhu",
+        "email": "ekzhu@users.noreply.github.com",
+        "date": "2025-09-18T00:40:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-18T00:40:31Z"
+      },
+      "message": "Add security warnings and default to DockerCommandLineCodeExecutor (#7035)\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+      "tree": {
+        "sha": "d183a0c806b9f210f9711704f41f50a13ae6196b",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/d183a0c806b9f210f9711704f41f50a13ae6196b"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/17d3aef9f558727057bc1819a468fea8699c2b7c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoy1T/CRC1aQ7uu5UhlAAAlHEQAB9rLRCy9vA5bnONkUdUZVPv\nIaWe55G0Pzs+5W56OUgjuCzQSoJoua421yHlBNBBWhr/36Gk7EsJLjAsYgoz51NL\nn0BkJ4cPQmCyDDhZNWJgK6/iiHdcqgQxsuT3zvtEchk65PfUHRBI0lrPdvuvDUcg\n7Ir5LmvtEnj41QdPKMNvM0qIzomuLurse/kzsaOR/MlY/Of4+c4WaPfWuf9KvqyO\nkw6dNJnFdr35zb9RzUiG7wS5IWDRDExJcGiPJBaRV2D6KD5uCyiO7G1lIRyPN6iS\nkrxOYJuwIYX7K7uSAwRm2gYuN8xeuf0rOcVd9rUU2zHeWXgWPOQzCLB75qfN0T88\n9KyHJ+aLr9hi9vd3p2JcHy9/3k5U9d0P0SFY2HfvMmMyXzyv1pUhv30d72MaekD5\nG8iDnEj+DHjzfFHa4IcSgCWnL75atOytaFfNCud61PfHVF80Q3/MJTNetlcKEYWq\nXeeJ4rAGEZhkYgxtcCWh52Vx5EVVMBPQOxX1eqFHDXYn/nEDYcGYGIIVgCDxJr4a\nI50AxhBbqNXoHQ76XFa7Onk8lCkgyFUoOPpHsKIWljMOYxrqQEn1Em+4sw1hyEbR\n2SPQps+2JQxBYaOxHNzFmXForfQOSQZHorlMh6iAUxkNP8CIJcAh87RVzBbOKxue\nu5AjaTNq5FzDKwa8cLOe\n=tCfa\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d183a0c806b9f210f9711704f41f50a13ae6196b\nparent 6f67b95963ef0b87437640e5b017bb22d68a1192\nauthor Eric Zhu <ekzhu@users.noreply.github.com> 1758156031 -0700\ncommitter GitHub <noreply@github.com> 1758156031 -0700\n\nAdd security warnings and default to DockerCommandLineCodeExecutor (#7035)\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+        "verified_at": "2025-09-18T00:40:32Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/17d3aef9f558727057bc1819a468fea8699c2b7c",
+    "html_url": "https://github.com/microsoft/autogen/commit/17d3aef9f558727057bc1819a468fea8699c2b7c",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/17d3aef9f558727057bc1819a468fea8699c2b7c/comments",
+    "author": {
+      "login": "ekzhu",
+      "id": 320302,
+      "node_id": "MDQ6VXNlcjMyMDMwMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/320302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ekzhu",
+      "html_url": "https://github.com/ekzhu",
+      "followers_url": "https://api.github.com/users/ekzhu/followers",
+      "following_url": "https://api.github.com/users/ekzhu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ekzhu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ekzhu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ekzhu/subscriptions",
+      "organizations_url": "https://api.github.com/users/ekzhu/orgs",
+      "repos_url": "https://api.github.com/users/ekzhu/repos",
+      "events_url": "https://api.github.com/users/ekzhu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ekzhu/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6f67b95963ef0b87437640e5b017bb22d68a1192",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/6f67b95963ef0b87437640e5b017bb22d68a1192",
+        "html_url": "https://github.com/microsoft/autogen/commit/6f67b95963ef0b87437640e5b017bb22d68a1192"
+      }
+    ]
+  },
+  {
+    "sha": "6f67b95963ef0b87437640e5b017bb22d68a1192",
+    "node_id": "C_kwDOKInPB9oAKDZmNjdiOTU5NjNlZjBiODc0Mzc2NDBlNWIwMTdiYjIyZDY4YTExOTI",
+    "commit": {
+      "author": {
+        "name": "张大侠",
+        "email": "litterzhang@users.noreply.github.com",
+        "date": "2025-09-16T09:49:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-16T09:49:09Z"
+      },
+      "message": "Fix finish_reason logic in Azure AI client streaming response (#6963)\n\nCo-authored-by: weizhang3 <weizhang3@microsoft.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+      "tree": {
+        "sha": "b14c7ac748d625c6edd3708aeb1d1b1da2876254",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/b14c7ac748d625c6edd3708aeb1d1b1da2876254"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/6f67b95963ef0b87437640e5b017bb22d68a1192",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoyTKVCRC1aQ7uu5UhlAAAeZkQAC56N/+iJgeZhX1A0FLYrAPH\nOhmYZp78LrZCDFkcBjSI0I19L9M81034XmMnv8ma/S03xvSDLzvWowHBrkakpmL5\n7Q0u29zOnrTVBu5LrIZ9/q+tswMliHjGZ8chffbJjwfbHzxX44vL1QFvwTLtd3uW\n2iSfk9Bow5BEotgzxvzsE6GvMcXtIhFsQnKbqyXz0kKZc51JrhFLtF66BClgspIs\nirfWdozlKmcF9u/Yyg0/Gm/P2aHoayFInWmqWztjsveSof61ZZkTzJ32HAR30byk\nJBXOvK6qcpJtNmOZmz2v+Xxu+EmD8/pRQaJ5w8O5CZoMZZyaYdBthjbId4X2JqLF\nG6VPi9/XXGWPrzbVa3k01HpDkOY5CP1XCO5tglPrdyQ54djewDjrNgcWELZsljPI\nqbgclS38Udb1KmxqL4DGCM5XKv85651WSsEfLT+D6Bbtn0ALIj9lY871jECWBRXg\nanbudDWXlsg1cH5hDyLSL3iGAIqMXjECrG/l3RSaTw/OjlIvNQPMR8JJNs9BhHdl\ny2WqfT0rLIL9cm07xZVgyotX1s19aTb3y4wUpbpnykeSyfBXBtIxYC1iOq+hA/Ir\n7XheetL1urTNAWK1EIbh30N7TT/Kx+5BoFH43Y4EgLgbtfRybz4IaYzi8Gb1PzuS\nBDbzgiSOoEQ2+UuHQvV6\n=EkwU\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b14c7ac748d625c6edd3708aeb1d1b1da2876254\nparent c469fc0d8ce3f7e8ad2a25e48293a58dd4da8ea9\nauthor 张大侠 <litterzhang@users.noreply.github.com> 1758016149 +0800\ncommitter GitHub <noreply@github.com> 1758016149 -0700\n\nFix finish_reason logic in Azure AI client streaming response (#6963)\n\nCo-authored-by: weizhang3 <weizhang3@microsoft.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+        "verified_at": "2025-09-16T09:49:09Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/6f67b95963ef0b87437640e5b017bb22d68a1192",
+    "html_url": "https://github.com/microsoft/autogen/commit/6f67b95963ef0b87437640e5b017bb22d68a1192",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/6f67b95963ef0b87437640e5b017bb22d68a1192/comments",
+    "author": {
+      "login": "litterzhang",
+      "id": 5362066,
+      "node_id": "MDQ6VXNlcjUzNjIwNjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5362066?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/litterzhang",
+      "html_url": "https://github.com/litterzhang",
+      "followers_url": "https://api.github.com/users/litterzhang/followers",
+      "following_url": "https://api.github.com/users/litterzhang/following{/other_user}",
+      "gists_url": "https://api.github.com/users/litterzhang/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/litterzhang/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/litterzhang/subscriptions",
+      "organizations_url": "https://api.github.com/users/litterzhang/orgs",
+      "repos_url": "https://api.github.com/users/litterzhang/repos",
+      "events_url": "https://api.github.com/users/litterzhang/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/litterzhang/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c469fc0d8ce3f7e8ad2a25e48293a58dd4da8ea9",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/c469fc0d8ce3f7e8ad2a25e48293a58dd4da8ea9",
+        "html_url": "https://github.com/microsoft/autogen/commit/c469fc0d8ce3f7e8ad2a25e48293a58dd4da8ea9"
+      }
+    ]
+  },
+  {
+    "sha": "c469fc0d8ce3f7e8ad2a25e48293a58dd4da8ea9",
+    "node_id": "C_kwDOKInPB9oAKGM0NjlmYzBkOGNlM2Y3ZThhZDJhMjVlNDgyOTNhNThkZDRkYThlYTk",
+    "commit": {
+      "author": {
+        "name": "Copilot",
+        "email": "198982749+Copilot@users.noreply.github.com",
+        "date": "2025-09-16T09:30:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-16T09:30:27Z"
+      },
+      "message": "Fix OllamaChatCompletionClient load_component() error by adding to WELL_KNOWN_PROVIDERS (#7030)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+      "tree": {
+        "sha": "daa64373f122e0bcb679dd9f45e70143b8f14ff8",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/daa64373f122e0bcb679dd9f45e70143b8f14ff8"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/c469fc0d8ce3f7e8ad2a25e48293a58dd4da8ea9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoyS4zCRC1aQ7uu5UhlAAASKoQAFm/ThU02w0gE1/47L6ooGiF\nBhoI/vu6U2jCmyw7HCGEHhOoHZxoZPkKRsbRiZv+OWdaURkjUNVzW2y0YKbNkGP3\niaSaF8UN+PiiExYh9tGxDDMlTTUV2xU2BDoBcp8JKX5NIHedCgUKGQ/JgZUPmCnb\nVco4zVw63WtULEOCbUxTWOahX2KuMOnMxb0onfrYlaLUtLu156o/BfAL+QjB47l0\nR8cY55qhFjbZVr7EhhYfFjXYhnNn60qtMnSFGAaxx8VWIgVBvm9AKGAeFexcaM9R\nC92mVPmJbsnramWN/NGmjKF1JR52OYZyxazyEmf55huG6rsPRnDPaQyZ1ipqyCq4\noP1FqBzi8H76rQksz5P3wWcQwSfrFnz07WnwztOOXK1SoHOFjtN9MbMK76Xd/DXq\nXKHsLKr+ohNHQN+ewmHZYNmKatUH3csNPkPX/elaLFY9E/RxnGzLGaXg5HbD5GKs\nGrbmnb/qAAZPRGPSh8w9mmh27tRvWYeJvgaHsIcUq7ZUauvFF+f1fFI2DyHvTEUD\n8fShyn0eFP7QA95yv15LCTfBMK+5Nr87JXrWhOFmdNCehtHZQ0RyRWnMnz1cGPK4\nPRBdfw19oz7R7hXYrrb94OXlqv9ONdtsK2ewanM2pOGBd6cc6+5WJE0dDx8mcFPA\nUywu4mzARU2pUxVus/Y3\n=nh2N\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree daa64373f122e0bcb679dd9f45e70143b8f14ff8\nparent e0e39e475bbe5d314cc514b8be6f61583878bd65\nauthor Copilot <198982749+Copilot@users.noreply.github.com> 1758015027 -0700\ncommitter GitHub <noreply@github.com> 1758015027 -0700\n\nFix OllamaChatCompletionClient load_component() error by adding to WELL_KNOWN_PROVIDERS (#7030)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+        "verified_at": "2025-09-16T09:30:28Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/c469fc0d8ce3f7e8ad2a25e48293a58dd4da8ea9",
+    "html_url": "https://github.com/microsoft/autogen/commit/c469fc0d8ce3f7e8ad2a25e48293a58dd4da8ea9",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/c469fc0d8ce3f7e8ad2a25e48293a58dd4da8ea9/comments",
+    "author": {
+      "login": "Copilot",
+      "id": 198982749,
+      "node_id": "BOT_kgDOC9w8XQ",
+      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Copilot",
+      "html_url": "https://github.com/apps/copilot-swe-agent",
+      "followers_url": "https://api.github.com/users/Copilot/followers",
+      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Copilot/orgs",
+      "repos_url": "https://api.github.com/users/Copilot/repos",
+      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e0e39e475bbe5d314cc514b8be6f61583878bd65",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/e0e39e475bbe5d314cc514b8be6f61583878bd65",
+        "html_url": "https://github.com/microsoft/autogen/commit/e0e39e475bbe5d314cc514b8be6f61583878bd65"
+      }
+    ]
+  },
+  {
+    "sha": "e0e39e475bbe5d314cc514b8be6f61583878bd65",
+    "node_id": "C_kwDOKInPB9oAKGUwZTM5ZTQ3NWJiZTVkMzE0Y2M1MTRiOGJlNmY2MTU4Mzg3OGJkNjU",
+    "commit": {
+      "author": {
+        "name": "Copilot",
+        "email": "198982749+Copilot@users.noreply.github.com",
+        "date": "2025-09-16T09:30:08Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-16T09:30:08Z"
+      },
+      "message": "Fix Redis caching always returning False due to unhandled string values (#7022)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+      "tree": {
+        "sha": "52949479cdc28b6c1cad748e4315142e71b3c5b5",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/52949479cdc28b6c1cad748e4315142e71b3c5b5"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/e0e39e475bbe5d314cc514b8be6f61583878bd65",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoyS4gCRC1aQ7uu5UhlAAATtgQAJ1Xz1EfgyqYpIWmd4WZk/qV\nAS50XhvQjVSkr/VCP3qked45ZH/utVF28MOOvSXh3BcmhkkYQSv+pNWaIxH+l/gN\nmSiqPZ/D2wjBad7IFIU2Kh1hc7gwE46NmNeT6cOodJjdrAlS+KIpBW+5w9smUX8p\nupfAJZEIbfSiXYJl0SpR1t8aQxNB7rOHLwCQyop/WzVHHg0U1Mlp1fTobmCql2L9\nSp6eEYa+VxcP0Zir6yvs7uQW3n3oGxQTyHaER8skUI5W6BfgE7aPBjZ4U5nPGKu0\nE/XN8XOUX4TdEywx+LszyOw9KuJotShfV/LrucxXCoLjHVWhbZUen8ZFFxNUaBBN\nb5+sSsNVqJA75yzGe9t8rK2FK0EcfHmPCarsC0x3dMCG7Ab4V9BXoZ0ECN6TeH71\nifwO/IblmLmcP5/TuyK1tA4qdpfYClOBlBcMIfCMXdzMcuCggCRtpluhvZwh7tgn\nefJpgoktfmiKfY0vz6CeFLzi6JRBSJlgwhmUQaJUFscv6wXhC9zcisz/kgOcFlVu\ndXqDhZ0c2j7xoN+svOgrse7WaGpiH03t7daheDB7Vnwpj2fR2k5XTXDO7xdOn+PM\nVMS1LVi5Lcd1daDIigMZKlI+VsqtiluL2TLgbKblmBNKqxkVGNx813scuhtBtKhg\n1a3KX7Rjm76Hsa8a8wrv\n=Fi9H\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 52949479cdc28b6c1cad748e4315142e71b3c5b5\nparent 29846cb26b588d4a977991f9f967805751ea65a3\nauthor Copilot <198982749+Copilot@users.noreply.github.com> 1758015008 -0700\ncommitter GitHub <noreply@github.com> 1758015008 -0700\n\nFix Redis caching always returning False due to unhandled string values (#7022)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+        "verified_at": "2025-09-16T09:30:08Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/e0e39e475bbe5d314cc514b8be6f61583878bd65",
+    "html_url": "https://github.com/microsoft/autogen/commit/e0e39e475bbe5d314cc514b8be6f61583878bd65",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/e0e39e475bbe5d314cc514b8be6f61583878bd65/comments",
+    "author": {
+      "login": "Copilot",
+      "id": 198982749,
+      "node_id": "BOT_kgDOC9w8XQ",
+      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Copilot",
+      "html_url": "https://github.com/apps/copilot-swe-agent",
+      "followers_url": "https://api.github.com/users/Copilot/followers",
+      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Copilot/orgs",
+      "repos_url": "https://api.github.com/users/Copilot/repos",
+      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "29846cb26b588d4a977991f9f967805751ea65a3",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/29846cb26b588d4a977991f9f967805751ea65a3",
+        "html_url": "https://github.com/microsoft/autogen/commit/29846cb26b588d4a977991f9f967805751ea65a3"
+      }
+    ]
+  },
+  {
+    "sha": "29846cb26b588d4a977991f9f967805751ea65a3",
+    "node_id": "C_kwDOKInPB9oAKDI5ODQ2Y2IyNmI1ODhkNGE5Nzc5OTFmOWY5Njc4MDU3NTFlYTY1YTM",
+    "commit": {
+      "author": {
+        "name": "Copilot",
+        "email": "198982749+Copilot@users.noreply.github.com",
+        "date": "2025-09-16T09:24:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-16T09:24:44Z"
+      },
+      "message": "Add comprehensive GitHub Copilot instructions for AutoGen development (#7029)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+      "tree": {
+        "sha": "131a165d3604a54f926d038af823e7587a1a8d34",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/131a165d3604a54f926d038af823e7587a1a8d34"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/29846cb26b588d4a977991f9f967805751ea65a3",
+      "comment_count": 1,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoySzcCRC1aQ7uu5UhlAAAhd8QAEaDK6cJtTNfr44YctSxHUap\nqDel5F8l9gBZcttHuLwIukB32UASBRfpIGqsXYPNoyhT7hdgzJMX7QsaRWvrcKQf\nCnwQGAcW+P+tya/hCtnarC5b/i2OQTVY0+EyrnJElDTMVqu17pmgscolVBuxAfl2\nKTDtZmhecWHSrSOl/WDSgwUPDVw6Y8TKycSeNS9TesPU/gvcYDc2WQolqncQiFEs\nanfAf7hx6iI7/iADWUmhkimktrZhXVp72D9McHRRsOY6OrVTeo5BmcWXo2jrSQet\ngyacn2OnSL4lQd1Zu5+qu9rgtzRdO/ysak6c6mD207Rt0qhHV/T2AGfLPkc3rri4\ntit0un7bRJxVfuTcUvtPdgvTomedwye7GVW1O5RjcXLmpb77XKrVOyg+zJqRbj8E\n42qu43z7RfJSWI4awqIHzsdlW2+Z/MGKiabRjxWDsntlHErTo5gS4sbyVnUhOkw8\n3IS7KjxuwV9ogehFFtl+dSZ4C2lP8XUu3roq7xBqXssHuCkeDYwQx0/8TDkxGneq\n1xtmqbcD3U1NAGvedTsAxlrTOqyPL7P6scJhIs9hCifGicx2yC4pBfhA8iDGjdM6\nZB2ft72v5SsIRd+amnNKKMtr4SpJlNq+yoysfP+ZezVovYQ9XU1ZwMdSmt+zQ/1p\n0ZJz9Ho5Vr++riFFPMzC\n=9TDv\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 131a165d3604a54f926d038af823e7587a1a8d34\nparent 14809f51dd55637a9dcffb039196fcd62d2da433\nauthor Copilot <198982749+Copilot@users.noreply.github.com> 1758014684 -0700\ncommitter GitHub <noreply@github.com> 1758014684 -0700\n\nAdd comprehensive GitHub Copilot instructions for AutoGen development (#7029)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+        "verified_at": "2025-09-16T09:24:45Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/29846cb26b588d4a977991f9f967805751ea65a3",
+    "html_url": "https://github.com/microsoft/autogen/commit/29846cb26b588d4a977991f9f967805751ea65a3",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/29846cb26b588d4a977991f9f967805751ea65a3/comments",
+    "author": {
+      "login": "Copilot",
+      "id": 198982749,
+      "node_id": "BOT_kgDOC9w8XQ",
+      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Copilot",
+      "html_url": "https://github.com/apps/copilot-swe-agent",
+      "followers_url": "https://api.github.com/users/Copilot/followers",
+      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Copilot/orgs",
+      "repos_url": "https://api.github.com/users/Copilot/repos",
+      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "14809f51dd55637a9dcffb039196fcd62d2da433",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/14809f51dd55637a9dcffb039196fcd62d2da433",
+        "html_url": "https://github.com/microsoft/autogen/commit/14809f51dd55637a9dcffb039196fcd62d2da433"
+      }
+    ]
+  },
+  {
+    "sha": "14809f51dd55637a9dcffb039196fcd62d2da433",
+    "node_id": "C_kwDOKInPB9oAKDE0ODA5ZjUxZGQ1NTYzN2E5ZGNmZmIwMzkxOTZmY2Q2MmQyZGE0MzM",
+    "commit": {
+      "author": {
+        "name": "Copilot",
+        "email": "198982749+Copilot@users.noreply.github.com",
+        "date": "2025-09-16T09:12:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-16T09:12:07Z"
+      },
+      "message": "Fix GraphFlow cycle detection to properly clean up recursion state (#7026)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+      "tree": {
+        "sha": "eb86d03309cf4f2e6e27b68e634db5a50abac422",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/eb86d03309cf4f2e6e27b68e634db5a50abac422"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/14809f51dd55637a9dcffb039196fcd62d2da433",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoySnnCRC1aQ7uu5UhlAAAe9oQAIU9a/CQIRfAY+a9KHOBNqXq\nBZCVCNd/qBoqFN2pvq8XS7kFyCIaGa2n8tLNYOTV0xrrW5w5615pXOIuwJxP2bCA\nLMU9TAmxPN1qjSOkQUbzCoUKeqs1WWS07PN08Fpt5VFTjcaDGLYfj5URq0Oj+4kC\n+Dsa7KkHQQ1rJCqKz8DM7V5YSXgNy4uNyoWuyANcCg5e4kh8DeOyEL7r735EqsPb\nOKnoUY4xpBYcaM6EPYGJBGh8Ixpvq9tvmd9Y7K2/8sWZnIjKGvJDdVuno551hVgr\nXMmTlIqHgmHHe8DAEFazlm9j5KRxdygbGu8C+vVnPWCACTgFERwpNiHsSwM5niMu\n7m5HscmQKPqt8dIftqoS05SXikqk7F7E8ylYq7Lvh6pOko0K/M/VxT2l04UV8AdF\n7X54pW/s7ZBrocnhr4OkatySdW2/XyHRDrkeeOtZnttwTDIY5weaOM+ZQvzw3b8F\nVzLPm5Cd3XOHLdFS0hnYpqKJUkY31j46JBnQMSZxOIaTM0Wx9S5aqYpmhJmp5tpZ\n0X0sGCMPXbwUJWkY74XCYhDzbk6Eg4tvXg6f3sgvho2WPYZRKnMpu0MmV/7W+zvx\nCbH/uDqCIMX89h7LRO1tub1/FlJExoB7IPoiPsiikmOniWSDwYxLnSUD+7J/tAXo\naHemZST+Eqg+V9FfpQXx\n=u4Lh\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree eb86d03309cf4f2e6e27b68e634db5a50abac422\nparent 79d5d6ab47f289f346ebe6221a5299fd35e6d2c0\nauthor Copilot <198982749+Copilot@users.noreply.github.com> 1758013927 -0700\ncommitter GitHub <noreply@github.com> 1758013927 -0700\n\nFix GraphFlow cycle detection to properly clean up recursion state (#7026)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+        "verified_at": "2025-09-16T09:12:07Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/14809f51dd55637a9dcffb039196fcd62d2da433",
+    "html_url": "https://github.com/microsoft/autogen/commit/14809f51dd55637a9dcffb039196fcd62d2da433",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/14809f51dd55637a9dcffb039196fcd62d2da433/comments",
+    "author": {
+      "login": "Copilot",
+      "id": 198982749,
+      "node_id": "BOT_kgDOC9w8XQ",
+      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Copilot",
+      "html_url": "https://github.com/apps/copilot-swe-agent",
+      "followers_url": "https://api.github.com/users/Copilot/followers",
+      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Copilot/orgs",
+      "repos_url": "https://api.github.com/users/Copilot/repos",
+      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "79d5d6ab47f289f346ebe6221a5299fd35e6d2c0",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/79d5d6ab47f289f346ebe6221a5299fd35e6d2c0",
+        "html_url": "https://github.com/microsoft/autogen/commit/79d5d6ab47f289f346ebe6221a5299fd35e6d2c0"
+      }
+    ]
+  },
+  {
+    "sha": "79d5d6ab47f289f346ebe6221a5299fd35e6d2c0",
+    "node_id": "C_kwDOKInPB9oAKDc5ZDVkNmFiNDdmMjg5ZjM0NmViZTYyMjFhNTI5OWZkMzVlNmQyYzA",
+    "commit": {
+      "author": {
+        "name": "Copilot",
+        "email": "198982749+Copilot@users.noreply.github.com",
+        "date": "2025-09-16T09:06:50Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-16T09:06:50Z"
+      },
+      "message": "Fix spurious </think> tags caused by empty string reasoning_content in streaming (#7025)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+      "tree": {
+        "sha": "d7623ff30d819373d1d22bb6add70c03d15134e4",
+        "url": "https://api.github.com/repos/microsoft/autogen/git/trees/d7623ff30d819373d1d22bb6add70c03d15134e4"
+      },
+      "url": "https://api.github.com/repos/microsoft/autogen/git/commits/79d5d6ab47f289f346ebe6221a5299fd35e6d2c0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoySiqCRC1aQ7uu5UhlAAAYFIQAJN1IyX7ps1cDFqITOAwchpF\nJWu3uyAj/M5rsHI2p09k432mMxDvn14oOA6MOVVtPFGe3L35X8xgf7c+4k5xcG/N\nRMkWb+QWNPULNe2tT/5xy8u8+zLkMLDWXdebBsdADqgDcKw/JpD22iK5M6fBze1l\nWqurYekmKKoJmCRPCXvR/+Y8HE4B56QjrXOihdLsMVgrDM8wzR1ukmO165hiWWDq\ns/qeoMAt/cZOyQChzgLVC6PoT/gHxQ4B84/IVyvSNVJrTq/y6xm1sRBMYGGk2pQ1\nF7AJRIW/mUzV1eyne1fOcVFfa3Y0c1UCFvBchf98fZ6Z3A9b+oAaI2XDRpfv77tM\n1bCXPoCw5cuDsmsjD40EQ7NmcV9x8WaOuIEEpRL4a9glCiU/epsXgsH6372iAmMb\nW4mxwaCrA/BpRP9QSt58g4tO47Bl2bcWqcTouBHm7bWpz14yAD0phM5HOw0lO+1r\nE+Z4yS8nX1uzRq7nfrB2t+C2QsZkIRXksryQ33B4SpRZY4/6rKifNkg+E2mZFeiO\naIUUjRZOaKNvOKsKeQgW1k9XMXW8Di5Gmq5qMBCmT+REAmuAA5zQYtHPiiTsUpO1\nGd3C+K5G2Y6Qn/WW9KDmDKDU86kM0tYEcAkxUVEJBFwzP2W6KPNhN5gtSk+zkLmT\nhvztQi4flcEXG1VIgNhO\n=BhiP\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d7623ff30d819373d1d22bb6add70c03d15134e4\nparent 5216bf3737268c8baf298c7e6e7292e552083550\nauthor Copilot <198982749+Copilot@users.noreply.github.com> 1758013610 -0700\ncommitter GitHub <noreply@github.com> 1758013610 -0700\n\nFix spurious </think> tags caused by empty string reasoning_content in streaming (#7025)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: ekzhu <320302+ekzhu@users.noreply.github.com>\nCo-authored-by: Eric Zhu <ekzhu@users.noreply.github.com>",
+        "verified_at": "2025-09-16T09:06:51Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/autogen/commits/79d5d6ab47f289f346ebe6221a5299fd35e6d2c0",
+    "html_url": "https://github.com/microsoft/autogen/commit/79d5d6ab47f289f346ebe6221a5299fd35e6d2c0",
+    "comments_url": "https://api.github.com/repos/microsoft/autogen/commits/79d5d6ab47f289f346ebe6221a5299fd35e6d2c0/comments",
+    "author": {
+      "login": "Copilot",
+      "id": 198982749,
+      "node_id": "BOT_kgDOC9w8XQ",
+      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Copilot",
+      "html_url": "https://github.com/apps/copilot-swe-agent",
+      "followers_url": "https://api.github.com/users/Copilot/followers",
+      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Copilot/orgs",
+      "repos_url": "https://api.github.com/users/Copilot/repos",
+      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5216bf3737268c8baf298c7e6e7292e552083550",
+        "url": "https://api.github.com/repos/microsoft/autogen/commits/5216bf3737268c8baf298c7e6e7292e552083550",
+        "html_url": "https://github.com/microsoft/autogen/commit/5216bf3737268c8baf298c7e6e7292e552083550"
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "session": "20260428-123606",
+  "selected_step": "C",
+  "why_this_step": "经验库已有 CrewAI/LangGraph/smolagents 三极事实，缺 AutoGen（光谱第四极）。Source Inbox 无 AutoGen 预置来源，需从零调研。方法论库已覆盖（reverse-anthropic、deep-tech-essay），满足 Step C 前提。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": false,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": false
+  },
+  "outputs": [
+    {"path": ".evolve/library/facts/autogen-001.md", "type": "library"},
+    {"path": ".evolve/raw/autogen-repo-api.json", "type": "raw"},
+    {"path": ".evolve/raw/autogen-release-api.json", "type": "raw"},
+    {"path": ".evolve/raw/autogen-readme.md", "type": "raw"},
+    {"path": ".evolve/raw/autogen-core-readme.md", "type": "raw"},
+    {"path": ".evolve/raw/autogen-agentchat-readme.md", "type": "raw"},
+    {"path": ".evolve/raw/autogen-languages-api.json", "type": "raw"},
+    {"path": ".evolve/raw/autogen-commits-api.json", "type": "raw"},
+    {"path": ".evolve/raw/autogen-issues-api.json", "type": "raw"},
+    {"path": ".evolve/sessions/20260428-123606.task_framing.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/raw/autogen-repo-api.json", "claim": "AutoGen 仓库 57,512 stars，8,665 forks，2023-08-18 创建，CC-BY-4.0 license"},
+    {"type": "raw", "ref": ".evolve/raw/autogen-release-api.json", "claim": "最新稳定版 python-v0.7.5（2025-09-30），此前 1-2 个月一个 minor 版本"},
+    {"type": "raw", "ref": ".evolve/raw/autogen-readme.md", "claim": "AutoGen 2026-04-06 进入维护模式，redirect 至 Microsoft Agent Framework"},
+    {"type": "raw", "ref": ".evolve/raw/autogen-core-readme.md", "claim": "Core API 基于 Actor 模型，支持分布式运行时和跨语言（Python + .NET）"},
+    {"type": "raw", "ref": ".evolve/raw/autogen-agentchat-readme.md", "claim": "AgentChat API 是高层 API，提供预设 Agents 和 Teams 模式"},
+    {"type": "raw", "ref": ".evolve/raw/autogen-languages-api.json", "claim": "Python 占 ~64%，C# ~26%，TypeScript ~13%"},
+    {"type": "raw", "ref": ".evolve/raw/autogen-commits-api.json", "claim": "最近 commit（2026-04-06）为更新维护模式 banner"}
+  ],
+  "next_step": "建议下一轮跑 Step C：调研 Microsoft Agent Framework（AutoGen 的继任者），确认其架构继承关系；或进入 Step D：基于四极事实（CrewAI/LangGraph/smolagents/AutoGen）产出对比长文大纲"
+}

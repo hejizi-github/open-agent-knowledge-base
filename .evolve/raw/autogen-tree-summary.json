@@ -1,0 +1,34 @@
+{
+  "count": 2319,
+  "truncated": false,
+  "sample": [
+    {
+      "path": ".azure",
+      "type": "tree"
+    },
+    {
+      "path": ".devcontainer",
+      "type": "tree"
+    },
+    {
+      "path": ".github",
+      "type": "tree"
+    },
+    {
+      "path": "docs",
+      "type": "tree"
+    },
+    {
+      "path": "dotnet",
+      "type": "tree"
+    },
+    {
+      "path": "protos",
+      "type": "tree"
+    },
+    {
+      "path": "python",
+      "type": "tree"
+    }
+  ]
+}
