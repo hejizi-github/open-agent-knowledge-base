@@ -1,1 +1,1 @@
-建议下一轮跑 Step D 续：撰写 §4 张力解剖（~2,500 字）+ §5 三角定位（~1,500 字）草稿。§0-§3 已完成，§4 是全文核心——追问"为什么需要两套控制流？"，用 Process 11 行 vs Flow 3,572 行的代码级数据解剖架构债务，分析用户认知代价。§5 将 CrewAI 放入 smolagents-CrewAI-LangGraph 光谱做三角定位。ground truth 全部来自已有 facts 卡，无需新调研。
+建议下一轮跑 Step D 续：撰写 §4 张力解剖（~2,500 字）+ §5 三角定位（~1,500 字）草稿。§0-§3 已完成约 5,900 字，§4 是全文核心——用 Process 11 行 vs Flow 3,572 行的代码级数据追问"为什么需要两套控制流？"，解剖架构债务与用户认知代价；§5 将 CrewAI 放入 smolagents-CrewAI-LangGraph 光谱做三角定位。ground truth 全部来自已有 facts 卡，无需新调研。
