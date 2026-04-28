@@ -1,0 +1,29 @@
+{
+  "session": "20260428-180713",
+  "selected_step": "E",
+  "why_this_step": "全文草稿 sec0-sec6 已完成（11,520 中文字），通过 Step D lint（无 § 锚点、无 duplicate ref、无兜底词），进入成稿发布阶段。本轮执行 Step E：合并草稿为单篇 published 文件、编写 image-prompts、更新索引、full lint 验证。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/published/openhands-architecture.md", "type": "product"},
+    {"path": "image-prompts/openhands-architecture.md", "type": "product"},
+    {"path": "articles/index.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-180713.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-180713.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-180713.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "local-command", "ref": "articles/published/openhands-architecture.md", "claim": "合并后中文字数 11,738，在 10,000~12,000 目标区间内"},
+    {"type": "local-command", "ref": "image-prompts/openhands-architecture.md", "claim": "7 张图片提示词已编写（正文 6 张 + 封面 1 张），每张包含用途、构图、关键元素、风格、比例、避免项"},
+    {"type": "local-command", "ref": "articles/index.md", "claim": "articles/index.md 已更新，新增 openhands-architecture 条目"},
+    {"type": "local-command", "ref": "articles/published/openhands-architecture.md", "claim": "lint 通过：无 § 锚点、无 duplicate ref、无兜底词（4 处默认均为技术术语用法）、无越级序数词引用"},
+    {"type": "raw", "ref": "wiki/facts/openhands-001.md", "claim": "OpenHands 项目事实卡支撑核心数据：72,234 star、五层产品矩阵、1.0.0 重构、EventStream 架构"},
+    {"type": "raw", "ref": "articles/published/five-pole-agent-frameworks.md", "claim": "首篇五极长文提供坐标系基准，支撑 §5 六维扩展"}
+  ],
+  "next_step": "建议下一轮跑 Step C：验证 Enterprise License 超过一个月期限来源（sec5 评审标记的未尽事项），或补充 CrewAI Python 版本约束到 fact 卡；若验证通过可同步更新 wiki/facts/openhands-001.md 和 crewai-001.md。"
+}
