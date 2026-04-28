@@ -1,3 +1,3 @@
-- § drafting 阶段每完成一个子节立即运行字数检查，低于目标 15% 时不进入下一子节，先回读 facts 补论据
-- image prompt 占位符与正文共用同一套兜底词规则，写图注描述时主动规避"默认""标准"等模糊修饰词
-- 同一段落引用同一 facts 来源超过一次时，主动拆分为多个短段落，避免 lint 阶段发现同行重复 ref
+- 写入任何已存在文件（next.md / step.json / wiki_update.md / journal 等）前必须先 Read，不因「刚创建」「上轮读过」或「控制面文件」而省略
+- drafting 阶段按「一 ref 一段」原则组织段落，同一 facts 来源在单段落中只出现一次，避免 lint 阶段被动修复 duplicate ref
+- 单节 drafting 完成后字数差距超 10% 时回读 facts 补案例或对比维度，不依赖 15% 容忍阈值兜底
