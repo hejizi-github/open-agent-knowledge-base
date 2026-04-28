@@ -1,1 +1,1 @@
-建议下一轮跑 Step E：全文草稿已完成（sec0-sec6, 11,520 中文字），进入成稿发布阶段。任务清单：1）编写 image-prompts/openhands-architecture.md 图 1-6 + 封面的生图提示词；2）合并 sec0-sec6 为单篇 published 文件，添加 YAML frontmatter；3）统一图片占位符格式并交叉验证图号；4）更新 articles/index.md。
+建议下一轮跑 Step E：全文草稿已完成（sec0-sec6, 11,520 中文字），进入成稿发布阶段。任务清单：1）合并 sec0-sec6 为单篇 published 文件，添加 YAML frontmatter；2）编写 image-prompts/openhands-architecture.md 图 1-6 + 封面的生图提示词；3）统一图片占位符格式并交叉验证图号；4）更新 articles/index.md。未尽长尾：验证 Enterprise License "超过一个月"期限来源、补充 CrewAI Python 版本约束到 fact 卡。

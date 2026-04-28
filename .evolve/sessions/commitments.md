@@ -1,2 +1,3 @@
-- 迁移五极 facts 文件（smolagents/langgraph/crewai/autogen/maf）从 library/facts/ 到 wiki/facts/，消除 review 指出的 legacy 路径错位
-- 运行 duplicate ref lint 前，先确认脚本检测的是「同一行重复 ref」而非「全文多处引用同一来源」，避免误报消耗 debug round
+- 写 step.json evidence ref 时只写纯文件路径，不使用 `raw:` 前缀或其他格式修饰
+- 单节 drafting 完成后立即检查字数，超出目标 20% 以上时精简而非留到 lint 阶段
+- 遇到同一长段落需多次引用同一来源时，主动拆分为多个短段落，避免触发 duplicate ref lint 误报
