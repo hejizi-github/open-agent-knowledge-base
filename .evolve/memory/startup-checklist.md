@@ -22,6 +22,7 @@
 4. [ ] 检查 Source Inbox（`raw/source-pack/`、`raw/web/`）是否有预置来源
 5. [ ] 确认六极 facts 齐备状态（`wiki/facts/*.md` 数量 = 6）
 6. [ ] 确认已发表文章列表（`articles/index.md`）
+7. [ ] 外部数据工具可用性预检：先做一次轻量 WebSearch 或 WebFetch 测试，失效则标记「纯 wiki 模式」并在 step.json evidence 首条声明
 
 ## 3. 控制面文件创建/更新（动手前必须先有）
 

@@ -1,5 +1,26 @@
 # Journal
 
+## Session 20260428-183407 — Step A 形态识别：CrewAI 架构张力分析与第四篇文章选题锁定
+
+### 失败/回退分析
+
+外部工具全面失效消耗 5 个 rounds：WebSearch 连续 3 次 API Error 400，WebFetch 连续 2 次安全策略阻止，共 5 次无效调用后才切换为纯 wiki 模式。根因：首次失败后仍对同一工具做二次尝试，未立即执行 fallback。规律：单次工具失败后直接切换备用方案，不做重试——此规律在 20260428-114752 session 已记录为承诺，但本轮仍未完全内化。
+
+无 Fix Round 不代表无效率损耗：34 turns 中约 15% 消耗在外部工具重试上，若无此损耗 round 数可压缩至 29 以内。
+
+无原地打转：执行的是上轮 next.md 明确规划的 Step A，不是重复循环。
+无度量 vs 实质偏离：review PASS，产出密度（1 方法论 + 1 基线 + 1 清单 + 控制面）与轮数匹配。
+
+### 下次不同做
+
+- WebSearch/WebFetch 首次失败后立即切换 fallback（Bash curl 或纯 wiki 模式），不做二次尝试
+- 在 startup-checklist.md 中增加「外部数据工具可用性」预检项
+- 当完全依赖已有 wiki 内容时，step.json evidence 首条明确声明「本轮无新增 raw source」
+
+外部信息获取渠道（WebSearch ×3、WebFetch ×2）全部失效，被迫在 0 新增 raw source 的条件下完成形态识别。意外的是，完全依赖已有六极 facts 卡和两篇已发表文章的结构实证，反而让 Step A 产出更加聚焦——没有外部噪声干扰，选题决策完全基于内部 wiki 的交叉引用。34 turns 全部无 Fix Round，控制面文件一次创建成功，JSON 语法与 evidence ref 验证一次通过，说明上轮承诺（cp 批量同步、路径验证、JSON 预检）已完全内化。产出「架构张力分析」体裁方法论，锁定第四篇文章选题「'Lean' 的代价：CrewAI 的架构分裂与开源 Agent 框架的平台化陷阱」，三个反共识点全部来自 crewai-001 facts 卡的代码级数据。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-182022 — Step C 事实验证：OpenHands License 精确条款 + CrewAI Python 版本约束
 
 ### 失败/回退分析

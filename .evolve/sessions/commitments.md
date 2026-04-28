@@ -1,3 +1,3 @@
-- 对需要完全一致的 wiki/library 镜像文件，用 `cp` 批量同步替代逐行 Edit
-- Step C 事实验证 session 控制在 25 turns 内，超出时审视是否有过度验证
-- `.evolve/` 等仓库结构常量写入物理启动 checklist（`.evolve/memory/startup-checklist.md`），不凭记忆拼接路径
+- WebSearch/WebFetch 首次失败后立即切换 fallback（Bash curl 或纯 wiki 模式），不做二次尝试
+- 在 startup-checklist.md 中增加「外部数据工具可用性」预检项
+- 当完全依赖已有 wiki 内容时，step.json evidence 首条明确声明「本轮无新增 raw source」
