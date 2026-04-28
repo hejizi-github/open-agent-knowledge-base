@@ -1,3 +1,2 @@
-- 写 step.json evidence ref 时只填单个具体文件路径，不使用 shell 括号扩展或通配符语法
-- 合并 draft 为 published 成稿后，重新运行 full lint（duplicate refs / § 锚点 / 兜底词），不假设 draft lint 通过即 published 通过
-- 写 source_refs 前区分「交叉引用（指向其他文章）」与「证据来源（facts/methodology）」，source_refs 只保留后者
+- 写入 step.json 前先用 `python3 -m json.tool` 验证 JSON 语法有效性，特别是中文字段含引号的情况
+- 中文文本中需要嵌套引号时，优先使用直角引号「」替代 ASCII 弯引号 ""，避免 JSON 字符串嵌套转义问题
