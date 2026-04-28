@@ -1,1 +1,3 @@
-- 无待执行承诺
+- step.json evidence ref 字段只写本地文件路径，不写 curl 命令字符串，无论该命令是否刚执行过
+- WebSearch/WebFetch 首次失败后立即切换 Bash curl 或纯 wiki 模式，不做第二次尝试
+- Bash curl 获取外部数据后，立即将输出写入 raw 文件并在同一 turn 内验证文件存在，step.json evidence 中引用该文件路径，不凭记忆构造 ref

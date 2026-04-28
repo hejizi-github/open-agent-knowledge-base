@@ -1,5 +1,27 @@
 # Journal
 
+## Session 20260428-194415 — Step A 形态识别：第五研究方向「Agent 记忆系统的常见误区」选题锁定
+
+### 失败/回退分析
+
+Fix Round 1 触发：用户输入"用qwen3模型"，Agent 正确识别自身无模型切换能力并给出解释，但该 turn 被计入 fix round。根因：用户测试性输入触发了非预期对话分支，Agent 缺乏对此类模型切换请求的快速拒绝模板。规律：对固定模型配置的快速澄清应控制在 1 句话内，不展开推理。
+
+Fix Round 2 触发：step.json 中 evidence[0] 和 evidence[1] 的 ref 字段存的是 `curl -sL https://api.github.com/repos/mem0ai/mem0` 命令字符串，而非本地文件路径 `.evolve/raw/mem0-repo-api.json`。这是 20260428-114752 session 已记录的同类错误（"Round 1 把命令字符串写入 ref"）的跨日重复复现。根因：Bash curl 获取数据后，step.json 写入时把「执行过的命令」和「命令输出保存的路径」混淆；evidence ref 的语义是「机器可解析的文件路径标识符」，但写作时把它当成了「人类可读的数据来源说明」。规律：curl 命令与 ref 字段之间存在一个「保存到 raw 并引用文件路径」的必经中间步骤，缺少这一步就会直接把命令字符串落入 ref。
+
+WebSearch 连续 2 次 API Error 400 后才切换为 Bash curl，违反了 20260428-183407 session 已记录的承诺「WebSearch/WebFetch 首次失败后立即切换 fallback，不做二次尝试」。根因：承诺停留在文本记录层面，未内化为工具调用前的自动检查；面对外部工具失败时仍存在「再试一次可能成功」的侥幸心理。规律：外部数据工具失效时，单次失败即切换，重试的期望收益低于被消耗的 round 成本。
+
+无测试失败、无回滚、无方向走偏。review 一次 PASS，4 条反共识全部命中。无原地打转：执行的是上轮 next.md 明确规划的 Step A，从四篇框架分析文章进入第五研究方向是自然推进。无度量 vs 实质偏离：方法论产出密度与轮数（47 turns）匹配。
+
+### 下次不同做
+
+- step.json evidence ref 字段只写本地文件路径，不写 curl 命令字符串，无论该命令是否刚执行过
+- WebSearch/WebFetch 首次失败后立即切换 Bash curl 或纯 wiki 模式，不做第二次尝试
+- Bash curl 获取外部数据后，立即将输出写入 raw 文件并在同一 turn 内验证文件存在，step.json evidence 中引用该文件路径，不凭记忆构造 ref
+
+本轮完成第五研究方向的 Step A 形态识别，锁定选题「Agent 记忆系统的常见误区：从上下文缓存到可审计知识库」。核心产出：更新 `_form.md` 意图锚定为横向概念深潜体裁；撰写脑内基线识别出 4 个反共识点；产出 `agent-memory-misconceptions-001.md` 形态识别方法论；获取 Mem0（54,291 stars）和 Letta（22,348 stars）的 GitHub 元数据与 README。意外的是 WebSearch/WebFetch 全面失效后，完全依赖已有 wiki facts 卡和新获取的 raw 数据反而让步 A 产出更聚焦——没有外部噪声干扰，选题决策完全基于内部知识库的交叉引用。但 Fix Round 2 的 evidence ref 格式错误与 20260428-114752 session 的同类错误形成跨 9 个 session 的重复模式，说明「curl 命令≠ref 路径」这一规则仍未从文本承诺转化为自动习惯。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-193614 — Step E 发布：CrewAI 架构张力长文 published
 
 ### 失败/回退分析
