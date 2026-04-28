@@ -47,10 +47,21 @@ else
 fi
 
 # 同行重复 ref 检查（同一行同一 ref 出现多次）
-dup_refs=$(grep -n '\[ref:' "$FILE" | awk -F: '{line=$1; $1=""; text=$0; while(match(text, /\[ref:[^\]]+\]/, m)){refs[m[0]]++; text=substr(text, RSTART+RLENGTH)} for(r in refs) if(refs[r]>1) print line": dup ref: "r; delete refs}' || true)
-if [[ -n "$dup_refs" ]]; then
-    echo "WARNING: duplicate refs on same line:"
-    echo "$dup_refs"
-else
-    echo "OK: no duplicate refs on same line"
-fi
+# 使用 python3 避免 macOS 默认 awk 不支持 match() 第三参数捕获组的问题
+python3 -c "
+import re, sys
+with open('$FILE') as f:
+    lines = f.readlines()
+found = False
+for i, line in enumerate(lines, 1):
+    refs = re.findall(r'\[ref:[^\]]+\]', line)
+    seen = {}
+    for r in refs:
+        if r in seen:
+            print(f'  {i}: dup ref: {r}')
+            found = True
+        else:
+            seen[r] = True
+if not found:
+    print('OK: no duplicate refs on same line')
+"

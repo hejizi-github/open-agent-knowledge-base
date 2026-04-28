@@ -1,0 +1,31 @@
+{
+  "session": "20260428-203554",
+  "selected_step": "D",
+  "why_this_step": "上轮 Step D 产出 §0-§3 草稿通过评审（verdict: PASS），本轮按评审建议续写 §4（误区三）+ §5（独立记忆层）。方法论层已覆盖横向概念深潜体裁，事实层 8 张 facts 卡齐备，脑内基线已归档。上轮承诺的 lint 脚本修复和 methodology 计数更新在本轮开始前已完成。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": ".evolve/sessions/20260428-203554.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-203554.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-203554.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"},
+    {"path": "articles/drafts/agent-memory-misconceptions-sec4.md", "type": "product"},
+    {"path": "articles/drafts/agent-memory-misconceptions-sec5.md", "type": "product"},
+    {"path": "tools/lint-article-draft.sh", "type": "product"},
+    {"path": ".evolve/wiki/methodology/agent-memory-misconceptions-001.md", "type": "wiki"},
+    {"path": ".evolve/library/methodology/agent-memory-misconceptions-001.md", "type": "legacy-library"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/raw/github-api/20260428-103651/langgraph_readme.md", "claim": "LangGraph README 原文包含 'Comprehensive memory' 和 'Durable execution' 两段关键声明"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "LangGraph checkpoint 实现细节：pregel-checkpoint 子包、state channels、每步自动保存快照"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/mem0-001.md", "claim": "Mem0 多信号检索、ADD-only 7 阶段流水线、User/Session/Agent 三层、benchmark 数据"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/letta-001.md", "claim": "Letta Block 抽象、OS 式四级分层、Agent 显式工具编辑、Mem0 vs Letta 五维对照"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "CrewAI memory/knowledge/rag 三子系统底层重叠（§5.5 引用框架锁定问题）"},
+    {"type": "raw", "ref": ".evolve/wiki/methodology/agent-memory-misconceptions-001.md", "claim": "横向概念深潜体裁方法论、4 个反共识点、结构模板 A"}
+  ],
+  "next_step": "Step D 续：撰写 §6 实践建议 + 补全 image-prompts 包。全文 §0-§5 已完成。"
+}

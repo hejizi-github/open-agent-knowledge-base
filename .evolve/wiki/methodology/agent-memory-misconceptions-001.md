@@ -82,7 +82,7 @@ learned_from: ["Mem0 分层记忆架构与 benchmark 设计", "Letta memory_bloc
 | 章节 | 功能 | 字数 | 关键技法 |
 |------|------|------|----------|
 | §0 摘要 | 预告核心误区 + 三个反直觉发现 | ~1,000 | 用"你以为...实际上..."制造悬念 |
-| §1 开头钩子 | 同一个"memory"词，六个框架六种实现 | ~1,500 | 并置原文摘录，制造认知失调 |
+| §1 开头钩子 | 同一个"memory"词，七个框架七种实现 | ~1,500 | 并置原文摘录，制造认知失调 |
 | §2 误区一：上下文窗口 = 记忆 | 为什么 128K/1M/10M tokens 不能解决记忆问题 | ~2,000 | 用 Mem0 benchmark 证明"有信息≠能回忆" |
 | §3 误区二：RAG = 长期记忆 | 检索与记忆的本质差异；CrewAI 的 memory/knowledge/rag 三子系统混乱 | ~2,500 | 用 CrewAI 源码证明三个子系统的概念重叠 |
 | §4 误区三：Checkpoint = 状态 = 记忆 | LangGraph 的 checkpoint 是执行恢复，不是 Agent 记忆 | ~2,000 | 区分"durable execution"与"learnable memory" |
@@ -92,7 +92,7 @@ learned_from: ["Mem0 分层记忆架构与 benchmark 设计", "Letta memory_bloc
 **总字数目标**：10,500 ~ 12,500 中文字
 
 **配图规划**：
-- 图 1："memory"一词在六个框架中的语义图谱（概念混淆可视化）
+- 图 1："memory"一词在七个框架中的语义图谱（概念混淆可视化）
 - 图 2：记忆分层模型 —— 从上下文缓存到可审计知识库
 - 图 3：Mem0 的 Multi-Level Memory 架构图
 - 图 4：CrewAI memory/knowledge/rag 三子系统的功能重叠区域
@@ -126,8 +126,8 @@ learned_from: ["Mem0 分层记忆架构与 benchmark 设计", "Letta memory_bloc
 
 | 章节 | 内容 |
 |------|------|
-| §0 摘要 | 核心发现：六个框架对"memory"有六种互不兼容的实现；上下文窗口≠记忆；RAG≠记忆；Checkpoint≠记忆 |
-| §1 开头钩子 | 并置六个框架 README 中的"memory"原文摘录，制造认知失调 |
+| §0 摘要 | 核心发现：七个框架对"memory"有七种互不兼容的实现；上下文窗口≠记忆；RAG≠记忆；Checkpoint≠记忆 |
+| §1 开头钩子 | 并置七个框架 README 中的"memory"原文摘录，制造认知失调 |
 | §2 误区一 | 上下文窗口崇拜：为什么 10M tokens 不能替代记忆层（Mem0 benchmark 实证） |
 | §3 误区二 | RAG 伪装记忆：CrewAI 的 memory/knowledge/rag 三子系统混乱解剖 |
 | §4 误区三 | Checkpoint 冒充长期记忆：LangGraph durable execution 与 learnable memory 的语义鸿沟 |
@@ -144,7 +144,7 @@ learned_from: ["Mem0 分层记忆架构与 benchmark 设计", "Letta memory_bloc
 - EventStream 存储：OpenHands [ref: facts/openhands-001.md]
 
 **前置条件状态**：
-- ✅ 6 个框架 facts 卡齐备（均含记忆实现相关信息）
+- ✅ 7 个框架 facts 卡齐备（均含记忆实现相关信息）
 - ✅ Mem0 来源已获取（repo API + README，含 benchmark 数据）
 - ✅ Letta 来源已获取（repo API + README，含 memory_blocks 核心抽象）
 - ✅ Anthropic 文章已获取（memory 作为 augmentation 的定位）

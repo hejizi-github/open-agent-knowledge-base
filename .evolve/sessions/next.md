@@ -1,1 +1,1 @@
-建议下一轮跑 Step D 续：撰写 §4 误区三（Checkpoint = 状态 = 记忆：LangGraph durable execution 与 learnable memory 的语义鸿沟）+ §5 独立记忆层的崛起（Mem0 分层记忆 vs Letta memory_blocks）草稿。
+建议下一轮跑 Step D 续：撰写 §6 实践建议（决策树：框架内置记忆 / 独立记忆层 / 自建方案）+ 补全 image-prompts 包（图 1-5 提示词）。全文 §0-§5 已完成，§6 为最后一节，预计 1,000 字。完成后可进入整稿 lint 和发布流程。
