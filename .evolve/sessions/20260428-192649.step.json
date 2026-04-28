@@ -1,0 +1,25 @@
+{
+  "session": "20260428-192649",
+  "selected_step": "D",
+  "why_this_step": "framework-architecture-tension-001 methodology 已就绪，crewai/smolagents/langgraph facts 卡完整，brain_baseline 已归档。§0-§5 草稿已完成（累计 9,710 字），本轮撰写 §6 实践建议并完成整稿 lint。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/crewai-architecture-tension.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-192649.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-192649.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-192649.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/wiki/methodology/framework-architecture-tension-001.md", "claim": "体裁模板 A 结构定义（§6 实践建议 ~1000 字）"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "CrewAI 已知限制与失败模式清单、光谱三角定位数据"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "极简替代方案适用场景"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "原生状态机替代方案适用场景"}
+  ],
+  "next_step": "Step E: 从 drafts 推进到 published，添加 frontmatter、统一占位符、更新索引"
+}

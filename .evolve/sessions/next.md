@@ -1,1 +1,1 @@
-建议下一轮跑 Step D 续：撰写 §6 实践建议（~1,000 字）草稿，完成全文 §0-§6 初稿。全文当前 9,710 中文字，§6 完成后预计 ~10,700 字，在目标区间 10,500-12,000 内。§6 应给出：Crew 适用场景 / Flow 适用场景 / 考虑离开的信号（决策树），并将"平台化陷阱"四信号框架转化为可操作的选型 checklist。之后进入整稿 lint 与格式统一阶段（full-draft-lint 程序记忆）。
+建议下一轮跑 Step E：文章已通过整稿 lint（全文 10,893 字，§0-§6 完整），从 articles/drafts/ 推进到 articles/published/。任务包括：添加 YAML frontmatter（title/slug/date/word_count/tags/description/source_refs/image_prompts/license）、统一图片占位符格式、追加图片使用清单（图 1-6 + 封面图 7）、更新 articles/index.md。参照 step-e-publish-finalize 程序记忆执行。
