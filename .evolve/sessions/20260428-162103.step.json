@@ -1,7 +1,7 @@
 {
   "session": "20260428-162103",
   "selected_step": "A",
-  "why_this_step": "上轮完成 Step E（五极长文发布），知识库处于"首篇已完成、续篇待启动"状态。根据 Step A 规则，新文章选题首次进入时必须先完成形态识别。本轮确定续篇的形态差异、可行结构、选题决策，并明确需要补全的 facts 卡前置条件。",
+  "why_this_step": "上轮完成 Step E（五极长文发布），知识库处于\"首篇已完成、续篇待启动\"状态。根据 Step A 规则，新文章选题首次进入时必须先完成形态识别。本轮确定续篇的形态差异、可行结构、选题决策，并明确需要补全的 facts 卡前置条件。",
   "preconditions": {
     "methodology_ready": true,
     "facts_ready": false,
