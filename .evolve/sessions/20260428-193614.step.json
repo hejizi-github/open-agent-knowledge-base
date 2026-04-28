@@ -1,0 +1,28 @@
+{
+  "session": "20260428-193614",
+  "selected_step": "E",
+  "why_this_step": "Draft 已通过整稿 lint（10,893 字，§0-§6 完整），image-prompts 包就绪（图 1-7）。方法论层与事实层已覆盖文章全部核心断言。进入 Step E publish-finalize，将 draft 推进到 published 并更新索引。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/published/crewai-architecture-tension.md", "type": "product"},
+    {"path": "articles/index.md", "type": "product"},
+    {"path": "image-prompts/crewai-architecture-tension.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-193614.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-193614.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-193614.wiki_update.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": "articles/drafts/crewai-architecture-tension.md", "claim": "Draft 全文 10,893 中文字，§0-§6 结构完整"},
+    {"type": "raw", "ref": "image-prompts/crewai-architecture-tension.md", "claim": "图 1-7 提示词包完整，含封面图"},
+    {"type": "raw", "ref": ".evolve/wiki/methodology/framework-architecture-tension-001.md", "claim": "体裁模板定义 §4 张力解剖 + §5 三角定位 + §6 决策树结构"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "Process 11 行、Flow 3572 行、519 文件、8.4MB、两套控制流并存"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "1814 行极简对照组"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "Pregel 状态机对照组"}
+  ],
+  "next_step": "Step A：四篇系列文章全部 published，开启第五个研究方向。候选：Agent 记忆系统误区 / 企业 Agent 平台工程化 / Agent 评估标准与 benchmark 陷阱。"
+}

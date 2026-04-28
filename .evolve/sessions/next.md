@@ -1,1 +1,1 @@
-建议下一轮跑 Step E：文章已通过整稿 lint（全文 10,893 字，§0-§6 完整），从 articles/drafts/ 推进到 articles/published/。任务包括：添加 YAML frontmatter（title/slug/date/word_count/tags/description/source_refs/image_prompts/license）、统一图片占位符格式、追加图片使用清单（图 1-6 + 封面图 7）、更新 articles/index.md。参照 step-e-publish-finalize 程序记忆执行。
+建议下一轮跑 Step A： CrewAI 架构张力长文已 published，四篇系列文章全部完成。新一轮可开启第五个研究方向，候选：1）Agent 记忆系统的常见误区（语义缓存 vs 可审计知识库）；2）企业 Agent 平台的工程化路线（Dify / Semantic Kernel / Haystack）；3）框架之外：LLM Agent 的评估标准与 benchmark 陷阱。优先检查 wiki 缺口再决定。

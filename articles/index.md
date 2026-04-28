@@ -13,6 +13,7 @@
 | [从黑盒到白盒：smolagents 与 LangGraph 的设计哲学光谱](published/smolagents-vs-langgraph.md) | smolagents-vs-langgraph | ~14,560 | 2026-04-28 | smolagents, LangGraph |
 | [五极争霸：开源 Agent 框架的坐标系与抉择](published/five-pole-agent-frameworks.md) | five-pole-agent-frameworks | ~20,447 | 2026-04-28 | CrewAI, LangGraph, smolagents, AutoGen, MAF |
 | [OpenHands 架构深潜：从 EventStream 到 Runtime-Sandbox 的软件工程 Agent 设计哲学](published/openhands-architecture.md) | openhands-architecture | ~11,738 | 2026-04-28 | OpenHands, smolagents, LangGraph, CrewAI, AutoGen, MAF |
+| ['Lean' 的代价：CrewAI 的架构分裂与开源 Agent 框架的平台化陷阱](published/crewai-architecture-tension.md) | crewai-architecture-tension | ~10,893 | 2026-04-28 | CrewAI, smolagents, LangGraph |
 
 ## Target Essay Series
 
