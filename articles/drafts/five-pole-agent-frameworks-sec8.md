@@ -30,7 +30,7 @@ smolagents 的 README 声称核心逻辑 "fits in ~1,000 lines of code" [ref: fa
 
 更隐蔽的风险来自安全设计。smolagents 提供四级沙箱方案：托管云沙箱（E2B/Blaxel/Modal）、容器沙箱（Docker）、WASM 沙箱（Pyodide + Deno）和本地执行（LocalPythonExecutor） [ref: facts/smolagents-001.md]。官方文档明确声明 LocalPythonExecutor "is **not a security sandbox**" 且 "must not be used as a security boundary" [ref: facts/smolagents-001.md]。但在快速原型场景中，大量开发者会默认使用本地执行器（它是 import 后的零配置默认选项），从而在不知情中暴露于任意代码执行风险。这不是框架的设计缺陷，而是 "极简" 用户体验与 "安全" 默认配置之间的结构性张力——最简路径恰好是最不安全的路径。
 
-长期可维护性构成第三个风险维度。smolagents 拥有 26,939 个 star 和 517 个 open issues，但核心维护者仅 2 人 [ref: facts/smolagents-001.md] [ref: facts/smolagents-001.md]。最新 release v1.24.0 发布于 2026 年 1 月 16 日，距本文写作已过去 3.5 个月 [ref: facts/smolagents-001.md]。在 issue 积压速度超过处理能力的条件下，一个高关注度、低维护带宽的项目面临社区贡献质量下降和核心维护者倦怠的双重压力。
+长期可维护性构成第三个风险维度。smolagents 拥有 26,939 个 star 和 517 个 open issues，但核心维护者仅 2 人 [ref: facts/smolagents-001.md]。最新 release v1.24.0 发布于 2026 年 1 月 16 日，距本文写作已过去 3.5 个月 [ref: facts/smolagents-001.md]。在 issue 积压速度超过处理能力的条件下，一个高关注度、低维护带宽的项目面临社区贡献质量下降和核心维护者倦怠的双重压力。
 
 **AutoGen：维护模式下的遗产衰减**
 

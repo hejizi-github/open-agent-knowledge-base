@@ -1,0 +1,37 @@
+{
+  "session": "20260428-153154",
+  "selected_step": "D",
+  "why_this_step": "全文草稿 sec0-sec10 已齐备，本轮进入整稿 lint 阶段：修复 sec8-sec10 的 § 锚点混入 ref、统一章节衔接语、补充图片占位符与 image-prompts 包对齐、验证 outline 一致性",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec8.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec9.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec10.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec0.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec1.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec2.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec3.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec4.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec5.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec6.md", "type": "product"},
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec7.md", "type": "product"},
+    {"path": "image-prompts/five-pole-agent-frameworks.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-153154.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-153154.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-153154.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": "articles/drafts/five-pole-agent-frameworks-sec8.md", "claim": "sec8 存在 § 锚点混入 ref 的历史遗留问题"},
+    {"type": "raw", "ref": "articles/drafts/five-pole-agent-frameworks-sec9.md", "claim": "sec9 存在 § 锚点混入 ref 的历史遗留问题"},
+    {"type": "raw", "ref": "articles/drafts/five-pole-agent-frameworks-sec10.md", "claim": "sec10 存在 § 锚点混入 ref 的历史遗留问题"},
+    {"type": "raw", "ref": "image-prompts/five-pole-agent-frameworks.md", "claim": "image-prompts 包已存在，需与章节占位符对齐"},
+    {"type": "raw", "ref": "articles/drafts/five-pole-agent-frameworks-outline.md", "claim": "outline 定义了全文结构与图片定位"}
+  ],
+  "next_step": "lint 完成后，全文进入 Step E 成稿：合并 sec0-sec10 为单一 published 文件，插入 YAML frontmatter，统一图片占位符格式，写入 articles/index.md"
+}
