@@ -1,0 +1,658 @@
+[
+    {
+        "name": ".dockerignore",
+        "path": ".dockerignore",
+        "sha": "ffe57a736e3882b52b913f7a09b2af8ec2482c3f",
+        "size": 86,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/.dockerignore?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/.dockerignore",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/ffe57a736e3882b52b913f7a09b2af8ec2482c3f",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/.dockerignore",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/.dockerignore?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/ffe57a736e3882b52b913f7a09b2af8ec2482c3f",
+            "html": "https://github.com/letta-ai/letta/blob/main/.dockerignore"
+        }
+    },
+    {
+        "name": ".env.example",
+        "path": ".env.example",
+        "sha": "c788793d8adb82c39ab43cab3b279f69407844a1",
+        "size": 841,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/.env.example?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/.env.example",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/c788793d8adb82c39ab43cab3b279f69407844a1",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/.env.example",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/.env.example?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/c788793d8adb82c39ab43cab3b279f69407844a1",
+            "html": "https://github.com/letta-ai/letta/blob/main/.env.example"
+        }
+    },
+    {
+        "name": ".gitattributes",
+        "path": ".gitattributes",
+        "sha": "108cb3b35dd8bdd516dd9abf2076055aad313e5f",
+        "size": 542,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/.gitattributes?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/.gitattributes",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/108cb3b35dd8bdd516dd9abf2076055aad313e5f",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/.gitattributes",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/.gitattributes?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/108cb3b35dd8bdd516dd9abf2076055aad313e5f",
+            "html": "https://github.com/letta-ai/letta/blob/main/.gitattributes"
+        }
+    },
+    {
+        "name": ".github",
+        "path": ".github",
+        "sha": "5102f7e02184a63215e20263ba8cc06c492fe06a",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/.github?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/.github",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/5102f7e02184a63215e20263ba8cc06c492fe06a",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/.github?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/5102f7e02184a63215e20263ba8cc06c492fe06a",
+            "html": "https://github.com/letta-ai/letta/tree/main/.github"
+        }
+    },
+    {
+        "name": ".gitignore",
+        "path": ".gitignore",
+        "sha": "d0d9c45a1fb11f95710049a837a497a95178ff0f",
+        "size": 18199,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/.gitignore?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/.gitignore",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/d0d9c45a1fb11f95710049a837a497a95178ff0f",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/.gitignore",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/.gitignore?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/d0d9c45a1fb11f95710049a837a497a95178ff0f",
+            "html": "https://github.com/letta-ai/letta/blob/main/.gitignore"
+        }
+    },
+    {
+        "name": ".pre-commit-config.yaml",
+        "path": ".pre-commit-config.yaml",
+        "sha": "90fd016cef550e2cc37229f6c4aaf2bd1eb87ff3",
+        "size": 938,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/.pre-commit-config.yaml?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/.pre-commit-config.yaml",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/90fd016cef550e2cc37229f6c4aaf2bd1eb87ff3",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/.pre-commit-config.yaml",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/.pre-commit-config.yaml?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/90fd016cef550e2cc37229f6c4aaf2bd1eb87ff3",
+            "html": "https://github.com/letta-ai/letta/blob/main/.pre-commit-config.yaml"
+        }
+    },
+    {
+        "name": ".python-version",
+        "path": ".python-version",
+        "sha": "e4fba2183587225f216eeada4c78dfab6b2e65f5",
+        "size": 5,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/.python-version?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/.python-version",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/e4fba2183587225f216eeada4c78dfab6b2e65f5",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/.python-version",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/.python-version?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/e4fba2183587225f216eeada4c78dfab6b2e65f5",
+            "html": "https://github.com/letta-ai/letta/blob/main/.python-version"
+        }
+    },
+    {
+        "name": "AI_POLICY.md",
+        "path": "AI_POLICY.md",
+        "sha": "088b8e99b2e853a05d0a06de9c581723451e2ca8",
+        "size": 2758,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/AI_POLICY.md?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/AI_POLICY.md",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/088b8e99b2e853a05d0a06de9c581723451e2ca8",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/AI_POLICY.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/AI_POLICY.md?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/088b8e99b2e853a05d0a06de9c581723451e2ca8",
+            "html": "https://github.com/letta-ai/letta/blob/main/AI_POLICY.md"
+        }
+    },
+    {
+        "name": "CITATION.cff",
+        "path": "CITATION.cff",
+        "sha": "3dc6adaeb957b8e76731416a5222e621b4f5b978",
+        "size": 676,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/CITATION.cff?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/CITATION.cff",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/3dc6adaeb957b8e76731416a5222e621b4f5b978",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/CITATION.cff",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/CITATION.cff?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/3dc6adaeb957b8e76731416a5222e621b4f5b978",
+            "html": "https://github.com/letta-ai/letta/blob/main/CITATION.cff"
+        }
+    },
+    {
+        "name": "CONTRIBUTING.md",
+        "path": "CONTRIBUTING.md",
+        "sha": "750c29d97efaa35b29a76d8804411c149a681f2e",
+        "size": 6337,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/CONTRIBUTING.md?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/CONTRIBUTING.md",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/750c29d97efaa35b29a76d8804411c149a681f2e",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/CONTRIBUTING.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/CONTRIBUTING.md?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/750c29d97efaa35b29a76d8804411c149a681f2e",
+            "html": "https://github.com/letta-ai/letta/blob/main/CONTRIBUTING.md"
+        }
+    },
+    {
+        "name": "Dockerfile",
+        "path": "Dockerfile",
+        "sha": "2fee7e57b5fdb64688a23f73ceb1764bb3fadc55",
+        "size": 3289,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/Dockerfile?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/Dockerfile",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/2fee7e57b5fdb64688a23f73ceb1764bb3fadc55",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/Dockerfile",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/Dockerfile?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/2fee7e57b5fdb64688a23f73ceb1764bb3fadc55",
+            "html": "https://github.com/letta-ai/letta/blob/main/Dockerfile"
+        }
+    },
+    {
+        "name": "LICENSE",
+        "path": "LICENSE",
+        "sha": "f75c3422907f55d71685ae59afdc28498cde5a40",
+        "size": 10759,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/LICENSE?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/LICENSE",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/f75c3422907f55d71685ae59afdc28498cde5a40",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/LICENSE",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/LICENSE?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/f75c3422907f55d71685ae59afdc28498cde5a40",
+            "html": "https://github.com/letta-ai/letta/blob/main/LICENSE"
+        }
+    },
+    {
+        "name": "PRIVACY.md",
+        "path": "PRIVACY.md",
+        "sha": "47012c385f858d19c4cbe2e77953a3e642c5510c",
+        "size": 21169,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/PRIVACY.md?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/PRIVACY.md",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/47012c385f858d19c4cbe2e77953a3e642c5510c",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/PRIVACY.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/PRIVACY.md?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/47012c385f858d19c4cbe2e77953a3e642c5510c",
+            "html": "https://github.com/letta-ai/letta/blob/main/PRIVACY.md"
+        }
+    },
+    {
+        "name": "README.md",
+        "path": "README.md",
+        "sha": "d1de2acbbda4e9353e56f3d6a3c062352864a266",
+        "size": 4248,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/README.md?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/README.md",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/d1de2acbbda4e9353e56f3d6a3c062352864a266",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/README.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/README.md?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/d1de2acbbda4e9353e56f3d6a3c062352864a266",
+            "html": "https://github.com/letta-ai/letta/blob/main/README.md"
+        }
+    },
+    {
+        "name": "SECURITY.md",
+        "path": "SECURITY.md",
+        "sha": "62293d76aaf20e4b649e981b838aeaa2870da2ad",
+        "size": 418,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/SECURITY.md?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/SECURITY.md",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/62293d76aaf20e4b649e981b838aeaa2870da2ad",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/SECURITY.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/SECURITY.md?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/62293d76aaf20e4b649e981b838aeaa2870da2ad",
+            "html": "https://github.com/letta-ai/letta/blob/main/SECURITY.md"
+        }
+    },
+    {
+        "name": "TERMS.md",
+        "path": "TERMS.md",
+        "sha": "a868db5ad46ae2384f5c6574e47da9520253ce61",
+        "size": 7075,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/TERMS.md?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/TERMS.md",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/a868db5ad46ae2384f5c6574e47da9520253ce61",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/TERMS.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/TERMS.md?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/a868db5ad46ae2384f5c6574e47da9520253ce61",
+            "html": "https://github.com/letta-ai/letta/blob/main/TERMS.md"
+        }
+    },
+    {
+        "name": "WEBHOOK_SETUP.md",
+        "path": "WEBHOOK_SETUP.md",
+        "sha": "ee3a264d09e220b69c40e947cbbd67d6135969c5",
+        "size": 6449,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/WEBHOOK_SETUP.md?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/WEBHOOK_SETUP.md",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/ee3a264d09e220b69c40e947cbbd67d6135969c5",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/WEBHOOK_SETUP.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/WEBHOOK_SETUP.md?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/ee3a264d09e220b69c40e947cbbd67d6135969c5",
+            "html": "https://github.com/letta-ai/letta/blob/main/WEBHOOK_SETUP.md"
+        }
+    },
+    {
+        "name": "alembic.ini",
+        "path": "alembic.ini",
+        "sha": "72cc69904faef129f792c608935110b4f13535fc",
+        "size": 3672,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/alembic.ini?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/alembic.ini",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/72cc69904faef129f792c608935110b4f13535fc",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/alembic.ini",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/alembic.ini?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/72cc69904faef129f792c608935110b4f13535fc",
+            "html": "https://github.com/letta-ai/letta/blob/main/alembic.ini"
+        }
+    },
+    {
+        "name": "alembic",
+        "path": "alembic",
+        "sha": "66555939abed0421b836edc4f62135cf239f1d35",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/alembic?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/alembic",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/66555939abed0421b836edc4f62135cf239f1d35",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/alembic?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/66555939abed0421b836edc4f62135cf239f1d35",
+            "html": "https://github.com/letta-ai/letta/tree/main/alembic"
+        }
+    },
+    {
+        "name": "assets",
+        "path": "assets",
+        "sha": "98fc0972896a6ce0831d1376ee6fca9fedce08c2",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/assets?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/assets",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/98fc0972896a6ce0831d1376ee6fca9fedce08c2",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/assets?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/98fc0972896a6ce0831d1376ee6fca9fedce08c2",
+            "html": "https://github.com/letta-ai/letta/tree/main/assets"
+        }
+    },
+    {
+        "name": "certs",
+        "path": "certs",
+        "sha": "e64f72e8459b6b0620e96564119ea220b6857d32",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/certs?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/certs",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/e64f72e8459b6b0620e96564119ea220b6857d32",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/certs?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/e64f72e8459b6b0620e96564119ea220b6857d32",
+            "html": "https://github.com/letta-ai/letta/tree/main/certs"
+        }
+    },
+    {
+        "name": "compose.yaml",
+        "path": "compose.yaml",
+        "sha": "756919c2388d3007eecb1dc865c7f9cd5c326b38",
+        "size": 2393,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/compose.yaml?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/compose.yaml",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/756919c2388d3007eecb1dc865c7f9cd5c326b38",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/compose.yaml",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/compose.yaml?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/756919c2388d3007eecb1dc865c7f9cd5c326b38",
+            "html": "https://github.com/letta-ai/letta/blob/main/compose.yaml"
+        }
+    },
+    {
+        "name": "conf.yaml",
+        "path": "conf.yaml",
+        "sha": "4493e63579bec1e53530c77f88026fc940ae0345",
+        "size": 11424,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/conf.yaml?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/conf.yaml",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/4493e63579bec1e53530c77f88026fc940ae0345",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/conf.yaml",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/conf.yaml?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/4493e63579bec1e53530c77f88026fc940ae0345",
+            "html": "https://github.com/letta-ai/letta/blob/main/conf.yaml"
+        }
+    },
+    {
+        "name": "db",
+        "path": "db",
+        "sha": "5ed349a220f977e0d4d2cd2aa262b9626987d78b",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/db?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/db",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/5ed349a220f977e0d4d2cd2aa262b9626987d78b",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/db?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/5ed349a220f977e0d4d2cd2aa262b9626987d78b",
+            "html": "https://github.com/letta-ai/letta/tree/main/db"
+        }
+    },
+    {
+        "name": "dev-compose.yaml",
+        "path": "dev-compose.yaml",
+        "sha": "f9fd8e7756f293c799b7906e7493e8abc08f76bc",
+        "size": 1621,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/dev-compose.yaml?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/dev-compose.yaml",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/f9fd8e7756f293c799b7906e7493e8abc08f76bc",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/dev-compose.yaml",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/dev-compose.yaml?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/f9fd8e7756f293c799b7906e7493e8abc08f76bc",
+            "html": "https://github.com/letta-ai/letta/blob/main/dev-compose.yaml"
+        }
+    },
+    {
+        "name": "development.compose.yml",
+        "path": "development.compose.yml",
+        "sha": "71065ce0786d7156d1dc5ac03065914a9a039d21",
+        "size": 729,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/development.compose.yml?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/development.compose.yml",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/71065ce0786d7156d1dc5ac03065914a9a039d21",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/development.compose.yml",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/development.compose.yml?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/71065ce0786d7156d1dc5ac03065914a9a039d21",
+            "html": "https://github.com/letta-ai/letta/blob/main/development.compose.yml"
+        }
+    },
+    {
+        "name": "docker-compose-vllm.yaml",
+        "path": "docker-compose-vllm.yaml",
+        "sha": "f6487d2690f7979a35c6cb4a9206acff1cc243e7",
+        "size": 837,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/docker-compose-vllm.yaml?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/docker-compose-vllm.yaml",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/f6487d2690f7979a35c6cb4a9206acff1cc243e7",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/docker-compose-vllm.yaml",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/docker-compose-vllm.yaml?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/f6487d2690f7979a35c6cb4a9206acff1cc243e7",
+            "html": "https://github.com/letta-ai/letta/blob/main/docker-compose-vllm.yaml"
+        }
+    },
+    {
+        "name": "examples",
+        "path": "examples",
+        "sha": "f3600e0cdbd4eaa68522419c237551d525609a7f",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/examples?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/examples",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/f3600e0cdbd4eaa68522419c237551d525609a7f",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/examples?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/f3600e0cdbd4eaa68522419c237551d525609a7f",
+            "html": "https://github.com/letta-ai/letta/tree/main/examples"
+        }
+    },
+    {
+        "name": "fern",
+        "path": "fern",
+        "sha": "bd7f308e1946eb5e3775f398363170e294c8153f",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/fern?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/fern",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/bd7f308e1946eb5e3775f398363170e294c8153f",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/fern?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/bd7f308e1946eb5e3775f398363170e294c8153f",
+            "html": "https://github.com/letta-ai/letta/tree/main/fern"
+        }
+    },
+    {
+        "name": "init.sql",
+        "path": "init.sql",
+        "sha": "9d866db2c35790d80d8e8a8033c583f6092c15dd",
+        "size": 1181,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/init.sql?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/init.sql",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/9d866db2c35790d80d8e8a8033c583f6092c15dd",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/init.sql",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/init.sql?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/9d866db2c35790d80d8e8a8033c583f6092c15dd",
+            "html": "https://github.com/letta-ai/letta/blob/main/init.sql"
+        }
+    },
+    {
+        "name": "letta",
+        "path": "letta",
+        "sha": "35866f2f9305deb5ded7164197b53d87e4137f88",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/letta?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/letta",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/35866f2f9305deb5ded7164197b53d87e4137f88",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/letta?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/35866f2f9305deb5ded7164197b53d87e4137f88",
+            "html": "https://github.com/letta-ai/letta/tree/main/letta"
+        }
+    },
+    {
+        "name": "nginx.conf",
+        "path": "nginx.conf",
+        "sha": "7585ad4869249823c0e1ecaed38fa610e4082074",
+        "size": 681,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/nginx.conf?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/nginx.conf",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/7585ad4869249823c0e1ecaed38fa610e4082074",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/nginx.conf",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/nginx.conf?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/7585ad4869249823c0e1ecaed38fa610e4082074",
+            "html": "https://github.com/letta-ai/letta/blob/main/nginx.conf"
+        }
+    },
+    {
+        "name": "otel",
+        "path": "otel",
+        "sha": "0ae1de1a53108f488028b32b3c92cad9da5f856a",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/otel?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/otel",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/0ae1de1a53108f488028b32b3c92cad9da5f856a",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/otel?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/0ae1de1a53108f488028b32b3c92cad9da5f856a",
+            "html": "https://github.com/letta-ai/letta/tree/main/otel"
+        }
+    },
+    {
+        "name": "package-lock.json",
+        "path": "package-lock.json",
+        "sha": "6c6273af738042d7c7d4ca6b69624d4fcf889700",
+        "size": 47426,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/package-lock.json?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/package-lock.json",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/6c6273af738042d7c7d4ca6b69624d4fcf889700",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/package-lock.json",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/package-lock.json?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/6c6273af738042d7c7d4ca6b69624d4fcf889700",
+            "html": "https://github.com/letta-ai/letta/blob/main/package-lock.json"
+        }
+    },
+    {
+        "name": "project.json",
+        "path": "project.json",
+        "sha": "89c4b4228338f0e6bb17cf9c97da6d32df43789a",
+        "size": 2420,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/project.json?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/project.json",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/89c4b4228338f0e6bb17cf9c97da6d32df43789a",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/project.json",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/project.json?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/89c4b4228338f0e6bb17cf9c97da6d32df43789a",
+            "html": "https://github.com/letta-ai/letta/blob/main/project.json"
+        }
+    },
+    {
+        "name": "pyproject.toml",
+        "path": "pyproject.toml",
+        "sha": "54eafc72b110aeacd9b636c818f78c25e317c746",
+        "size": 5409,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/pyproject.toml?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/pyproject.toml",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/54eafc72b110aeacd9b636c818f78c25e317c746",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/pyproject.toml",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/pyproject.toml?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/54eafc72b110aeacd9b636c818f78c25e317c746",
+            "html": "https://github.com/letta-ai/letta/blob/main/pyproject.toml"
+        }
+    },
+    {
+        "name": "sandbox",
+        "path": "sandbox",
+        "sha": "fa0f075c0b6319301476f9a1d86d8ac83b27bdef",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/sandbox?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/sandbox",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/fa0f075c0b6319301476f9a1d86d8ac83b27bdef",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/sandbox?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/fa0f075c0b6319301476f9a1d86d8ac83b27bdef",
+            "html": "https://github.com/letta-ai/letta/tree/main/sandbox"
+        }
+    },
+    {
+        "name": "scripts",
+        "path": "scripts",
+        "sha": "7da6c959962aa633b7b07e26fd6c1dc7881a9901",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/scripts?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/scripts",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/7da6c959962aa633b7b07e26fd6c1dc7881a9901",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/scripts?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/7da6c959962aa633b7b07e26fd6c1dc7881a9901",
+            "html": "https://github.com/letta-ai/letta/tree/main/scripts"
+        }
+    },
+    {
+        "name": "test_watchdog_hang.py",
+        "path": "test_watchdog_hang.py",
+        "sha": "ea99f34c42569e9b4df1eb011021617dbe1dc9d2",
+        "size": 2971,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/test_watchdog_hang.py?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/test_watchdog_hang.py",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/ea99f34c42569e9b4df1eb011021617dbe1dc9d2",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/test_watchdog_hang.py",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/test_watchdog_hang.py?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/ea99f34c42569e9b4df1eb011021617dbe1dc9d2",
+            "html": "https://github.com/letta-ai/letta/blob/main/test_watchdog_hang.py"
+        }
+    },
+    {
+        "name": "tests",
+        "path": "tests",
+        "sha": "8da8a4d966ee4366a8cd0088c181198f988a203b",
+        "size": 0,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/tests?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/tree/main/tests",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/trees/8da8a4d966ee4366a8cd0088c181198f988a203b",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/tests?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/trees/8da8a4d966ee4366a8cd0088c181198f988a203b",
+            "html": "https://github.com/letta-ai/letta/tree/main/tests"
+        }
+    },
+    {
+        "name": "uv.lock",
+        "path": "uv.lock",
+        "sha": "7780b8086227b26c73da3429f2cbf1e3df385244",
+        "size": 928846,
+        "url": "https://api.github.com/repos/letta-ai/letta/contents/uv.lock?ref=main",
+        "html_url": "https://github.com/letta-ai/letta/blob/main/uv.lock",
+        "git_url": "https://api.github.com/repos/letta-ai/letta/git/blobs/7780b8086227b26c73da3429f2cbf1e3df385244",
+        "download_url": "https://raw.githubusercontent.com/letta-ai/letta/main/uv.lock",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/letta-ai/letta/contents/uv.lock?ref=main",
+            "git": "https://api.github.com/repos/letta-ai/letta/git/blobs/7780b8086227b26c73da3429f2cbf1e3df385244",
+            "html": "https://github.com/letta-ai/letta/blob/main/uv.lock"
+        }
+    }
+]

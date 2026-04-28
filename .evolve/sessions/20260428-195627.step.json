@@ -1,0 +1,47 @@
+{
+  "session": "20260428-195627",
+  "selected_step": "C",
+  "why_this_step": "Step A 已锁定选题和结构模板，但缺少 Mem0/Letta 源码级证据、MemGPT 论文理论基础和用户困惑实证。本轮通过 GitHub API、raw GitHub 和 arXiv 补齐这些缺口，产出 2 张 wiki facts 卡和 13 份 raw source 文件。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": ".evolve/wiki/facts/mem0-001.md", "type": "wiki"},
+    {"path": ".evolve/wiki/facts/letta-001.md", "type": "wiki"},
+    {"path": ".evolve/library/facts/mem0-001.md", "type": "legacy-library"},
+    {"path": ".evolve/library/facts/letta-001.md", "type": "legacy-library"},
+    {"path": ".evolve/raw/mem0-root-contents.json", "type": "raw"},
+    {"path": ".evolve/raw/mem0-package-contents.json", "type": "raw"},
+    {"path": ".evolve/raw/mem0-pyproject.toml", "type": "raw"},
+    {"path": ".evolve/raw/mem0-memory-main.py", "type": "raw"},
+    {"path": ".evolve/raw/mem0-issues-recent.json", "type": "raw"},
+    {"path": ".evolve/raw/letta-root-contents.json", "type": "raw"},
+    {"path": ".evolve/raw/letta-pyproject.toml", "type": "raw"},
+    {"path": ".evolve/raw/letta-init.py", "type": "raw"},
+    {"path": ".evolve/raw/letta-schemas-memory.py", "type": "raw"},
+    {"path": ".evolve/raw/letta-schemas-block.py", "type": "raw"},
+    {"path": ".evolve/raw/letta-issues-recent.json", "type": "raw"},
+    {"path": ".evolve/raw/memgpt-paper-abstract.html", "type": "raw"},
+    {"path": ".evolve/raw/memgpt-arxiv-search.xml", "type": "raw"},
+    {"path": ".evolve/sessions/20260428-195627.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-195627.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-195627.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/raw/mem0-repo-api.json", "claim": "Mem0 54,291 stars, Apache-2.0, version 2.0.1, 2023-06-20 创建"},
+    {"type": "raw", "ref": ".evolve/raw/mem0-pyproject.toml", "claim": "Mem0 核心依赖 qdrant-client/pydantic/openai/sqlalchemy，支持 15+ 向量存储后端和 6+ LLM 后端"},
+    {"type": "raw", "ref": ".evolve/raw/mem0-memory-main.py", "claim": "Mem0 Memory 类 3,222 行，含 add/get/search/update/delete/history 方法，V3 pipeline 为 7 阶段 ADD-only 提取"},
+    {"type": "raw", "ref": ".evolve/raw/mem0-issues-recent.json", "claim": "Mem0 最近 30 个 issues 中 21 个与 memory 相关，暴露 Qdrant 并发、pgvector dimension mismatch、entity store 全表扫描等问题"},
+    {"type": "raw", "ref": ".evolve/raw/letta-repo-api.json", "claim": "Letta 22,348 stars, Apache-2.0, version 0.16.7, 2023-10-11 创建，原名为 MemGPT"},
+    {"type": "raw", "ref": ".evolve/raw/letta-pyproject.toml", "claim": "Letta 依赖 sqlalchemy/sqlmodel/alembic/grpc/temporalio/llama-index，支持 pgvector/redis/pinecone/sqlite-vec"},
+    {"type": "raw", "ref": ".evolve/raw/letta-schemas-block.py", "claim": "Letta Block 是上下文窗口保留区，含 value/limit/label/read_only 字段，预定义 Human/Persona/FileBlock 类型"},
+    {"type": "raw", "ref": ".evolve/raw/letta-schemas-memory.py", "claim": "Letta Memory 类含 blocks 列表，BasicBlockMemory 提供 core_memory_append/replace 工具，ChatMemory 默认 persona+human"},
+    {"type": "raw", "ref": ".evolve/raw/letta-issues-recent.json", "claim": "Letta 最近 issues 暴露 GitEnabledBlockManager 二进制文件处理、additive-only 孤儿 Block、memfs 路径映射边界等问题"},
+    {"type": "raw", "ref": ".evolve/raw/memgpt-paper-abstract.html", "claim": "MemGPT 论文提出 virtual context management，借鉴 OS 层次化内存系统（fast/slow memory），用 interrupts 管理控制流"}
+  ],
+  "next_step": "Step D：方法论+事实已齐备，可开始撰写长文草稿"
+}

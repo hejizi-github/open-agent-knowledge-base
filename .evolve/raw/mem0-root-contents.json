@@ -1,0 +1,514 @@
+[
+    {
+        "name": ".agents",
+        "path": ".agents",
+        "sha": "c94ec2de37030829b81aeececb1e38f6449e4814",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/.agents?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/.agents",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/c94ec2de37030829b81aeececb1e38f6449e4814",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/.agents?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/c94ec2de37030829b81aeececb1e38f6449e4814",
+            "html": "https://github.com/mem0ai/mem0/tree/main/.agents"
+        }
+    },
+    {
+        "name": ".claude-plugin",
+        "path": ".claude-plugin",
+        "sha": "fe25ee2e188f94db1c6150d5367b840b01512169",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/.claude-plugin?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/.claude-plugin",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/fe25ee2e188f94db1c6150d5367b840b01512169",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/.claude-plugin?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/fe25ee2e188f94db1c6150d5367b840b01512169",
+            "html": "https://github.com/mem0ai/mem0/tree/main/.claude-plugin"
+        }
+    },
+    {
+        "name": ".cursor-plugin",
+        "path": ".cursor-plugin",
+        "sha": "c0024fc3eda7ad3c4adc68346680463b9d49c73f",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/.cursor-plugin?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/.cursor-plugin",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/c0024fc3eda7ad3c4adc68346680463b9d49c73f",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/.cursor-plugin?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/c0024fc3eda7ad3c4adc68346680463b9d49c73f",
+            "html": "https://github.com/mem0ai/mem0/tree/main/.cursor-plugin"
+        }
+    },
+    {
+        "name": ".github",
+        "path": ".github",
+        "sha": "ce59e0b42b59143c6fc5989c21becb761520ffd2",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/.github?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/.github",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/ce59e0b42b59143c6fc5989c21becb761520ffd2",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/.github?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/ce59e0b42b59143c6fc5989c21becb761520ffd2",
+            "html": "https://github.com/mem0ai/mem0/tree/main/.github"
+        }
+    },
+    {
+        "name": ".gitignore",
+        "path": ".gitignore",
+        "sha": "f8fd29897ad00b82115af91bfff24059e3f51069",
+        "size": 3410,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/.gitignore?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/.gitignore",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/f8fd29897ad00b82115af91bfff24059e3f51069",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/.gitignore",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/.gitignore?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/f8fd29897ad00b82115af91bfff24059e3f51069",
+            "html": "https://github.com/mem0ai/mem0/blob/main/.gitignore"
+        }
+    },
+    {
+        "name": ".pre-commit-config.yaml",
+        "path": ".pre-commit-config.yaml",
+        "sha": "f3cac96fbc5e645a2be412bab27d3f2459b03c1c",
+        "size": 314,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/.pre-commit-config.yaml?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/.pre-commit-config.yaml",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/f3cac96fbc5e645a2be412bab27d3f2459b03c1c",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/.pre-commit-config.yaml",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/.pre-commit-config.yaml?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/f3cac96fbc5e645a2be412bab27d3f2459b03c1c",
+            "html": "https://github.com/mem0ai/mem0/blob/main/.pre-commit-config.yaml"
+        }
+    },
+    {
+        "name": "AGENTS.md",
+        "path": "AGENTS.md",
+        "sha": "1fe035342410bcb89280a1799ae46ed8bb0a8115",
+        "size": 24017,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/AGENTS.md?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/AGENTS.md",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/1fe035342410bcb89280a1799ae46ed8bb0a8115",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/AGENTS.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/AGENTS.md?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/1fe035342410bcb89280a1799ae46ed8bb0a8115",
+            "html": "https://github.com/mem0ai/mem0/blob/main/AGENTS.md"
+        }
+    },
+    {
+        "name": "CLAUDE.md",
+        "path": "CLAUDE.md",
+        "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+        "size": 9,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/CLAUDE.md?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/CLAUDE.md",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/CLAUDE.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/CLAUDE.md?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+            "html": "https://github.com/mem0ai/mem0/blob/main/CLAUDE.md"
+        }
+    },
+    {
+        "name": "CONTRIBUTING.md",
+        "path": "CONTRIBUTING.md",
+        "sha": "80a9852f6ab8eb12fda0141275315cf336c7173f",
+        "size": 3307,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/CONTRIBUTING.md?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/CONTRIBUTING.md",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/80a9852f6ab8eb12fda0141275315cf336c7173f",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/CONTRIBUTING.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/CONTRIBUTING.md?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/80a9852f6ab8eb12fda0141275315cf336c7173f",
+            "html": "https://github.com/mem0ai/mem0/blob/main/CONTRIBUTING.md"
+        }
+    },
+    {
+        "name": "LICENSE",
+        "path": "LICENSE",
+        "sha": "d20d5102c3cf97ecbee54afd65893de4a11d26fe",
+        "size": 11349,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/LICENSE?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/LICENSE",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/d20d5102c3cf97ecbee54afd65893de4a11d26fe",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/LICENSE",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/LICENSE?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/d20d5102c3cf97ecbee54afd65893de4a11d26fe",
+            "html": "https://github.com/mem0ai/mem0/blob/main/LICENSE"
+        }
+    },
+    {
+        "name": "LLM.md",
+        "path": "LLM.md",
+        "sha": "f0304257ff2571ad1ca0531cadf3941d9caa8264",
+        "size": 37243,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/LLM.md?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/LLM.md",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/f0304257ff2571ad1ca0531cadf3941d9caa8264",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/LLM.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/LLM.md?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/f0304257ff2571ad1ca0531cadf3941d9caa8264",
+            "html": "https://github.com/mem0ai/mem0/blob/main/LLM.md"
+        }
+    },
+    {
+        "name": "MIGRATION_GUIDE_v1.0.md",
+        "path": "MIGRATION_GUIDE_v1.0.md",
+        "sha": "b13197630c3ba9dc81e6ac278a225544e8f9d4d0",
+        "size": 5057,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/MIGRATION_GUIDE_v1.0.md?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/MIGRATION_GUIDE_v1.0.md",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/b13197630c3ba9dc81e6ac278a225544e8f9d4d0",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/MIGRATION_GUIDE_v1.0.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/MIGRATION_GUIDE_v1.0.md?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/b13197630c3ba9dc81e6ac278a225544e8f9d4d0",
+            "html": "https://github.com/mem0ai/mem0/blob/main/MIGRATION_GUIDE_v1.0.md"
+        }
+    },
+    {
+        "name": "Makefile",
+        "path": "Makefile",
+        "sha": "ccc01b53bd9f68d51d6cd779d28faf928617d2fc",
+        "size": 990,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/Makefile?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/Makefile",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/ccc01b53bd9f68d51d6cd779d28faf928617d2fc",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/Makefile",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/Makefile?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/ccc01b53bd9f68d51d6cd779d28faf928617d2fc",
+            "html": "https://github.com/mem0ai/mem0/blob/main/Makefile"
+        }
+    },
+    {
+        "name": "README.md",
+        "path": "README.md",
+        "sha": "9eef64f7c70095375063c3fbaba09b4bb7265a17",
+        "size": 9583,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/README.md?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/README.md",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/9eef64f7c70095375063c3fbaba09b4bb7265a17",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/README.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/README.md?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/9eef64f7c70095375063c3fbaba09b4bb7265a17",
+            "html": "https://github.com/mem0ai/mem0/blob/main/README.md"
+        }
+    },
+    {
+        "name": "cli",
+        "path": "cli",
+        "sha": "a3b8b432a6e13865fcb737ed78b23d12aba9bebf",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/cli?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/cli",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/a3b8b432a6e13865fcb737ed78b23d12aba9bebf",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/cli?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/a3b8b432a6e13865fcb737ed78b23d12aba9bebf",
+            "html": "https://github.com/mem0ai/mem0/tree/main/cli"
+        }
+    },
+    {
+        "name": "cookbooks",
+        "path": "cookbooks",
+        "sha": "4f38d3fa1234d87f280a461f615d28b67ae06b5f",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/cookbooks?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/cookbooks",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/4f38d3fa1234d87f280a461f615d28b67ae06b5f",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/cookbooks?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/4f38d3fa1234d87f280a461f615d28b67ae06b5f",
+            "html": "https://github.com/mem0ai/mem0/tree/main/cookbooks"
+        }
+    },
+    {
+        "name": "docs",
+        "path": "docs",
+        "sha": "394e5968d46174b22e417708dbfa225636643003",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/docs?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/docs",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/394e5968d46174b22e417708dbfa225636643003",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/docs?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/394e5968d46174b22e417708dbfa225636643003",
+            "html": "https://github.com/mem0ai/mem0/tree/main/docs"
+        }
+    },
+    {
+        "name": "embedchain",
+        "path": "embedchain",
+        "sha": "03f0635d6df0008d734f87cb9fbf2aedae8d0295",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/embedchain?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/embedchain",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/03f0635d6df0008d734f87cb9fbf2aedae8d0295",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/embedchain?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/03f0635d6df0008d734f87cb9fbf2aedae8d0295",
+            "html": "https://github.com/mem0ai/mem0/tree/main/embedchain"
+        }
+    },
+    {
+        "name": "evaluation",
+        "path": "evaluation",
+        "sha": "908ff11bb630c0c7995ec99f2a9339fa9e812f66",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/evaluation?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/evaluation",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/908ff11bb630c0c7995ec99f2a9339fa9e812f66",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/evaluation?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/908ff11bb630c0c7995ec99f2a9339fa9e812f66",
+            "html": "https://github.com/mem0ai/mem0/tree/main/evaluation"
+        }
+    },
+    {
+        "name": "examples",
+        "path": "examples",
+        "sha": "7833718041e2b4548fb2bc7b2a3bc71aad29de60",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/examples?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/examples",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/7833718041e2b4548fb2bc7b2a3bc71aad29de60",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/examples?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/7833718041e2b4548fb2bc7b2a3bc71aad29de60",
+            "html": "https://github.com/mem0ai/mem0/tree/main/examples"
+        }
+    },
+    {
+        "name": "mem0-plugin",
+        "path": "mem0-plugin",
+        "sha": "ddd5dba7cb3a17231feb4cc0d1034fa323a41c2a",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/mem0-plugin?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/mem0-plugin",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/ddd5dba7cb3a17231feb4cc0d1034fa323a41c2a",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/mem0-plugin?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/ddd5dba7cb3a17231feb4cc0d1034fa323a41c2a",
+            "html": "https://github.com/mem0ai/mem0/tree/main/mem0-plugin"
+        }
+    },
+    {
+        "name": "mem0-ts",
+        "path": "mem0-ts",
+        "sha": "b0b051c911bd01e7d0f6763b847a84d9d6e72ccd",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/mem0-ts?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/mem0-ts",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/b0b051c911bd01e7d0f6763b847a84d9d6e72ccd",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/mem0-ts?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/b0b051c911bd01e7d0f6763b847a84d9d6e72ccd",
+            "html": "https://github.com/mem0ai/mem0/tree/main/mem0-ts"
+        }
+    },
+    {
+        "name": "mem0",
+        "path": "mem0",
+        "sha": "595c8c19105cdaa4c504e52089058704fb0b68e1",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/mem0?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/mem0",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/595c8c19105cdaa4c504e52089058704fb0b68e1",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/mem0?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/595c8c19105cdaa4c504e52089058704fb0b68e1",
+            "html": "https://github.com/mem0ai/mem0/tree/main/mem0"
+        }
+    },
+    {
+        "name": "openclaw",
+        "path": "openclaw",
+        "sha": "799ee34ac75575b69aa1a9d517dca36b35c67216",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/openclaw?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/openclaw",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/799ee34ac75575b69aa1a9d517dca36b35c67216",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/openclaw?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/799ee34ac75575b69aa1a9d517dca36b35c67216",
+            "html": "https://github.com/mem0ai/mem0/tree/main/openclaw"
+        }
+    },
+    {
+        "name": "openmemory",
+        "path": "openmemory",
+        "sha": "113ce5d176b6847bb044e8224db96f257d26002c",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/openmemory?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/openmemory",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/113ce5d176b6847bb044e8224db96f257d26002c",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/openmemory?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/113ce5d176b6847bb044e8224db96f257d26002c",
+            "html": "https://github.com/mem0ai/mem0/tree/main/openmemory"
+        }
+    },
+    {
+        "name": "poetry.lock",
+        "path": "poetry.lock",
+        "sha": "c584627ebddee3bab66ce52d72232d488aeac547",
+        "size": 915384,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/poetry.lock?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/poetry.lock",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/c584627ebddee3bab66ce52d72232d488aeac547",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/poetry.lock",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/poetry.lock?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/c584627ebddee3bab66ce52d72232d488aeac547",
+            "html": "https://github.com/mem0ai/mem0/blob/main/poetry.lock"
+        }
+    },
+    {
+        "name": "pyproject.toml",
+        "path": "pyproject.toml",
+        "sha": "94bdf4e1a595dc904f3568399375bdc2c0246067",
+        "size": 2874,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/pyproject.toml?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/blob/main/pyproject.toml",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/blobs/94bdf4e1a595dc904f3568399375bdc2c0246067",
+        "download_url": "https://raw.githubusercontent.com/mem0ai/mem0/main/pyproject.toml",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/pyproject.toml?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/blobs/94bdf4e1a595dc904f3568399375bdc2c0246067",
+            "html": "https://github.com/mem0ai/mem0/blob/main/pyproject.toml"
+        }
+    },
+    {
+        "name": "scripts",
+        "path": "scripts",
+        "sha": "fe2dd92987feaa2acee77131f070f3fa1f1c0194",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/scripts?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/scripts",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/fe2dd92987feaa2acee77131f070f3fa1f1c0194",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/scripts?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/fe2dd92987feaa2acee77131f070f3fa1f1c0194",
+            "html": "https://github.com/mem0ai/mem0/tree/main/scripts"
+        }
+    },
+    {
+        "name": "server",
+        "path": "server",
+        "sha": "f02cf274df0c6dbf527b199052f9f5c7e89500ed",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/server?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/server",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/f02cf274df0c6dbf527b199052f9f5c7e89500ed",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/server?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/f02cf274df0c6dbf527b199052f9f5c7e89500ed",
+            "html": "https://github.com/mem0ai/mem0/tree/main/server"
+        }
+    },
+    {
+        "name": "skills",
+        "path": "skills",
+        "sha": "2b680bc6dfba0be251795d268067cea77fb90a27",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/skills?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/skills",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/2b680bc6dfba0be251795d268067cea77fb90a27",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/skills?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/2b680bc6dfba0be251795d268067cea77fb90a27",
+            "html": "https://github.com/mem0ai/mem0/tree/main/skills"
+        }
+    },
+    {
+        "name": "tests",
+        "path": "tests",
+        "sha": "a805239221ca1074681d55903fa7814151ba1f48",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/tests?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/tests",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/a805239221ca1074681d55903fa7814151ba1f48",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/tests?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/a805239221ca1074681d55903fa7814151ba1f48",
+            "html": "https://github.com/mem0ai/mem0/tree/main/tests"
+        }
+    },
+    {
+        "name": "vercel-ai-sdk",
+        "path": "vercel-ai-sdk",
+        "sha": "bfa653bf8edba2ea9af3f0f01d63c70ee2de1902",
+        "size": 0,
+        "url": "https://api.github.com/repos/mem0ai/mem0/contents/vercel-ai-sdk?ref=main",
+        "html_url": "https://github.com/mem0ai/mem0/tree/main/vercel-ai-sdk",
+        "git_url": "https://api.github.com/repos/mem0ai/mem0/git/trees/bfa653bf8edba2ea9af3f0f01d63c70ee2de1902",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/mem0ai/mem0/contents/vercel-ai-sdk?ref=main",
+            "git": "https://api.github.com/repos/mem0ai/mem0/git/trees/bfa653bf8edba2ea9af3f0f01d63c70ee2de1902",
+            "html": "https://github.com/mem0ai/mem0/tree/main/vercel-ai-sdk"
+        }
+    }
+]
