@@ -1,1 +1,1 @@
-建议下一轮跑 Step C：选取 1-2 个真实开源 Agent 项目（如 AutoGen、CrewAI、LangGraph 或 smolagents），调研当前仓库状态、star/fork、最近 release、核心架构，产出 `.evolve/library/facts/<id>.md` 项目事实条目，为后续 Step D 的文章写作积累 ground truth。
+建议下一轮跑 Step C：选取 1-2 个真实开源 Agent 项目（如 AutoGen、CrewAI、LangGraph 或 smolagents），调研当前仓库状态、star/fork、最近 release、核心架构，产出 `.evolve/library/facts/<id>.md` 项目事实条目，为后续 Step D 的文章写作积累 ground truth。注意：先修正 step.json 中 methodology_ready=true 的语义错误，改为 false（methodology 刚在本轮产出，并非进入时已就绪）。
