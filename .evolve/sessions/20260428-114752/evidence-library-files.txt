@@ -1,0 +1,6 @@
+/Volumes/MOVESPEED/workspace/self-evolve-projects/open-agent-knowledge-base/.evolve/library/facts/langgraph-001.md
+/Volumes/MOVESPEED/workspace/self-evolve-projects/open-agent-knowledge-base/.evolve/library/facts/smolagents-001.md
+/Volumes/MOVESPEED/workspace/self-evolve-projects/open-agent-knowledge-base/.evolve/library/methodology/deep-tech-essay-agent-architecture-001.md
+/Volumes/MOVESPEED/workspace/self-evolve-projects/open-agent-knowledge-base/.evolve/library/methodology/reverse-anthropic-building-effective-agents.md
+/Volumes/MOVESPEED/workspace/self-evolve-projects/open-agent-knowledge-base/.evolve/library/methodology/reverse-langchain-what-is-an-agent.md
+exit=0
