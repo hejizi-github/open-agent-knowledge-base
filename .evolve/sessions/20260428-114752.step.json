@@ -14,7 +14,7 @@
     {"path": ".evolve/sessions/20260428-114752.task_framing.md", "type": "review-control"}
   ],
   "evidence": [
-    {"type": "url", "ref": ".evolve/sessions/20260428-114752/evidence-arxiv-codeact.xml", "claim": "论文 Executable Code Actions Elicit Better LLM Agents 的 arXiv ID 为 2402.01030，ICML 2024 接收"},
+    {"type": "raw", "ref": ".evolve/sessions/20260428-114752/evidence-arxiv-codeact.xml", "claim": "论文 Executable Code Actions Elicit Better LLM Agents 的 arXiv ID 为 2402.01030，ICML 2024 接收"},
     {"type": "local-command", "ref": ".evolve/sessions/20260428-114752/evidence-grep-outline.txt", "claim": "正文无兜底词；grep 仅命中 checklist 引用短语本身（第371行），非正文使用"},
     {"type": "local-command", "ref": ".evolve/sessions/20260428-114752/evidence-grep-prompts.txt", "claim": "image prompt pack 无兜底词（grep exit=1 表示无匹配）"},
     {"type": "local-command", "ref": ".evolve/sessions/20260428-114752/evidence-library-files.txt", "claim": "outline 和 image prompt 中所有 [ref: ...] 均指向存在的文件（5/5 存在，exit=0）"}
