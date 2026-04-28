@@ -1,3 +1,3 @@
-- draft 中的 `[ref:]` 只写纯文件路径，不写 `§` 简写或 `##`/`###` 锚点，避免 library 中不存在对应格式导致验证失败
-- 每节写完立即运行字数 lint，不等全部章节写完再集中验证，防止进入 fix round 补字数
-- 涉及路径含 `/` `[` `]` 等特殊字符的批量替换直接用 Python 脚本，不用 sed 避免转义问题
+- 字数统计用 `python3 -c` 写独立脚本，不用 shell eval，消除 "command not found: strategies" 解析 artifact
+- macOS grep 不支持 `-P`，涉及正则提取的验证脚本统一用 `python3` 实现，不依赖 grep -P
+- 单节初稿字数低于目标 15% 以上时，不逐段补丁式增补，退回重读 facts 补论据后整体重写
