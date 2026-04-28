@@ -30,8 +30,8 @@
     {"type": "raw", "ref": ".evolve/wiki/facts/autogen-001.md", "claim": "AutoGen 项目事实卡（维护模式、Actor 模型）"},
     {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "CrewAI 项目事实卡（角色编排、Flow 框架）"},
     {"type": "raw", "ref": ".evolve/wiki/facts/maf-001.md", "claim": "MAF 项目事实卡（Tier 体系、DurableTask）"},
-    {"type": "raw", "ref": "raw:openhands-readme.md", "claim": "OpenHands README（SWE-bench 77.6 分、产品矩阵描述）"},
-    {"type": "raw", "ref": "raw:openhands-agents.md", "claim": "OpenHands 贡献者指南（Runtime=local/docker 配置）"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-readme.md", "claim": "OpenHands README（SWE-bench 77.6 分、产品矩阵描述）"},
+    {"type": "raw", "ref": ".evolve/raw/openhands-agents.md", "claim": "OpenHands 贡献者指南（Runtime=local/docker 配置）"},
     {"type": "raw", "ref": "articles/published/five-pole-agent-frameworks.md", "claim": "首篇五极长文（五维坐标系定义）"}
   ],
   "next_step": "Step E：成稿发布。合并 sec0-sec6 为单篇 published 文件，编写 image-prompts/openhands-architecture.md，更新 articles/index.md。"
