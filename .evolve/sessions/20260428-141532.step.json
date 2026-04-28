@@ -1,0 +1,31 @@
+{
+  "session": "20260428-141532",
+  "selected_step": "D",
+  "why_this_step": "§0-§6 draft 已完成，methodology 与 facts 已覆盖 §8 全部断言维度。无需补充 source，直接进入 D 产出 §8 初稿。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/five-pole-agent-frameworks-sec8.md", "type": "product", "detail": "§8 设计取舍与失败模式完整草稿，约 2,445 字（目标 ~2,000），含 25 个 facts ref"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/library/facts/crewai-001.md §代码量声明 vs 实际", "claim": "CrewAI 519 核心文件、15+ 子系统、'lean' 口号与现实落差"},
+    {"type": "raw", "ref": ".evolve/library/facts/crewai-001.md §Process 抽象的现实", "claim": "Process.py 仅 11 行 enum，consensual 为 TODO 未实现"},
+    {"type": "raw", "ref": ".evolve/library/facts/crewai-001.md §两种执行模式", "claim": "Flow 框架 3,572 行，与 LangGraph 功能重叠"},
+    {"type": "raw", "ref": ".evolve/library/facts/langgraph-001.md §核心架构声明", "claim": "Pregel 引擎、显式 nodes/edges/state channels"},
+    {"type": "raw", "ref": ".evolve/library/facts/langgraph-001.md §已知限制与失败模式", "claim": "学习曲线陡峭、过度工程化风险、与 Anthropic 简单优于复杂警告冲突"},
+    {"type": "raw", "ref": ".evolve/library/facts/langgraph-001.md §维护活跃度评估", "claim": "Monorepo 多包独立版本、几乎每日发布、依赖管理复杂度"},
+    {"type": "raw", "ref": ".evolve/library/facts/smolagents-001.md §代码量声明 vs 实际", "claim": "README 声称 ~1,000 行，实际 agents.py 1,814 行"},
+    {"type": "raw", "ref": ".evolve/library/facts/smolagents-001.md §沙箱层级", "claim": "LocalPythonExecutor 非安全沙箱，但为零配置默认选项"},
+    {"type": "raw", "ref": ".evolve/library/facts/smolagents-001.md §仓库基础状态", "claim": "26,939 stars / 517 open issues / v1.24.0 发布于 2026-01-16（3.5 个月前）"},
+    {"type": "raw", "ref": ".evolve/library/facts/smolagents-001.md §维护活跃度评估", "claim": "核心维护者仅 2 人"},
+    {"type": "raw", "ref": ".evolve/library/facts/autogen-001.md §1. 项目身份", "claim": "2026-04-06 官宣维护模式，不再接收新功能"},
+    {"type": "raw", "ref": ".evolve/library/facts/autogen-001.md §7. 已知限制与注意事项", "claim": "GraphFlow callable conditions 不可序列化、AutoGen Studio 非生产就绪"},
+    {"type": "raw", "ref": ".evolve/library/facts/maf-001.md §1. 项目身份", "claim": "2025-04-28 创建，刚满一年"},
+    {"type": "raw", "ref": ".evolve/library/facts/maf-001.md §10. 已知限制与注意事项", "claim": "orchestrations/durabletask/devui 为 pre-release、CodeAct ADR 0024 为 proposed、默认锁定 Microsoft Foundry"}
+  ],
+  "next_step": "Step D 续写 §7 跨维度全景对比表（~1,500字）或 §9 决策框架（~1,800字）"
+}
