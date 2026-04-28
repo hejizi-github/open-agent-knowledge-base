@@ -1,0 +1,26 @@
+{
+  "session": "20260428-110909",
+  "selected_step": "D",
+  "why_this_step": "方法论库 4 条覆盖 deep-tech-essay/agent-architecture/open-source-analysis/chinese-technical-writing 标签；事实库 2 条覆盖 smolagents + LangGraph 关键断言；outline 和 image prompt pack 已完成；§1-§3 扩写不依赖第三个项目 facts。前置条件全部满足。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/smolagents-vs-langgraph.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-110909.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-110909.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-110909.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/library/facts/smolagents-001.md", "claim": "smolagents 26,939 stars / agents.py 1,814 行实测 / CodeAgent+ToolCallingAgent 双模式 / 外置沙箱策略 / 517 open issues"},
+    {"type": "raw", "ref": ".evolve/library/facts/langgraph-001.md", "claim": "LangGraph 30,593 stars / Pregel 引擎目录结构 / 原生 checkpointing + interrupt / 518 MB 仓库 / monorepo 多包独立版本"},
+    {"type": "raw", "ref": ".evolve/library/methodology/deep-tech-essay-agent-architecture-001.md", "claim": "双轨结构模板 / L1-L3 证据密度标准 / 反共识呈现技法清单 / 中文长文质量检查清单"},
+    {"type": "raw", "ref": ".evolve/library/methodology/reverse-anthropic-building-effective-agents.md", "claim": "反直觉钩子结构 / When to use/When NOT to use / 主动暴露限制可信度策略 / 分层复杂度叙事"},
+    {"type": "raw", "ref": ".evolve/library/methodology/reverse-langchain-what-is-an-agent.md", "claim": "概念光谱法消解二元争论 / 自我质疑建立可信度 / 类比仅作入口规则"}
+  ],
+  "next_step": "Step D 续篇：基于本 outline 扩写 §4-§8 正文（约 8,300 字）；或 Step C：补充第三个项目 facts（如 AutoGen / CrewAI）以丰富 §5 对比维度。优先级：先完成 §4-§8 扩写，再补充第三项目。"
+}
