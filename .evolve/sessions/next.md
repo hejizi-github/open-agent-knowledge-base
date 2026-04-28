@@ -1,1 +1,1 @@
-建议下一轮跑 Step D 续：整稿 lint 与格式统一。全文草稿 sec0-sec10 已齐备（20,710 中文字符），需完成：1) 统一全文章节过渡衔接语；2) 补齐 image-prompts 包与正文图片占位符对齐；3) 检查 sec8-sec10 的 § 锚点 ref 格式一致性；4) 验证 outline 与正文结构一致性。
+建议下一轮跑 Step D：整稿 lint 与格式统一。具体任务：修复 sec8-sec10 的 § 锚点混入 ref、统一 sec0-sec10 的章节衔接语、补充各章图片占位符与 image-prompts 包对齐、验证 outline 与实际章节一致性。全文草稿 sec0-sec10 已齐备，lint 完成后可进入 Step E 成稿。
