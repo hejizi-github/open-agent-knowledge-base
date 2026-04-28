@@ -1,0 +1,26 @@
+{
+  "session": "20260428-185503",
+  "selected_step": "D",
+  "why_this_step": "上轮已完成§0摘要+§1开头钩子，评审PASS。本轮按next.md建议继续Step D续，撰写§2角色编排侧+§3事件驱动侧。方法论(framework-architecture-tension-001)和facts(crewai-001/smolagents-001/langgraph-001)均已完备，无需新调研。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/crewai-architecture-tension.md", "type": "product"},
+    {"path": "image-prompts/crewai-architecture-tension.md", "type": "product"},
+    {"path": ".evolve/sessions/20260428-185503.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-185503.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-185503.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/wiki/facts/crewai-001.md", "claim": "Agent core.py 1,885行、Task.py 1,422行、Crew.py 2,298行、Process 11行、Flow 3,572行、role/goal/backstory三元组、@start/@listen/@router装饰器、AND_CONDITION/OR_CONDITION、FlowPersistence、LangGraph adapter、OpenAI Agents adapter、50,114 star"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/smolagents-001.md", "claim": "smolagents核心代码约1,814行、无Process层、单Agent ReAct loop"},
+    {"type": "raw", "ref": ".evolve/wiki/facts/langgraph-001.md", "claim": "LangGraph add_node/add_edge、checkpoint、conditional_edge机制"},
+    {"type": "raw", "ref": ".evolve/wiki/methodology/framework-architecture-tension-001.md", "claim": "模板A结构规范、反共识点定义（Flow是架构补丁、Process空头支票、独立宣言identity危机）"}
+  ],
+  "next_step": "Step D续：撰写§4张力解剖+§5三角定位草稿"
+}

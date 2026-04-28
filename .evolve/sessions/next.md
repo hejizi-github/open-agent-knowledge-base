@@ -1,1 +1,1 @@
-建议下一轮跑 Step D 续：撰写 §2 角色编排侧（~2,000 字）+ §3 事件驱动侧（~2,000 字）草稿。§0-§1 已建立"宣传-现实"张力基调，§2 需要给 CrewAI A 面（role/goal/backstory、Crew 编排）一个"公平辩护"，§3 转向 B 面（Flow 的引入动机与实现代价）。ground truth 全部来自 crewai-001 facts 卡，无需新调研。
+建议下一轮跑 Step D 续：撰写 §4 张力解剖（~2,500 字）+ §5 三角定位（~1,500 字）草稿。§0-§3 已完成，§4 是全文核心——追问"为什么需要两套控制流？"，用 Process 11 行 vs Flow 3,572 行的代码级数据解剖架构债务，分析用户认知代价。§5 将 CrewAI 放入 smolagents-CrewAI-LangGraph 光谱做三角定位。ground truth 全部来自已有 facts 卡，无需新调研。
