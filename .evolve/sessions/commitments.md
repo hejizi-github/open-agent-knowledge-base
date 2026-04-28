@@ -1,3 +1,2 @@
-- 单节草稿字数低于目标 15% 时，当场扩写达标后再进入下一节，不依赖评审宽容
-- lint 扫描发现兜底词或重复 ref 时，中断当前流程立即修复，不攒到多节写完再统一处理
-- 写 outline 时为每节标注字数预算，drafting 阶段以字数进度条与内容完整性为双重退出条件
+- 迁移五极 facts 文件（smolagents/langgraph/crewai/autogen/maf）从 library/facts/ 到 wiki/facts/，消除 review 指出的 legacy 路径错位
+- 运行 duplicate ref lint 前，先确认脚本检测的是「同一行重复 ref」而非「全文多处引用同一来源」，避免误报消耗 debug round
