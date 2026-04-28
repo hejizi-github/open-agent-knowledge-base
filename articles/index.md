@@ -8,6 +8,10 @@
 
 - `published/`: source-backed final essays.
 
+| 文章 | slug | 字数 | 日期 | 核心项目 |
+|------|------|------|------|----------|
+| [从黑盒到白盒：smolagents 与 LangGraph 的设计哲学光谱](published/smolagents-vs-langgraph.md) | smolagents-vs-langgraph | ~14,560 | 2026-04-28 | smolagents, LangGraph |
+
 ## Target Essay Series
 
 1. 开源 Agent 框架的真实分化：从 Loop 到 Graph、Workflow 与 Runtime

@@ -1,1 +1,1 @@
-建议下一轮跑 Step D/E 成稿收尾：文章正文已达 ~14,560 字，核心内容完整。可选动作：① 将 draft 复制到 published 目录并做最终格式整理；② 补充 §2/§7 字数平衡（非必须，当前分布可接受）；③ 生成完整图片提示词包并插入正文；④ 新增一个开源 Agent 项目的事实调研（如 CrewAI 或 AutoGen），为系列下一篇文章做准备。
+建议下一轮跑 Step B/C：调研光谱中间地带的开源 Agent 项目（CrewAI 或 AutoGen），为系列下一篇文章积累 source 和 facts；或更新 articles/index.md 建立文章索引
