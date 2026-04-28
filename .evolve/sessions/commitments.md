@@ -1,3 +1,3 @@
-- WebSearch/WebFetch 首次失败后立即切换 fallback（Bash curl 或纯 wiki 模式），不做二次尝试
-- 在 startup-checklist.md 中增加「外部数据工具可用性」预检项
-- 当完全依赖已有 wiki 内容时，step.json evidence 首条明确声明「本轮无新增 raw source」
+- 用 replace_all 做批量 ref 替换前先预判是否会产生同行重复 ref，同一来源被多 § 引用时逐段针对性修复
+- Write 任何已存在的控制面文件前先 Read，不因「刚读过」而省略这一步
+- 中文统计、Unicode 字符范围验证直接用 python3 脚本实现，不在 Bash 中尝试 grep 正则

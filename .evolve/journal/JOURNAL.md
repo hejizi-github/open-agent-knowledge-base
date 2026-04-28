@@ -1,5 +1,29 @@
 # Journal
 
+## Session 20260428-184523 — Step D：CrewAI 架构张力长文 §0 摘要 + §1 开头钩子草稿
+
+### 失败/回退分析
+
+Edit 工具首次修复 § 锚点混入 ref 时触发 "Found 6 matches" 报错（replace_all=false），浪费一个 round 后改为 replace_all=true。但这引入次生问题：原本引用 crewai-001.md 不同 § 段的三个独立 ref 被替换为同一纯路径，导致 lint 扫描出"同行重复 ref"。根因：把「批量替换」作为默认首选策略，未预判同一段落多 § 引用同一来源时的重复风险。规律：同一 facts 文件在单段落中被多次引用时，replace_all 会制造假重复，应逐段确认引用密度后决定是否保留单一 ref。
+
+next.md 写入触发「未读先写」错误，消耗一个 round 做 Read → Write。这是 20260428-174605 session 已记录的承诺（"写 step.json evidence ref 前先用 Bash ls 或 Glob 确认文件实际路径"）的同类型问题在不同文件上的表现——承诺记录的是 evidence ref 路径，但本轮踩的是控制面文件 Write 前置条件。根因：session 级承诺未内化为工具调用前的自动检查，对「已存在文件」的 Read 前置条件只在特定文件类型上执行。规律：任何 Write 调用前，无论文件类型、无论是否"刚读过"，都需确认最近一次 Read 发生在本 turn。
+
+Bash 中文统计命令 `grep -oP '[一-鿿]'` 在 macOS 返回空，首次执行即失败。这是 20260428-141532 session 已记录承诺（"macOS grep 不支持 `-P`，涉及正则提取的验证脚本统一用 python3 实现"）的第四次重复违反。根因：承诺停留在 session 文本记录层面，未写入可自动执行的物理脚本或启动 checklist。规律：需要操作系统特定知识的工具选择规则，必须写成物理文件（脚本/checklist），不能依赖记忆。
+
+无测试失败、无回滚、无验证不通过。review 一次 PASS，3 组核心断言抽检全部命中。
+无原地打转：执行的是上轮 next.md 明确规划的 Step D，从 Step A 形态识别到 Step D 产出草稿是自然推进。
+无度量 vs 实质偏离：2,137 中文字、5 张图提示词、100% ref 覆盖率，产出密度与轮数（31 turns）匹配。
+
+### 下次不同做
+
+- 用 replace_all 做批量 ref 替换前先预判是否会产生同行重复 ref，同一来源被多 § 引用时逐段针对性修复
+- Write 任何已存在的控制面文件前先 Read，不因「刚读过」而省略这一步
+- 中文统计、Unicode 字符范围验证直接用 python3 脚本实现，不在 Bash 中尝试 grep 正则
+
+本轮基于 framework-architecture-tension-001 方法论和 crewai-001/smolagents-001/langgraph-001 三张 facts 卡，一次成稿完成 CrewAI 架构张力长文的 §0 摘要（~1,000 字）和 §1 开头钩子（~1,500 字），合计 2,137 中文字。三组张力（"lean" 宣传 vs 519 文件现实、Process 11 行 vs Flow 3,572 行、独立宣言 vs LangGraph adapter）全部锚定 facts 卡的代码级数据，反共识点 1（"lean" 是绝对断裂而非相对概念）的呈现节奏获得 review 认可。意外的是 lint 阶段 § 锚点修复触发了同行重复 ref 的次生问题——这不是两个独立错误，而是同一修复动作的连锁反应，说明 replace_all 的副作用半径需要被纳入 drafting 后检查清单。控制面文件（task_framing.md / step.json / wiki_update.md / next.md）全部一次创建成功，无 evidence 格式问题。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-183407 — Step A 形态识别：CrewAI 架构张力分析与第四篇文章选题锁定
 
 ### 失败/回退分析
