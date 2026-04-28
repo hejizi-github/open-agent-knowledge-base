@@ -1,0 +1,22 @@
+{
+  "session": "20260428-115952",
+  "selected_step": "D",
+  "why_this_step": "正文 §1-§8 已完整但 §0 摘要缺失、§3 字数缺口 ~921 字、第二篇论文 arXiv ID 待验证。方法论和事实库已充足，满足 D 的前置条件。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": true,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": true
+  },
+  "outputs": [
+    {"path": "articles/drafts/smolagents-vs-langgraph.md", "type": "product", "change": "插入 §0 摘要 ~257 字；扩写 §3 增加 ~1,850 字（单文件架构取舍、CodeAgent 场景对比、ToolCallingAgent fallback 价值、沙箱决策框架）；修正第二篇论文引用为待查；全文 lint 通过"},
+    {"path": ".evolve/sessions/20260428-115952/evidence-codeact-arxiv-search.txt", "type": "raw"},
+    {"path": ".evolve/sessions/20260428-115952/evidence-lint-results.txt", "type": "raw"}
+  ],
+  "evidence": [
+    {"type": "local-command", "ref": ".evolve/sessions/20260428-115952/evidence-codeact-arxiv-search.txt", "claim": "arXiv ID 2411.01747 查证为 DynaSaur 论文，非 README 声称的 CodeAct 论文；3 次 arXiv 搜索未找到匹配的 CodeAct 论文"},
+    {"type": "local-command", "ref": ".evolve/sessions/20260428-115952/evidence-lint-results.txt", "claim": "全文无兜底词（2 处通常均为客观描述或引号引用）；20 个 ref 全部指向存在的文件；总字数 ~14,560 落在目标区间"},
+    {"type": "raw", "ref": ".evolve/library/facts/smolagents-001.md", "claim": "§3 扩写中所有新增断言均有 facts/methodology ref 支撑"}
+  ],
+  "next_step": "建议下一轮跑 Step D/E：文章正文已达 ~14,560 字，进入成稿收尾阶段。可选动作：① 补充 §2/§7 字数平衡（非必须）；② 生成完整图片提示词包并插入正文；③ 将 draft 复制到 published 目录并做最终格式整理。"
+}

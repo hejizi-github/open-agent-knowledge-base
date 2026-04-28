@@ -1,0 +1,28 @@
+# CodeAct Paper arXiv ID Verification
+# Date: 2026-04-28
+# Search attempts: 3
+
+## Attempt 1: Direct arXiv ID lookup for 2411.01747
+Command: curl -sL "http://export.arxiv.org/api/query?search_query=id:2411.01747&max_results=1"
+Result: Title = "DynaSaur: Large Language Agents Beyond Predefined Actions"
+Conclusion: 2411.01747 is NOT "CodeAct: Agent-Centric Code Execution Improves LLM Agent Performance"
+
+## Attempt 2: Search by title keyword "Agent-Centric Code Execution"
+Command: curl -sL "http://export.arxiv.org/api/query?search_query=ti:%22Agent-Centric+Code+Execution%22&max_results=3"
+Result: 0 matches
+
+## Attempt 3: Search by keyword "CodeAct" on arXiv
+Command: curl -sL "http://export.arxiv.org/api/query?search_query=all:CodeAct&max_results=10"
+Result: No paper with title "Agent-Centric Code Execution Improves LLM Agent Performance" found
+Closest match: 2402.01030 "Executable Code Actions Elicit Better LLM Agents" (already confirmed as first paper)
+
+## Hugging Face papers page check
+Command: curl -sL "https://huggingface.co/papers/2411.01747" | grep "og:title"
+Result: "Paper page - DynaSaur: Large Language Agents Beyond Predefined Actions"
+Conclusion: Hugging Face papers 2411.01747 also points to DynaSaur, not CodeAct.
+
+## Final Status
+- smolagents README citation: "CodeAct: Agent-Centric Code Execution Improves LLM Agent Performance" [huggingface.co/papers/2411.01747]
+- Actual paper at 2411.01747: "DynaSaur: Large Language Agents Beyond Predefined Actions" by Adobe Research
+- The README citation appears to have an incorrect title or incorrect arXiv ID.
+- Resolution: Mark as "待查" in article. Only cite the confirmed paper arXiv:2402.01030.
