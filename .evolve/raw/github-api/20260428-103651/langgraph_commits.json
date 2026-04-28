@@ -1,0 +1,412 @@
+[
+  {
+    "sha": "cb328b57f1b195ddbb974953537948b6d13cb9ad",
+    "node_id": "C_kwDOKFU0ldoAKGNiMzI4YjU3ZjFiMTk1ZGRiYjk3NDk1MzUzNzk0OGI2ZDEzY2I5YWQ",
+    "commit": {
+      "author": {
+        "name": "Sydney Runkle",
+        "email": "54324534+sydney-runkle@users.noreply.github.com",
+        "date": "2026-04-27T17:11:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-27T17:11:43Z"
+      },
+      "message": "release(prebuilt): 1.0.12, langgraph 1.1.10 (#7623)\n\n## Summary\n\n- Bumps `langgraph-prebuilt` `1.0.11` → `1.0.12`\n- Bumps `langgraph` `1.1.9` → `1.1.10` (requires\n`langgraph-prebuilt>=1.0.12`)\n- Updates all downstream `uv.lock` files\n\n## Changes since last release\n\n**prebuilt (`1.0.11` → `1.0.12`)**\n- fix(prebuilt): hydrate ToolNode state from channels via pregel helpers\n(#7594)\n\n**langgraph (`1.1.8` → `1.1.10`)**\n- fix: don't propagate ReplayState to subgraphs on plain resume (#7561)",
+      "tree": {
+        "sha": "231498765d4f860b7c3291a5f4167ac53931cf04",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/git/trees/231498765d4f860b7c3291a5f4167ac53931cf04"
+      },
+      "url": "https://api.github.com/repos/langchain-ai/langgraph/git/commits/cb328b57f1b195ddbb974953537948b6d13cb9ad",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp75jPCRC1aQ7uu5UhlAAA+ZQQADdlo9IiKEV3e75FS7qAZlla\nqR20c0pGLwZewqK4HV76TI8VBkgyvWfp0nDEDxHWJNA4G8lDMatM2TWk9mJtTZUq\nnD9VUGFGX5wJ0tnZ0AXf5dF7lncbEcuShxfQBbLFByNY77JA3doIP3Bnb2tKVUTM\nUzb4xfjSlKCPS2Sr5JO6R/Ujn5x5QXa1eY9A+l3SfIRF/M3HSXZaaSexhXtQdJoq\nSnFINkqzDLIyydHAdZBKL0s/nrpI+M2LeGp5s1meL/rMzcOzODmkcRNUgzHdsSAV\nmBtVkAPRbSmQstRltrZFF+j5latOEEsJlQoaW6vRoOvNgyQaZz15zdo1VFvcv2i5\nEqKEzM6DcjcbtYksCwOTQd0kQSRwEKzZxEyLarXjRgtgOKR3OxIf353ggj98tofX\n2Muig5B1aF7Ty4GRMxBeEu9rCmvA4U9B+wulZGcnH6jiOW6uTa2dSOwRxHSAdDz4\nXPMnE1a7BIwJDQ2p9m5LGdTMZH0oWdBaeKclXDxuf+BZFu1QQSz8p+Nv4Ep5FI05\nrZlDSfJjWbk6PnkNBfR4vMrd2bhXV0+2HA2so/3uS5DLXtwSKw1EvkYhBmKhVmrD\ndXGmRzDnpyTsyJluXYU1Hfimg6dqTgbLkqU4b+qb1bGx5O0Xo/a5DEODfY9s/v0V\nw4XVwsbEE4apkiC2alj4\n=B6W9\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 231498765d4f860b7c3291a5f4167ac53931cf04\nparent d177a0db43783a2a5b15e390ccff25abcacb61e3\nauthor Sydney Runkle <54324534+sydney-runkle@users.noreply.github.com> 1777309903 -0400\ncommitter GitHub <noreply@github.com> 1777309903 -0400\n\nrelease(prebuilt): 1.0.12, langgraph 1.1.10 (#7623)\n\n## Summary\n\n- Bumps `langgraph-prebuilt` `1.0.11` → `1.0.12`\n- Bumps `langgraph` `1.1.9` → `1.1.10` (requires\n`langgraph-prebuilt>=1.0.12`)\n- Updates all downstream `uv.lock` files\n\n## Changes since last release\n\n**prebuilt (`1.0.11` → `1.0.12`)**\n- fix(prebuilt): hydrate ToolNode state from channels via pregel helpers\n(#7594)\n\n**langgraph (`1.1.8` → `1.1.10`)**\n- fix: don't propagate ReplayState to subgraphs on plain resume (#7561)",
+        "verified_at": "2026-04-27T17:11:43Z"
+      }
+    },
+    "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/cb328b57f1b195ddbb974953537948b6d13cb9ad",
+    "html_url": "https://github.com/langchain-ai/langgraph/commit/cb328b57f1b195ddbb974953537948b6d13cb9ad",
+    "comments_url": "https://api.github.com/repos/langchain-ai/langgraph/commits/cb328b57f1b195ddbb974953537948b6d13cb9ad/comments",
+    "author": {
+      "login": "sydney-runkle",
+      "id": 54324534,
+      "node_id": "MDQ6VXNlcjU0MzI0NTM0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54324534?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sydney-runkle",
+      "html_url": "https://github.com/sydney-runkle",
+      "followers_url": "https://api.github.com/users/sydney-runkle/followers",
+      "following_url": "https://api.github.com/users/sydney-runkle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sydney-runkle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sydney-runkle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sydney-runkle/subscriptions",
+      "organizations_url": "https://api.github.com/users/sydney-runkle/orgs",
+      "repos_url": "https://api.github.com/users/sydney-runkle/repos",
+      "events_url": "https://api.github.com/users/sydney-runkle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sydney-runkle/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d177a0db43783a2a5b15e390ccff25abcacb61e3",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/d177a0db43783a2a5b15e390ccff25abcacb61e3",
+        "html_url": "https://github.com/langchain-ai/langgraph/commit/d177a0db43783a2a5b15e390ccff25abcacb61e3"
+      }
+    ]
+  },
+  {
+    "sha": "d177a0db43783a2a5b15e390ccff25abcacb61e3",
+    "node_id": "C_kwDOKFU0ldoAKGQxNzdhMGRiNDM3ODNhMmE1YjE1ZTM5MGNjZmYyNWFiY2FjYjYxZTM",
+    "commit": {
+      "author": {
+        "name": "William FH",
+        "email": "13333726+hinthornw@users.noreply.github.com",
+        "date": "2026-04-27T16:03:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-27T16:03:19Z"
+      },
+      "message": "Revert \"chore: node-level timeouts\" (#7627)\n\nReverts langchain-ai/langgraph#7599\n\nI am going to implement this as an `idle_timeout` instead. I think\nthat's a better default behavior.",
+      "tree": {
+        "sha": "500f4a83cedce2ee45613b6f848a74c1a9a84568",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/git/trees/500f4a83cedce2ee45613b6f848a74c1a9a84568"
+      },
+      "url": "https://api.github.com/repos/langchain-ai/langgraph/git/commits/d177a0db43783a2a5b15e390ccff25abcacb61e3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp74jHCRC1aQ7uu5UhlAAAcvMQADj+fQ/INAAbHxp0c67MsGaQ\nPffxLwzZ2d0EpdSIzggdE91F7kjlEfQZqoDz9dKUa7OkrFPMCtMGdScfGmi1mIFD\nrIi32nTEYk69T+WKB1BRn9sP+HZjJDmZ6qLDFVVl0VmsicYBp813X8qbWAnWjeXJ\n6SP2reDGHEpKR2Gwm5aEgVBisQq4v1iz8Oj0tzuZezjZhqlMyO6QuIs2GXCGK2Hi\nSE8F5ag5UD2Wc74a1s68ikyvvCla4j3g7AEam1JzJFgXAGARwxnJMqzNHBkRu/nT\nVeYboDNS4OeBaKaTea+xjANWNDtZOZU88Wt2bI8UzZeG1VO6tgQSxQjxgODSnarn\nbgxoz9P3wseozH48ltughu3FLixAr6mFViZy3uml0NNBffCFxxL3rkUt27zQ9zc6\nzFlAEBqufPDkJOR8fEDjTNQZGM+F7VtHnnwhCqw7Mu/VRw8YiCignGeMHZ8tK21P\n3PNbLvt90+WsgcHv8rkmFs7hi3sa1V1xoQ8LBN8PuDhqqVz8Rh+VLb5TdL77nAh1\ndCHxHKET0roXFSRqZlWDxndhYO7+gVbQ46XAHrgEd7367C/bTJKk00IWO7WNf2Aq\nu7Jqxb1bLi5sz4fVzYT6tlWerqBnpM9/HtlXhVaWL/bpxBZrtyqKkLpGKnu+aMml\ny5CYyMU4bR5/2kZAR9B2\n=pxB8\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 500f4a83cedce2ee45613b6f848a74c1a9a84568\nparent 372d54dc4ff16b8b32ae3e1534b5e8d90822e2d2\nauthor William FH <13333726+hinthornw@users.noreply.github.com> 1777305799 -0700\ncommitter GitHub <noreply@github.com> 1777305799 -0700\n\nRevert \"chore: node-level timeouts\" (#7627)\n\nReverts langchain-ai/langgraph#7599\n\nI am going to implement this as an `idle_timeout` instead. I think\nthat's a better default behavior.",
+        "verified_at": "2026-04-27T16:03:20Z"
+      }
+    },
+    "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/d177a0db43783a2a5b15e390ccff25abcacb61e3",
+    "html_url": "https://github.com/langchain-ai/langgraph/commit/d177a0db43783a2a5b15e390ccff25abcacb61e3",
+    "comments_url": "https://api.github.com/repos/langchain-ai/langgraph/commits/d177a0db43783a2a5b15e390ccff25abcacb61e3/comments",
+    "author": {
+      "login": "hinthornw",
+      "id": 13333726,
+      "node_id": "MDQ6VXNlcjEzMzMzNzI2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13333726?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hinthornw",
+      "html_url": "https://github.com/hinthornw",
+      "followers_url": "https://api.github.com/users/hinthornw/followers",
+      "following_url": "https://api.github.com/users/hinthornw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hinthornw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hinthornw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hinthornw/subscriptions",
+      "organizations_url": "https://api.github.com/users/hinthornw/orgs",
+      "repos_url": "https://api.github.com/users/hinthornw/repos",
+      "events_url": "https://api.github.com/users/hinthornw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hinthornw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "372d54dc4ff16b8b32ae3e1534b5e8d90822e2d2",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/372d54dc4ff16b8b32ae3e1534b5e8d90822e2d2",
+        "html_url": "https://github.com/langchain-ai/langgraph/commit/372d54dc4ff16b8b32ae3e1534b5e8d90822e2d2"
+      }
+    ]
+  },
+  {
+    "sha": "372d54dc4ff16b8b32ae3e1534b5e8d90822e2d2",
+    "node_id": "C_kwDOKFU0ldoAKDM3MmQ1NGRjNGZmMTZiOGIzMmFlM2UxNTM0YjVlOGQ5MDgyMmUyZDI",
+    "commit": {
+      "author": {
+        "name": "Sydney Runkle",
+        "email": "54324534+sydney-runkle@users.noreply.github.com",
+        "date": "2026-04-27T14:27:56Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-27T14:27:56Z"
+      },
+      "message": "release(checkpoint): 4.0.3 (#7625)\n\n## Summary\n\nBumps `langgraph-checkpoint` `4.0.2` → `4.0.3` and updates all\ndownstream `uv.lock` files.\n\n## Changes since 4.0.2\n\n- fix(checkpoint): revive lc=2 JSON blobs for safe types without\nallowlist (#7582)\n- chore: dedup warnings (#7257)\n- chore(deps): bump langsmith from 0.6.4 to 0.7.31 (#7525)",
+      "tree": {
+        "sha": "1c948323b2ec8d6ad81bd1bd9294c39c253ba52a",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/git/trees/1c948323b2ec8d6ad81bd1bd9294c39c253ba52a"
+      },
+      "url": "https://api.github.com/repos/langchain-ai/langgraph/git/commits/372d54dc4ff16b8b32ae3e1534b5e8d90822e2d2",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp73JsCRC1aQ7uu5UhlAAAWD0QABOkLRZxRD5TLas70O5rKTlc\nmTxO014Gqeg/Zu9LP1l5/XsIYLmg283U1QjU7p/pIaWuPgjqEU+QTa3Cc5xTnpdM\n22tEQkqTRNnaLHSJMX1bPqy6BuKv4GjlM0u8mi162JJBmZfmNgsVwCO23C3Uk9Q6\n82eWlQFZkCpvmQdyeV6dJgvpERFubwzwBevh1p0WpfTEv+M0myJLxcT02qjKqO8f\nsdPnqudgPVyHQNORbNJ/2abKogxtTB3OUxEQIz2XYQNkSXl+SKYeI8XLqccMts1s\nxdFoWaaSoywp9fBKdm78JfHOu//7LdihZVqAq2TxDSyl9SeN0esKVq2rlcSzvpVS\nut2JFuPnj46RWCXimIhJBa3JyyrPEcbptT1DlMwwPzWVnP1W/QDeYnkXz720cUCm\nCMcYRuLx25qrByUXZSl76LjPID7/XvRk+eSxvxbss2KLViIuyEw6nQtXy5xBqdAk\nnB6F4RshmhUkV3xLun1sXOsoG7ZGfLObSJUgDdd2SGkPiFWnabJLbZzqvN1egwoG\ns7Nfmj0y6NfQcf8kEXpEJbko2gI6Nwsu7mrg7Q82ARByD4kvRianosniurghrVI5\np6Ei5kn2MEu+gOHEoeFqA+YgLL2lQ4eNI8lh6NpWqY/M2166zOfw1GLAovCIrN78\n7Td/eDHWRpUeC2s8Zk2p\n=ccei\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1c948323b2ec8d6ad81bd1bd9294c39c253ba52a\nparent f4aee546add9aef6a8f72c8a94f55ec5c824da7d\nauthor Sydney Runkle <54324534+sydney-runkle@users.noreply.github.com> 1777300076 -0400\ncommitter GitHub <noreply@github.com> 1777300076 -0400\n\nrelease(checkpoint): 4.0.3 (#7625)\n\n## Summary\n\nBumps `langgraph-checkpoint` `4.0.2` → `4.0.3` and updates all\ndownstream `uv.lock` files.\n\n## Changes since 4.0.2\n\n- fix(checkpoint): revive lc=2 JSON blobs for safe types without\nallowlist (#7582)\n- chore: dedup warnings (#7257)\n- chore(deps): bump langsmith from 0.6.4 to 0.7.31 (#7525)",
+        "verified_at": "2026-04-27T14:27:57Z"
+      }
+    },
+    "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/372d54dc4ff16b8b32ae3e1534b5e8d90822e2d2",
+    "html_url": "https://github.com/langchain-ai/langgraph/commit/372d54dc4ff16b8b32ae3e1534b5e8d90822e2d2",
+    "comments_url": "https://api.github.com/repos/langchain-ai/langgraph/commits/372d54dc4ff16b8b32ae3e1534b5e8d90822e2d2/comments",
+    "author": {
+      "login": "sydney-runkle",
+      "id": 54324534,
+      "node_id": "MDQ6VXNlcjU0MzI0NTM0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54324534?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sydney-runkle",
+      "html_url": "https://github.com/sydney-runkle",
+      "followers_url": "https://api.github.com/users/sydney-runkle/followers",
+      "following_url": "https://api.github.com/users/sydney-runkle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sydney-runkle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sydney-runkle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sydney-runkle/subscriptions",
+      "organizations_url": "https://api.github.com/users/sydney-runkle/orgs",
+      "repos_url": "https://api.github.com/users/sydney-runkle/repos",
+      "events_url": "https://api.github.com/users/sydney-runkle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sydney-runkle/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f4aee546add9aef6a8f72c8a94f55ec5c824da7d",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/f4aee546add9aef6a8f72c8a94f55ec5c824da7d",
+        "html_url": "https://github.com/langchain-ai/langgraph/commit/f4aee546add9aef6a8f72c8a94f55ec5c824da7d"
+      }
+    ]
+  },
+  {
+    "sha": "f4aee546add9aef6a8f72c8a94f55ec5c824da7d",
+    "node_id": "C_kwDOKFU0ldoAKGY0YWVlNTQ2YWRkOWFlZjZhOGY3MmM4YTk0ZjU1ZWM1YzgyNGRhN2Q",
+    "commit": {
+      "author": {
+        "name": "Sydney Runkle",
+        "email": "54324534+sydney-runkle@users.noreply.github.com",
+        "date": "2026-04-27T13:52:23Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-27T13:52:23Z"
+      },
+      "message": "fix(prebuilt): hydrate ToolNode state from channels via pregel helpers (#7594)\n\n## Summary\n\nWhen `ToolNode` receives a bare `[tool_call]` list via the Send API (the\ndispatch shape `create_agent` will use once langchain-ai/langchain#36960\nlands), hydrate `ToolRuntime.state` from the current channel values\ninstead of requiring the dispatcher to inline the full agent state dict\ninto every `Send.arg`.\n\nMotivation: the paired langchain PR drops the `ToolCallWithContext`\nwrapper from `create_agent`'s tool dispatch, which eliminates an O(N²)\nstorage term on `__pregel_tasks` checkpoint writes. Without this\ncompanion change there would be no path for the tool node to see the\ngraph state.\n\n## What changed\n\n- `libs/prebuilt/langgraph/prebuilt/tool_node.py` — `_extract_state`\ngrows a third branch for list-form input. When the input is a list whose\nlast entry is a `ToolCall` dict, read the current channel values via\n`CONFIG_KEY_READ` and return them as the state dict.\n\nThe full new logic is four lines inline in `_extract_state`:\n\n```python\nread = config.get(CONF, {}).get(CONFIG_KEY_READ)\nif read is None:\n    return {}\n# Pregel installs CONFIG_KEY_READ as\n# `functools.partial(local_read, scratchpad, channels, managed, task)`.\nchannels = read.args[1]\nreturn cast(\"dict[str, Any]\", read(list(channels), False))\n```\n\n- No changes to the pregel read machinery (`local_read`, `ChannelRead`).\n- Only channel values are read; managed values have their own injection\npath (`ToolRuntime.context`, `InjectedContext`) and were never in the\npre-fix inlined state dict, so we don't add them here.\n- Falls back to `{}` when invoked outside a Pregel context (e.g. direct\n`ToolNode(...).invoke([tool_call])` from a test harness), which\npreserves existing `ToolNode` direct-invocation test behavior.\n\n- `libs/prebuilt/tests/test_on_tool_call.py` — two new tests covering\nthe list-form hydration path (sync + async). They build a\n`functools.partial` that matches Pregel's real `CONFIG_KEY_READ` shape\nand assert `ToolRuntime.state` reflects the current channel values.\n\n## Why it's safe\n\n- **Same snapshot semantics as before.** `Send` is emitted at\nend-of-super-step-N; consumed at start-of-super-step-N+1. Channels at\nthat point reflect every write from super-step N (including the new\nAIMessage the tool calls originated from). Parallel tool tasks in the\ntools super-step all read the same values since sibling writes don't\nland until end-of-super-step.\n- **Legacy `ToolCallWithContext` path preserved.** External dispatchers\nthat still inline state continue to work unchanged — `_extract_state`\nchecks that branch first.\n\n## Test plan\n\n- [x] `make test` in `libs/prebuilt` — **204 pass**\n- [x] Two new hydration tests (sync + async) green\n- [x] `make format` / `make lint` / `mypy` clean\n\n---------\n\nCo-authored-by: Claude Opus 4.7 (1M context) <noreply@anthropic.com>",
+      "tree": {
+        "sha": "f21b17a64b4fd3ad549d803e63f7c4d6188b90f8",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/git/trees/f21b17a64b4fd3ad549d803e63f7c4d6188b90f8"
+      },
+      "url": "https://api.github.com/repos/langchain-ai/langgraph/git/commits/f4aee546add9aef6a8f72c8a94f55ec5c824da7d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp72oXCRC1aQ7uu5UhlAAARfQQAF7Ek4qpsTA/+smVs9/VuypX\n7N28QhzTs3waj15CHrMUkeZxnIGTsgx2FZaHq2v8aWCgvNZsKNmKHkYIEt+XpxT4\nlV3tx0oRn4dGIGLC+bfUY4hb0qhZWHvzbP2GtJRSXiflFiugporoOfrTchQ1pXI5\nwCIfrly6YhCocRdK3WDGETzuQkRrYXK8gNY9Qx019cLpTE0IsMnpjPJ3kbST1Lcg\nyvPVnzkLlJoI1gjMgrPFB0QbUq9k4zR4YbFP5a0oMsHnXAWniqBdgmJJZyDj8Rl7\n9S9xwrLyk5bKoq42wGm/NE83QSUkeskFVj6PpBBjXBxtNgT7BKZqFDbeSEqZBWE3\nCqJ+e0uMSP8nX2ywhtYPVYCKXnvJFZ3cOv0QI8gAHE4rGlxwhtV5DpYD4WwTjTy4\n0+e0IxW/uBu7diDurENgAuvo36DSf1tUOMRV4u2dP4oz2qgBngEyypqGYHERRF2z\nhBwMGFWcCSOKL3RZpfP1bJ3XSIIEbaXIGGgplWNJDoOKQCBjj7qtkcU0xEvE29h0\nbXbaduGSboOnTUX2G5In2YDlilrNSKgy32/FFc3Nxmo6AboamlQ9fEOKe5giqIfP\ni3o3iVL8nIonzoUlpGiRGEOE+zT35HRPoR0+HJAx8JBQf2JmNcR7p1m/FKctkEmh\ndo2BkIKTX2DOP+s6mJPh\n=JE+5\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f21b17a64b4fd3ad549d803e63f7c4d6188b90f8\nparent 85cd64ed69e6f4d794804dd3a8feec2d3ead6304\nauthor Sydney Runkle <54324534+sydney-runkle@users.noreply.github.com> 1777297943 -0400\ncommitter GitHub <noreply@github.com> 1777297943 -0400\n\nfix(prebuilt): hydrate ToolNode state from channels via pregel helpers (#7594)\n\n## Summary\n\nWhen `ToolNode` receives a bare `[tool_call]` list via the Send API (the\ndispatch shape `create_agent` will use once langchain-ai/langchain#36960\nlands), hydrate `ToolRuntime.state` from the current channel values\ninstead of requiring the dispatcher to inline the full agent state dict\ninto every `Send.arg`.\n\nMotivation: the paired langchain PR drops the `ToolCallWithContext`\nwrapper from `create_agent`'s tool dispatch, which eliminates an O(N²)\nstorage term on `__pregel_tasks` checkpoint writes. Without this\ncompanion change there would be no path for the tool node to see the\ngraph state.\n\n## What changed\n\n- `libs/prebuilt/langgraph/prebuilt/tool_node.py` — `_extract_state`\ngrows a third branch for list-form input. When the input is a list whose\nlast entry is a `ToolCall` dict, read the current channel values via\n`CONFIG_KEY_READ` and return them as the state dict.\n\nThe full new logic is four lines inline in `_extract_state`:\n\n```python\nread = config.get(CONF, {}).get(CONFIG_KEY_READ)\nif read is None:\n    return {}\n# Pregel installs CONFIG_KEY_READ as\n# `functools.partial(local_read, scratchpad, channels, managed, task)`.\nchannels = read.args[1]\nreturn cast(\"dict[str, Any]\", read(list(channels), False))\n```\n\n- No changes to the pregel read machinery (`local_read`, `ChannelRead`).\n- Only channel values are read; managed values have their own injection\npath (`ToolRuntime.context`, `InjectedContext`) and were never in the\npre-fix inlined state dict, so we don't add them here.\n- Falls back to `{}` when invoked outside a Pregel context (e.g. direct\n`ToolNode(...).invoke([tool_call])` from a test harness), which\npreserves existing `ToolNode` direct-invocation test behavior.\n\n- `libs/prebuilt/tests/test_on_tool_call.py` — two new tests covering\nthe list-form hydration path (sync + async). They build a\n`functools.partial` that matches Pregel's real `CONFIG_KEY_READ` shape\nand assert `ToolRuntime.state` reflects the current channel values.\n\n## Why it's safe\n\n- **Same snapshot semantics as before.** `Send` is emitted at\nend-of-super-step-N; consumed at start-of-super-step-N+1. Channels at\nthat point reflect every write from super-step N (including the new\nAIMessage the tool calls originated from). Parallel tool tasks in the\ntools super-step all read the same values since sibling writes don't\nland until end-of-super-step.\n- **Legacy `ToolCallWithContext` path preserved.** External dispatchers\nthat still inline state continue to work unchanged — `_extract_state`\nchecks that branch first.\n\n## Test plan\n\n- [x] `make test` in `libs/prebuilt` — **204 pass**\n- [x] Two new hydration tests (sync + async) green\n- [x] `make format` / `make lint` / `mypy` clean\n\n---------\n\nCo-authored-by: Claude Opus 4.7 (1M context) <noreply@anthropic.com>",
+        "verified_at": "2026-04-27T13:52:24Z"
+      }
+    },
+    "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/f4aee546add9aef6a8f72c8a94f55ec5c824da7d",
+    "html_url": "https://github.com/langchain-ai/langgraph/commit/f4aee546add9aef6a8f72c8a94f55ec5c824da7d",
+    "comments_url": "https://api.github.com/repos/langchain-ai/langgraph/commits/f4aee546add9aef6a8f72c8a94f55ec5c824da7d/comments",
+    "author": {
+      "login": "sydney-runkle",
+      "id": 54324534,
+      "node_id": "MDQ6VXNlcjU0MzI0NTM0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54324534?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sydney-runkle",
+      "html_url": "https://github.com/sydney-runkle",
+      "followers_url": "https://api.github.com/users/sydney-runkle/followers",
+      "following_url": "https://api.github.com/users/sydney-runkle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sydney-runkle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sydney-runkle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sydney-runkle/subscriptions",
+      "organizations_url": "https://api.github.com/users/sydney-runkle/orgs",
+      "repos_url": "https://api.github.com/users/sydney-runkle/repos",
+      "events_url": "https://api.github.com/users/sydney-runkle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sydney-runkle/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "85cd64ed69e6f4d794804dd3a8feec2d3ead6304",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/85cd64ed69e6f4d794804dd3a8feec2d3ead6304",
+        "html_url": "https://github.com/langchain-ai/langgraph/commit/85cd64ed69e6f4d794804dd3a8feec2d3ead6304"
+      }
+    ]
+  },
+  {
+    "sha": "85cd64ed69e6f4d794804dd3a8feec2d3ead6304",
+    "node_id": "C_kwDOKFU0ldoAKDg1Y2Q2NGVkNjllNmY0ZDc5NDgwNGRkM2E4ZmVlYzJkM2VhZDYzMDQ",
+    "commit": {
+      "author": {
+        "name": "Sydney Runkle",
+        "email": "54324534+sydney-runkle@users.noreply.github.com",
+        "date": "2026-04-27T13:08:47Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-27T13:08:47Z"
+      },
+      "message": "fix(checkpoint): revive lc=2 JSON blobs for safe types without allowlist (#7582)\n\n## Summary\n\nFixes #7498 — `MESSAGE_COERCION_FAILURE` when resuming threads\ncheckpointed before v1.0.1.\n\n**Root cause:** PR #6269 (v1.0.1) added an `_allowed_json_modules`\nsecurity gate to `JsonPlusSerializer._reviver`. The gate defaults to\n`None`, so old `\"json\"`-format checkpoint blobs containing `lc=2`\nconstructor dicts (the pre-msgpack serialization format for pydantic\nobjects like `HumanMessage`) are now returned as raw dicts instead of\nbeing reconstructed. Those raw dicts reach `add_messages →\nconvert_to_messages`, which sees `type=\"constructor\"` and raises\n`MESSAGE_COERCION_FAILURE`. Fresh first-turn messages are unaffected\nbecause current `dumps_typed` only writes `\"msgpack\"` blobs.\n\n**Fix:** `_reviver` now reconstructs `lc=2` blobs whose target class is\nalready in `SAFE_MSGPACK_TYPES` — the same curated allowlist already\nused by the msgpack deserialization path (includes all standard\nLangChain message types). Unknown classes are still blocked, preserving\nthe security intent of #6269.\n\n## Changes\n\n- `libs/checkpoint/langgraph/checkpoint/serde/jsonplus.py` — add\n`_is_safe_json_type()` helper; update `_reviver` and\n`_check_allowed_json_modules` to allow safe types without an explicit\nallowlist\n- `libs/checkpoint/tests/test_jsonplus.py` — two new regression tests:\nsafe-type `lc=2` blobs revive correctly; unknown-type `lc=2` blobs stay\nblocked\n\n## Test plan\n\n- [ ] `test_lc2_json_safe_type_revives_without_allowlist` —\n`HumanMessage`/`AIMessage` lc=2 JSON blobs round-trip to proper\n`BaseMessage` objects with no allowlist configured\n- [ ] `test_lc2_json_unknown_type_stays_blocked_without_allowlist` —\n`pprint.pprint` lc=2 blob still returns raw dict (not reconstructed)\n- [ ] `test_deserde_invalid_module` — existing behaviour unchanged\n- [ ] Full `test_jsonplus.py` suite: 93/93 passing\n\nCo-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "2a5665210ab22526adef486c2e23f3b1b59fccfe",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/git/trees/2a5665210ab22526adef486c2e23f3b1b59fccfe"
+      },
+      "url": "https://api.github.com/repos/langchain-ai/langgraph/git/commits/85cd64ed69e6f4d794804dd3a8feec2d3ead6304",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp71/fCRC1aQ7uu5UhlAAAtAgQAHReEfTLb5SzH/2akir7XAZG\nBnDyP4hW61rMNN/lc0sWUqY4nez2fjT/AWRS6MkpokzRyhroTKxqs/ZeAj8gY+vp\nSr0hftTT+YG+Ih0JEG8HX1/IcGLXGf5LTdn/YOo5pU5pmIOT3ciI3++G+j2cwyxG\ntu79GJjNJauuOj52LWl8zBdo3JuKMxgM08EeuxsQFjwUyhrZoCpGk7hxVds9N5A/\nFpiMeG/OufHbGLUwMfuBMcyUuizLUNN3HEqeO9cx9eEJ7v21E8iAV/6sExFtE86G\nS4yENS2XtkHYLe7Z/QUrQ9ZcF+7zD+63auxH4s0txQZFFewz5NfeLJlyRgREfpP0\nAWOfSSo18G7wdOFLD+3Suqty4drp3UE9eTvL72mQNJ0dz6N0cdOzfsyJ9r46FxDL\naAgm4AYf2sYnyGF45xm/h0pb2pVf1wj85LJkYpFIlSXSA+YL5uYVZ1Vq7bD53kD6\nH26G14OYiMXt0pa0ncinN8c+wEXhpR79zBROEDFecG00pLGV/2GIWcDzE/Yn70Aw\n7sJ+zEj7F686rsURByRzl9/Ry+mGw0Bjr84vz7j1Uq9SWlRtb7Ro5NhuvCJjKytb\nAun8E8x967UGVr6xD7WtqMCKz1o1t1m3HRJQxSOloPzgVQD3UKPS0DBG9XOxgwxi\nR5hXGJyz37LUNL9AdJbf\n=Ul3S\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2a5665210ab22526adef486c2e23f3b1b59fccfe\nparent 53a9806e659552f91adf5bb0f2de5820b87a55a0\nauthor Sydney Runkle <54324534+sydney-runkle@users.noreply.github.com> 1777295327 -0400\ncommitter GitHub <noreply@github.com> 1777295327 -0400\n\nfix(checkpoint): revive lc=2 JSON blobs for safe types without allowlist (#7582)\n\n## Summary\n\nFixes #7498 — `MESSAGE_COERCION_FAILURE` when resuming threads\ncheckpointed before v1.0.1.\n\n**Root cause:** PR #6269 (v1.0.1) added an `_allowed_json_modules`\nsecurity gate to `JsonPlusSerializer._reviver`. The gate defaults to\n`None`, so old `\"json\"`-format checkpoint blobs containing `lc=2`\nconstructor dicts (the pre-msgpack serialization format for pydantic\nobjects like `HumanMessage`) are now returned as raw dicts instead of\nbeing reconstructed. Those raw dicts reach `add_messages →\nconvert_to_messages`, which sees `type=\"constructor\"` and raises\n`MESSAGE_COERCION_FAILURE`. Fresh first-turn messages are unaffected\nbecause current `dumps_typed` only writes `\"msgpack\"` blobs.\n\n**Fix:** `_reviver` now reconstructs `lc=2` blobs whose target class is\nalready in `SAFE_MSGPACK_TYPES` — the same curated allowlist already\nused by the msgpack deserialization path (includes all standard\nLangChain message types). Unknown classes are still blocked, preserving\nthe security intent of #6269.\n\n## Changes\n\n- `libs/checkpoint/langgraph/checkpoint/serde/jsonplus.py` — add\n`_is_safe_json_type()` helper; update `_reviver` and\n`_check_allowed_json_modules` to allow safe types without an explicit\nallowlist\n- `libs/checkpoint/tests/test_jsonplus.py` — two new regression tests:\nsafe-type `lc=2` blobs revive correctly; unknown-type `lc=2` blobs stay\nblocked\n\n## Test plan\n\n- [ ] `test_lc2_json_safe_type_revives_without_allowlist` —\n`HumanMessage`/`AIMessage` lc=2 JSON blobs round-trip to proper\n`BaseMessage` objects with no allowlist configured\n- [ ] `test_lc2_json_unknown_type_stays_blocked_without_allowlist` —\n`pprint.pprint` lc=2 blob still returns raw dict (not reconstructed)\n- [ ] `test_deserde_invalid_module` — existing behaviour unchanged\n- [ ] Full `test_jsonplus.py` suite: 93/93 passing\n\nCo-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>",
+        "verified_at": "2026-04-27T13:08:47Z"
+      }
+    },
+    "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/85cd64ed69e6f4d794804dd3a8feec2d3ead6304",
+    "html_url": "https://github.com/langchain-ai/langgraph/commit/85cd64ed69e6f4d794804dd3a8feec2d3ead6304",
+    "comments_url": "https://api.github.com/repos/langchain-ai/langgraph/commits/85cd64ed69e6f4d794804dd3a8feec2d3ead6304/comments",
+    "author": {
+      "login": "sydney-runkle",
+      "id": 54324534,
+      "node_id": "MDQ6VXNlcjU0MzI0NTM0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54324534?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sydney-runkle",
+      "html_url": "https://github.com/sydney-runkle",
+      "followers_url": "https://api.github.com/users/sydney-runkle/followers",
+      "following_url": "https://api.github.com/users/sydney-runkle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sydney-runkle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sydney-runkle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sydney-runkle/subscriptions",
+      "organizations_url": "https://api.github.com/users/sydney-runkle/orgs",
+      "repos_url": "https://api.github.com/users/sydney-runkle/repos",
+      "events_url": "https://api.github.com/users/sydney-runkle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sydney-runkle/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "53a9806e659552f91adf5bb0f2de5820b87a55a0",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/53a9806e659552f91adf5bb0f2de5820b87a55a0",
+        "html_url": "https://github.com/langchain-ai/langgraph/commit/53a9806e659552f91adf5bb0f2de5820b87a55a0"
+      }
+    ]
+  }
+]

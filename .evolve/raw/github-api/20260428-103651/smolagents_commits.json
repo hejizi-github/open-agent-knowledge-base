@@ -1,0 +1,412 @@
+[
+  {
+    "sha": "df846f842241aab5a7a17f8136574928e347feb6",
+    "node_id": "C_kwDONZUqgtoAKGRmODQ2Zjg0MjI0MWFhYjVhN2ExN2Y4MTM2NTc0OTI4ZTM0N2ZlYjY",
+    "commit": {
+      "author": {
+        "name": "Remy",
+        "email": "remy@huggingface.co",
+        "date": "2026-04-24T12:40:36Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-24T12:40:36Z"
+      },
+      "message": "chore: bump doc-builder SHA for main doc build workflow (#2219)",
+      "tree": {
+        "sha": "1c57952c0dff889141a75a0e4859f6c367b9a12b",
+        "url": "https://api.github.com/repos/huggingface/smolagents/git/trees/1c57952c0dff889141a75a0e4859f6c367b9a12b"
+      },
+      "url": "https://api.github.com/repos/huggingface/smolagents/git/commits/df846f842241aab5a7a17f8136574928e347feb6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp62TECRC1aQ7uu5UhlAAA5iAQAC+0eq9MwUGvX+UbJX/OaMdB\nIUh4iHtK2mfl0X5H/WMsY2swy+O4utWYoWuVCLrro0ZoIKD/YZkUvB94JcJfFIvE\nOHvZ4ab9jdxDpRSMkF3ZzX6qr+hfw3g8UqHvgXl0WLW39ewrH9vn30UDX3ebdBUx\njVGtBJbXnsdgEtGEv79EtKufATS0lJ2Qlwvzi7H/duyUTF87kIlPJvh0nO/fEeVI\n3Dxaz2UNa0ZDGfmMk1j9wJrZLwYh66y43k6aZf5vgVllPvHcopeAyjFlHM3fOE1J\nmv7/Q1aihAyvRGVb1OsrwkfXI+JMcA6mXazFddsXUo/7PKEGsdQJy+aOQbqoELBj\nr0KQ1Lq/UrBpMk2Rk4nNkdA6QnJr9i6mQtCfqXHCNbVg8717iYBv98pZ25TbAYFq\nQ58OVd9OSZpsd9pYf7vg9XMIKoOKhiO0nAH/qBKjbyolhpEqsVY/BrGYgSVc30hK\nckwulEBdJWTFn+pj18lkG4Nm6fz5gkrp0ja4hLd8t0myjxg/r/VpA5ESmEvdaP/9\n3AhkeA+WD45OPUvrkl7u0F8yf0QGajRbe4qRq7eGYy4hfjb2mvQOBjLX4QSN7TnU\nwVq/6b5YSjkcsdtSBGbGt8IWSvFGmD2JR81IeyxsIu+imYvLobjIC6AZp9laEme5\nofCbbK5T4G8UtnDv7KDD\n=Enn3\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1c57952c0dff889141a75a0e4859f6c367b9a12b\nparent dc13bbb2a11a129d4d497258664d24f4f9bccf5f\nauthor Remy <remy@huggingface.co> 1777034436 +0200\ncommitter GitHub <noreply@github.com> 1777034436 +0200\n\nchore: bump doc-builder SHA for main doc build workflow (#2219)",
+        "verified_at": "2026-04-24T12:40:37Z"
+      }
+    },
+    "url": "https://api.github.com/repos/huggingface/smolagents/commits/df846f842241aab5a7a17f8136574928e347feb6",
+    "html_url": "https://github.com/huggingface/smolagents/commit/df846f842241aab5a7a17f8136574928e347feb6",
+    "comments_url": "https://api.github.com/repos/huggingface/smolagents/commits/df846f842241aab5a7a17f8136574928e347feb6/comments",
+    "author": {
+      "login": "rtrompier",
+      "id": 2504924,
+      "node_id": "MDQ6VXNlcjI1MDQ5MjQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2504924?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rtrompier",
+      "html_url": "https://github.com/rtrompier",
+      "followers_url": "https://api.github.com/users/rtrompier/followers",
+      "following_url": "https://api.github.com/users/rtrompier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rtrompier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rtrompier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rtrompier/subscriptions",
+      "organizations_url": "https://api.github.com/users/rtrompier/orgs",
+      "repos_url": "https://api.github.com/users/rtrompier/repos",
+      "events_url": "https://api.github.com/users/rtrompier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rtrompier/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dc13bbb2a11a129d4d497258664d24f4f9bccf5f",
+        "url": "https://api.github.com/repos/huggingface/smolagents/commits/dc13bbb2a11a129d4d497258664d24f4f9bccf5f",
+        "html_url": "https://github.com/huggingface/smolagents/commit/dc13bbb2a11a129d4d497258664d24f4f9bccf5f"
+      }
+    ]
+  },
+  {
+    "sha": "dc13bbb2a11a129d4d497258664d24f4f9bccf5f",
+    "node_id": "C_kwDONZUqgtoAKGRjMTNiYmIyYTExYTEyOWQ0ZDQ5NzI1ODY2NGQyNGY0ZjliY2NmNWY",
+    "commit": {
+      "author": {
+        "name": "Remy",
+        "email": "remy.trompier@gmail.com",
+        "date": "2026-04-15T10:16:33Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-15T10:16:33Z"
+      },
+      "message": "chore: bump doc-builder SHA for PR upload workflow (#2194)",
+      "tree": {
+        "sha": "3c582c3a7193938c06606d964a0efe86514c16b3",
+        "url": "https://api.github.com/repos/huggingface/smolagents/git/trees/3c582c3a7193938c06606d964a0efe86514c16b3"
+      },
+      "url": "https://api.github.com/repos/huggingface/smolagents/git/commits/dc13bbb2a11a129d4d497258664d24f4f9bccf5f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp32WBCRC1aQ7uu5UhlAAA6TIQABE8d4RRGyKJ+P6Z3yxNpJL4\nsnT3/IPCnKR8qsAnrrWbmdGzy+dVwZj/qA8DfpGG0LhhlXqhjgjbQQat/zVauy9H\nVZtSY94ryt8VBNhjeJMCKAuITR6mnbM+izF3aB2a9c6eN3ofsywRRvouRFDYYGVn\n/z6/7e8CI8iochGK93Az+xysiZiqcRSSDUMytBk2YonimqVZWmBD3rwIBsUk9ztu\nYQN4UUcX8kyNSaX8E4n9F3B42IQ8wOL/cp+9XDBdpEM3pnK/jtDAWb6fDltX8isg\nxas3GNSmjQ5tSNn0fY8LaFbYoND/8ODt8N49P4k5nZmlObBsVX5299CePBKxIb1m\nYm0r1VUM0QmxDo979pZYFpN361UrT8MQmiR2kQ0BeMT5pJnuJl7q6qqafkonPG7k\ny845E0OFulXT3mL4oLRnN0KIJ7J4Pc9yXptSSU35xXTFgQWiKLOczoP7t6aJNEws\niLeSvo+Y3kMgpLKUnkGvkOBOnjzjDdo+iw3hNJ5ptz+ePxfZBF4MyiAt0kZ2kR4a\n7OfUCQU2WK906DOu5aS3j5cbvmuTzgiwGKsplMZfZmhrNZjePfbQ7rYPOr3t5gtC\nt2KPCKwZLS4DmyVwaUUsILpFU3UNRpWZmu/LC7AIpd68kEoWQbEdU2dlkQGBcnTp\ns6m26ffwOEgHepgvgBor\n=oY5H\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3c582c3a7193938c06606d964a0efe86514c16b3\nparent 307c8e37b653cf7fcb6434a175f6476fd7b78e80\nauthor Remy <remy.trompier@gmail.com> 1776248193 +0200\ncommitter GitHub <noreply@github.com> 1776248193 +0200\n\nchore: bump doc-builder SHA for PR upload workflow (#2194)",
+        "verified_at": "2026-04-15T10:16:33Z"
+      }
+    },
+    "url": "https://api.github.com/repos/huggingface/smolagents/commits/dc13bbb2a11a129d4d497258664d24f4f9bccf5f",
+    "html_url": "https://github.com/huggingface/smolagents/commit/dc13bbb2a11a129d4d497258664d24f4f9bccf5f",
+    "comments_url": "https://api.github.com/repos/huggingface/smolagents/commits/dc13bbb2a11a129d4d497258664d24f4f9bccf5f/comments",
+    "author": {
+      "login": "rtrompier",
+      "id": 2504924,
+      "node_id": "MDQ6VXNlcjI1MDQ5MjQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2504924?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rtrompier",
+      "html_url": "https://github.com/rtrompier",
+      "followers_url": "https://api.github.com/users/rtrompier/followers",
+      "following_url": "https://api.github.com/users/rtrompier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rtrompier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rtrompier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rtrompier/subscriptions",
+      "organizations_url": "https://api.github.com/users/rtrompier/orgs",
+      "repos_url": "https://api.github.com/users/rtrompier/repos",
+      "events_url": "https://api.github.com/users/rtrompier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rtrompier/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "307c8e37b653cf7fcb6434a175f6476fd7b78e80",
+        "url": "https://api.github.com/repos/huggingface/smolagents/commits/307c8e37b653cf7fcb6434a175f6476fd7b78e80",
+        "html_url": "https://github.com/huggingface/smolagents/commit/307c8e37b653cf7fcb6434a175f6476fd7b78e80"
+      }
+    ]
+  },
+  {
+    "sha": "307c8e37b653cf7fcb6434a175f6476fd7b78e80",
+    "node_id": "C_kwDONZUqgtoAKDMwN2M4ZTM3YjY1M2NmN2ZjYjY0MzRhMTc1ZjY0NzZmZDdiNzhlODA",
+    "commit": {
+      "author": {
+        "name": "Pauline Bailly-Masson",
+        "email": "155966238+paulinebm@users.noreply.github.com",
+        "date": "2026-04-02T14:29:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-02T14:29:35Z"
+      },
+      "message": "🔒 Pin GitHub Actions to commit SHAs (#2149)",
+      "tree": {
+        "sha": "e5fa3b704cb3c6be1ba9b5a3173027a876d73526",
+        "url": "https://api.github.com/repos/huggingface/smolagents/git/trees/e5fa3b704cb3c6be1ba9b5a3173027a876d73526"
+      },
+      "url": "https://api.github.com/repos/huggingface/smolagents/git/commits/307c8e37b653cf7fcb6434a175f6476fd7b78e80",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpzn1PCRC1aQ7uu5UhlAAAKGEQABYqIKw4kFdZkV04c+s6pBKY\nRsAsbvxkxuaogs9kVbapEkhRVMX9Ib9V+5ep4RYfKkIH8x5BUXhWq8IOkVojsnbr\nDr0nDi7Gp3eGyH345fpSpSVtqS+AK2VUYki9MqOnAsFNKnYJzk21I7zkIwMv5c7e\nrIQ3hEZfp6WoQOHjeUOnONsR4KPQGKc3flsHfEffvjRvOmsKkWWi2K+9tLytIRaP\ncGdVFEhFRq7yl802ogyo/QVtsixLOkAqfkv/ETs1ZjhnVut136fIymGt73JbMXOW\ngSLr5I3Yiotqa1BoEJnha7fntHexoANj355kDwAvj1eCM3kfCHDoc15bCpHMMlYF\nM46j8gdqUCQDdNDw4QcG/SyanykrfvNLaeZToBa6ppo75NtQ1ZmdyQj9T2C5ToSZ\nkKgpFSWQ32yc2rjW3wEIdSZBHRCLaiZ+fai4uIr9Tjhe9qUB/X/et5NLCuMZJ4Fh\nVCtkJLm5fWV8/RHVXY1LgXDVgco+kI60wpoFCG6cQSjJpaRiSP7lu5pPIkLeeYQJ\nSi2qx6GoDPaF8UxmetZrT3asewlJMh9pdxAk7hM/0ZR/JPz1zxuGB1lgY8ImvtpC\nfDIzz4p/3QBngUZ/Ddcrsv4R6Ndk6IuKSZ0EoZHe6HSpzqOMs4fsOTQrTVdyABeG\nVABC9k84dyGtt7RztWbK\n=gvEW\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e5fa3b704cb3c6be1ba9b5a3173027a876d73526\nparent 8e167b9310a0e9712a8d6437da49f8825808691f\nauthor Pauline Bailly-Masson <155966238+paulinebm@users.noreply.github.com> 1775140175 +0200\ncommitter GitHub <noreply@github.com> 1775140175 +0200\n\n🔒 Pin GitHub Actions to commit SHAs (#2149)",
+        "verified_at": "2026-04-02T14:29:35Z"
+      }
+    },
+    "url": "https://api.github.com/repos/huggingface/smolagents/commits/307c8e37b653cf7fcb6434a175f6476fd7b78e80",
+    "html_url": "https://github.com/huggingface/smolagents/commit/307c8e37b653cf7fcb6434a175f6476fd7b78e80",
+    "comments_url": "https://api.github.com/repos/huggingface/smolagents/commits/307c8e37b653cf7fcb6434a175f6476fd7b78e80/comments",
+    "author": {
+      "login": "paulinebm",
+      "id": 155966238,
+      "node_id": "U_kgDOCUvbHg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155966238?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulinebm",
+      "html_url": "https://github.com/paulinebm",
+      "followers_url": "https://api.github.com/users/paulinebm/followers",
+      "following_url": "https://api.github.com/users/paulinebm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulinebm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulinebm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulinebm/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulinebm/orgs",
+      "repos_url": "https://api.github.com/users/paulinebm/repos",
+      "events_url": "https://api.github.com/users/paulinebm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulinebm/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8e167b9310a0e9712a8d6437da49f8825808691f",
+        "url": "https://api.github.com/repos/huggingface/smolagents/commits/8e167b9310a0e9712a8d6437da49f8825808691f",
+        "html_url": "https://github.com/huggingface/smolagents/commit/8e167b9310a0e9712a8d6437da49f8825808691f"
+      }
+    ]
+  },
+  {
+    "sha": "8e167b9310a0e9712a8d6437da49f8825808691f",
+    "node_id": "C_kwDONZUqgtoAKDhlMTY3YjkzMTBhMGU5NzEyYThkNjQzN2RhNDlmODgyNTgwODY5MWY",
+    "commit": {
+      "author": {
+        "name": "Albert Villanova del Moral",
+        "email": "8515462+albertvillanova@users.noreply.github.com",
+        "date": "2026-03-29T14:14:38Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-03-29T14:14:38Z"
+      },
+      "message": "Set allow_pickle default to False in internal calls (#2132)",
+      "tree": {
+        "sha": "a878c7343af58f2568e0db5940e3e07ec4362c44",
+        "url": "https://api.github.com/repos/huggingface/smolagents/git/trees/a878c7343af58f2568e0db5940e3e07ec4362c44"
+      },
+      "url": "https://api.github.com/repos/huggingface/smolagents/git/commits/8e167b9310a0e9712a8d6437da49f8825808691f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpyTPOCRC1aQ7uu5UhlAAAOXkQAIRqMVnuGR4QTxt5WQyz6kl3\nduRqNpygYKyNpAYyHAYUAxesXcBRRCHss5kp+hB1c+duzQwdrRKFKxfZlcLlfKyc\n1yxpTFvbx+gKzDNawYID07bhdjW97C3tpgjkLxVlPVasKeOJUgcuhKKe+fLaYQfo\nBHHZAUOHb5tYuBMlr3EYYlZfZnGStUENJd4B0J9k3vFPLeYVPhCnzTH6BihHuDPc\naxkiqDGqpGW3M/EQ6WeNUqcz/VV8NT3AV6+Vo2EHmk03GVYVihpf2jXqpQgcGg2M\nZLn99PzIMRHgRG2JP1OGzXwX3R3MBocS/NIu7PCyw6ONSSK0hehFy1aBqr5Ayc/0\nL0zItzV0cLNBmTeCVgHWDx91253oHUQiJ52ruJXZWYpmOsKkJX1IHFI4Lu67BTD/\nFonys00jeno19T5EX8U3l6S6awez2iAjwUlT8G60W3UfeRwzSYmV3C2ASkUou1EH\nPsH4R+TU0Ls1yKK4afpssGxd/qy2f7p28k1td5rt9tvHyOt+TRkD/2uJosXN/Ctm\ngUcvi3LXds3vmwPn+oPIebn0g5lg9yBP18IG4VDUNA3rkrUNCyTrIRbA+ccF29iv\nG8Q9yK+IvxV+kXt6t4zDumlJNZOJ+G4IcP+K9BJW0TGOiCI8tMRaHyB6gHRSmt3j\nKKet6egPbpeVMqOFE++Z\n=nV6c\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a878c7343af58f2568e0db5940e3e07ec4362c44\nparent 4d2abaf9968036d6e52cb7b0fe0b31a7ff71c1f9\nauthor Albert Villanova del Moral <8515462+albertvillanova@users.noreply.github.com> 1774793678 +0200\ncommitter GitHub <noreply@github.com> 1774793678 +0200\n\nSet allow_pickle default to False in internal calls (#2132)",
+        "verified_at": "2026-03-29T14:14:39Z"
+      }
+    },
+    "url": "https://api.github.com/repos/huggingface/smolagents/commits/8e167b9310a0e9712a8d6437da49f8825808691f",
+    "html_url": "https://github.com/huggingface/smolagents/commit/8e167b9310a0e9712a8d6437da49f8825808691f",
+    "comments_url": "https://api.github.com/repos/huggingface/smolagents/commits/8e167b9310a0e9712a8d6437da49f8825808691f/comments",
+    "author": {
+      "login": "albertvillanova",
+      "id": 8515462,
+      "node_id": "MDQ6VXNlcjg1MTU0NjI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8515462?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/albertvillanova",
+      "html_url": "https://github.com/albertvillanova",
+      "followers_url": "https://api.github.com/users/albertvillanova/followers",
+      "following_url": "https://api.github.com/users/albertvillanova/following{/other_user}",
+      "gists_url": "https://api.github.com/users/albertvillanova/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/albertvillanova/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/albertvillanova/subscriptions",
+      "organizations_url": "https://api.github.com/users/albertvillanova/orgs",
+      "repos_url": "https://api.github.com/users/albertvillanova/repos",
+      "events_url": "https://api.github.com/users/albertvillanova/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/albertvillanova/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4d2abaf9968036d6e52cb7b0fe0b31a7ff71c1f9",
+        "url": "https://api.github.com/repos/huggingface/smolagents/commits/4d2abaf9968036d6e52cb7b0fe0b31a7ff71c1f9",
+        "html_url": "https://github.com/huggingface/smolagents/commit/4d2abaf9968036d6e52cb7b0fe0b31a7ff71c1f9"
+      }
+    ]
+  },
+  {
+    "sha": "4d2abaf9968036d6e52cb7b0fe0b31a7ff71c1f9",
+    "node_id": "C_kwDONZUqgtoAKDRkMmFiYWY5OTY4MDM2ZDZlNTJjYjdiMGZlMGIzMWE3ZmY3MWMxZjk",
+    "commit": {
+      "author": {
+        "name": "Albert Villanova del Moral",
+        "email": "8515462+albertvillanova@users.noreply.github.com",
+        "date": "2026-03-29T13:24:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-03-29T13:24:09Z"
+      },
+      "message": "Remove unused safe_serialization param from _websocket_run_code_raise_errors (#2131)",
+      "tree": {
+        "sha": "2c82ddfd262bc8c5a55b9d2de7f55b32e549881d",
+        "url": "https://api.github.com/repos/huggingface/smolagents/git/trees/2c82ddfd262bc8c5a55b9d2de7f55b32e549881d"
+      },
+      "url": "https://api.github.com/repos/huggingface/smolagents/git/commits/4d2abaf9968036d6e52cb7b0fe0b31a7ff71c1f9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpySf5CRC1aQ7uu5UhlAAAc+sQAGVlI/lYtvcAszjLdu4+DAir\nrUjRu96YuTVF4fjueyHf9txtaMhEynbhNQEjyeRiWui7wSBXFfBY80GxdlBwc/Oe\niAdl++aeg2BsU2dK2nvGdJQHpKIfRxQUx+bCsSl0n/2BEJRtNOEjzje7SNFKe2wd\nI/fj0MNxgAmnRiMHVtT51OqU0vl2SPlgjT0x1fJXznBIY52cpI85Pcd0yAUwP4QM\nHMia0WZGstHOrRAoCbWL13kE2Pg29Q3eeNZ5jj93di91VzKKiGPaEGP6LFANrPYO\ng13BejXyVGkiI/IwVa9ltHrTwEGPk3++JHGMuBVvaO9OMyNzWouJ15u2WxuQK3ke\nVpBZgNCfkj1kb2MIZuZSDtC0htEjADBUQuSIYNs5seVC8/H7Krx0tk/+eOzCjARD\n7HVAQZbtJLC3lkqg22ApeSjEMHMqcZFV3+INkMZiUB+2t6uyz4/fzpcc+74UjdlC\nZHIjig+ADMQ77EiVT+ciQYwgx7IAEu2VB4GYMM8IGQhJqsTMHPfjAToD/nxVlQDl\nP5oS9db6a4pTTha0Ftk0t5eCQnVjyUmze0wg7JbMNsgY1ekv6dd+sxong9QYAjfD\nyPh4h9fO1JNURw7GtvF39K/cLwrXMPxLcSKdoHXJy6NdAY6vUvbPFcteuDHlYhEc\nVl/dm8ln+SETNachMqVI\n=qwnT\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2c82ddfd262bc8c5a55b9d2de7f55b32e549881d\nparent edb04feae012c1a96774c2e19066cd24046f8fba\nauthor Albert Villanova del Moral <8515462+albertvillanova@users.noreply.github.com> 1774790649 +0200\ncommitter GitHub <noreply@github.com> 1774790649 +0200\n\nRemove unused safe_serialization param from _websocket_run_code_raise_errors (#2131)",
+        "verified_at": "2026-03-29T13:24:09Z"
+      }
+    },
+    "url": "https://api.github.com/repos/huggingface/smolagents/commits/4d2abaf9968036d6e52cb7b0fe0b31a7ff71c1f9",
+    "html_url": "https://github.com/huggingface/smolagents/commit/4d2abaf9968036d6e52cb7b0fe0b31a7ff71c1f9",
+    "comments_url": "https://api.github.com/repos/huggingface/smolagents/commits/4d2abaf9968036d6e52cb7b0fe0b31a7ff71c1f9/comments",
+    "author": {
+      "login": "albertvillanova",
+      "id": 8515462,
+      "node_id": "MDQ6VXNlcjg1MTU0NjI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8515462?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/albertvillanova",
+      "html_url": "https://github.com/albertvillanova",
+      "followers_url": "https://api.github.com/users/albertvillanova/followers",
+      "following_url": "https://api.github.com/users/albertvillanova/following{/other_user}",
+      "gists_url": "https://api.github.com/users/albertvillanova/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/albertvillanova/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/albertvillanova/subscriptions",
+      "organizations_url": "https://api.github.com/users/albertvillanova/orgs",
+      "repos_url": "https://api.github.com/users/albertvillanova/repos",
+      "events_url": "https://api.github.com/users/albertvillanova/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/albertvillanova/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "edb04feae012c1a96774c2e19066cd24046f8fba",
+        "url": "https://api.github.com/repos/huggingface/smolagents/commits/edb04feae012c1a96774c2e19066cd24046f8fba",
+        "html_url": "https://github.com/huggingface/smolagents/commit/edb04feae012c1a96774c2e19066cd24046f8fba"
+      }
+    ]
+  }
+]
