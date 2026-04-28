@@ -1,0 +1,27 @@
+{
+  "session": "20260428-162103",
+  "selected_step": "A",
+  "why_this_step": "上轮完成 Step E（五极长文发布），知识库处于"首篇已完成、续篇待启动"状态。根据 Step A 规则，新文章选题首次进入时必须先完成形态识别。本轮确定续篇的形态差异、可行结构、选题决策，并明确需要补全的 facts 卡前置条件。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": false,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": false
+  },
+  "outputs": [
+    {"path": ".evolve/wiki/methodology/_form.md", "type": "wiki"},
+    {"path": ".evolve/wiki/methodology/sequel-essay-form-001.md", "type": "wiki"},
+    {"path": ".evolve/sessions/20260428-162103.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-162103.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-162103.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "raw", "ref": ".evolve/library/methodology/deep-tech-essay-agent-architecture-001.md", "claim": "首篇形态方法论存在，作为续篇对比基线"},
+    {"type": "raw", "ref": ".evolve/library/methodology/reverse-anthropic-building-effective-agents.md", "claim": "Anthropic 模式归纳法已沉淀，可作为续篇节奏参考"},
+    {"type": "raw", "ref": "articles/published/five-pole-agent-frameworks.md", "claim": "首篇成稿 20,447 字、16 维对比表、7 张图，实证首篇结构"},
+    {"type": "raw", "ref": "articles/published/smolagents-vs-langgraph.md", "claim": "第二篇成稿 14,560 字，实证双项目对比结构"},
+    {"type": "local-command", "ref": ".evolve/library/facts/", "claim": "5 份 facts 卡已齐备（AutoGen/CrewAI/LangGraph/MAF/smolagents），OpenHands/Dify/Semantic Kernel 缺失"}
+  ],
+  "next_step": "建议下一轮跑 Step C：调研 OpenHands 项目，补全 facts 卡。需要收集 GitHub repo 元数据、README、releases、核心源码结构。"
+}
