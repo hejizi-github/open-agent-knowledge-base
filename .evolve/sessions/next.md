@@ -1,1 +1,1 @@
-建议下一轮跑 Step C：继续调研 OpenHands Runtime 架构细节（Docker sandbox vs local 模式）和 Agent 技能系统（skills/ 目录），或进入 Step D 续篇 §1-§2 草稿撰写。
+建议下一轮先补齐 4 个缺失的 raw 文件（README.md、openhands/README.md、AGENTS.md、pyproject.toml）到 .evolve/raw/，修复 facts 卡引用悬空；然后进入 Step D 续篇 §1-§2 草稿撰写。
