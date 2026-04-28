@@ -1,0 +1,38 @@
+{
+  "session": "20260428-122117",
+  "selected_step": "C",
+  "why_this_step": "光谱中间地带项目 CrewAI 的事实完全空白，必须先补 facts 才能支撑后续跨项目对比长文。方法论层（4 条）和两极 facts（smolagents/langgraph）已就绪，满足 Step C 前置条件。",
+  "preconditions": {
+    "methodology_ready": true,
+    "facts_ready": false,
+    "brain_baseline_ready": true,
+    "source_inbox_ready": false
+  },
+  "outputs": [
+    {"path": ".evolve/library/facts/crewai-001.md", "type": "library"},
+    {"path": ".evolve/raw/crewai-repo-api.json", "type": "raw"},
+    {"path": ".evolve/raw/crewai-release-api.json", "type": "raw"},
+    {"path": ".evolve/raw/crewai-readme-api.json", "type": "raw"},
+    {"path": ".evolve/sessions/20260428-122117.task_framing.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-122117.wiki_update.md", "type": "review-control"},
+    {"path": ".evolve/sessions/20260428-122117.step.json", "type": "review-control"},
+    {"path": ".evolve/sessions/next.md", "type": "review-control"}
+  ],
+  "evidence": [
+    {"type": "local-command", "ref": "curl -sL https://api.github.com/repos/crewAIInc/crewAI -> .evolve/raw/crewai-repo-api.json", "claim": "CrewAI 仓库 50,114 stars / 6,896 forks / MIT / 创建于 2023-10-27"},
+    {"type": "local-command", "ref": "curl -sL https://api.github.com/repos/crewAIInc/crewAI/releases?per_page=5", "claim": "最新 Release 1.14.3 (2026-04-24)，高频 patch/alpha 发布"},
+    {"type": "local-command", "ref": "curl -sL https://api.github.com/repos/crewAIInc/crewAI/git/trees/main?recursive=1 | python3 统计", "claim": "核心包 lib/crewai/src/crewai/ 下 519 个 Python 文件"},
+    {"type": "local-command", "ref": "curl -sL https://api.github.com/repos/crewAIInc/crewAI/languages | python3", "claim": "Python 代码量约 8.4MB"},
+    {"type": "local-command", "ref": "curl raw.githubusercontent.com/.../crew.py | wc -l = 2298", "claim": "crew.py 2,298 行"},
+    {"type": "local-command", "ref": "curl raw.githubusercontent.com/.../agent/core.py | wc -l = 1885", "claim": "agent/core.py 1,885 行"},
+    {"type": "local-command", "ref": "curl raw.githubusercontent.com/.../task.py | wc -l = 1422", "claim": "task.py 1,422 行"},
+    {"type": "local-command", "ref": "curl raw.githubusercontent.com/.../flow/flow.py | wc -l = 3572", "claim": "flow/flow.py 3,572 行"},
+    {"type": "local-command", "ref": "curl raw.githubusercontent.com/.../process.py | wc -l = 11", "claim": "process.py 仅 11 行（sequential/hierarchical enum）"},
+    {"type": "raw", "ref": "lib/crewai/src/crewai/process.py", "claim": "Process 抽象仅有 sequential/hierarchical 两个 enum 值，consensual 被注释为 TODO"},
+    {"type": "raw", "ref": "README.md §completely independent of LangChain", "claim": "CrewAI 宣称完全独立于 LangChain"},
+    {"type": "raw", "ref": "lib/crewai/src/crewai/agents/agent_adapters/langgraph/langgraph_adapter.py", "claim": "CrewAI 内部包含 LangGraph Agent Adapter"},
+    {"type": "raw", "ref": "lib/crewai/src/crewai/agents/agent_adapters/openai_agents/openai_adapter.py", "claim": "CrewAI 内部包含 OpenAI Agents Adapter"},
+    {"type": "raw", "ref": "lib/crewai/pyproject.toml", "claim": "核心依赖 20+ 包，含 ChromaDB, LanceDB, OpenTelemetry, MCP, Textual"}
+  ],
+  "next_step": "建议下一轮跑 Step C：调研光谱另一中间地带项目 AutoGen（conversable agent 模式），或跑 Step B：补全 AutoGen 的方法论/事实基础； alternatively 若用户希望先基于现有三个项目写长文，可进入 Step D 产出 smolagents-vs-CrewAI-vs-LangGraph 三极对比大纲。"
+}
