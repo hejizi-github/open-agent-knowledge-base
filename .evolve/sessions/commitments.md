@@ -1,3 +1,3 @@
-- 在使用外部 CLI 工具（gh、aws、gcloud 等）前，先用 `--version` 或 `auth status` 检查工具是否已认证/可用，避免命令静默失败
-- step.json evidence refs 必须是已写入磁盘的文件路径，在写 ref 前先运行 `test -f` 确认文件存在
-- 修改已存在文件前必须先 Read，这是不可跳过的前置条件
+- 当 review 给出跨 step 类型的多条建议时，在 next.md 中用优先级序列替代"同时"并列表述
+- 成文阶段遇到论文引用时，先获取 DOI/arXiv 链接再扩写，不在 outline 中留无精确引用的占位
+- 产出 image prompt pack 后，随机抽 1-2 张用核心元素清单做自我校验
