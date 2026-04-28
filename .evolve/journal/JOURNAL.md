@@ -1,5 +1,11 @@
 # Journal
 
+## Session 20260428-155846 — Step E 成稿与发布：五极长文 published 及 Fix Round 1 修复
+
+将 sec0-sec10 合并为 `articles/published/five-pole-agent-frameworks.md`，插入 YAML frontmatter、封面图占位符和图片使用清单，更新 `articles/index.md`。成稿 99,950 bytes、20,709 中文字，含 7 张图占位符与 16 维对比表。Fix Round 1 修复了 step.json evidence ref 的 shell 括号扩展错误、2 处 adjacent duplicate refs，并重新验证 § 锚点与兜底词全部通过。source_refs 字段经排查后确认 5 份 facts + 4 份 methodology 的组合合理，交叉引用（指向先前文章）未混入其中。意外的是 draft 阶段已通过 lint 的 sec6 在合并后暴露重复 ref，说明 multi-file merge 过程本身可能引入格式风险，不能继承 draft lint 结论。
+
+<!-- meta: verdict:PASS score:0.0 test_delta:+0 -->
+
 ## Session 20260428-153154 — 整稿 lint 与格式统一：§锚点清除、图号修正、衔接语对齐
 
 ### 失败/回退分析

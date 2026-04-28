@@ -13,8 +13,10 @@
 10. Write step.json 时 outputs 必须包含：published 文件、articles/index.md、image-prompts/<slug>.md、4 个控制面文件
 
 **注意事项**:
-- frontmatter 的 source_refs 字段应列出文章引用的所有 facts/methodology 文件名，便于读者溯源
+- frontmatter 的 source_refs 字段应列出文章引用的所有 facts/methodology 文件名，便于读者溯源；source_refs 语义边界：只列证据来源，不列交叉引用（如引用其他已发表文章的 `[ref: articles/published/...]`）
 - 图片占位符的章节归属容易错配——配图说明的"主题"决定章节，不是占位符在 outline 中的位置；迁移前用 outline 的图片定位说明做交叉验证
 - 不要在 Step E 修改文章论点、证据或结构，只做格式增强；任何论点修改必须回退到 Step D
 - step.json outputs 容易遗漏 articles/index.md，规划阶段就要识别"出版即维护索引"
-- evidence type 与 ref 格式严格对应：local-command/raw 配文件路径，url 配 http(s) 链接
+- evidence type 与 ref 格式严格对应：local-command/raw 配文件路径，url 配 http(s) 链接；ref 字段只填单个具体文件路径，禁用 shell 括号扩展（如 `{sec0,sec1,...}`）
+- 合并多个 draft 文件后必须重新运行 full lint（duplicate refs / § 锚点 / 兜底词），不假设 draft lint 结果自动继承到 published
+- 序数词引用（如"前四节"）在上下文明确指向具体 § 编号时，属于合理用法，不机械清除

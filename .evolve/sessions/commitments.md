@@ -1,3 +1,3 @@
-- Session 启动时先检查控制面文件（step.json、task_framing.md）完整性，缺失则立即修复再进入主任务
-- 对任何已被 sed/Bash 修改过的文件，不再尝试 Edit，直接用 Bash sed 或 python3 完成后续修改
-- 涉及 Unicode 字符范围或正则提取的验证脚本，统一用 python3 实现，不尝试 macOS grep
+- 写 step.json evidence ref 时只填单个具体文件路径，不使用 shell 括号扩展或通配符语法
+- 合并 draft 为 published 成稿后，重新运行 full lint（duplicate refs / § 锚点 / 兜底词），不假设 draft lint 通过即 published 通过
+- 写 source_refs 前区分「交叉引用（指向其他文章）」与「证据来源（facts/methodology）」，source_refs 只保留后者
